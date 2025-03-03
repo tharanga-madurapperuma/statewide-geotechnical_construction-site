@@ -63,7 +63,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="px-6">
-                    <p>GIGHAVE 2024&Copy;, All rights reserved.</p>
+                    <p>GIGHAVE 2024&copy;, All rights reserved.</p>
                 </div>
             </div>
         </div>

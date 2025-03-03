@@ -1,2 +1,8 @@
+@import "tailwindcss";
+
 :root {
+    --color-primary-blue: #0064ff;
+    --color-font-gray: #111827;
+
+    --font-family-navbar: "Poppins", sans-serif;
 }

@@ -1,4 +1,9 @@
 /* HOME */
+
+.home__first-section {
+    font-family: var(--font-family-inter);
+}
+
 .home__first-section > img {
     object-fit: cover;
     width: 100%;
@@ -6,6 +11,14 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.home__first-section > div > div > button {
+    font-family: var(--font-family-inter);
+}
+
+.home__first-section > div > div > div {
+    font-family: var(--font-family-inter);
 }
 
 .home__first-section-header {
@@ -46,6 +59,17 @@
 .home___first-section-hero_right-card span {
     font-size: 24px;
     font-weight: 400;
+}
+
+.home__second-section_first-part > div > div > h1 {
+    font-weight: 600;
+    font-size: 62px;
+}
+
+.home__second-section_first-part > div > div > p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
 }
 
 /* NAVBAR */

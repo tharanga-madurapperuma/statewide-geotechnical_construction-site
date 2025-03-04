@@ -9,6 +9,8 @@ import HomeHero from "./home/hero.jpg";
 import SuccessWorker from "./home/success-worker.jpg";
 import ProfilePics from "./home/profile-pics.png";
 
+import HomeSecondWhoWe from "./home/home_second-first.jpg";
+
 export {
     Logo,
     InstaLogo,
@@ -18,4 +20,5 @@ export {
     HomeHero,
     SuccessWorker,
     ProfilePics,
+    HomeSecondWhoWe,
 };

@@ -1,11 +1,69 @@
 import React from "react";
+import {
+    HomeHero,
+    ProfilePics,
+    rightArrow,
+    SuccessWorker,
+} from "../../assets/assets";
 
 const Home = () => {
     return (
-        <div className="bg-amber-400 w-full h-[1000px] justify-center items-center flex">
-            <p style={{ fontSize: "50px" }} className="font-normal">
-                Home Layed Here
-            </p>
+        <div className="home__first-section h-[916px] p-5">
+            <div className="w-full h-full ">
+                <div className="home__first-section h-full w-full relative flex flex-col justify-between">
+                    <img className="rounded-xl" src={HomeHero} />
+                    <div className="absolute w-[70%] m-[5%]">
+                        <h1 className="home__first-section-header text-blue-950">
+                            Building the Future on Solid Foundations.
+                        </h1>
+                        <p className="home__first-section-text w-[60%] my-5">
+                            We provide custom geotechnical engineering solutions
+                            designed to support your project's success.
+                        </p>
+                        <div className="flex items-center">
+                            <button className="w-[168px] h-[56px] bg-blue-600 text-white rounded-xl">
+                                Get a Quote
+                            </button>
+                            <div className="w-[234px] h-[52px] bg-transparent text-blue-600 outline-2 outline-solid outline-blue-600  rounded-xl home__first-section_explore-btn ml-5 flex items-center justify-center">
+                                <p className="mr-2 font-medium">
+                                    Explore Services
+                                </p>
+                                <img src={rightArrow} />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="w-[835px] h-[224px] absolute bottom-0 flex m-[5%]">
+                        <div className="bg-white mr-5 w-[571px] h-full rounded-2xl">
+                            <div className="p-5 flex h-full">
+                                <div className="flex h-full w-1/3">
+                                    <img
+                                        className="object-cover h-full w-full rounded-md"
+                                        src={SuccessWorker}
+                                    />
+                                </div>
+                                <div className="home___first-section-hero_bottom-card h-full w-2/3 ml-5 flex flex-col justify-center">
+                                    <h3 className="text-gray-950">
+                                        See How We Deliver Geotechnical Success
+                                    </h3>
+                                    <p className="text-gray-700 mt-4">
+                                        From soil investigations to foundation
+                                        solutions, explore how our expertise
+                                        drives successful projects with
+                                        stability and precision.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="bg-white w-[248px] h-full rounded-2xl">
+                            <div className="home___first-section-hero_right-card flex items-center justify-center flex-col h-full w-full">
+                                <img src={ProfilePics} />
+                                <h1>1K+</h1>
+                                <span>Customers</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };

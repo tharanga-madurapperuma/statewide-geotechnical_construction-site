@@ -3,4 +3,19 @@ import InstaLogo from "./icons/insta.png";
 import DribbleLogo from "./icons/dribble.png";
 import TwitterLogo from "./icons/twitter.png";
 
-export { Logo, InstaLogo, DribbleLogo, TwitterLogo };
+// Home
+import rightArrow from "./icons/right-arrow.png";
+import HomeHero from "./home/hero.jpg";
+import SuccessWorker from "./home/success-worker.jpg";
+import ProfilePics from "./home/profile-pics.png";
+
+export {
+    Logo,
+    InstaLogo,
+    DribbleLogo,
+    TwitterLogo,
+    rightArrow,
+    HomeHero,
+    SuccessWorker,
+    ProfilePics,
+};

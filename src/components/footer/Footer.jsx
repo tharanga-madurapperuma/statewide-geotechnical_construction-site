@@ -23,8 +23,8 @@ const Footer = () => {
                             <img className="mr-2" src={TwitterLogo} />
                         </div>
                     </div>
-                    <div className="home__footer-links w-[17%] px-6">
-                        <span className="home__footer-links-span">Company</span>
+                    <div className="footer-links w-[17%] px-6">
+                        <span className="footer-links-span">Company</span>
                         <div>
                             <p>About Us</p>
                             <p>Careers</p>
@@ -35,10 +35,8 @@ const Footer = () => {
                             <p>Investors</p>
                         </div>
                     </div>
-                    <div className="home__footer-links w-[17%] px-6">
-                        <span className="home__footer-links-span">
-                            Initiatives
-                        </span>
+                    <div className="footer-links w-[17%] px-6">
+                        <span className="footer-links-span">Initiatives</span>
                         <div>
                             <p>Lorem Ipsum</p>
                             <p>Lorem Ipsum</p>
@@ -47,8 +45,8 @@ const Footer = () => {
                             <p>Lorem Ipsum</p>
                         </div>
                     </div>
-                    <div className="home__footer-links w-[17%] px-6">
-                        <span className="home__footer-links-span">
+                    <div className="footer-links w-[17%] px-6">
+                        <span className="footer-links-span">
                             Popular Services
                         </span>
                         <div>

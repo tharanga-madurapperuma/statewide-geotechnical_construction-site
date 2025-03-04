@@ -8,7 +8,7 @@ const Navbar = () => {
                 <div className="h-full">
                     <img className="h-full" src={Logo} />
                 </div>
-                <div className="home__navbar-items">
+                <div className="navbar-items">
                     <ul className="flex justify-between items-center space-x-18">
                         <li>Home</li>
                         <li>About</li>

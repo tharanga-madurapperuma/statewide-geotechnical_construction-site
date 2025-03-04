@@ -28,6 +28,18 @@ const Footer = () => {
                             Quick Links
                         </span>
                         <div>
+                            <p>About Us</p>
+                            <p>Careers</p>
+                            <p>Terms & Conditions</p>
+                            <p>Blog</p>
+                            <p>Contact Us</p>
+                            <p>Privacy Policy</p>
+                            <p>Investors</p>
+                        </div>
+                    </div>
+                    <div className="footer-links w-[17%] px-6">
+                        <span className="footer-links-span">Initiatives</span>
+                        <div>
                             <p>About us</p>
                             <p>Services</p>
                             <p>Contact Us</p>

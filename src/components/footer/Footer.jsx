@@ -33,20 +33,6 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="home__footer-links w-[17%] px-6">
-                        <span className="home__footer-links-span">
-                            Quick Links
-                        </span>
-                        <div>
-                            <p>About Us</p>
-                            <p>Careers</p>
-                            <p>Terms & Conditions</p>
-                            <p>Blog</p>
-                            <p>Contact Us</p>
-                            <p>Privacy Policy</p>
-                            <p>Investors</p>
-                        </div>
-                    </div>
                     <div className="footer-links w-[17%] px-6">
                         <span className="footer-links-span">Initiatives</span>
                         <div>
@@ -56,8 +42,8 @@ const Footer = () => {
                             <p>Resources</p>
                         </div>
                     </div>
-                    <div className="home__footer-links w-[19%] px-6 py-0.02">
-                        <span className="home__footer-links-span font-bold">
+                    <div className="footer-links w-[29%] px-6 py-0.02">
+                        <span className="footer-links-span font-bold">
                             Get In Touch
                         </span>
                         <div className="flex items-center space-x-3 mt-2">

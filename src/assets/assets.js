@@ -10,6 +10,7 @@ import SuccessWorker from "./home/success-worker.jpg";
 import ProfilePics from "./home/profile-pics.png";
 
 import HomeSecondWhoWe from "./home/home_second-first.jpg";
+import HomeSecondWhatWe from "./home/home_second-second-1.png";
 
 export {
     Logo,
@@ -21,4 +22,5 @@ export {
     SuccessWorker,
     ProfilePics,
     HomeSecondWhoWe,
+    HomeSecondWhatWe,
 };

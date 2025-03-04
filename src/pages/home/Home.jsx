@@ -1,6 +1,7 @@
 import React from "react";
 import {
     HomeHero,
+    HomeSecondWhatWe,
     HomeSecondWhoWe,
     ProfilePics,
     rightArrow,
@@ -84,8 +85,8 @@ const Home = () => {
                     </div>
                     <div className="w-1/2 ml-12">
                         <div className="flex flex-col items-start">
-                            <h1>Who We Are</h1>
-                            <p className="mt-6">
+                            <h1 className="text-gray-900">Who We Are</h1>
+                            <p className="mt-6 text-gray-600">
                                 At Statewide Geotechnical, we specialize in
                                 delivering expert geotechnical drilling,
                                 testing, and consulting services across
@@ -107,7 +108,30 @@ const Home = () => {
                     </div>
                 </div>
                 {/* WHAT WE OFFER */}
-                <div></div>
+                <div className="home__second-section_second-part">
+                    <div className="w-full h-auto mt-26">
+                        <div className="w-full flex justify-between items-center">
+                            <h1>What We Offer</h1>
+                            <p className="text-blue-800">SEE ALL SERVICES</p>
+                        </div>
+                        <div className="flex justify-between w-full h-auto my-10">
+                            <div className="h-auto w-[49%]">
+                                <img
+                                    className="object-cover w-full"
+                                    src={HomeSecondWhatWe}
+                                />
+                            </div>
+                            <div className="h-auto w-[49%]">
+                                <img
+                                    className="object-cover w-full"
+                                    src={HomeSecondWhatWe}
+                                />
+                            </div>
+                        </div>
+                        {/* CAROUSEL - SWIPER JS */}
+                        <div></div>
+                    </div>
+                </div>
                 {/* WHY CHOOSE US */}
                 <div></div>
                 {/* PROJECTS */}

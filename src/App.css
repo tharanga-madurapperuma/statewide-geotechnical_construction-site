@@ -54,22 +54,39 @@
 .home___first-section-hero_right-card h1 {
     font-size: 48px;
     font-weight: 600;
+    font-family: var(--font-family-inter);
 }
 
 .home___first-section-hero_right-card span {
     font-size: 24px;
     font-weight: 400;
+    font-family: var(--font-family-inter);
 }
 
-.home__second-section_first-part > div > div > h1 {
+.home__second-section_first-part > div > div > h1,
+.home__second-section_second-part > div > div > h1 {
     font-weight: 600;
     font-size: 62px;
+    font-family: var(--font-family-inter);
 }
 
 .home__second-section_first-part > div > div > p {
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
+    font-family: var(--font-family-inter);
+}
+
+.home__second-section_first-part > div > div > div > p {
+    font-weight: 600;
+    font-size: 18px;
+    font-family: var(--font-family-inter);
+}
+
+.home__second-section_second-part > div > div > p {
+    font-weight: 600;
+    font-size: 24px;
+    font-family: var(--font-family-inter);
 }
 
 /* NAVBAR */

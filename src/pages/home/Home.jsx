@@ -1,14 +1,79 @@
 import React from "react";
 import {
+    boreInstallation,
+    environmental,
+    geotechnical,
     HomeHero,
     HomeSecondWhatWe,
+    HomeSecondWhatWe2,
     HomeSecondWhoWe,
+    Icon1,
+    Icon2,
+    Icon3,
+    Icon4,
     ProfilePics,
     rightArrow,
+    soilTesting,
     SuccessWorker,
 } from "../../assets/assets";
+import Card from "../../components/card/Card";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Keyboard, Navigation, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 const Home = () => {
+    const services = [
+        {
+            image: geotechnical,
+            title: "Geotechnical Drilling",
+            description:
+                "Precision drilling for soil and rock investigations to support construction and engineering projects.",
+        },
+        {
+            image: environmental,
+            title: "Environmental Drilling",
+            description:
+                "Specialized drilling for groundwater studies, contamination assessments, and environmental compliance.",
+        },
+        {
+            image: soilTesting,
+            title: "Soil & Rock Testing",
+            description:
+                "Advanced lab testing to analyze soil and rock properties for stability and safety.",
+        },
+        {
+            image: boreInstallation,
+            title: "Monitoring Bore Installation",
+            description:
+                "Reliable bore installation for groundwater monitoring and site assessments.",
+        },
+        {
+            image: geotechnical,
+            title: "Geotechnical Drilling",
+            description:
+                "Precision drilling for soil and rock investigations to support construction and engineering projects.",
+        },
+        {
+            image: environmental,
+            title: "Environmental Drilling",
+            description:
+                "Specialized drilling for groundwater studies, contamination assessments, and environmental compliance.",
+        },
+        {
+            image: soilTesting,
+            title: "Soil & Rock Testing",
+            description:
+                "Advanced lab testing to analyze soil and rock properties for stability and safety.",
+        },
+        {
+            image: boreInstallation,
+            title: "Monitoring Bore Installation",
+            description:
+                "Reliable bore installation for groundwater monitoring and site assessments.",
+        },
+    ];
     return (
         <div className="flex flex-col w-full">
             {/* HOME - FIRST SECTION */}
@@ -124,16 +189,67 @@ const Home = () => {
                             <div className="h-auto w-[49%]">
                                 <img
                                     className="object-cover w-full"
-                                    src={HomeSecondWhatWe}
+                                    src={HomeSecondWhatWe2}
                                 />
                             </div>
                         </div>
                         {/* CAROUSEL - SWIPER JS */}
-                        <div></div>
+                        <div className="w-full">
+                            <div className="">
+                                <Swiper
+                                    slidesPerView={4}
+                                    spaceBetween={20}
+                                    keyboard={{
+                                        enabled: true,
+                                    }}
+                                    navigation={true}
+                                    modules={[Keyboard, Pagination, Navigation]}
+                                    className="mySwiper"
+                                >
+                                    {services.map((service, index) => (
+                                        <SwiperSlide key={index}>
+                                            <Card {...service} />
+                                        </SwiperSlide>
+                                    ))}
+                                </Swiper>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 {/* WHY CHOOSE US */}
-                <div></div>
+                <div className="w-full home__second-section_third-part mt-26">
+                    <div className="w-full">
+                        <div className="text-center">
+                            <h1>Why Choose Us?</h1>
+                        </div>
+                        <div className="w-full flex justify-evenly mt-20">
+                            <div className="w-25% flex flex-col justify-center items-center">
+                                <img src={Icon1} />
+                                <p className="text-center mt-4">
+                                    Advanced Drilling<br></br>Technology
+                                </p>
+                            </div>
+                            <div className="w-25% flex flex-col justify-center items-center">
+                                <img src={Icon2} />
+                                <p className="text-center mt-4">
+                                    Certified & Experienced<br></br>Team
+                                </p>
+                            </div>
+                            <div className="w-25% flex flex-col justify-center items-center">
+                                <img src={Icon3} />
+                                <p className="text-center mt-4">
+                                    Comprehensive<br></br>Geotechnical Solutions
+                                </p>
+                            </div>
+                            <div className="w-25% flex flex-col justify-center items-center">
+                                <img src={Icon4} />
+                                <p className="text-center mt-4">
+                                    Commitment to Safety<br></br>& Compliance
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 {/* PROJECTS */}
                 <div></div>
                 {/* START JOURNEY */}

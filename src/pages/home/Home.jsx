@@ -76,8 +76,6 @@ const Home = () => {
         },
     ];
     return (
-        <div className="bg-amber-400 w-full h-[1000px] justify-center items-center flex">
-           <Callbox />
         <div className="flex flex-col w-full">
             {/* HOME - FIRST SECTION */}
             <div className="home__first-section h-[916px] p-5">
@@ -256,7 +254,9 @@ const Home = () => {
                 {/* PROJECTS */}
                 <div></div>
                 {/* START JOURNEY */}
-                <div></div>
+                <div className="">
+                    <Callbox />
+                </div>
             </div>
         </div>
     );

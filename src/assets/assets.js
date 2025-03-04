@@ -6,8 +6,6 @@ import LocationIcon from "./icons/location.svg";
 import PhoneIcon from "./icons/phone.svg";
 import MailIcon from "./icons/mail.svg";
 
-export { Logo, InstaLogo, DribbleLogo, TwitterLogo };
-export { LocationIcon, PhoneIcon, MailIcon };
 // Home
 import rightArrow from "./icons/right-arrow.png";
 import HomeHero from "./home/hero.jpg";
@@ -48,4 +46,7 @@ export {
     Icon2,
     Icon3,
     Icon4,
+    LocationIcon,
+    PhoneIcon,
+    MailIcon,
 };

@@ -13,9 +13,7 @@ const Footer = () => {
                         </div>
                         <div>
                             <p className="mt-10 pr-20">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
+                            Statewide Geotechnical (Aust) Pty Ltd delivers reliable geotechnical solutions with in-house drilling, testing, and reporting, ensuring efficiency and quality across every project.
                             </p>
                         </div>
                         <div className="flex mt-10">
@@ -75,8 +73,8 @@ const Footer = () => {
                     
 
                 </div>
-                <div className="px-6">
-                    <p>GIGHAVE 2024&copy;, All rights reserved.</p>
+                <div className="px-6 py-10">
+                    <p>Statewide Geotechnical 2025&copy;, All rights reserved.</p>
                 </div>
             </div>
         </div>

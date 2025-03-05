@@ -1,16 +1,16 @@
 import React from "react";
 
-const CardIconTextCenter = ({
+const CardIconTextCenterColored = ({
     iconUrl,
     titleText,
     bodyTextPresent,
     bodyText,
 }) => {
     return (
-        <div className="w-full h-full">
-            <div className="w-full h-full flex flex-col items-center rounded-2xl bg-blue-25 border hover:bg-blue-50 border-blue-100 hover:border-blue-300 transition duration-700 pb-4 px-2 sm:px-4">
+        <div className="w-full h-full ">
+            <div className="w-full h-full flex flex-col items-center rounded-2xl bg-blue-600 text-white hover:bg-blue-700 transition duration-700 pb-4 px-2 sm:px-4 xl:px-8">
                 <div className="mt-1 md:mt-2 lg:mt-6">
-                    <img src={iconUrl} />
+                    <img className="text-white" src={iconUrl} />
                 </div>
                 <h2 className="font-inter text-14 font-500 text-center md:text-18 lg:text-24">
                     {titleText}
@@ -25,4 +25,4 @@ const CardIconTextCenter = ({
     );
 };
 
-export default CardIconTextCenter;
+export default CardIconTextCenterColored;

@@ -3,7 +3,7 @@ import { Logo } from "../../assets/assets";
 
 const Navbar = () => {
     return (
-        <div className="h-[92px] w-full">
+        <div className="h-[92px] w-full hidden md:block">
             <div className="flex justify-between items-center py-6 px-28 w-full h-full">
                 <div className="h-full">
                     <img className="h-full" src={Logo} />

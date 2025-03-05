@@ -7,6 +7,7 @@ import "./App.css";
 import "./index.css";
 import Drilling from "./pages/drilling/Drilling";
 import EnvDrilling from "./pages/envDrilling/EnvDrilling";
+import Inspections from "./pages/inspections/Inspections";
 
 const App = () => {
     return (
@@ -17,6 +18,7 @@ const App = () => {
                     <Route path="/" element={<Home />} />
                     <Route path="/drilling" element={<Drilling />} />
                     <Route path="/envDrilling" element={<EnvDrilling />} />
+                    <Route path="/inspections" element={<Inspections />} />
                 </Routes>
                 {/* <Footer /> */}
             </BrowserRouter>

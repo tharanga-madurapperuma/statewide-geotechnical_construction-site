@@ -30,6 +30,7 @@ import Icon4 from "./home/choose-us/icon4.png";
 import WorkerHat from "./icons/workerCap.svg";
 import FileIcon from "./icons/fileicon.svg";
 import DownloadIcon from "./icons/download.svg";
+import Arrowup from "./icons/arrow-tr.svg";
 
 export {
     Logo,
@@ -54,8 +55,24 @@ export {
     LocationIcon,
     PhoneIcon,
     MailIcon,
+    Arrowup,
 };
 
 // Component icons
 export { WorkerHat };
 export { FileIcon, DownloadIcon };
+
+//soil page
+import SoilHero from "./soil/worker.svg";
+
+export { SoilHero };
+
+//slopes page
+import Engineers from "./slopes/engineers.svg";
+
+export { Engineers };
+
+//Road page
+import Roller from "./road/roller.svg";
+
+export { Roller };

@@ -1,6 +1,7 @@
-import { DownloadIcon } from "../../assets/assets";
+import React from "react";
 
-const DocumentCard = () => {
+
+const DocumentCard = ({image, title}) => {
   return (
     <div className="relative w-[391px] h-[368px] bg-blue-600 rounded-2xl flex flex-col items-left justify-center text-white px-6 shadow-lg overflow-hidden">
       {/* White Circular Shadow Effect */}
@@ -14,8 +15,8 @@ const DocumentCard = () => {
       <button className="mt-6 flex items-center gap-2 border border-white px-6 py-2 w-[160px] rounded-lg hover:bg-[#004BFF] transition">
         Download
         <img
-          src={DownloadIcon}
-          alt="Download Icon"
+          src={image}
+          alt={title}
           className="w-[100px] h-[26px]"
         />
       </button>

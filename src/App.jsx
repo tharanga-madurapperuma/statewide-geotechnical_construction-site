@@ -6,6 +6,8 @@ import Home from "./pages/home/Home";
 import RetainingWall from "./pages/RetainingWall";
 import "./App.css";
 import "./index.css";
+import Drilling from "./pages/drilling/Drilling";
+import Sample from "./pages/sample/Sample";
 
 const App = () => {
     return (
@@ -15,6 +17,7 @@ const App = () => {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/RetainingWall" element={<RetainingWall />} />
+                    <Route path="/drilling" element={<Drilling />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>

@@ -8,3 +8,64 @@
     --font-family-poppins: "Poppins", sans-serif;
     --font-family-inter: "Inter", sans-serif;
 }
+
+.font-poppins-62-400 {
+    font-family: var(--font-family-poppins);
+    font-weight: 400;
+    font-size: 62px;
+}
+
+@theme {
+    /* POPPINS */
+    --font-poppins: "Poppins", sans-serif;
+    --font-inter: "Inter", sans-serif;
+
+    --color-blue-25: #f7fcff;
+
+    /* SIZES */
+    --text-10: 10px;
+    --text-12: 12px;
+    --text-14: 14px;
+    --text-16: 16px;
+    --text-18: 18px;
+    --text-24: 24px;
+    --text-28: 28px;
+    --text-32: 32px;
+    --text-40: 40px;
+    --text-48: 48px;
+    --text-56: 56px;
+    --text-62: 62px;
+    --text-72: 72px;
+    --text-80: 80px;
+
+    /* WEIGHTS */
+    --font-weight-100: 100;
+    --font-weight-200: 200;
+    --font-weight-300: 300;
+    --font-weight-400: 400;
+    --font-weight-500: 500;
+    --font-weight-600: 600;
+    --font-weight-700: 700;
+    --font-weight-800: 800;
+    --font-weight-900: 900;
+
+    /* LINE SPACING */
+    --spacing-10: 10px;
+    --spacing-12: 12px;
+    --spacing-14: 14px;
+    --spacing-16: 16px;
+    --spacing-18: 18px;
+    --spacing-20: 20px;
+    --spacing-24: 24px;
+    --spacing-28: 28px;
+    --spacing-32: 32px;
+    --spacing-34: 34px;
+    --spacing-38: 38px;
+    --spacing-40: 40px;
+    --spacing-48: 48px;
+    --spacing-58: 58px;
+    --spacing-62: 62px;
+    --spacing-72: 72px;
+    --spacing-76: 76px;
+    --spacing-80: 80px;
+}

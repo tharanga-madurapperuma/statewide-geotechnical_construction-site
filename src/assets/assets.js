@@ -28,6 +28,8 @@ import Icon4 from "./home/choose-us/icon4.png";
 
 // component icons
 import WorkerHat from "./icons/workerCap.svg";
+import FileIcon from "./icons/fileicon.svg";
+import DownloadIcon from "./icons/download.svg";
 
 export {
     Logo,
@@ -56,3 +58,4 @@ export {
 
 // Component icons
 export { WorkerHat };
+export { FileIcon, DownloadIcon };

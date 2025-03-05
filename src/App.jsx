@@ -5,6 +5,7 @@ import Footer from "./components/footer/Footer";
 import Home from "./pages/home/Home";
 import "./App.css";
 import "./index.css";
+import Drilling from "./pages/drilling/Drilling";
 
 const App = () => {
     return (
@@ -13,6 +14,7 @@ const App = () => {
                 <Navbar />
                 <Routes>
                     <Route path="/" element={<Home />} />
+                    <Route path="/drilling" element={<Drilling />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>

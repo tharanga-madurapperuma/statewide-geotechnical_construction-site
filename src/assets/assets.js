@@ -53,6 +53,9 @@ import FlaskWhite from "./drilling/icons/flaskWhite.svg";
 import ManWhite from "./drilling/icons/manWhite.svg";
 import DocWhite from "./drilling/icons/docWhite.svg";
 
+// Env Drilling page
+import Map from "./envDrilling/map.svg";
+
 export {
     Logo,
     InstaLogo,
@@ -105,3 +108,6 @@ export {
     FlaskWhite,
     DocWhite,
 };
+
+// Env Drilling Page
+export { Map };

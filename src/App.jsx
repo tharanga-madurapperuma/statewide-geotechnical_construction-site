@@ -6,7 +6,9 @@ import Home from "./pages/home/Home";
 import "./App.css";
 import "./index.css";
 import Drilling from "./pages/drilling/Drilling";
-import Sample from "./pages/sample/Sample";
+import Soil from "./pages/soil/Soil";
+import Slopes from "./pages/slopes/Slopes";
+import Road from "./pages/road/Road";
 
 const App = () => {
     return (
@@ -16,6 +18,11 @@ const App = () => {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/drilling" element={<Drilling />} />
+                    <Route path="/soil" element={<Soil />} />
+                    <Route path="/slopes" element={<Slopes />}/>
+                    <Route path="/road" element={<Road />} />
+                    
+                      
                 </Routes>
                 <Footer />
             </BrowserRouter>

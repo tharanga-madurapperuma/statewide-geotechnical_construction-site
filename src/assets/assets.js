@@ -26,6 +26,9 @@ import Icon2 from "./home/choose-us/icon2.png";
 import Icon3 from "./home/choose-us/icon3.png";
 import Icon4 from "./home/choose-us/icon4.png";
 
+// component icons
+import WorkerHat from "./icons/workerCap.svg";
+
 export {
     Logo,
     InstaLogo,
@@ -50,3 +53,6 @@ export {
     PhoneIcon,
     MailIcon,
 };
+
+// Component icons
+export { WorkerHat };

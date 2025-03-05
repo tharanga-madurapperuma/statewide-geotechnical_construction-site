@@ -1,4 +1,5 @@
 import React from "react";
+// stylings are not completed
 
 const InfoSection = ({ title, description, buttonText, buttonLink, imageSrc, reverse }) => {
   return (

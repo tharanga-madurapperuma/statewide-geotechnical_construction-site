@@ -29,6 +29,30 @@ import Icon4 from "./home/choose-us/icon4.png";
 // component icons
 import WorkerHat from "./icons/workerCap.svg";
 
+// Drilling page
+import Doc from "./drilling/icons/doc.svg";
+import Dosar from "./drilling/icons/dosar.svg";
+import Arm from "./drilling/icons/arm.svg";
+import SmallDosar from "./drilling/icons/smallDosar.svg";
+import Bell from "./drilling/icons/bell.svg";
+import Hammer from "./drilling/icons/hammer.svg";
+import Drill from "./drilling/icons/drill.svg";
+import Well from "./drilling/icons/well.svg";
+import Gas from "./drilling/icons/gas.svg";
+import DrillingBit from "./drilling/icons/drilling.svg";
+import TopDrill from "./drilling/icons/topDrill.svg";
+import WellWall from "./drilling/icons/wellWall.svg";
+import Hand from "./drilling/icons/hand.svg";
+import Flask from "./drilling/icons/flask.svg";
+import Weight from "./drilling/icons/weight.svg";
+import WallDrill from "./drilling/icons/wallDrill.svg";
+import WellAttaches from "./drilling/icons/wellAttaches.svg";
+import Man from "./drilling/icons/man.svg";
+
+import FlaskWhite from "./drilling/icons/flaskWhite.svg";
+import ManWhite from "./drilling/icons/manWhite.svg";
+import DocWhite from "./drilling/icons/docWhite.svg";
+
 export {
     Logo,
     InstaLogo,
@@ -56,3 +80,28 @@ export {
 
 // Component icons
 export { WorkerHat };
+
+// Drilling page
+export {
+    Doc,
+    Dosar,
+    Arm,
+    SmallDosar,
+    Bell,
+    Hammer,
+    Drill,
+    Well,
+    Gas,
+    DrillingBit,
+    TopDrill,
+    WellWall,
+    Hand,
+    Flask,
+    Weight,
+    WallDrill,
+    WellAttaches,
+    Man,
+    ManWhite,
+    FlaskWhite,
+    DocWhite,
+};

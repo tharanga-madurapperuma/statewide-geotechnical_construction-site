@@ -1,4 +1,5 @@
 import React from "react";
+import Callbox from "../../components/callbox/Callbox";
 import {
     boreInstallation,
     environmental,
@@ -251,9 +252,72 @@ const Home = () => {
                     </div>
                 </div>
                 {/* PROJECTS */}
-                <div></div>
+                <div>
+                    <div className="font-inter text-gray-900 p-6 w-full h-auto mt-26">
+                        {/* Header Section */}
+                        <div className="flex justify-between items-center mb-6">
+                            <h1 className="text-6xl font-bold text-gray-900">Our Projects</h1>
+                            <p className="text-2xl font-bold text-blue-800">SEE ALL SERVICES</p>
+                        </div>
+
+                        {/* Main Content */}
+                        <div className="grid grid-cols-5 grid-rows-10 gap-4">
+                            <div className="col-span-3 row-span-5 bg-blue-100 p-6 rounded-lg flex flex-col">
+                                <h2 className="text-2xl font-bold mt-[5px]">
+                                    Explore Our Proven Geotechnical Engineering Projects Portfolio
+                                </h2>
+                                <p className="text-sm text-gray-700 mb-2">
+                                    Highlighting our commitment to excellence in geotechnical engineering and the lasting impact we’ve made on infrastructure and communities. Experience the difference we’ve built.
+                                </p>
+                            </div>
+
+                            <div className="row-span-5 col-start-4 rounded-lg overflow-hidden">
+                                <img
+                                    src="/our-projects/Frame132.png"
+                                    alt="Construction workers reviewing plans"
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>
+                            <div className="row-span-5 col-start-5 rounded-lg overflow-hidden">
+                                <img
+                                    src="/our-projects/Frame133.png"
+                                    alt="Worker with safety helmet"
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>
+                            <div className="row-span-5 row-start-6 rounded-lg overflow-hidden">
+                                <img
+                                    src="/our-projects/Frame134.png"
+                                    alt="Worker in trench"
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>
+                            <div className="row-span-5 row-start-6 rounded-lg overflow-hidden">
+                                <img
+          src="/our-projects/Frame135.png"
+            alt="Worker reviewing plans"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="col-span-3 row-span-5 row-start-6 relative ">
+          <img
+          src="/our-projects/Frame136.png"
+            alt="Construction site"
+            className="w-full h-full object-cover rounded-lg"
+          />
+          
+        </div>
+      </div>
+    </div>
+
+
+    
+  
+                </div>
                 {/* START JOURNEY */}
-                <div></div>
+                <div className="">
+                    <Callbox />
+                </div>
             </div>
         </div>
     );

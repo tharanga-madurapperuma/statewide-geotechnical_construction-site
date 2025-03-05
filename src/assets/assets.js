@@ -2,6 +2,9 @@ import Logo from "./logo.svg";
 import InstaLogo from "./icons/insta.png";
 import DribbleLogo from "./icons/dribble.png";
 import TwitterLogo from "./icons/twitter.png";
+import LocationIcon from "./icons/location.svg";
+import PhoneIcon from "./icons/phone.svg";
+import MailIcon from "./icons/mail.svg";
 
 // Home
 import rightArrow from "./icons/right-arrow.png";
@@ -23,6 +26,11 @@ import Icon2 from "./home/choose-us/icon2.png";
 import Icon3 from "./home/choose-us/icon3.png";
 import Icon4 from "./home/choose-us/icon4.png";
 
+// component icons
+import WorkerHat from "./icons/workerCap.svg";
+import FileIcon from "./icons/fileicon.svg";
+import DownloadIcon from "./icons/download.svg";
+
 export {
     Logo,
     InstaLogo,
@@ -43,4 +51,11 @@ export {
     Icon2,
     Icon3,
     Icon4,
+    LocationIcon,
+    PhoneIcon,
+    MailIcon,
 };
+
+// Component icons
+export { WorkerHat };
+export { FileIcon, DownloadIcon };

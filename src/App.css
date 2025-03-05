@@ -140,11 +140,11 @@
 }
 
 .swiper-button-prev {
-    left: -40px; /* Adjust as needed */
+    left: 0px; /* Adjust as needed */
 }
 
 .swiper-button-next {
-    right: -40px; /* Adjust as needed */
+    right: 0px; /* Adjust as needed */
 }
 
 .swiper-container {

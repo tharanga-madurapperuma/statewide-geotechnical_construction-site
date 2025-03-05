@@ -1,5 +1,13 @@
 import React from "react";
-import { DribbleLogo, InstaLogo, Logo, TwitterLogo } from "../../assets/assets";
+import {
+    DribbleLogo,
+    InstaLogo,
+    Logo,
+    TwitterLogo,
+    LocationIcon,
+    PhoneIcon,
+    MailIcon,
+} from "../../assets/assets";
 
 const Footer = () => {
     return (
@@ -12,9 +20,10 @@ const Footer = () => {
                         </div>
                         <div>
                             <p className="mt-10 pr-20">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
+                                Statewide Geotechnical (Aust) Pty Ltd delivers
+                                reliable geotechnical solutions with in-house
+                                drilling, testing, and reporting, ensuring
+                                efficiency and quality across every project.
                             </p>
                         </div>
                         <div className="flex mt-10">
@@ -23,45 +32,75 @@ const Footer = () => {
                             <img className="mr-2" src={TwitterLogo} />
                         </div>
                     </div>
+
                     <div className="footer-links w-[17%] px-6">
-                        <span className="footer-links-span">Company</span>
+                        <span className="footer-links-span">Quick Links</span>
                         <div>
-                            <p>About Us</p>
-                            <p>Careers</p>
-                            <p>Terms & Conditions</p>
-                            <p>Blog</p>
+                            <p>About us</p>
+                            <p>Services</p>
                             <p>Contact Us</p>
-                            <p>Privacy Policy</p>
-                            <p>Investors</p>
+                            <p>Resources</p>
                         </div>
                     </div>
-                    <div className="footer-links w-[17%] px-6">
-                        <span className="footer-links-span">Initiatives</span>
-                        <div>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                        </div>
-                    </div>
-                    <div className="footer-links w-[17%] px-6">
-                        <span className="footer-links-span">
-                            Popular Services
+                    <div className="footer-links w-[29%] px-6 py-0.02">
+                        <span className="footer-links-span font-bold">
+                            Get In Touch
                         </span>
-                        <div>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
+                        <div className="flex items-center space-x-3 mt-2">
+                            <img
+                                className="w-6 h-6"
+                                src={LocationIcon}
+                                alt="Location Icon"
+                            />
+
+                            <div>
+                                <div className="leading-tight">
+                                    <p className=" font-medium">
+                                        17-20 Summer Lane <br />
+                                        Ringwood, VIC 3134
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="flex items-center space-x-3 mt-2">
+                            <img
+                                className="w-6 h-6"
+                                src={PhoneIcon}
+                                alt="Phone Icon"
+                            />
+
+                            <div className="py-5">
+                                <div className="leading-tight">
+                                    <p className="font-medium">
+                                        phone: +61 3 9123 4567 <br />
+                                        Fax: +61 3 9123 4568
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flex items-center space-x-3 mt-2">
+                            <img
+                                className="w-6 h-6"
+                                src={MailIcon}
+                                alt="Mail Icon"
+                            />
+
+                            <div className="py-1">
+                                <div className="leading-tight">
+                                    <p className="font-medium">
+                                        info@statewide.com.au <br />
+                                        support@statewide.com.au
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className="px-6">
-                    <p>GIGHAVE 2024&copy;, All rights reserved.</p>
+                <div className="px-6 py-10">
+                    <p>
+                        Statewide Geotechnical 2025&copy;, All rights reserved.
+                    </p>
                 </div>
             </div>
         </div>

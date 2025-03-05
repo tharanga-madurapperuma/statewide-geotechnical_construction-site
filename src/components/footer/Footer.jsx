@@ -34,7 +34,7 @@ const Footer = () => {
                     </div>
 
                     <div className="footer-links w-[17%] px-6">
-                        <span className="footer-links-span">Initiatives</span>
+                        <span className="footer-links-span">Quick Links</span>
                         <div>
                             <p>About us</p>
                             <p>Services</p>
@@ -55,7 +55,7 @@ const Footer = () => {
 
                             <div>
                                 <div className="leading-tight">
-                                    <p className="font-medium">
+                                    <p className=" font-medium">
                                         17-20 Summer Lane <br />
                                         Ringwood, VIC 3134
                                     </p>

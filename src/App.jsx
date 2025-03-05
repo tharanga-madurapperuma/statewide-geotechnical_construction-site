@@ -6,6 +6,7 @@ import Home from "./pages/home/Home";
 import "./App.css";
 import "./index.css";
 import Drilling from "./pages/drilling/Drilling";
+import Sample from "./pages/sample/Sample";
 
 const App = () => {
     return (

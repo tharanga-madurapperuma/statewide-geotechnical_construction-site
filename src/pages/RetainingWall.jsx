@@ -15,7 +15,7 @@ const RetainingWall = () => {
         />
       </div>
 
-      <div className="max-w-6xl mx-auto p-8">
+      <div className="max-w-7xl mx-auto p-8">
         <h1 className="text-3xl font-bold mb-6">Retaining Wall Solutions</h1>
         <div className="grid grid-cols-5 grid-rows-10 gap-4">
           {/* Description Box */}
@@ -106,10 +106,10 @@ const RetainingWall = () => {
         </div>
       </div>
 
-      <div className="max-w-6xl mx-auto p-8">
+      <div className="max-w-7xl mx-auto p-8 mt-4">
         {/* Header Section */}
-        <h1 className="text-3xl font-bold mb-4">Excavation Services</h1>
-        <p className="text-gray-600 ">
+        <h1 className="text-3xl font-bold mb-6">Excavation Services</h1>
+        <p className="text-gray-600">
           Our excavation services are designed to support safe, efficient site
           preparation for construction projects of any scale. We handle all
           types of excavation, from shallow earthworks for foundations to deep
@@ -119,7 +119,7 @@ const RetainingWall = () => {
         </p>
 
         {/* Grid Layout */}
-        <div className="grid grid-cols-9 grid-rows-9 gap-4 mt-1">
+        <div className="grid grid-cols-9 grid-rows-9 gap-4">
           {/* Image Section */}
           <div className="col-span-3 row-span-4 col-start-1 row-start-2">
             <img

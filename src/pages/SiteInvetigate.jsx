@@ -32,13 +32,13 @@ const SiteInvetigate = () => {
           {/* Row 1 */}
           <div className="col-span-1">
             <img
-              src="/Frame2219.png"
+              src="/Rectangle646.png"
               alt="Drilling work"
-              className="w-full aspect-square object-cover rounded-lg"
+              className="w-full aspect-square object-cover rounded-xl"
             />
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-lg">
+          <div className="bg-gray-50 p-6 rounded-xl">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -53,7 +53,7 @@ const SiteInvetigate = () => {
             </p>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-lg">
+          <div className="bg-gray-50 p-6 rounded-xl">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -69,7 +69,7 @@ const SiteInvetigate = () => {
           </div>
 
           {/* Row 2 */}
-          <div className="bg-gray-50 p-6 rounded-lg">
+          <div className="bg-gray-50 p-6 rounded-xl">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -84,7 +84,7 @@ const SiteInvetigate = () => {
             </p>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-lg">
+          <div className="bg-gray-50 p-6 rounded-xl">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -99,7 +99,7 @@ const SiteInvetigate = () => {
             </p>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-lg">
+          <div className="bg-gray-50 p-6 rounded-xl">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -115,7 +115,7 @@ const SiteInvetigate = () => {
           </div>
 
           {/* Row 3 */}
-          <div className="bg-gray-50 p-6 rounded-lg">
+          <div className="bg-gray-50 p-6 rounded-xl">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -129,7 +129,7 @@ const SiteInvetigate = () => {
             </p>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-lg">
+          <div className="bg-gray-50 p-6 rounded-xl">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -145,42 +145,42 @@ const SiteInvetigate = () => {
 
           <div className="col-span-1">
             <img
-              src="/Frame2219.png"
+              src="/Rectangle646.png"
               alt="Site investigation"
-              className="w-full aspect-square object-cover rounded-lg"
+              className="w-full aspect-square object-cover rounded-xl"
             />
           </div>
         </div>
       </div>
 
-      <div className="font-inter text-gray-900 p-6 max-w-6xl mx-auto">
-      {/* Header */}
-      <h1 className="text-3xl font-bold mb-8 text-gray-900">
-        Our Site Investigation Services Include
-      </h1>
+      <div className="max-w-6xl mx-auto p-6">
+        {/* Header */}
+        <h1 className="text-3xl font-bold  mb-6">
+          Our Site Investigation Services Include
+        </h1>
 
-      {/* Main Content - Two-Column Grid */}
-      <div className="grid grid-cols-2 gap-4">
-        {/* Left Column - Large Image */}
-        <div className="col-span-1 row-span-2">
-          <img
-            src="/Frame2248.png" // Replace with actual image (e.g., worker-site.jpg or similar from your project)
-            alt="Worker at construction site with helmet and excavator"
-            className="rounded-lg object-cover w-full h-full"
-          />
-        </div>
-
-        {/* Right Column - Service Cards */}
-        <div className="col-span-1 grid grid-cols-1 md:grid-cols-2 gap-4">
-          {/* Drilling Card */}
-          <div className="bg-blue-100 p-6 rounded-lg text-center">
+        {/* Grid Layout */}
+        <div className="grid grid-cols-1 md:grid-cols-8 md:grid-rows-10 gap-4">
+          {/* Image */}
+          <div className="col-span-1 md:col-span-4 md:row-span-3 max-h-[270px]">
             <img
-              src="/src/assets/helmet-icon.png" // Replace with actual blue helmet icon path
-              alt="Drilling Icon"
-              className="w-12 h-12 mx-auto mb-4 text-blue-600"
+              src="/Frame2248.png"
+              alt="Site Investigation"
+              className="w-full h-full object-cover rounded-xl"
             />
-            <h3 className="text-lg font-bold">Drilling</h3>
-            <p className="text-sm text-gray-700 mt-2">
+          </div>
+
+          {/* Drilling */}
+          <div className="col-span-1 md:col-span-4 md:row-span-3 bg-gray-50 p-6 rounded-xl shadow">
+            <div className="bg">
+              <img
+                src="/helmet3.png"
+                alt="helmet"
+                className="w-[50px] h-[50px]"
+              />
+            </div>
+            <h2 className="text-xl font-semibold mb-2 mt-4">Drilling</h2>
+            <p className="text-gray-600">
               Equipped with advanced technology, our drilling team provides
               precise soil and rock samples from all depths, even in challenging
               terrains. We adapt our drilling approach to meet your project’s
@@ -189,31 +189,57 @@ const SiteInvetigate = () => {
             </p>
           </div>
 
-          {/* Test Pits Card */}
-          <div className="bg-blue-100 p-6 rounded-lg text-center">
-            <img
-              src="/src/assets/helmet-icon.png" // Replace with actual blue helmet icon path
-              alt="Test Pits Icon"
-              className="w-12 h-12 mx-auto mb-4 text-blue-600"
-            />
-            <h3 className="text-lg font-bold">Test Pits</h3>
-            <p className="text-sm text-gray-700 mt-2">
-              Test pits excavations allow for direct observation of subsurface
-              materials, providing valuable insights into soil layers,
-              groundwater levels, and potential site challenges. Test pits are a
-              vital component for thorough site assessment and planning.
+          {/* Test Pits */}
+          <div className="col-span-1 md:col-span-4 md:row-span-3 bg-gray-50 p-6 rounded-xl shadow">
+            <div className="bg">
+              <img
+                src="/helmet3.png"
+                alt="helmet"
+                className="w-[50px] h-[50px]"
+              />
+            </div>
+            <h2 className="text-xl font-semibold mb-2 mt-4">Test Pits</h2>
+            <p className="text-gray-600">
+              Our test pit excavations allow for direct observation of
+              subsurface materials, providing valuable insights into soil
+              layers, groundwater levels, and potential site challenges. Test
+              pits are a vital component for thorough site assessment and
+              planning.
             </p>
           </div>
 
-          {/* Laboratory Investigations Card */}
-          <div className="bg-blue-100 p-6 rounded-lg text-center">
-            <img
-              src="/src/assets/helmet-icon.png" // Replace with actual blue helmet icon path
-              alt="Laboratory Investigations Icon"
-              className="w-12 h-12 mx-auto mb-4 text-blue-600"
-            />
-            <h3 className="text-lg font-bold">Laboratory Investigations</h3>
-            <p className="text-sm text-gray-700 mt-2">
+          {/* In-Situ Testing */}
+          <div className="col-span-1 md:col-span-4 md:row-span-3 bg-gray-50 p-6 rounded-xl shadow">
+            <div className="bg">
+              <img
+                src="/helmet4.png"
+                alt="helmet"
+                className="w-[50px] h-[50px]"
+              />
+            </div>
+            <h2 className="text-xl font-semibold mb-2 mt-4">In-Situ Testing</h2>
+            <p className="text-gray-600">
+              We conduct a variety of in-situ tests, such as Standard
+              Penetration Tests (SPT) and Cone Penetration Testing (CPT), to
+              measure soil properties directly on-site. These methods ensure
+              highly accurate data without disturbing samples, providing key
+              insights into soil density, shear strength, and compaction.
+            </p>
+          </div>
+
+          {/* Laboratory Investigations */}
+          <div className="col-span-1 md:col-span-4 md:row-span-3 bg-gray-50 p-6 rounded-xl shadow">
+            <div className="bg">
+              <img
+                src="/helmet3.png"
+                alt="helmet"
+                className="w-[50px] h-[50px]"
+              />
+            </div>
+            <h2 className="text-xl font-semibold mb-2 mt-4">
+              Laboratory Investigations
+            </h2>
+            <p className="text-gray-600">
               Our in-house lab is fully equipped for detailed analyses of soil,
               rock, and groundwater samples. Our laboratory testing covers
               everything from moisture content and grain size distribution to
@@ -222,32 +248,36 @@ const SiteInvetigate = () => {
             </p>
           </div>
 
-          {/* In-Situ Testing Card */}
-          <div className="bg-blue-100 p-6 rounded-lg text-center">
-            <img
-              src="/src/assets/helmet-icon.png" // Replace with actual blue helmet icon path
-              alt="In-Situ Testing Icon"
-              className="w-12 h-12 mx-auto mb-4 text-blue-600"
-            />
-            <h3 className="text-lg font-bold">In-Situ Testing</h3>
-            <p className="text-sm text-gray-700 mt-2">
-              We conduct a variety of in-situ tests, such as Standard
-              Penetration Tests (SPT) and Cone Penetration Testing (CPT), to
-              measure soil properties directly on-site. These methods ensure
-              highly accurate data without disturbing samples, providing key
-              insights into soil density, shear strength, and compaction.
+          {/* Reporting */}
+          <div className="col-span-1 md:col-span-4 md:row-span-3 bg-gray-50 p-6 rounded-xl shadow">
+            <div className="bg">
+              <img
+                src="/helmet3.png"
+                alt="helmet"
+                className="w-[50px] h-[50px]"
+              />
+            </div>
+            <h2 className="text-xl font-semibold mb-2 mt-4">Reporting</h2>
+            <p className="text-gray-600">
+              We deliver detailed, actionable reports tailored to industry
+              standards and project-specific requirements. Our reports provide a
+              clear overview of site conditions, potential challenges, and
+              engineering recommendations, empowering you with the insights
+              needed for confident, informed decision-making.
+            </p>
+          </div>
+
+          {/* Footer */}
+          <div className="col-span-1 md:col-span-8 md:col-start-1 md:row-start-10  text-gray-600">
+            <p>
+              Statewide Geotechnical’s end-to-end site investigation services
+              give you a clear picture of site conditions from the outset,
+              providing the data and insights to drive successful project
+              outcomes.
             </p>
           </div>
         </div>
       </div>
-
-      {/* Footer Text */}
-      <p className="text-sm text-gray-700 mt-6 text-center">
-        Statewide Geotechnical’s end-to-end site investigation services give you
-        a clear picture of site conditions from the outset, providing the data
-        and insights to drive successful project outcomes.
-      </p>
-    </div>
     </div>
   );
 };

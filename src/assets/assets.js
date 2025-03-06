@@ -31,6 +31,10 @@ import WorkerHat from "./icons/workerCap.svg";
 import FileIcon from "./icons/fileicon.svg";
 import DownloadIcon from "./icons/download.svg";
 
+// navbar icons
+import Menu from "./navbar/menu.svg";
+import Close from "./navbar/cancel.svg";
+
 export {
     Logo,
     InstaLogo,
@@ -59,3 +63,6 @@ export {
 // Component icons
 export { WorkerHat };
 export { FileIcon, DownloadIcon };
+
+// navbar
+export { Menu, Close };

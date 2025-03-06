@@ -10,7 +10,7 @@ import Drilling from "./pages/drilling/Drilling";
 
 const App = () => {
     return (
-        <div>
+        <div className="overflow-x-hidden">
             <BrowserRouter>
                 <Navbar />
                 <Routes>

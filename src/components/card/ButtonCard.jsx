@@ -1,11 +1,11 @@
 import React from "react";
 
 const ButtonCard = ({ image, title, description, buttonText }) => {
-  return (
-    <div className="flex items-center bg-[#EBF7FF] shadow-lg rounded-3xl p-6 max-w-6xl">
+    return (
+    <div className="flex items-center bg-[#EBF7FF] shadow-lg rounded-3xl p-6 max-w-7xl">
       {/* Left Section - Text Content */}
       <div className="flex-1">
-        <h2 className="text-3xl font-bold text-[#062465]">{title}</h2>
+        <h2 className="text-4xl font-bold text-[#062465]">{title}</h2>
         <p className="text-gray-600 mt-2">{description}</p>
         <button className="mt-4 px-5 py-2 bg-blue-600 text-white font-medium rounded-lg flex items-center hover:bg-blue-700 transition duration-300">
           {buttonText}
@@ -21,7 +21,7 @@ const ButtonCard = ({ image, title, description, buttonText }) => {
           className="rounded-3xl shadow-md w-full"
         />
       </div>
-    </div>
+    </div>    
   );
 };
 

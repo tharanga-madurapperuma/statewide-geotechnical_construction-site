@@ -38,6 +38,7 @@
     --text-24: 24px;
     --text-28: 28px;
     --text-32: 32px;
+    --text-36: 36px;
     --text-40: 40px;
     --text-48: 48px;
     --text-56: 56px;
@@ -75,4 +76,6 @@
     --spacing-72: 72px;
     --spacing-76: 76px;
     --spacing-80: 80px;
+
+    
 }

@@ -5,7 +5,7 @@ const ButtonCard = ({ image, title, description, buttonText }) => {
     <div className="flex items-center bg-[#EBF7FF] shadow-lg rounded-3xl p-6 max-w-[1408px]">
       {/* Left Section - Text Content */}
       <div className="flex-1 ml-[35px]">
-        <h2 className="text-6xl font-semibold text-[#062465]">{title}</h2>
+        <h2 className="text-5xl font-semibold text-[#062465]">{title}</h2>
         <p className="text-gray-600 mt-6">{description}</p>
         <button className="mt-5 px-5 py-2 bg-blue-600 text-white font-normal rounded-lg flex items-center hover:bg-blue-700 transition duration-300">
           {buttonText}

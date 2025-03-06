@@ -7,7 +7,9 @@ import RetainingWall from "./pages/RetainingWall";
 import "./App.css";
 import "./index.css";
 import Drilling from "./pages/drilling/Drilling";
-import Sample from "./pages/sample/Sample";
+import Soil from "./pages/soil/Soil";
+import Slopes from "./pages/slopes/Slopes";
+import Road from "./pages/road/Road";
 
 const App = () => {
     return (

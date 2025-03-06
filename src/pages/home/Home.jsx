@@ -18,8 +18,6 @@ import {
   SuccessWorker,
 } from "../../assets/assets";
 import Card from "../../components/card/Card";
-import ButtonCard from "../../components/card/ButtonCard";
-import PolicyText from "../../components/text/PolicyText";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Keyboard, Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
@@ -304,29 +302,6 @@ const Home = () => {
         {/* START JOURNEY */}
         <div className="">
           <Callbox />
-          <div className="flex items-center justify-center h-screen ">
-            <ButtonCard
-              image="/getintouch.png"
-              title="Soil, Rock & Aggregate Testing for Quality & Stability"
-              description="Our laboratory offers comprehensive soil, rock, and aggregate testing to ensure material quality, durability, and safety in construction. Using advanced technology and expert analysis, we assess suitability for foundations, pavements, and geotechnical projects. Our industry-standard methods provide accurate data for informed decision-making."
-              buttonText="Get in Touch"
-              imagePosition="right"
-              className="mb-8"
-            />
-          </div>
-
-          <div>
-          <PolicyText
-  title="1. Quality Assurance Policy"
-  description="We strive for excellence in our engineering services. Our Quality Assurance Policy ensures that all projects are delivered to the highest standards, with thorough reviews conducted at every stage. Key aspects include:"
-  bulletText={[
-    "Comprehensive project planning and documentation.",
-    "Regular internal audits and reviews.",
-    "Client feedback mechanisms to continuously improve our services.",
-  ]}
-/>
-
-          </div>
         </div>
       </div>
     </div>

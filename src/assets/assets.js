@@ -64,8 +64,9 @@ export { FileIcon, DownloadIcon };
 
 //soil page
 import SoilHero from "./soil/worker.svg";
+import SoilTesting from "./soil/soil.svg";
 
-export { SoilHero };
+export { SoilHero, SoilTesting };
 
 //slopes page
 import Engineers from "./slopes/engineers.svg";
@@ -76,3 +77,8 @@ export { Engineers };
 import Roller from "./road/roller.svg";
 
 export { Roller };
+
+//Land Capability page
+import Mapping from "./land/mapping.svg";
+
+export { Mapping };

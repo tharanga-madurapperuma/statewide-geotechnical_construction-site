@@ -7,12 +7,15 @@
 
     --font-family-poppins: "Poppins", sans-serif;
     --font-family-inter: "Inter", sans-serif;
+
+    --swiper-navigation-size: 20px !important;
 }
 
 .font-poppins-62-400 {
     font-family: var(--font-family-poppins);
     font-weight: 400;
     font-size: 62px;
+    color: #e2ebf7c7;
 }
 
 @theme {
@@ -21,9 +24,12 @@
     --font-inter: "Inter", sans-serif;
 
     --color-blue-25: #f7fcff;
+    --color-blue-transparent: #144ce61a;
+
+    --color-blue-from: #e2ebf7d8;
+    --color-blue-to: #b4d6ffd8;
     --color-blue-250: #aee0ff;
     --color-blue-new-50: #ebf7ff;
-    --color-blue-250: #aee0ff;
 
     /* SIZES */
     --text-10: 10px;
@@ -34,6 +40,7 @@
     --text-24: 24px;
     --text-28: 28px;
     --text-32: 32px;
+    --text-36: 36px;
     --text-40: 40px;
     --text-48: 48px;
     --text-56: 56px;

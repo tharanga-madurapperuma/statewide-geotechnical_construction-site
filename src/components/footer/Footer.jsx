@@ -12,7 +12,7 @@ import {
 const Footer = () => {
     return (
         <div className="bg-slate-100 w-full h-auto flex justify-center items-center">
-            <div className="w-[80%] mt-48 flex flex-col">
+            <div className="w-[80%] mt-48 flex flex-col md:mt-72 lg:mt-[100px]">
                 <div className="w-full flex flex-col md:flex-row justify-between items-start">
                     <div className="w-full md:w-2/4">
                         <div className="w-full">
@@ -101,7 +101,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="py-10">
-                    <p className="w-[70%] font-inter font-400 text-12 md:text-14 lg:text-16 pt-40 md:pt-0 pb-20">
+                    <p className="w-[70%] font-inter font-400 text-12 md:text-14 lg:text-16 pt-40 md:pt-0 pb-20 md:pb-0 md:mb-72 lg:mb-[100px]">
                         Statewide Geotechnical 2025&copy;, All rights reserved.
                     </p>
                 </div>

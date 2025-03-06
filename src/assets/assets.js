@@ -1,4 +1,4 @@
-import Logo from "./logo.png";
+import Logo from "./logo.svg";
 import InstaLogo from "./icons/insta.png";
 import DribbleLogo from "./icons/dribble.png";
 import TwitterLogo from "./icons/twitter.png";
@@ -32,6 +32,10 @@ import FileIcon from "./icons/fileicon.svg";
 import DownloadIcon from "./icons/download.svg";
 import Arrowup from "./icons/arrow-tr.svg";
 
+// navbar icons
+import Menu from "./navbar/menu.svg";
+import Close from "./navbar/cancel.svg";
+
 export {
     Logo,
     InstaLogo,
@@ -62,6 +66,8 @@ export {
 export { WorkerHat };
 export { FileIcon, DownloadIcon };
 
+// navbar
+export { Menu, Close };
 //soil page
 import SoilHero from "./soil/worker.svg";
 import SoilTesting from "./soil/soil.svg";

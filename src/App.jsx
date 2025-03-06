@@ -16,7 +16,7 @@ import LandCapability from "./pages/Land Capability/LandCapability";
 
 const App = () => {
     return (
-        <div>
+        <div className="overflow-x-hidden">
             <BrowserRouter>
                 <Navbar />
                 <Routes>

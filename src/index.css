@@ -7,12 +7,15 @@
 
     --font-family-poppins: "Poppins", sans-serif;
     --font-family-inter: "Inter", sans-serif;
+
+    --swiper-navigation-size: 20px !important;
 }
 
 .font-poppins-62-400 {
     font-family: var(--font-family-poppins);
     font-weight: 400;
     font-size: 62px;
+    color: #e2ebf7c7;
 }
 
 @theme {
@@ -21,6 +24,10 @@
     --font-inter: "Inter", sans-serif;
 
     --color-blue-25: #f7fcff;
+    --color-blue-transparent: #144ce61a;
+
+    --color-blue-from: #e2ebf7d8;
+    --color-blue-to: #b4d6ffd8;
 
     /* SIZES */
     --text-10: 10px;

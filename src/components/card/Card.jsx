@@ -2,15 +2,26 @@ import React from "react";
 
 const Card = ({ image, title, description }) => {
     return (
-        <div className="rounded-lg ">
+        <div className="rounded-lg">
             <img
                 src={image}
                 alt={title}
-                className="w-full h-[15vw] object-cover rounded-lg"
+                className="w-full h-[30vw] sm:h-[15vw] object-cover rounded-xl"
             />
             <div className="mt-4">
-                <h3 className="font-bold text-lg">{title}</h3>
-                <p className="text-gray-600 mt-2">{description}</p>
+                <h3 className="font-inter font-500 text-14 md:font-600 sm:text-14 md:text-18">
+                    {title}
+                </h3>
+                <p className="sm:hidden font-inter font-400 text-12 sm:text-14 md:text-16  text-gray-600 mt-2">
+                    {description.length > 100
+                        ? `${description.slice(0, 50)}...`
+                        : description}
+                </p>
+                <p className="hidden sm:block font-inter font-400 text-12 sm:text-14 md:text-16 text-gray-600 mt-2">
+                    {description.length > 100
+                        ? `${description.slice(0, 80)}...`
+                        : description}
+                </p>
             </div>
         </div>
     );

@@ -1,17 +1,28 @@
 import React from 'react';
 import CardIconTopLeft from '../../components/card-icon-top-left/CardIconTopLeft';
-import { Engineers, WorkerHat, Arrowup } from '../../assets/assets';
+import ButtonCard from '../../components/card/ButtonCard';
+import TextSection from '../../components/text/TextSection';
+import { Engineers, WorkerHat, Arrowup, SoilTesting } from '../../assets/assets';
 
 const Slopes = () => {
     return (
         <div className='flex flex-col w-full'>
+          {/* First Section */}
+          <div className="flex items-center justify-center w-full h-screen -my-23">
+              <ButtonCard
+                image={SoilTesting}
+                title="Slopes and Stability Assessment"
+                description="At Statewide Geotechnical (Aust) Pty Ltd, we o8er comprehensive slope and stability assessment services designed to mitigate risks and enhance safety for construction projects on sloped or complex terrain. With our in-depth understanding of soil mechanics, ground behavior, and site-specific environmental factors, we provide precise evaluations and customized solutions to ensure stability for both natural and engineered slopes."
+                buttonText="Get in Touch"
+              />
+            </div>
             {/* Second Section */}
             <div className='soil__second-section p-21 w-full h-auto'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
-                    <h2 className='font-bold text-4xl text-left text-[33px]'>
+                    <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
                     Our Slope and Stability Assessment Services
                     </h2>
-                    <p className='text-left text-[15px] mt-4'>
+                    <p className='text-base sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
                     Slopes and embankments present unique challenges due to factors like soil composition, groundwater levels, and seasonal weather changes. Our team specializes in assessing these complexities, o8ering practical solutions to manage and prevent issues like erosion, landslides, and soil movement.
                     </p>
                         <div className="grid grid-cols-3 grid-rows-3 gap-4 pt-[35px]">
@@ -139,29 +150,21 @@ const Slopes = () => {
             </div>
 
             {/* Third Section */}
-            <div className='flex w-full h-auto bg-blue-100 p-21'>
-                <div className='flex flex-col items-left justify-left w-full h-auto'>
-                  <h2 className='font-bold text-4xl text-left text-[33px]'>
-                     Why Choose Statewide Geotechnical for Slope Stability Assessment?
-
-                  </h2>
-                  <p className='text-left text-[15px] mt-4'>
-                  With our expert team and state-of-the-art analysis tools, Statewide Geotechnical provides reliable slope and stability assessments that empower you to make informed decisions about site design and safety. Our assessments o8er clear, actionable recommendations to help manage risk, maintain site integrity, and ensure regulatory compliance. Whether for residential, commercial, or infrastructure projects, we tailor our solutions to meet the unique demands of each site, enhancing safety and stability for years to come.
+            <TextSection
+                title='Why Choose Statewide Geotechnical for Slope Stability Assessment?'
+                description='With our expert team and state-of-the-art analysis tools, Statewide Geotechnical provides reliable slope and stability assessments that empower you to make informed decisions about site design and safety. Our assessments o8er clear, actionable recommendations to help manage risk, maintain site integrity, and ensure regulatory compliance. Whether for residential, commercial, or infrastructure projects, we tailor our solutions to meet the unique demands of each site, enhancing safety and stability for years to come.'
+                />   
 
 
-                  </p>
-                </div>
-
-            </div>
 
             {/* Fourth Section */}
             <div className='flex w-full h-auto bg-white-100 p-21'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
-                  <h2 className='font-bold text-4xl text-left text-[33px]'>
+                  <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
                   Statewide Geotechnical (Aust) Pty Ltd – Your Partner for Slope Stability and Safety
 
                   </h2>
-                  <p className='text-left text-[15px] mt-4'>
+                  <p className='text-base sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
                   Trust Statewide Geotechnical to deliver comprehensive, science-backed solutions for slopes and stability. With our commitment to precision and safety, we provide the expertise and support you need for stable, reliable, and successful construction on any terrain.
                   </p>
 

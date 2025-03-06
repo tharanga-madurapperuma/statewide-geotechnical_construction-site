@@ -1,17 +1,28 @@
 import React from 'react';
 import CardIconTopLeft from '../../components/card-icon-top-left/CardIconTopLeft';
+import ButtonCard from '../../components/card/ButtonCard';
+import TextSection from '../../components/text/TextSection';
 import { Arrowup, WorkerHat, Engineers, Roller } from '../../assets/assets';
 
 
 const Road = () => {
     return (
         <div className='flex flex-col w-full'>
+           {/* First Section */}
+           <div className="flex items-center justify-center w-full h-screen -my-23">
+              <ButtonCard
+                image={Roller}
+                title="Slopes and Stability Assessment"
+                description="At Statewide Geotechnical (Aust) Pty Ltd, we o8er comprehensive slope and stability assessment services designed to mitigate risks and enhance safety for construction projects on sloped or complex terrain. With our in-depth understanding of soil mechanics, ground behavior, and site-specific environmental factors, we provide precise evaluations and customized solutions to ensure stability for both natural and engineered slopes."
+                buttonText="Get in Touch"
+              />
+            </div>
             {/* Second Section */}
             <div className='soil__second-section p-21 w-full h-auto'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
                     
                         <div className="grid grid-cols-3 grid-rows-3 gap-4 pt-[35px] ">
-                          <div className='col-span-1 row-span-1 h-[450px]'>
+                          <div className='col-span-1 row-span-1'>
                             <CardIconTopLeft 
                                 iconUrl={WorkerHat}
                                 iconBackground='bg-white-100'
@@ -31,7 +42,7 @@ const Road = () => {
                             <img src={Engineers} alt='Engineers' className='w-full h-full object-cover rounded-3xl'/>
                           </div>
 
-                          <div className='col-span-1 row-span-1 h-[450px]'>
+                          <div className='col-span-1 row-span-1'>
                             <CardIconTopLeft 
                                 iconUrl={WorkerHat}
                                 iconBackground='bg-white'
@@ -47,7 +58,7 @@ const Road = () => {
                             />
                           </div>
 
-                          <div className='col-span-1 row-span-1 h-[450px]'>
+                          <div className='col-span-1 row-span-1'>
                             <CardIconTopLeft 
                                 iconUrl={WorkerHat}
                                 iconBackground='bg-white'
@@ -67,7 +78,7 @@ const Road = () => {
                             <img src={Roller} alt='Roller' className='w-full h-full object-cover rounded-3xl'/>
                           </div>
 
-                          <div className='col-span-1 row-span-1 h-[450px]'>
+                          <div className='col-span-1 row-span-1'>
                             <CardIconTopLeft 
                                 iconUrl={WorkerHat}
                                 iconBackground='bg-white'
@@ -83,7 +94,7 @@ const Road = () => {
                             />
                           </div>
 
-                          <div className='col-span-1 row-span-1 h-[450px]'>
+                          <div className='col-span-1 row-span-1'>
                             <CardIconTopLeft 
                                 iconUrl={WorkerHat}
                                 iconBackground='bg-white-100'
@@ -99,7 +110,7 @@ const Road = () => {
                             />
                           </div>
 
-                          <div className='col-span-1 row-span-1 h-[450px]'>
+                          <div className='col-span-1 row-span-1'>
                             <CardIconTopLeft 
                                 iconUrl={WorkerHat}
                                 iconBackground='bg-white'
@@ -115,7 +126,7 @@ const Road = () => {
                             />
                           </div>
 
-                          <div className='col-span-1 row-span-1 h-[450px]'>
+                          <div className='col-span-1 row-span-1'>
                             <CardIconTopLeft 
                                 iconUrl={WorkerHat}
                                 iconBackground='bg-white'
@@ -132,12 +143,14 @@ const Road = () => {
                           </div>
                           
                         </div>
-                        <h2 className='font-bold text-4xl text-left text-[33px] pt-20'>
-                        Aggregate Testing Services
+                        <div className='ms:mt-20'>
+                        <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left pt-22'>
+                        Our Road Pavement Design Services
                     </h2>
-                    <p className='text-left text-[15px] mt-4'>
-                    Our aggregate testing services are essential for understanding material characteristics, ensuring quality for use in concrete, asphalt, and foundational applications. Properly tested aggregates contribute to the longevity and stability of structures, roads, and other infrastructure.
+                    <p className='text-base sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
+                    Effective pavement design requires a deep understanding of soil mechanics, material properties, and structural requirements. Our team utilizes advanced analysis and industry-standard methods to develop pavement designs that offer optimal performance and longevity.
                     </p>
+                    </div>
                 </div>
 
                 
@@ -145,29 +158,19 @@ const Road = () => {
             </div>
 
             {/* Third Section */}
-            <div className='flex w-full h-auto bg-blue-100 p-21'>
-                <div className='flex flex-col items-left justify-left w-full h-auto'>
-                  <h2 className='font-bold text-4xl text-left text-[33px]'>
-                  Why Choose Statewide Geotechnical for Road Pavement Design?
-
-                  </h2>
-                  <p className='text-left text-[15px] mt-4'>
-                  Statewide Geotechnical combines geotechnical expertise with industry-leading analysis to deliver road pavement designs that maximize durability, safety, and cost-efficiency. Our approach is grounded in thorough site assessment, precise material selection, and a commitment to regulatory compliance, ensuring each project meets or exceeds industry standards.
-
-
-                  </p>
-                </div>
-
-            </div>
+            <TextSection
+                title='Why Choose Statewide Geotechnical for Road Pavement Design?'
+                description='Statewide Geotechnical combines geotechnical expertise with industry-leading analysis to deliver road pavement designs that maximize durability, safety, and cost-efficiency. Our approach is grounded in thorough site assessment, precise material selection, and a commitment to regulatory compliance, ensuring each project meets or exceeds industry standards.'
+                />
 
             {/* Fourth Section */}
             <div className='flex w-full h-auto bg-white-100 p-21'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
-                  <h2 className='font-bold text-4xl text-left text-[33px]'>
+                  <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
                   Statewide Geotechnical (Aust) Pty Ltd – Your Partner for Resilient Road Infrastructure
 
                   </h2>
-                  <p className='text-left text-[15px] mt-4'>
+                  <p className='text-base sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
                   From local access roads to high-capacity highways, trust Statewide Geotechnical to provide road pavement design solutions that stand the test of time. With our experience and dedication to quality, we deliver safe, sustainable, and high-performance pavements for all types of infrastructure projects.
                   </p>
 
@@ -176,7 +179,7 @@ const Road = () => {
                         <span className='mr-1'>
                         Get a Consultation
                         </span>
-                         <img className=' pl-1 flex w-6 h-6 pl-1' src={Arrowup} alt='Arrow up' />
+                         <img className=' pl-1 flex w-4 h-4 pl-1' src={Arrowup} alt='Arrow up' />
                      </a>
                 </div>
                 </div>

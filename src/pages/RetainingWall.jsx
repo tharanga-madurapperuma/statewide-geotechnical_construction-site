@@ -3,7 +3,7 @@ import ButtonCard from "../components/card/ButtonCard";
 
 const RetainingWall = () => {
   return (
-    <div className="flex flex-col w-full items-center justify-center">
+    <div >
       <div className="flex items-center justify-center h-screen mt-0">
             <ButtonCard
               image="/getintouch.png"

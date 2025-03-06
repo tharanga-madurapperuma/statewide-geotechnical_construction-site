@@ -1,29 +1,30 @@
 import React from "react";
 // stylings are not completed
 
+
 const InfoSection = ({ title, description, buttonText, buttonLink, imageSrc, reverse }) => {
   return (
     <section 
-      className={`flex flex-col md:flex-row items-center justify-between gap-10 px-5 py-12 max-w-7xl mx-auto ${
+      className={`flex flex-col md:flex-row items-center justify-between  gap-[56px] px-5 py-12 max-w-7xl mx-auto ${
         reverse ? "md:flex-row-reverse" : "md:flex-row"
       }`}
     >
       {/* Image Section */}
-      <div className="flex-1 flex justify-center">
-        <img src={imageSrc} alt={title} className="w-full max-w-lg rounded-lg" />
+      <div className="flex-1 flex justify-center ">
+        <img src={imageSrc} alt={title} className=" h-[412px] w-[576px] rounded-lg" />
       </div>
 
       {/* Text Section */}
       <div className="flex-1 text-left">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        <h2 className={`text-2xl sm:text-3xl font-600  text-gray-900 mb-4 ${reverse ? ("md:text-[48px]" ) : " md:md:text-[62px]"}`}>
           {title}
         </h2>
-        <p className="text-base sm:text-lg text-gray-600 leading-relaxed text-justify mb-5">
+        <p className="text-[18px] font-400  sm:text-lg text-gray-600 leading-relaxed text-justify mb-5">
           {description}
         </p>
         <a 
           href={buttonLink} 
-          className="text-blue-600 border border-blue-600 px-4 py-2 rounded-md text-base sm:text-lg font-medium transition duration-300 hover:bg-blue-600 hover:text-white inline-block"
+          className="text-[#0064FF] border border-[#0064FF] px-4 py-2 rounded-md text-base md:text-[18px] sm:text-lg font-medium transition duration-300 hover:bg-[#0064FF] hover:text-white inline-block"
         >
           {buttonText} →
         </a>

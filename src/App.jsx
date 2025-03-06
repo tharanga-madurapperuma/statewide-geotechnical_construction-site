@@ -22,7 +22,7 @@ const App = () => {
                     <Route path="/envDrilling" element={<EnvDrilling />} />
                     <Route path="/inspections" element={<Inspections />} />
                 </Routes>
-                {/* <Footer /> */}
+                <Footer />
             </BrowserRouter>
         </div>
     );

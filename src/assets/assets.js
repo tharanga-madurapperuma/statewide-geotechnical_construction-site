@@ -58,6 +58,11 @@ import DocWhite from "./drilling/icons/docWhite.svg";
 // Env Drilling page
 import Map from "./envDrilling/map.svg";
 
+// Inspections page
+import InsHero from "./inspections/insHero.jpg";
+import InsSecond from "./inspections/insSecond.jpg";
+import InsThird from "./inspections/insThird.jpg";
+
 export {
     Logo,
     InstaLogo,
@@ -114,3 +119,6 @@ export {
 
 // Env Drilling Page
 export { Map };
+
+// Inspections Page
+export { InsHero, InsSecond, InsThird };

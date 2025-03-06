@@ -1,6 +1,6 @@
 /* HOME */
 
-.home__first-section {
+/* .home__first-section {
     font-family: var(--font-family-inter);
 }
 
@@ -94,7 +94,7 @@
     font-family: var(--font-family-inter);
     font-size: 24px;
     font-weight: 500;
-}
+} */
 
 /* ####################################### */
 /* DRILLING PAGE */
@@ -133,7 +133,7 @@
 }
 
 /* FOOTER */
-.footer-links-span {
+/* .footer-links-span {
     font-family: var(--font-family-poppins);
     font-weight: 600;
     font-size: 20px;
@@ -154,7 +154,7 @@
     font-family: var(--font-family-poppins);
     font-weight: 400;
     font-size: 20px;
-}
+} */
 
 /* swiper  */
 .swiper-button-prev,
@@ -169,13 +169,22 @@
 }
 
 .swiper-button-prev {
-    left: 0px; /* Adjust as needed */
+    position: absolute;
+    left: -32px; /* Adjust as needed */
+    color: black !important;
 }
 
 .swiper-button-next {
-    right: 0px; /* Adjust as needed */
+    position: absolute;
+    right: -32px; /* Adjust as needed */
+    color: black !important;
 }
 
-.swiper-container {
+.mySwiper {
+    overflow: visible !important;
+    position: relative;
+}
+
+.swiper-wrapper {
     overflow: visible !important;
 }

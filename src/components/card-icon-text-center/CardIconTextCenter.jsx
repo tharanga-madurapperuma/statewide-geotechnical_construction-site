@@ -8,15 +8,15 @@ const CardIconTextCenter = ({
 }) => {
     return (
         <div className="w-full h-full">
-            <div className="w-full h-full flex flex-col items-center justify-center rounded-3xl bg-blue-25 border border-blue-100 hover:border-blue-300 transition duration-700 p-[30px]">
-                <div className="mb-8">
+            <div className="w-full h-full flex flex-col items-center rounded-2xl bg-blue-25 border hover:bg-blue-50 border-blue-100 hover:border-blue-300 transition duration-700 pb-4 px-2 sm:px-4">
+                <div className="mt-1 md:mt-2 lg:mt-6">
                     <img src={iconUrl} />
                 </div>
-                <h2 className="font-inter text-24 font-500 text-center">
+                <h2 className="font-inter text-14 font-500 text-center md:text-18 lg:text-24">
                     {titleText}
                 </h2>
                 {bodyTextPresent && (
-                    <p className="font-inter text-16 font-400 mt-1 text-center">
+                    <p className="font-inter text-12 font-400 mt-1 sm:text-12 text-center md:text-14 lg:text-16 lg:mb-6">
                         {bodyText}
                     </p>
                 )}

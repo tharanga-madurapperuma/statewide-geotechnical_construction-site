@@ -1,21 +1,21 @@
 import React from "react";
 import Callbox from "../../components/callbox/Callbox";
 import {
-  boreInstallation,
-  environmental,
-  geotechnical,
-  HomeHero,
-  HomeSecondWhatWe,
-  HomeSecondWhatWe2,
-  HomeSecondWhoWe,
-  Icon1,
-  Icon2,
-  Icon3,
-  Icon4,
-  ProfilePics,
-  rightArrow,
-  soilTesting,
-  SuccessWorker,
+    boreInstallation,
+    environmental,
+    geotechnical,
+    HomeHero,
+    HomeSecondWhatWe,
+    HomeSecondWhatWe2,
+    HomeSecondWhoWe,
+    Icon1,
+    Icon2,
+    Icon3,
+    Icon4,
+    ProfilePics,
+    rightArrow,
+    soilTesting,
+    SuccessWorker,
 } from "../../assets/assets";
 import Card from "../../components/card/Card";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -186,9 +186,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-              </div>
             </div>
-
             {/* HOME - SECOND SECTION */}
             <div className="w-full">
                 {/* WHO WE ARE */}
@@ -409,15 +407,13 @@ const Home = () => {
                     <Callbox />
                 </div>
             </div>
-          </div>
+
+            {/* START JOURNEY */}
+            <div className="">
+                <Callbox />
+            </div>
         </div>
-        {/* START JOURNEY */}
-        <div className="">
-          <Callbox />
-        </div>
-      </div>
-    </div>
-  );
+    );
 };
 
 export default Home;

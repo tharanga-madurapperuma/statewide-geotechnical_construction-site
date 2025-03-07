@@ -96,6 +96,35 @@
     font-weight: 500;
 } */
 
+/* ####################################### */
+/* DRILLING PAGE */
+/* ####################################### */
+.drilling__animated-cards-1,
+.drilling__animated-cards-2,
+.drilling__animated-cards-3 {
+    transition: 0.5s;
+}
+.drilling__animated-cards-1:hover ~ .drilling__animated-cards-2 {
+    left: 40%;
+}
+.drilling__animated-cards-1:hover ~ .drilling__animated-cards-3 {
+    left: 70%;
+}
+
+.drilling__animated-cards-2:hover {
+    left: 22%;
+}
+.drilling__animated-cards-2:hover ~ .drilling__animated-cards-3 {
+    left: 65%;
+}
+
+.drilling__animated-cards-3:hover {
+    left: 55%;
+}
+.drilling__animated-cards-3:hover ~ .drilling__animated-cards-2 {
+    left: 10%;
+}
+
 /* NAVBAR */
 .navbar-items {
     font-family: var(--font-family-poppins);

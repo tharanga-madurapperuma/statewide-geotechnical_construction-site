@@ -13,6 +13,7 @@ import Soil from "./pages/soil/Soil";
 import Slopes from "./pages/slopes/Slopes";
 import Road from "./pages/road/Road";
 import LandCapability from "./pages/Land Capability/LandCapability";
+import EnvDrilling from "./pages/envDrilling/EnvDrilling";
 
 const App = () => {
     return (
@@ -24,14 +25,21 @@ const App = () => {
                     <Route path="/RetainingWall" element={<RetainingWall />} />
                     <Route path="/drilling" element={<Drilling />} />
                     <Route path="/soil" element={<Soil />} />
-                    <Route path="/slopes" element={<Slopes />}/>
+                    <Route path="/slopes" element={<Slopes />} />
                     <Route path="/road" element={<Road />} />
                     <Route path="/land" element={<LandCapability />} />
-                    <Route path="/SiteInvetigate" element={<SiteInvetigate />} />
-                    <Route path="/FoundationBuilt" element={<FoundationBuilt />} />
+                    <Route
+                        path="/SiteInvetigate"
+                        element={<SiteInvetigate />}
+                    />
+                    <Route
+                        path="/FoundationBuilt"
+                        element={<FoundationBuilt />}
+                    />
 
+                    <Route path="/envDrilling" element={<EnvDrilling />} />
                 </Routes>
-                <Footer />
+                {/* <Footer /> */}
             </BrowserRouter>
         </div>
     );

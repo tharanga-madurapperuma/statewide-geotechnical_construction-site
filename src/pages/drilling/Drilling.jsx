@@ -3,10 +3,10 @@ import CardIconTextCenter from "../../components/card-icon-text-center/CardIconT
 import {
     DocWhite,
     DrillingBit,
-    DrillingSecond,
     FlaskWhite,
     Gas,
     Hand,
+    DrillingSecond,
     Hero,
     ManWhite,
     TopDrill,
@@ -24,6 +24,8 @@ const Drilling = () => {
     return (
         <div className="w-full flex flex-col items-center">
             {/* Hero Hashan Component */}
+
+            {/* Sevindu Component */}
             <div className="mt-4 sm:mt-6 px-3 sm:px-4">
                 <ButtonCard
                     image={Hero}
@@ -43,6 +45,7 @@ const Drilling = () => {
                     reverse={false}
                 />
             </div>
+
 
             {/* ANIMATION PART */}
             <div className="w-[90%] h-auto md:h-[300px] lg:h-[350px] xl:h-[350px] py-10 mb-[50px]">
@@ -182,6 +185,7 @@ const Drilling = () => {
                     />
                 </div>
             </div>
+
             {/* Blue text */}
             <div className="mb-8 px-4 sm:px-8 sm:mb-40 md:mb-58">
                 <TextSection

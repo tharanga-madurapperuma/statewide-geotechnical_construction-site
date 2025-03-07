@@ -60,8 +60,16 @@ import FlaskWhite from "./drilling/icons/flaskWhite.svg";
 import ManWhite from "./drilling/icons/manWhite.svg";
 import DocWhite from "./drilling/icons/docWhite.svg";
 
+
+// Env Drilling page
+import Map from "./envDrilling/map.svg";
+import EnvHero from "./envDrilling/hero.jpg";
+import EnvSecond from "./envDrilling/envSecond.jpg";
+import DocIcon from "./envDrilling/docIcon.svg";
+
 import Hero from "./drilling/hero.jpg";
 import DrillingSecond from "./drilling/second.png";
+
 
 export {
     Logo,
@@ -142,3 +150,6 @@ export {
     Hero,
     DrillingSecond,
 };
+
+// Env Drilling Page
+export { Map, EnvHero, EnvSecond, DocIcon };

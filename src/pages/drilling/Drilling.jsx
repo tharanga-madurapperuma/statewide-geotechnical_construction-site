@@ -6,6 +6,8 @@ import {
     FlaskWhite,
     Gas,
     Hand,
+    DrillingSecond,
+    Hero,
     ManWhite,
     TopDrill,
     WallDrill,
@@ -14,12 +16,36 @@ import {
     WellWall,
 } from "../../assets/assets";
 import CardIconTextCenterColored from "../../components/card-icon-text-center/CardIconTextCenterColored";
+import ButtonCard from "../../components/card/ButtonCard";
+import InfoSection from "../../components/info-section/InfoSection";
+import TextSection from "../../components/text/TextSection";
 
 const Drilling = () => {
     return (
         <div className="w-full flex flex-col items-center">
             {/* Hero Hashan Component */}
+
             {/* Sevindu Component */}
+            <div className="mt-4 sm:mt-6 px-3 sm:px-4">
+                <ButtonCard
+                    image={Hero}
+                    title="Expert Geotechnical Drilling, Testing, and Consulting Services"
+                    description="Statewide Geotechnical provides a full range of geotechnical services, including drilling, sampling, down-hole testing, and monitoring bore installation. We serve a wide variety of clients, including engineers, architects, government agencies, and developers, offering customized solutions for every project."
+                    buttonText="Request a Consultation"
+                />
+            </div>
+            {/* Sevindu Component */}
+            <div className="mt-8 sm:mt-40 md:mt-[100px] mb-8 sm:mb-40 md:mb-[100px] md:px-[5%]">
+                <InfoSection
+                    title="Comprehensive Service Coverage"
+                    description="Operating across Melbourne and throughout Victoria, we are equipped to handle a variety of challenging project requirements. Whether you're working with tight or difficult access sites, or need low-head clearance machinery, our specialized team and advanced equipment ensure the job is done efficiently and accurately."
+                    buttonText=""
+                    buttonLink=""
+                    imageSrc={DrillingSecond}
+                    reverse={false}
+                />
+            </div>
+
 
             {/* ANIMATION PART */}
             <div className="w-[90%] h-auto md:h-[300px] lg:h-[350px] xl:h-[350px] py-10 mb-[50px]">
@@ -68,6 +94,8 @@ const Drilling = () => {
                     </div>
                 </div>
             </div>
+
+            {/* Cards */}
             <div className="w-[90%] md:mt-[200px] mb-[100px]">
                 <h1 className="font-inter font-600 text-28 md:text-40 lg:text-48 w-[80%] ">
                     Our Comprehensive Geotechnical Services
@@ -156,6 +184,16 @@ const Drilling = () => {
                         bodyText="For on-site soil strength assessments"
                     />
                 </div>
+            </div>
+
+            {/* Blue text */}
+            <div className="mb-8 px-4 sm:px-8 sm:mb-40 md:mb-58">
+                <TextSection
+                    title="Why Choose Statewide Geotechnical?"
+                    description="Operating across Melbourne and throughout Victoria, we are equipped to handle a variety of challenging project requirements. Whether you're working with tight or difficult access sites, or need low-head clearance machinery, our specialized team and advanced equipment ensure the job is done efficiently and accurately."
+                    buttonText="Get in Touch Today for Expert Geotechnical Services"
+                    buttonLink="#"
+                />
             </div>
         </div>
     );

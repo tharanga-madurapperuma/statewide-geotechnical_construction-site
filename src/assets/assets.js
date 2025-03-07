@@ -1,4 +1,4 @@
-import Logo from "./logo.png";
+import Logo from "./logo.svg";
 import InstaLogo from "./icons/insta.png";
 import DribbleLogo from "./icons/dribble.png";
 import TwitterLogo from "./icons/twitter.png";
@@ -30,6 +30,11 @@ import Icon4 from "./home/choose-us/icon4.png";
 import WorkerHat from "./icons/workerCap.svg";
 import FileIcon from "./icons/fileicon.svg";
 import DownloadIcon from "./icons/download.svg";
+import Arrowup from "./icons/arrow-tr.svg";
+
+// navbar icons
+import Menu from "./navbar/menu.svg";
+import Close from "./navbar/cancel.svg";
 
 // Drilling page
 import Doc from "./drilling/icons/doc.svg";
@@ -86,6 +91,7 @@ export {
     LocationIcon,
     PhoneIcon,
     MailIcon,
+    Arrowup,
 };
 
 // Component icons
@@ -122,3 +128,26 @@ export { Map };
 
 // Inspections Page
 export { InsHero, InsSecond, InsThird };
+
+// navbar
+export { Menu, Close };
+//soil page
+import SoilHero from "./soil/worker.svg";
+import SoilTesting from "./soil/soil.svg";
+
+export { SoilHero, SoilTesting };
+
+//slopes page
+import Engineers from "./slopes/engineers.svg";
+
+export { Engineers };
+
+//Road page
+import Roller from "./road/roller.svg";
+
+export { Roller };
+
+//Land Capability page
+import Mapping from "./land/mapping.svg";
+
+export { Mapping };

@@ -10,7 +10,7 @@ const LicenseCard = ({image, title}) => {
             className="text-white w-[95.87px] h-[95.87px]" />
       </div>
       <p className="mt-4 text-lg font-medium text-gray-900 text-center">
-        Water Bore Licenses <br />
+        {title} <br />
         (Class 1 & 2)
       </p>
     </div>

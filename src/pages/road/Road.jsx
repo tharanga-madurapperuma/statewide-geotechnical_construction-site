@@ -7,22 +7,22 @@ import { Arrowup, WorkerHat, Engineers, Roller } from '../../assets/assets';
 
 const Road = () => {
     return (
-        <div className='flex flex-col w-full'>
+        <div className='w-full flex flex-col items-center'>
            {/* First Section */}
-           <div className="flex items-center justify-center w-full h-screen -my-23">
+           <div className="mt-4 sm:mt-6 px-3 sm:px-4">
               <ButtonCard
                 image={Roller}
                 title="Slopes and Stability Assessment"
                 description="At Statewide Geotechnical (Aust) Pty Ltd, we o8er comprehensive slope and stability assessment services designed to mitigate risks and enhance safety for construction projects on sloped or complex terrain. With our in-depth understanding of soil mechanics, ground behavior, and site-specific environmental factors, we provide precise evaluations and customized solutions to ensure stability for both natural and engineered slopes."
-                buttonText="Get in Touch"
+                buttonText="Request a Consultation"
               />
             </div>
             {/* Second Section */}
-            <div className='soil__second-section p-21 w-full h-auto'>
+            <div className='soil__second-section p-[45px] sm:p-[85px] w-full h-auto'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
                     
-                        <div className="grid grid-cols-3 grid-rows-3 gap-4 pt-[35px] ">
-                          <div className='col-span-1 row-span-1'>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-[35px] w-full">
+                          <div className='col-span-1 row-span-1 sm:w-full'>
                             <CardIconTopLeft 
                                 iconUrl={WorkerHat}
                                 iconBackground='bg-white-100'

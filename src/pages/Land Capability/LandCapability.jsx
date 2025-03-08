@@ -6,9 +6,9 @@ import { WorkerHat, Mapping, Arrowup } from '../../assets/assets';
 
 const LandCapability = () => {
     return (
-        <div className='flex flex-col w-full'>
+        <div className='w-full flex flex-col items-center'>
             {/* First Section */}
-           <div className="flex items-center justify-center w-full h-screen -my-23">
+           <div className="mt-4 sm:mt-6 px-3 sm:px-4">
               <ButtonCard
                 image={Mapping}
                 title="Land Capability Assessment"
@@ -18,7 +18,7 @@ const LandCapability = () => {
             </div>
 
              {/* Second Section */}
-             <div className='soil__second-section p-21 w-full h-auto'>
+             <div className='soil__second-section p-[45px] sm:p-[85px] w-full h-auto'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
                     <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
                     Our Land Capability Assessment Services
@@ -26,8 +26,8 @@ const LandCapability = () => {
                     <p className='text-base sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
                     Land Capability Assessments are essential for determining the viability of a site for its intended use, whether that’s residential development, wastewater treatment, agriculture, or industrial facilities. Our in-depth LCA services provide clients with a clear understanding of land constraints and opportunities, allowing for informed, sustainable decisions.
                     </p>
-                        <div className="grid grid-cols-3 grid-rows-2 gap-4 pt-[35px]">
-                          <div className='col-span-1 row-span-1'>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-[35px] w-full">
+                          <div className='col-span-1 row-span-1 sm:w-full'>
                             <CardIconTopLeft 
                                 iconUrl={WorkerHat}
                                 iconBackground='bg-white-100'

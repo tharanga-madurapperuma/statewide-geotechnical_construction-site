@@ -60,6 +60,10 @@ import FlaskWhite from "./drilling/icons/flaskWhite.svg";
 import ManWhite from "./drilling/icons/manWhite.svg";
 import DocWhite from "./drilling/icons/docWhite.svg";
 
+// Inspections page
+import InsHero from "./inspections/insHero.jpg";
+import InsSecond from "./inspections/insSecond.jpg";
+import InsThird from "./inspections/insThird.jpg";
 
 // Env Drilling page
 import Map from "./envDrilling/map.svg";
@@ -100,6 +104,9 @@ export {
 // Component icons
 export { WorkerHat };
 export { FileIcon, DownloadIcon };
+
+// Inspections Page
+export { InsHero, InsSecond, InsThird };
 
 // navbar
 export { Menu, Close };

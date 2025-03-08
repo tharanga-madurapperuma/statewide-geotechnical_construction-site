@@ -46,7 +46,6 @@ const Drilling = () => {
                 />
             </div>
 
-
             {/* ANIMATION PART */}
             <div className="w-[90%] h-auto md:h-[300px] lg:h-[350px] xl:h-[350px] py-10 mb-[50px]">
                 <div className="flex items-start w-1\2">

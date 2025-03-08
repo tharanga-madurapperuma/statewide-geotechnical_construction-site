@@ -2,6 +2,8 @@ import React from "react";
 import {
     Arm,
     Bell,
+    Dosar,
+    DrillingBit,
     DocIcon,
     Dosar,
     DrillingBit,

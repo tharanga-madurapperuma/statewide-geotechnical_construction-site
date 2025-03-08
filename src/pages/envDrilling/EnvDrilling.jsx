@@ -46,10 +46,15 @@ const EnvDrilling = () => {
 
             {/* Middle image card component */}
             <div className="w-[90%] h-auto py-10 mb-[50px]">
-                <div className="flex items-start w-full">
+                <div className="flex flex-col items-start w-full">
                     <h1 className="w-[80%] mb-4 font-inter text-28 sm:text-40 md:text-40 lg:text-48 font-600">
-                        Our Specialized Geotechnical Solutions Include:
+                        Qualified & Experienced Drillers
                     </h1>
+                    <p className="font-inter font-400 text-14 mt-2 mb-4 md:text-18 lg:text-24">
+                        Our team of highly qualified and experienced drillers
+                        hold certifications and competencies in key areas,
+                        including:
+                    </p>
                 </div>
                 <div className="w-full h-full grid grid-cols-3 gap-2 flex-col sm:flex-row">
                     <LicenseCard

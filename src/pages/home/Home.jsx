@@ -187,7 +187,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
             {/* HOME - SECOND SECTION */}
             <div className="w-full">
                 {/* WHO WE ARE */}
@@ -403,11 +402,8 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                {/* START JOURNEY */}
-                <div className="">
-                    <Callbox />
-                </div>
             </div>
+
             {/* START JOURNEY */}
             <div className="">
                 <Callbox />

@@ -4,6 +4,11 @@ import {
     Bell,
     Dosar,
     DrillingBit,
+    DocIcon,
+    Dosar,
+    DrillingBit,
+    EnvHero,
+    EnvSecond,
     Hammer,
     Map,
     SmallDosar,
@@ -11,18 +16,63 @@ import {
     Well,
 } from "../../assets/assets";
 import CardIconTextCenter from "../../components/card-icon-text-center/CardIconTextCenter";
+import ButtonCard from "../../components/card/ButtonCard";
+import InfoSection from "../../components/info-section/InfoSection";
+import TextSection from "../../components/text/TextSection";
+import LicenseCard from "../../components/card-icon-license/CardIconLicense";
 
 const EnvDrilling = () => {
     return (
         <div className="w-full flex flex-col items-center ">
             {/* Hero Component */}
-            <div></div>
+            <div className="mt-4 sm:mt-6 px-3 sm:px-4">
+                <ButtonCard
+                    image={EnvHero}
+                    title="Specialized Environmental & Geotechnical Drilling Services"
+                    description="At Statewide Geotechnical, we o(er a wide range of specialized environmental and geotechnical drilling services. Equipped with advanced drilling rigs, from small, handheld units to heavy truck-mounted rigs, we can handle even the most complex site conditions."
+                    buttonText="Request a Consultation"
+                />
+            </div>
 
             {/* Left pic paragraph component */}
-            <div></div>
+            <div className="mt-8 sm:mt-40 md:mt-[100px] mb-8 sm:mb-40 md:mb-[100px] md:px-[5%]">
+                <InfoSection
+                    title="Expert Drilling Equipment for Challenging Sites"
+                    description="We operate Geoprobe, Comacchio, and Custom rigs, designed for small footprint and low headroom applications—ideal for tight access and di(icult-to-reach areas. Our drilling rigs are equipped with industry-standard safety cages and emergency shut-off systems to ensure maximum safety at all times."
+                    buttonText=""
+                    buttonLink=""
+                    imageSrc={EnvSecond}
+                    reverse={false}
+                />
+            </div>
 
             {/* Middle image card component */}
-            <div></div>
+            <div className="w-[90%] h-auto py-10 mb-[50px]">
+                <div className="flex flex-col items-start w-full">
+                    <h1 className="w-[80%] mb-4 font-inter text-28 sm:text-40 md:text-40 lg:text-48 font-600">
+                        Qualified & Experienced Drillers
+                    </h1>
+                    <p className="font-inter font-400 text-14 mt-2 mb-4 md:text-18 lg:text-24">
+                        Our team of highly qualified and experienced drillers
+                        hold certifications and competencies in key areas,
+                        including:
+                    </p>
+                </div>
+                <div className="w-full h-full grid grid-cols-3 gap-2 flex-col sm:flex-row">
+                    <LicenseCard
+                        image={DocIcon}
+                        title="Water Bore Licenses (Class 1 & 2)"
+                    />
+                    <LicenseCard
+                        image={DocIcon}
+                        title="Building Industry White Cards"
+                    />
+                    <LicenseCard
+                        image={DocIcon}
+                        title="First Aid Certification"
+                    />
+                </div>
+            </div>
 
             {/* Map  */}
             <div className="w-[80%] mt-[50px] flex flex-col">
@@ -102,7 +152,14 @@ const EnvDrilling = () => {
                 </div>
             </div>
             {/* Blue background component */}
-            <div className=""></div>
+            <div className="mb-8 px-4 sm:px-8 sm:mb-40 md:mb-58">
+                <TextSection
+                    title="Why Choose Statewide Geotechnical for Your Environmental Drilling Needs?"
+                    description="state-of-the-art equipment, experienced team, and commitment to safety and environmental responsibility make us the trusted choice for environmental and geotechnical drilling services."
+                    buttonText="Get in Touch Today for Expert Drilling Solutions"
+                    buttonLink="#"
+                />
+            </div>
         </div>
     );
 };

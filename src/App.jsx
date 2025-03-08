@@ -16,6 +16,7 @@ import LandCapability from "./pages/Land Capability/LandCapability";
 import EnvDrilling from "./pages/envDrilling/EnvDrilling";
 import Inspections from "./pages/inspections/Inspections";
 
+
 const App = () => {
     return (
         <div className="overflow-x-hidden">

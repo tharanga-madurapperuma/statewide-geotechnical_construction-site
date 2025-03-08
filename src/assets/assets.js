@@ -60,13 +60,20 @@ import FlaskWhite from "./drilling/icons/flaskWhite.svg";
 import ManWhite from "./drilling/icons/manWhite.svg";
 import DocWhite from "./drilling/icons/docWhite.svg";
 
-// Env Drilling page
-import Map from "./envDrilling/map.svg";
-
 // Inspections page
 import InsHero from "./inspections/insHero.jpg";
 import InsSecond from "./inspections/insSecond.jpg";
 import InsThird from "./inspections/insThird.jpg";
+
+// Env Drilling page
+import Map from "./envDrilling/map.svg";
+import EnvHero from "./envDrilling/hero.jpg";
+import EnvSecond from "./envDrilling/envSecond.jpg";
+import DocIcon from "./envDrilling/docIcon.svg";
+
+import Hero from "./drilling/hero.jpg";
+import DrillingSecond from "./drilling/second.png";
+
 
 export {
     Logo,
@@ -98,34 +105,6 @@ export {
 export { WorkerHat };
 export { FileIcon, DownloadIcon };
 
-// Drilling page
-export {
-    Doc,
-    Dosar,
-    Arm,
-    SmallDosar,
-    Bell,
-    Hammer,
-    Drill,
-    Well,
-    Gas,
-    DrillingBit,
-    TopDrill,
-    WellWall,
-    Hand,
-    Flask,
-    Weight,
-    WallDrill,
-    WellAttaches,
-    Man,
-    ManWhite,
-    FlaskWhite,
-    DocWhite,
-};
-
-// Env Drilling Page
-export { Map };
-
 // Inspections Page
 export { InsHero, InsSecond, InsThird };
 
@@ -151,3 +130,33 @@ export { Roller };
 import Mapping from "./land/mapping.svg";
 
 export { Mapping };
+
+// Drilling page
+export {
+    Doc,
+    Dosar,
+    Arm,
+    SmallDosar,
+    Bell,
+    Hammer,
+    Drill,
+    Well,
+    Gas,
+    DrillingBit,
+    TopDrill,
+    WellWall,
+    Hand,
+    Flask,
+    Weight,
+    WallDrill,
+    WellAttaches,
+    Man,
+    ManWhite,
+    FlaskWhite,
+    DocWhite,
+    Hero,
+    DrillingSecond,
+};
+
+// Env Drilling Page
+export { Map, EnvHero, EnvSecond, DocIcon };

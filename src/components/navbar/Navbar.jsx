@@ -11,7 +11,7 @@ const Navbar = () => {
 
     return (
         <div className="md:h-[92px] md:w-full" onClick={menuEffect}>
-            <div className="hidden md:flex justify-between items-center py-6 px-28 w-full h-full">
+            <div className="hidden md:flex justify-between items-center py-6 px-[75px] w-full h-full">
                 <div className="h-full">
                     <img className="h-full" src={Logo} />
                 </div>

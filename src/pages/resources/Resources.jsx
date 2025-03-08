@@ -9,6 +9,7 @@ const Resources = () => {
             {/* First Section*/}
             <div></div>
             {/* second Section*/}
+            <div className=' w-full h-auto  px-[45px] sm:p-[85px] h-auto'>
             <div>
                 <PolicyText
                     title="1. Quality Assurance Policy"
@@ -86,6 +87,7 @@ const Resources = () => {
                         "WorkCover Insurance",
                     ]} 
                 />
+            </div>
             </div>
 
             {/* Third Section*/}

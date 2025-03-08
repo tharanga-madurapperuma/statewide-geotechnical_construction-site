@@ -16,7 +16,7 @@ const Navbar = () => {
                     <img className="h-full" src={Logo} />
                 </div>
                 <div className="navbar-items">
-                    <ul className="flex justify-between items-center space-x-18">
+                    <ul className="flex justify-between items-center space-x-24 lg:space-x-40 xl:space-x-48">
                         <li>Home</li>
                         <li>About</li>
                         <li>Services</li>

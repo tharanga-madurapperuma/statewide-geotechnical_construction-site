@@ -26,6 +26,8 @@ import Icon2 from "./home/choose-us/icon2.png";
 import Icon3 from "./home/choose-us/icon3.png";
 import Icon4 from "./home/choose-us/icon4.png";
 
+import Check from "./home/check.svg";
+
 // component icons
 import WorkerHat from "./icons/workerCap.svg";
 import FileIcon from "./icons/fileicon.svg";
@@ -74,7 +76,6 @@ import DocIcon from "./envDrilling/docIcon.svg";
 import Hero from "./drilling/hero.jpg";
 import DrillingSecond from "./drilling/second.png";
 
-
 export {
     Logo,
     InstaLogo,
@@ -99,6 +100,7 @@ export {
     PhoneIcon,
     MailIcon,
     Arrowup,
+    Check,
 };
 
 // Component icons
@@ -119,7 +121,7 @@ export { SoilHero, SoilTesting };
 //slopes page
 import Engineers from "./slopes/engineers.svg";
 import GroupTalk from "./slopes/group-talk.svg";
-export { Engineers , GroupTalk };
+export { Engineers, GroupTalk };
 
 //Road page
 import Roller from "./road/roller.svg";

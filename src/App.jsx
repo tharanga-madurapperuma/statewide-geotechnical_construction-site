@@ -17,11 +17,16 @@ import LandCapability from "./pages/Land Capability/LandCapability";
 import EnvDrilling from "./pages/envDrilling/EnvDrilling";
 import Inspections from "./pages/inspections/Inspections";
 import AccreditedPage from "./pages/accredited/AccreditedPage";
+import ContactSection from "./components/contacts/ContactSection";
+import { Hero } from "./assets/assets";
+import HeroSection from "./components/hero-section/HeroSection";
+import ContactPage from "./pages/contactUs/ContactPage";
+import AppointmentRequestForm from "./components/form/AppointmentRequestForm";
 
 const App = () => {
-    return (
-        <div className="overflow-x-hidden">
-            <BrowserRouter>
+  return (
+    <div className="overflow-x-hidden ">
+      <BrowserRouter>
                 <Navbar />
                 <Routes>
                     <Route path="/" element={<Home />} />
@@ -41,13 +46,15 @@ const App = () => {
                     />
                     <Route path="/accredited" element={<AccreditedPage />} />
                     <Route path="/envDrilling" element={<EnvDrilling />} />
+                  <Route path="/inspections" element={<Inspections />} />
                     <Route path="/inspections" element={<Inspections />} />
                     <Route path="/resources" element={<Resources />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>
-        </div>
-    );
-};
+          
+    </div>
+  )
+}
 
-export default App;
+export default App

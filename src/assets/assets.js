@@ -33,7 +33,7 @@ import WorkerHat from "./icons/workerCap.svg";
 import FileIcon from "./icons/fileicon.svg";
 import DownloadIcon from "./icons/download.svg";
 import Arrowup from "./icons/arrow-tr.svg";
-
+import ArrowAngled from "./icons/arrow-angled.svg";
 // navbar icons
 import Menu from "./navbar/menu.svg";
 import Close from "./navbar/cancel.svg";
@@ -121,7 +121,8 @@ export { SoilHero, SoilTesting };
 //slopes page
 import Engineers from "./slopes/engineers.svg";
 import GroupTalk from "./slopes/group-talk.svg";
-export { Engineers, GroupTalk };
+import Clock from "./slopes/clock.svg";
+export { Engineers , GroupTalk , Clock };
 
 //Road page
 import Roller from "./road/roller.svg";

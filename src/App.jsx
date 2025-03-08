@@ -17,6 +17,7 @@ import LandCapability from "./pages/Land Capability/LandCapability";
 import EnvDrilling from "./pages/envDrilling/EnvDrilling";
 import Inspections from "./pages/inspections/Inspections";
 import AccreditedPage from "./pages/accredited/AccreditedPage";
+import NotFound from "./pages/notFound/NotFound";
 import ContactSection from "./components/contacts/ContactSection";
 import { Hero } from "./assets/assets";
 import HeroSection from "./components/hero-section/HeroSection";
@@ -48,6 +49,7 @@ const App = () => {
                     <Route path="/envDrilling" element={<EnvDrilling />} />
                   <Route path="/inspections" element={<Inspections />} />
                     <Route path="/inspections" element={<Inspections />} />
+                    <Route path="/*" element={<NotFound />} />
                     <Route path="/resources" element={<Resources />} />
                 </Routes>
                 <Footer />

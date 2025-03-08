@@ -2,12 +2,20 @@ import React from 'react';
 import PolicyText from '../../components/text/PolicyText';
 import CardDocumentation from '../../components/card-documentation/CardDocumentation';
 import { DownloadIcon } from '../../assets/assets';
+import HeroSection from '../../components/hero-section/HeroSection';
 
 const Resources = () => {
     return (
         <div className="w-full flex flex-col">
             {/* First Section*/}
-            <div></div>
+            <div className='w-full h-auto'>
+                <HeroSection
+                    title="Resources"
+                    description="We are committed to maintaining the highest standards of quality, safety, and compliance in all our operations. Our policies and documentation are designed to guide our practices and ensure the integrity of our services. Below are key policies that govern our operations."
+                    buttonLink={'#'}
+                    buttonText="Get in Touch"
+                />
+            </div>
             {/* second Section*/}
             <div className=' w-full h-auto  px-[45px] sm:p-[85px] h-auto'>
             <div>
@@ -94,10 +102,10 @@ const Resources = () => {
             <div className='soil__second-section p-[45px] sm:p-[85px] w-full h-auto'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
                     <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
-                        Aggregate Testing Services
+                        Document Resources
                     </h2>
                     <p className='text-base sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
-                    Our aggregate testing services are essential for understanding material characteristics, ensuring quality for use in concrete, asphalt, and foundational applications. Properly tested aggregates contribute to the longevity and stability of structures, roads, and other infrastructure.
+                    For your convenience, we provide access to essential documents related to our policies and practices. Please find the following documents available for download:
                     </p>
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-[35px] w-full">
                             <div className='col-span-1 row-span-1 sm:w-full'>

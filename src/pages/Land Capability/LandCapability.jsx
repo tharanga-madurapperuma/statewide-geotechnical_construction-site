@@ -6,7 +6,7 @@ import { WorkerHat, Mapping, Arrowup } from '../../assets/assets';
 
 const LandCapability = () => {
     return (
-        <div className='w-full flex flex-col items-center'>
+        <div className='w-full flex flex-col'>
             {/* First Section */}
            <div className="mt-4 sm:mt-6 px-3 sm:px-4">
               <ButtonCard

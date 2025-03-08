@@ -1,26 +1,27 @@
-import React from "react"
-import {BrowserRouter, Route, Routes} from "react-router-dom"
-import Navbar from "./components/navbar/Navbar"
-import Footer from "./components/footer/Footer"
-import Home from "./pages/home/Home"
-import RetainingWall from "./pages/RetainingWall"
-import SiteInvetigate from "./pages/SiteInvetigate"
-import FoundationBuilt from "./pages/FoundationBuilt"
-import "./App.css"
-import "./index.css"
-import Drilling from "./pages/drilling/Drilling"
-import Soil from "./pages/soil/Soil"
-import Slopes from "./pages/slopes/Slopes"
-import Road from "./pages/road/Road"
-import LandCapability from "./pages/Land Capability/LandCapability"
-import EnvDrilling from "./pages/envDrilling/EnvDrilling"
-import Inspections from "./pages/inspections/Inspections"
-import AccreditedPage from "./pages/accredited/AccreditedPage"
-import ContactSection from "./components/contacts/ContactSection"
-import {Hero} from "./assets/assets"
-import HeroSection from "./components/hero-section/HeroSection"
-import ContactPage from "./pages/contactUs/ContactPage"
-import AppointmentRequestForm from "./components/form/AppointmentRequestForm"
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
+import Home from "./pages/home/Home";
+import RetainingWall from "./pages/RetainingWall";
+import SiteInvetigate from "./pages/SiteInvetigate";
+import FoundationBuilt from "./pages/FoundationBuilt";
+import "./App.css";
+import "./index.css";
+import Drilling from "./pages/drilling/Drilling";
+import Soil from "./pages/soil/Soil";
+import Slopes from "./pages/slopes/Slopes";
+import Road from "./pages/road/Road";
+import Resources from "./pages/resources/Resources";
+import LandCapability from "./pages/Land Capability/LandCapability";
+import EnvDrilling from "./pages/envDrilling/EnvDrilling";
+import Inspections from "./pages/inspections/Inspections";
+import AccreditedPage from "./pages/accredited/AccreditedPage";
+import ContactSection from "./components/contacts/ContactSection";
+import { Hero } from "./assets/assets";
+import HeroSection from "./components/hero-section/HeroSection";
+import ContactPage from "./pages/contactUs/ContactPage";
+import AppointmentRequestForm from "./components/form/AppointmentRequestForm";
 
 const App = () => {
   return (
@@ -46,7 +47,8 @@ const App = () => {
                     <Route path="/accredited" element={<AccreditedPage />} />
                     <Route path="/envDrilling" element={<EnvDrilling />} />
                   <Route path="/inspections" element={<Inspections />} />
-                  <Route path="/contact" element={<ContactPage />} />
+                    <Route path="/inspections" element={<Inspections />} />
+                    <Route path="/resources" element={<Resources />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>

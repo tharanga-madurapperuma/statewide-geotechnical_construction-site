@@ -106,14 +106,14 @@ const EnvDrilling = () => {
                         </p>
                     </div>
                     <img
-                        className="w-[80%] absolute top-[70px] left-[5%] sm:w-[90%] md:w-[80%] lg:w-[70%] z-10"
+                        className="w-[80%] absolute top-[70px] left-[5%] sm:w-[80%] md:w-[80%] lg:w-[70%] z-10"
                         src={Map}
                     />
                 </div>
             </div>
 
             {/* Cards */}
-            <div className="w-[90%] mb-[100px] mt-[350px] sm:mt-[550px] md:mt-[650px] lg:mt-[700px] xl:mt-[800px]">
+            <div className="w-[90%] mb-[100px] mt-[60vw]">
                 <h1 className="font-inter font-600 text-28 md:text-40 lg:text-48 w-[80%] ">
                     Our Comprehensive Drilling Services
                 </h1>

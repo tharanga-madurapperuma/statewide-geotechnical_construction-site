@@ -15,22 +15,22 @@ const SiteInvetigate = () => {
         />
       </div>
 
-      <div className="max-w-6xl mx-auto p-8">
+      <div className="max-w-7xl mx-auto p-8">
         {/* Header Section */}
-        <h1 className="text-3xl font-bold mb-4">Investigation Techniques</h1>
+        <h1 className="text-[48px] font-semibold mb-4">Investigation Techniques</h1>
         <p className="text-gray-600 mb-8">
           Our team employs a diverse range of advanced investigation techniques,
           customized to meet the unique requirements of each site. With
           state-of-the-art equipment and tailored methodologies, we offer
           accurate data and insights for informed decision-making.
         </p>
-        <p className="text-gray-600 mb-12">
+        <p className="text-gray-600 mb-[24px]">
           Our Site Investigation Techniques include:
         </p>
 
-        <div className="grid grid-cols-3 gap-6">
+        <div className="grid grid-cols-3 gap-[32px]">
           {/* Row 1 */}
-          <div className="col-span-1">
+          <div className="col-span-1 border-[1px] border-[#D1EDFF] rounded-3xl">
             <img
               src="/Rectangle646.png"
               alt="Drilling work"
@@ -38,7 +38,7 @@ const SiteInvetigate = () => {
             />
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-xl">
+          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -53,7 +53,7 @@ const SiteInvetigate = () => {
             </p>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-xl">
+          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -69,7 +69,7 @@ const SiteInvetigate = () => {
           </div>
 
           {/* Row 2 */}
-          <div className="bg-gray-50 p-6 rounded-xl">
+          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -84,7 +84,7 @@ const SiteInvetigate = () => {
             </p>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-xl">
+          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -99,7 +99,7 @@ const SiteInvetigate = () => {
             </p>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-xl">
+          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -115,7 +115,7 @@ const SiteInvetigate = () => {
           </div>
 
           {/* Row 3 */}
-          <div className="bg-gray-50 p-6 rounded-xl">
+          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -129,7 +129,7 @@ const SiteInvetigate = () => {
             </p>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-xl">
+          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -153,25 +153,25 @@ const SiteInvetigate = () => {
         </div>
       </div>
 
-      <div className="max-w-6xl mx-auto p-6">
+      <div className="max-w-7xl mx-auto p-6">
         {/* Header */}
-        <h1 className="text-3xl font-bold  mb-6">
+        <h1 className="text-[48px] font-semibold  mb-6">
           Our Site Investigation Services Include
         </h1>
 
         {/* Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-8 md:grid-rows-10 gap-4">
           {/* Image */}
-          <div className="col-span-1 md:col-span-4 md:row-span-3 max-h-[270px]">
+          <div className="col-span-1 md:col-span-4 md:row-span-3 max-h-[270px] rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
             <img
               src="/Frame2248.png"
               alt="Site Investigation"
-              className="w-full h-full object-cover rounded-xl"
+              className="w-full h-full object-cover rounded-3xl"
             />
           </div>
 
           {/* Drilling */}
-          <div className="col-span-1 md:col-span-4 md:row-span-3 bg-gray-50 p-6 rounded-xl shadow">
+          <div className="col-span-1 md:col-span-4 md:row-span-3 bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
             <div className="bg">
               <img
                 src="/helmet3.png"
@@ -190,7 +190,7 @@ const SiteInvetigate = () => {
           </div>
 
           {/* Test Pits */}
-          <div className="col-span-1 md:col-span-4 md:row-span-3 bg-gray-50 p-6 rounded-xl shadow">
+          <div className="col-span-1 md:col-span-4 md:row-span-3 bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
             <div className="bg">
               <img
                 src="/helmet3.png"
@@ -209,7 +209,7 @@ const SiteInvetigate = () => {
           </div>
 
           {/* In-Situ Testing */}
-          <div className="col-span-1 md:col-span-4 md:row-span-3 bg-gray-50 p-6 rounded-xl shadow">
+          <div className="col-span-1 md:col-span-4 md:row-span-3 bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
             <div className="bg">
               <img
                 src="/helmet4.png"
@@ -228,7 +228,7 @@ const SiteInvetigate = () => {
           </div>
 
           {/* Laboratory Investigations */}
-          <div className="col-span-1 md:col-span-4 md:row-span-3 bg-gray-50 p-6 rounded-xl shadow">
+          <div className="col-span-1 md:col-span-4 md:row-span-3 bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
             <div className="bg">
               <img
                 src="/helmet3.png"
@@ -249,7 +249,7 @@ const SiteInvetigate = () => {
           </div>
 
           {/* Reporting */}
-          <div className="col-span-1 md:col-span-4 md:row-span-3 bg-gray-50 p-6 rounded-xl shadow">
+          <div className="col-span-1 md:col-span-4 md:row-span-3 bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
             <div className="bg">
               <img
                 src="/helmet3.png"

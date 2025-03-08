@@ -16,6 +16,7 @@ import LandCapability from "./pages/Land Capability/LandCapability";
 import EnvDrilling from "./pages/envDrilling/EnvDrilling";
 import Inspections from "./pages/inspections/Inspections";
 import AccreditedPage from "./pages/accredited/AccreditedPage";
+import NotFound from "./pages/notFound/NotFound";
 
 const App = () => {
     return (
@@ -41,6 +42,7 @@ const App = () => {
                     <Route path="/accredited" element={<AccreditedPage />} />
                     <Route path="/envDrilling" element={<EnvDrilling />} />
                     <Route path="/inspections" element={<Inspections />} />
+                    <Route path="/*" element={<NotFound />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>

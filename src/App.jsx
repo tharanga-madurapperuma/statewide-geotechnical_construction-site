@@ -16,6 +16,7 @@ import LandCapability from "./pages/Land Capability/LandCapability";
 import EnvDrilling from "./pages/envDrilling/EnvDrilling";
 import Inspections from "./pages/inspections/Inspections";
 import AccreditedPage from "./pages/accredited/AccreditedPage";
+import TrustedLeaders from "./pages/TrustedLeaders";
 
 const App = () => {
     return (
@@ -41,6 +42,11 @@ const App = () => {
                     <Route path="/accredited" element={<AccreditedPage />} />
                     <Route path="/envDrilling" element={<EnvDrilling />} />
                     <Route path="/inspections" element={<Inspections />} />
+
+                    <Route
+                        path="/TrustedLeaders"
+                        element={<TrustedLeaders />}
+                    />
                 </Routes>
                 <Footer />
             </BrowserRouter>

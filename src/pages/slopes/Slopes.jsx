@@ -6,13 +6,13 @@ import { Engineers, WorkerHat, Arrowup, SoilTesting } from '../../assets/assets'
 
 const Slopes = () => {
     return (
-        <div className='w-full flex flex-col items-center'>
+        <div className='w-full flex flex-col'>
           {/* First Section */}
           <div className="mt-4 sm:mt-6 px-3 sm:px-4">
               <ButtonCard
                 image={SoilTesting}
                 title="Slopes and Stability Assessment"
-                description="At Statewide Geotechnical (Aust) Pty Ltd, we o8er comprehensive slope and stability assessment services designed to mitigate risks and enhance safety for construction projects on sloped or complex terrain. With our in-depth understanding of soil mechanics, ground behavior, and site-specific environmental factors, we provide precise evaluations and customized solutions to ensure stability for both natural and engineered slopes."
+                description="At Statewide Geotechnical (Aust) Pvt Ltd, we offer comprehensive slope and stability assessment services designed to mitigate risks and enhance safety for construction projects on sloped or complex terrain. With our in-depth understanding of soil mechanics, ground behavior, and site-specific environmental factors, we provide precise evaluations and customized solutions to ensure stability for both natural and engineered slopes."
                 buttonText="Get in Touch"
               />
             </div>
@@ -153,7 +153,9 @@ const Slopes = () => {
             <TextSection
                 title='Why Choose Statewide Geotechnical for Slope Stability Assessment?'
                 description='With our expert team and state-of-the-art analysis tools, Statewide Geotechnical provides reliable slope and stability assessments that empower you to make informed decisions about site design and safety. Our assessments o8er clear, actionable recommendations to help manage risk, maintain site integrity, and ensure regulatory compliance. Whether for residential, commercial, or infrastructure projects, we tailor our solutions to meet the unique demands of each site, enhancing safety and stability for years to come.'
-                />   
+                buttonText=""
+                buttonLink="#"
+            />   
 
 
 

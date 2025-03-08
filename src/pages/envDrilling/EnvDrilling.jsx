@@ -36,7 +36,27 @@ const EnvDrilling = () => {
             <div className="mt-8 sm:mt-40 md:mt-[100px] mb-8 sm:mb-40 md:mb-[100px] md:px-[5%]">
                 <InfoSection
                     title="Expert Drilling Equipment for Challenging Sites"
-                    description="We operate Geoprobe, Comacchio, and Custom rigs, designed for small footprint and low headroom applications—ideal for tight access and di(icult-to-reach areas. Our drilling rigs are equipped with industry-standard safety cages and emergency shut-off systems to ensure maximum safety at all times."
+                    description={
+                        <>
+                            We operate{" "}
+                            <span className="text-gray-700 font-500">
+                                Geoprobe, Comacchio,
+                            </span>{" "}
+                            and{" "}
+                            <span className="text-gray-700 font-500">
+                                Custom rigs,
+                            </span>{" "}
+                            designed for small footprint and low headroom
+                            applications—ideal for tight access and
+                            di(icult-to-reach) areas. Our drilling rigs are
+                            equipped with{" "}
+                            <span className="text-gray-700 font-500">
+                                industry-standard safety cages and emergency
+                                shut-off systems
+                            </span>{" "}
+                            to ensure maximum safety at all times.
+                        </>
+                    }
                     buttonText=""
                     buttonLink=""
                     imageSrc={EnvSecond}
@@ -46,10 +66,15 @@ const EnvDrilling = () => {
 
             {/* Middle image card component */}
             <div className="w-[90%] h-auto py-10 mb-[50px]">
-                <div className="flex items-start w-full">
+                <div className="flex flex-col items-start w-full">
                     <h1 className="w-[80%] mb-4 font-inter text-28 sm:text-40 md:text-40 lg:text-48 font-600">
-                        Our Specialized Geotechnical Solutions Include:
+                        Qualified & Experienced Drillers
                     </h1>
+                    <p className="font-inter font-400 text-14 mt-2 mb-4 md:text-18 lg:text-24">
+                        Our team of highly qualified and experienced drillers
+                        hold certifications and competencies in key areas,
+                        including:
+                    </p>
                 </div>
                 <div className="w-full h-full grid grid-cols-3 gap-2 flex-col sm:flex-row">
                     <LicenseCard

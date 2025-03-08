@@ -221,74 +221,9 @@ const Home = () => {
                         </div>
                     </div>
                 </div> */}
-                {/* WHAT WE OFFER */}
-                <div className="overflow-x-hidden w-full px-2 md:px-6 lg:px-8 xl:px-40">
-                    <div className="w-full h-auto mt-[40vw] sm:mt-62 flex flex-col items-center">
-                        <div className="w-full flex justify-between items-center px-6">
-                            <h1 className="font-inter font-600 text-28 sm:text-32 md:text-40 lg:text-56 xl:text-62">
-                                What We Offer
-                            </h1>
-                            <p className="text-blue-700 hover:text-blue-900 transition duration-500 cursor-pointer font-inter font-600 text-16 sm:text-18 md:text-24 text-right">
-                                SEE ALL SERVICES
-                            </p>
-                        </div>
-                        <div className="flex flex-col sm:flex-row justify-between w-full h-auto my-10 px-6">
-                            <div className="h-auto">
-                                <img
-                                    className="object-cover w-full"
-                                    src={HomeSecondWhatWe}
-                                />
-                            </div>
-                            <div className="h-auto ">
-                                <img
-                                    className="object-cover w-full mt-2 sm:mt-0 sm:pl-3"
-                                    src={HomeSecondWhatWe2}
-                                />
-                            </div>
-                        </div>
-                        {/* CAROUSEL - SWIPER JS */}
-                        <div className="w-full flex flex-col items-center">
-                            <div className="sm:hidden w-[85%]">
-                                <Swiper
-                                    slidesPerView={2}
-                                    spaceBetween={10}
-                                    keyboard={{
-                                        enabled: true,
-                                    }}
-                                    navigation={true}
-                                    modules={[Keyboard, Pagination, Navigation]}
-                                    className="mySwiper"
-                                >
-                                    {services.map((service, index) => (
-                                        <SwiperSlide key={index}>
-                                            <Card {...service} />
-                                        </SwiperSlide>
-                                    ))}
-                                </Swiper>
-                            </div>
-                            <div className="hidden sm:block sm:w-[93%] md:w-[95%] md:mt-2 xl:w-[96%]">
-                                <Swiper
-                                    slidesPerView={4}
-                                    spaceBetween={20}
-                                    keyboard={{
-                                        enabled: true,
-                                    }}
-                                    navigation={true}
-                                    modules={[Keyboard, Pagination, Navigation]}
-                                    className="mySwiper"
-                                >
-                                    {services.map((service, index) => (
-                                        <SwiperSlide key={index}>
-                                            <Card {...service} />
-                                        </SwiperSlide>
-                                    ))}
-                                </Swiper>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
                 {/* WHY CHOOSE US */}
-                <div className="w-full mt-80 sm:mt-[100px] xl:mt-[150px] flex flex-col items-center">
+                <div className="w-full mt-[200px] sm:mt-80 flex flex-col items-center">
                     <div className="w-full px-[10%] sm:px-[15%] md:px-[10%] lg:px-[15%] xl:px-[20%] 2xl:px-[25%]">
                         <div className="text-center">
                             <h1 className="font-inter font-600 text-28 sm:text-32 md:text-40 lg:text-56 xl:text-62">
@@ -335,10 +270,76 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+                {/* WHAT WE OFFER */}
+                <div className="overflow-x-hidden w-full px-2 md:px-6 lg:px-8 xl:px-40">
+                    <div className="w-full h-auto mt-[20vw] sm:mt-62 flex flex-col items-center">
+                        <div className="w-full flex justify-between items-center px-6">
+                            <h1 className="font-inter font-600 text-28 sm:text-32 md:text-40 lg:text-56 xl:text-62">
+                                What We Offer
+                            </h1>
+                            <p className="text-blue-700 hover:text-blue-900 transition duration-500 cursor-pointer font-inter font-600 text-16 sm:text-18 md:text-24 text-right">
+                                SEE ALL SERVICES
+                            </p>
+                        </div>
+                        <div className="flex flex-col sm:grid sm:grid-cols-2 sm:grid-rows-1 sm:gap-3 justify-between w-full h-full mt-10 mb-10 md:mb-1 px-6">
+                            <div className="h-full lg:w-full ">
+                                <img
+                                    className="object-cover h-full w-full rounded-3xl"
+                                    src={HomeSecondWhatWe}
+                                />
+                            </div>
+                            <div className="h-full lg:w-full ">
+                                <img
+                                    className="object-cover mt-3 sm:mt-0 h-full w-full  rounded-3xl"
+                                    src={HomeSecondWhatWe2}
+                                />
+                            </div>
+                        </div>
+                        {/* CAROUSEL - SWIPER JS */}
+                        <div className="w-full flex flex-col items-center">
+                            <div className="sm:hidden w-[85%]">
+                                <Swiper
+                                    slidesPerView={2}
+                                    spaceBetween={10}
+                                    keyboard={{
+                                        enabled: true,
+                                    }}
+                                    navigation={true}
+                                    modules={[Keyboard, Pagination, Navigation]}
+                                    className="mySwiper"
+                                >
+                                    {services.map((service, index) => (
+                                        <SwiperSlide key={index}>
+                                            <Card {...service} />
+                                        </SwiperSlide>
+                                    ))}
+                                </Swiper>
+                            </div>
+                            <div className="hidden sm:block sm:w-[93%] md:w-[95%] md:mt-2 xl:w-[96%]">
+                                <Swiper
+                                    slidesPerView={4}
+                                    spaceBetween={10}
+                                    keyboard={{
+                                        enabled: true,
+                                    }}
+                                    navigation={true}
+                                    modules={[Keyboard, Pagination, Navigation]}
+                                    className="mySwiper"
+                                >
+                                    {services.map((service, index) => (
+                                        <SwiperSlide key={index}>
+                                            <Card {...service} />
+                                        </SwiperSlide>
+                                    ))}
+                                </Swiper>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 {/* PROJECTS */}
-                <div>
+
+                {/* <div>
                     <div className="font-inter text-gray-900 p-6 sm:px-8 md:px-48 lg:px-72 xl:px-80 w-full h-auto mt-26">
-                        {/* Header Section */}
                         <div className="flex justify-between items-center mb-6">
                             <h1 className="font-inter font-600 text-28 sm:text-32 md:text-40 lg:text-56 xl:text-62">
                                 Our Projects
@@ -348,7 +349,6 @@ const Home = () => {
                             </p>
                         </div>
 
-                        {/* Main Content */}
                         <div className="grid h-[900px] grid-cols-2 grid-rows-4 sm:grid-cols-5 sm:grid-rows-2 gap-3 sm:gap-3 md:gap-4 sm:h-[350px] md:h-[500px] lg:h-[600px] xl:h-[700px]">
                             <div className="col-span-2 sm:col-span-3 bg-blue-100 p-6 rounded-lg flex flex-col">
                                 <h2 className="text-18 sm:text-18 md:text-24 lg:text-32 xl:text-40 font-bold mt-[5px]">
@@ -401,16 +401,11 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* START JOURNEY */}
                 <div className="">
                     <Callbox />
                 </div>
-            </div>
-
-            {/* START JOURNEY */}
-            <div className="">
-                <Callbox />
             </div>
         </div>
     );

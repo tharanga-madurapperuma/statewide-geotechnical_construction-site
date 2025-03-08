@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const LicenseCard = ({image, title}) => {
   return (
     <div className="flex flex-col items-center justify-center w-full h-[416px] bg-blue-50 rounded-2xl p-4">

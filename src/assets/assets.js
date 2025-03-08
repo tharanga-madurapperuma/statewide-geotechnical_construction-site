@@ -60,6 +60,10 @@ import FlaskWhite from "./drilling/icons/flaskWhite.svg";
 import ManWhite from "./drilling/icons/manWhite.svg";
 import DocWhite from "./drilling/icons/docWhite.svg";
 
+// Inspections page
+import InsHero from "./inspections/insHero.jpg";
+import InsSecond from "./inspections/insSecond.jpg";
+import InsThird from "./inspections/insThird.jpg";
 
 // Env Drilling page
 import Map from "./envDrilling/map.svg";
@@ -101,6 +105,9 @@ export {
 export { WorkerHat };
 export { FileIcon, DownloadIcon };
 
+// Inspections Page
+export { InsHero, InsSecond, InsThird };
+
 // navbar
 export { Menu, Close };
 //soil page
@@ -111,8 +118,8 @@ export { SoilHero, SoilTesting };
 
 //slopes page
 import Engineers from "./slopes/engineers.svg";
-
-export { Engineers };
+import GroupTalk from "./slopes/group-talk.svg";
+export { Engineers , GroupTalk };
 
 //Road page
 import Roller from "./road/roller.svg";

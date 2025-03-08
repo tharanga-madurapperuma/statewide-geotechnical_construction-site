@@ -170,18 +170,24 @@
 
 .swiper-button-prev {
     position: absolute;
-    left: -32px; /* Adjust as needed */
-    color: black !important;
+    left: 20px; /* Adjust as needed */
+    color: rgb(255, 255, 255) !important;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .swiper-button-next {
     position: absolute;
-    right: -32px; /* Adjust as needed */
-    color: black !important;
+    right: 20px; /* Adjust as needed */
+    color: rgb(255, 255, 255) !important;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .mySwiper {
-    overflow: visible !important;
+    overflow: hidden !important;
     position: relative;
 }
 

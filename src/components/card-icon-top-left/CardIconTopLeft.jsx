@@ -28,7 +28,9 @@ const CardIconTopLeft = ({
         <div className="w-full h-full">
             <div
                 className={`w-full h-full flex flex-col items-center  transition duration-700 ${
-                    padding ? `p-8 rounded-3xl ${background}` : "py-8"
+                    padding
+                        ? `p-8 rounded-3xl ${background} hover:bg-blue-50`
+                        : "py-8"
                 }  ${backgroundHover ? "hover:bg-blue-700 " : null} ${
                     stroke
                         ? "border border-blue-100 hover:border-blue-300"
@@ -37,18 +39,18 @@ const CardIconTopLeft = ({
             >
                 <div className="w-full flex justify-start items-center">
                     <img
-                        className={`${iconBackground} px-2 py-3 rounded-xl`}
+                        className={`${iconBackground} px-2 py-3 rounded-xl w-48 md:w-[54px] lg:w-auto`}
                         src={iconUrl}
                     />
                 </div>
                 <div>
                     <h1
-                        className={`font-inter text-24 font-500 spacing-28 mt-5 ${titleColor}`}
+                        className={`font-inter text-[17px] sm:text-[22px] md:text-24 font-500 spacing-28 mt-5 ${titleColor}`}
                     >
                         {titleText}
                     </h1>
                     <p
-                        className={`font-inter text-16 font-400 spacing-24 mt-4 ${bodyColor}`}
+                        className={`font-inter text-14 sm:text-16 lg:text-18 font-400 spacing-24 mt-4 ${bodyColor}`}
                     >
                         {bodyText}
                     </p>

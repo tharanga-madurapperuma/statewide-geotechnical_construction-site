@@ -6,7 +6,7 @@ import { Engineers, WorkerHat, Arrowup, SoilTesting } from '../../assets/assets'
 
 const Slopes = () => {
     return (
-        <div className='w-full flex flex-col items-center'>
+        <div className='w-full flex flex-col'>
           {/* First Section */}
           <div className="mt-4 sm:mt-6 px-3 sm:px-4">
               <ButtonCard
@@ -153,7 +153,9 @@ const Slopes = () => {
             <TextSection
                 title='Why Choose Statewide Geotechnical for Slope Stability Assessment?'
                 description='With our expert team and state-of-the-art analysis tools, Statewide Geotechnical provides reliable slope and stability assessments that empower you to make informed decisions about site design and safety. Our assessments o8er clear, actionable recommendations to help manage risk, maintain site integrity, and ensure regulatory compliance. Whether for residential, commercial, or infrastructure projects, we tailor our solutions to meet the unique demands of each site, enhancing safety and stability for years to come.'
-                />   
+                buttonText=""
+                buttonLink="#"
+            />   
 
 
 

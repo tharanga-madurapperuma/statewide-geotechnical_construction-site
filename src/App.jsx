@@ -39,7 +39,7 @@ const App = () => {
 
                     <Route path="/envDrilling" element={<EnvDrilling />} />
                 </Routes>
-                {/* <Footer /> */}
+                <Footer />
             </BrowserRouter>
         </div>
     );

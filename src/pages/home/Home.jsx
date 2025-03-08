@@ -402,10 +402,6 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                {/* START JOURNEY */}
-                <div className="">
-                    <Callbox />
-                </div>
             </div>
 
             {/* START JOURNEY */}

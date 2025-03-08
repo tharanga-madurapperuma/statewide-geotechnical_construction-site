@@ -1,3 +1,4 @@
+import { GoArrowUpRight } from "react-icons/go";
 import { GroupTalk } from "../../assets/assets";
 
 const AccreditedFacilitySection = () => {
@@ -50,7 +51,7 @@ const AccreditedFacilitySection = () => {
                     href="#"
                     className="text-[#0064FF] font-600 text-base md:text-lg inline-flex items-center gap-1 hover:text-blue-700 transition duration-300"
                 >
-                    Contact Us to Learn More About Our Services <span>↗</span>
+                    Contact Us to Learn More About Our Services <GoArrowUpRight />
                 </a>
             </div>
         </div>

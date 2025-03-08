@@ -118,8 +118,8 @@ export { SoilHero, SoilTesting };
 
 //slopes page
 import Engineers from "./slopes/engineers.svg";
-
-export { Engineers };
+import GroupTalk from "./slopes/group-talk.svg";
+export { Engineers , GroupTalk };
 
 //Road page
 import Roller from "./road/roller.svg";

@@ -18,7 +18,6 @@ import EnvDrilling from "./pages/envDrilling/EnvDrilling";
 import Inspections from "./pages/inspections/Inspections";
 import AccreditedPage from "./pages/accredited/AccreditedPage";
 
-
 const App = () => {
     return (
         <div className="overflow-x-hidden">

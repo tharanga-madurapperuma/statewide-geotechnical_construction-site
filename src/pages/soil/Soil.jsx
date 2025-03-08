@@ -6,9 +6,9 @@ import { Arrowup, WorkerHat,SoilHero, SoilTesting } from '../../assets/assets';
 
 const Soil = () => {
     return (
-        <div className='flex flex-col w-full'>
+        <div className="w-full flex flex-col items-center">
             {/* First Section */}
-            <div className="flex items-center justify-center w-full h-screen -my-23">
+            <div className="mt-4 sm:mt-6 px-3 sm:px-4">
               <ButtonCard
                 image={SoilTesting}
                 title="Soil, Rock & Aggregate Testing for Quality & Stability"
@@ -18,7 +18,7 @@ const Soil = () => {
             </div>
 
             {/* Second Section */}
-            <div className='soil__second-section p-21 w-full h-auto'>
+            <div className='soil__second-section p-[45px] sm:p-[85px] w-full h-auto'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
                     <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
                         Aggregate Testing Services
@@ -26,8 +26,8 @@ const Soil = () => {
                     <p className='text-base sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
                     Our aggregate testing services are essential for understanding material characteristics, ensuring quality for use in concrete, asphalt, and foundational applications. Properly tested aggregates contribute to the longevity and stability of structures, roads, and other infrastructure.
                     </p>
-                        <div className="grid grid-cols-3 grid-rows-3 gap-4 pt-[35px]">
-                          <div className='col-span-1 row-span-1'>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-[35px] w-full">
+                          <div className='col-span-1 row-span-1 sm:w-full'>
                             <CardIconTopLeft 
                                 iconUrl={WorkerHat}
                                 iconBackground='bg-white-100'
@@ -185,7 +185,7 @@ const Soil = () => {
             </div>
 
             {/* Third Section */}
-            <div className='soil__third-section p-21 w-full h-auto -mt-25'>
+            <div className='soil__second-section p-[45px] sm:p-[85px] w-full h-auto'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
                         <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
                             Soil Testing Services
@@ -193,8 +193,8 @@ const Soil = () => {
                         <p className='text-base sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
                         Soil testing helps you understand the ground beneath your project, providing insight into moisture, compaction, bearing capacity, and stability. These properties are crucial for building strong foundations and structures that endure.
                         </p>
-                        <div className="grid grid-cols-3 grid-rows-2 gap-4 pt-[35px]">
-                          <div className='col-span-1 row-span-1'>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-[35px] w-full">
+                          <div className='col-span-1 row-span-1 sm:w-full'>
                             <CardIconTopLeft 
                                 iconUrl={WorkerHat}
                                 iconBackground='bg-white-100'
@@ -278,7 +278,7 @@ const Soil = () => {
             </div>
 
             {/* Fourth Section */}
-            <div className='soil__fourth-section p-21 w-full h-auto -mt-25'>
+            <div className='soil__second-section p-[45px] sm:p-[85px] w-full h-auto'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
                         <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
                             Rock Testing Services
@@ -286,8 +286,8 @@ const Soil = () => {
                         <p className='text-base sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
                         Our rock testing services analyze key properties of rock material, providing data for safe excavation, tunneling, and stability in construction. Reliable testing supports the selection of suitable materials for both structural and geotechnical applications.
                         </p>
-                        <div className="grid grid-cols-3 grid-rows-1 gap-4 pt-[35px]">
-                          <div className='col-span-1 row-span-1'>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-[35px] w-full">
+                          <div className='col-span-1 row-span-1 sm:w-full'>
                             <CardIconTopLeft 
                                 iconUrl={WorkerHat}
                                 iconBackground='bg-white-100'

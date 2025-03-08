@@ -12,6 +12,7 @@ import Drilling from "./pages/drilling/Drilling";
 import Soil from "./pages/soil/Soil";
 import Slopes from "./pages/slopes/Slopes";
 import Road from "./pages/road/Road";
+import Resources from "./pages/resources/Resources";
 import LandCapability from "./pages/Land Capability/LandCapability";
 import EnvDrilling from "./pages/envDrilling/EnvDrilling";
 
@@ -38,6 +39,8 @@ const App = () => {
                     />
 
                     <Route path="/envDrilling" element={<EnvDrilling />} />
+                    <Route path="/resources" element={<Resources />} />
+
                 </Routes>
                 {/* <Footer /> */}
             </BrowserRouter>

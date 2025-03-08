@@ -12,7 +12,7 @@ const Slopes = () => {
               <ButtonCard
                 image={SoilTesting}
                 title="Slopes and Stability Assessment"
-                description="At Statewide Geotechnical (Aust) Pty Ltd, we o8er comprehensive slope and stability assessment services designed to mitigate risks and enhance safety for construction projects on sloped or complex terrain. With our in-depth understanding of soil mechanics, ground behavior, and site-specific environmental factors, we provide precise evaluations and customized solutions to ensure stability for both natural and engineered slopes."
+                description="At Statewide Geotechnical (Aust) Pvt Ltd, we offer comprehensive slope and stability assessment services designed to mitigate risks and enhance safety for construction projects on sloped or complex terrain. With our in-depth understanding of soil mechanics, ground behavior, and site-specific environmental factors, we provide precise evaluations and customized solutions to ensure stability for both natural and engineered slopes."
                 buttonText="Get in Touch"
               />
             </div>

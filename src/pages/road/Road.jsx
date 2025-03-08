@@ -12,8 +12,8 @@ const Road = () => {
            <div className="mt-4 sm:mt-6 px-3 sm:px-4">
               <ButtonCard
                 image={Roller}
-                title="Slopes and Stability Assessment"
-                description="At Statewide Geotechnical (Aust) Pty Ltd, we o8er comprehensive slope and stability assessment services designed to mitigate risks and enhance safety for construction projects on sloped or complex terrain. With our in-depth understanding of soil mechanics, ground behavior, and site-specific environmental factors, we provide precise evaluations and customized solutions to ensure stability for both natural and engineered slopes."
+                title="Road Pavement Design"
+                description="At Statewide Geotechnical (Aust) Pty Ltd, we provide tailored road pavement design solutions that ensure durability, cost-efficiency, and compliance with regulatory standards. With extensive experience in geotechnical engineering, we design pavements to withstand traffic loads, local environmental conditions, and long-term wear, delivering solutions for residential streets, highways, commercial areas, and infrastructure projects."
                 buttonText="Request a Consultation"
               />
             </div>

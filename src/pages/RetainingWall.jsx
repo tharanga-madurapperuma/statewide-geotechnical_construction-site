@@ -1,5 +1,6 @@
 import React from "react";
 import ButtonCard from "../components/card/ButtonCard";
+import CardIconTextCenter from "../components/card-icon-text-center/CardIconTextCenter";
 
 const RetainingWall = () => {
   return (
@@ -15,9 +16,9 @@ const RetainingWall = () => {
         />
       </div>
 
-      <div className="max-w-7xl mx-auto p-8">
+      <div className="max-w-[1220px] mx-auto p-8">
         <h1 className="text-3xl font-bold mb-6">Retaining Wall Solutions</h1>
-        <div className="grid grid-cols-5 grid-rows-10 gap-4">
+        <div className="grid grid-cols-5 grid-rows-10 gap-[24px]">
           {/* Description Box */}
           <div className="col-span-2 row-span-4 bg-blue-100 p-6 rounded-lg">
             <p className="text-gray-700">
@@ -100,13 +101,13 @@ const RetainingWall = () => {
             <img
               src="/Frame2263.png"
               alt="Retaining Wall"
-              className="w-full h-full object-cover rounded-lg"
+              className="w-[494px] h-[556px] object-cover rounded-lg"
             />
           </div>
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto p-8 mt-4">
+      <div className="max-w-[1220px] mx-auto p-8 mt-4">
         {/* Header Section */}
         <h1 className="text-3xl font-bold mb-6">Excavation Services</h1>
         <p className="text-gray-600">
@@ -119,18 +120,18 @@ const RetainingWall = () => {
         </p>
 
         {/* Grid Layout */}
-        <div className="grid grid-cols-9 grid-rows-9 gap-4">
+        <div className="grid grid-cols-9 grid-rows-9 gap-[32px]">
           {/* Image Section */}
-          <div className="col-span-3 row-span-4 col-start-1 row-start-2">
+          <div className="col-span-3 row-span-4 col-start-1 row-start-2 border-[1px] border-[#D1EDFF] rounded-3xl">
             <img
               src="/Frame2219.png"
               alt="Excavation"
-              className="w-full h-full object-cover rounded-lg"
+              className="w-full h-full object-cover rounded-3xl"
             />
           </div>
 
           {/* Bulk Excavation */}
-          <div className="col-span-3 row-span-4 col-start-4 row-start-2 bg-gray-100 p-6 rounded-lg shadow-md">
+          <div className="col-span-3 row-span-4 col-start-4 row-start-2 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF]">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -144,7 +145,7 @@ const RetainingWall = () => {
           </div>
 
           {/* Detailed Excavation */}
-          <div className="col-span-3 row-span-4 col-start-7 row-start-2 bg-gray-100 p-6 rounded-lg shadow-md">
+          <div className="col-span-3 row-span-4 col-start-7 row-start-2 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF]">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -160,7 +161,7 @@ const RetainingWall = () => {
           </div>
 
           {/* Trenching */}
-          <div className="col-span-3 row-span-4 col-start-1 row-start-6 bg-gray-100 p-6 rounded-lg shadow-md">
+          <div className="col-span-3 row-span-4 col-start-1 row-start-6 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF]">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -175,7 +176,7 @@ const RetainingWall = () => {
           </div>
 
           {/* Rock Breaking and Removal */}
-          <div className="col-span-3 row-span-4 col-start-4 row-start-6 bg-gray-100 p-6 rounded-lg shadow-md">
+          <div className="col-span-3 row-span-4 col-start-4 row-start-6 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF]">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -191,7 +192,7 @@ const RetainingWall = () => {
           </div>
 
           {/* Shoring & Site Stabilization */}
-          <div className="col-span-3 row-span-4 col-start-7 row-start-6 bg-gray-100 p-6 rounded-lg shadow-md">
+          <div className="col-span-3 row-span-4 col-start-7 row-start-6 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF]">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -207,6 +208,15 @@ const RetainingWall = () => {
           </div>
         </div>
       </div>
+
+      <CardIconTextCenter
+        iconUrl="/arrow.png"
+        titleText="Why Choose Statewide Geotechnical for Retaining Wall and Excavation Services?"
+        bodyTextPresent="With our in-house expertise and comprehensive service offerings, Statewide Geotechnical ensures that your retaining wall and excavation needs are handled with precision and care. Our solutions are engineered to provide long-term stability, minimize environmental impact, and optimize the functionality and safety of your site. From the initial design to final excavation, we work closely with you to keep your project on track, on budget, and compliant with regulatory standards.
+
+Choose Statewide Geotechnical (Aust) Pty Ltd for retaining wall and excavation services that deliver both structural integrity and peace of mind."
+        bodyText="Get in Touch with Our Team"
+      />
     </div>
   );
 };

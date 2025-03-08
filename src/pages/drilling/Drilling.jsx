@@ -22,7 +22,7 @@ import TextSection from "../../components/text/TextSection";
 
 const Drilling = () => {
     return (
-        <div className="w-full flex flex-col items-center">
+        <div className="w-full flex flex-col items-center bg-slate-background">
             {/* Hero Hashan Component */}
 
             {/* Sevindu Component */}

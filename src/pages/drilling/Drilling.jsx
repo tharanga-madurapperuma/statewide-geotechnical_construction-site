@@ -26,7 +26,7 @@ const Drilling = () => {
             {/* Hero Hashan Component */}
 
             {/* Sevindu Component */}
-            <div className="mt-4 sm:mt-6 px-3 sm:px-4">
+            <div className="mt-4 sm:mt-6 px-3 sm:px-0">
                 <ButtonCard
                     image={Hero}
                     title="Expert Geotechnical Drilling, Testing, and Consulting Services"
@@ -35,7 +35,7 @@ const Drilling = () => {
                 />
             </div>
             {/* Sevindu Component */}
-            <div className="mt-8 sm:mt-40 md:mt-[100px] mb-8 sm:mb-40 md:mb-[100px] md:px-[5%]">
+            <div className="mt-8 sm:mt-40 md:mt-[100px] mb-8 sm:mb-40 md:mb-[100px] md:px-[110px]">
                 <InfoSection
                     title="Comprehensive Service Coverage"
                     description="Operating across Melbourne and throughout Victoria, we are equipped to handle a variety of challenging project requirements. Whether you're working with tight or difficult access sites, or need low-head clearance machinery, our specialized team and advanced equipment ensure the job is done efficiently and accurately."
@@ -47,7 +47,7 @@ const Drilling = () => {
             </div>
 
             {/* ANIMATION PART */}
-            <div className="w-[90%] h-auto md:h-[300px] lg:h-[350px] xl:h-[350px] py-10 mb-[50px]">
+            <div className="w-[90%] lg:w-full h-auto md:h-[300px] lg:h-[350px] xl:h-[350px] py-10 mb-[50px] lg:px-[110px]">
                 <div className="flex items-start w-1\2">
                     <h1 className="w-[80%] mb-4 font-inter text-28 sm:text-40 md:text-40 lg:text-48 font-600">
                         Our Specialized Geotechnical Solutions Include:
@@ -95,7 +95,7 @@ const Drilling = () => {
             </div>
 
             {/* Cards */}
-            <div className="w-[90%] md:mt-[200px] mb-[100px]">
+            <div className="w-[90%] lg:w-full px-[110px] md:mt-[200px] mb-[100px]">
                 <h1 className="font-inter font-600 text-28 md:text-40 lg:text-48 w-[80%] ">
                     Our Comprehensive Geotechnical Services
                 </h1>
@@ -166,27 +166,28 @@ const Drilling = () => {
                 <div className="w-full grid grid-cols-1 gap-4 mt-4 sm:grid-cols-2 md:grid-cols-3 md:mt-6 lg:mt-8">
                     <CardIconTextCenterColored
                         iconUrl={FlaskWhite}
-                        titleText="Permeability Testing"
+                        titleText="Laboratory Testing"
                         bodyTextPresent={true}
-                        bodyText="(Falling and constant head)"
+                        bodyText="Our in-house lab conducts a wide range of soil and rock tests."
                     />
                     <CardIconTextCenterColored
                         iconUrl={ManWhite}
-                        titleText="Pressure Meter Testing"
+                        titleText="Engineering Assessments"
                         bodyTextPresent={false}
-                        bodyText="(Solid & Hollow)"
+                        bodyText="Our expert engineers analyze geotechnical
+conditions and provide detailed recommendations."
                     />
                     <CardIconTextCenterColored
                         iconUrl={DocWhite}
-                        titleText="DCP Testing & In-Situ CBR Evaluation"
+                        titleText="Comprehensive Reporting"
                         bodyTextPresent={true}
-                        bodyText="For on-site soil strength assessments"
+                        bodyText="We deliver complete reports with actionable insights to guide project decisions."
                     />
                 </div>
             </div>
 
             {/* Blue text */}
-            <div className="mb-8 px-4 sm:px-8 sm:mb-40 md:mb-58">
+            <div className="mb-8 px-4 sm:px-0 sm:mb-40 md:mb-58">
                 <TextSection
                     title="Why Choose Statewide Geotechnical?"
                     description="Operating across Melbourne and throughout Victoria, we are equipped to handle a variety of challenging project requirements. Whether you're working with tight or difficult access sites, or need low-head clearance machinery, our specialized team and advanced equipment ensure the job is done efficiently and accurately."

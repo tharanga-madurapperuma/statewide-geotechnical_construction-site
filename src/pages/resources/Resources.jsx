@@ -29,6 +29,7 @@ const Resources = () => {
                     ]} 
                 />
             </div>
+            <hr className="mt-4 border-[#D1D5DB]" />
             <div>
                 <PolicyText
                     title="2. Safety Policy"
@@ -40,6 +41,7 @@ const Resources = () => {
                     ]} 
                 />
             </div>
+            <hr className="mt-4 border-[#D1D5DB]" />
             <div>
                 <PolicyText
                     title="3. Environmental Policy"

@@ -6,7 +6,7 @@ import TextSection from "../components/text/TextSection";
 const FoundationBuilt = () => {
   return (
     <div className="flex flex-col w-full items-center justify-center">
-      <div className="flex items-center justify-center h-screen mt-0">
+      <div className="flex items-center justify-center mt-0">
         <ButtonCard
           image="/Rectangle647.png"
           title="Foundations Built for Reliability"
@@ -273,7 +273,7 @@ const FoundationBuilt = () => {
 
           <div className="border-[1px] border-[#D1EDFF] rounded-3xl   ">
             <img
-              src="/Frame2219.png"
+              src="/Frame2258.png"
               alt="Drilling work"
               className="w-full aspect-square object-cover rounded-xl"
             />

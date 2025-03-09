@@ -23,7 +23,7 @@ const EnvDrilling = () => {
     return (
         <div className="w-full flex flex-col items-center bg-slate-background">
             {/* Hero Component */}
-            <div className="mt-4 sm:mt-6 px-3 sm:px-4">
+            <div className="mt-4 sm:mt-6 px-3 sm:px-0">
                 <ButtonCard
                     image={EnvHero}
                     title="Specialized Environmental & Geotechnical Drilling Services"
@@ -33,7 +33,7 @@ const EnvDrilling = () => {
             </div>
 
             {/* Left pic paragraph component */}
-            <div className="mt-8 sm:mt-40 md:mt-[100px] mb-8 sm:mb-40 md:mb-[100px] md:px-[5%]">
+            <div className="mt-8 sm:mt-40 md:mt-[100px] mb-8 sm:mb-40 md:mb-[100px] md:px-[110px]">
                 <InfoSection
                     title="Expert Drilling Equipment for Challenging Sites"
                     description={
@@ -65,7 +65,7 @@ const EnvDrilling = () => {
             </div>
 
             {/* Middle image card component */}
-            <div className="w-[90%] h-auto py-10 mb-[50px]">
+            <div className="w-[90%] lg:w-full h-auto py-10 mb-[50px] lg:px-[110px]">
                 <div className="flex flex-col items-start w-full">
                     <h1 className="w-[80%] mb-4 font-inter text-28 sm:text-40 md:text-40 lg:text-48 font-600">
                         Qualified & Experienced Drillers
@@ -93,7 +93,7 @@ const EnvDrilling = () => {
             </div>
 
             {/* Map  */}
-            <div className="w-[80%] mt-[50px] flex flex-col">
+            <div className="w-[80%] lg:w-full mt-[50px] flex flex-col lg:px-[110px]">
                 <h1 className="font-inter font-600 text-24 sm:text-28 md:text-32 lg:text-40 xl:text-48">
                     Service Area
                 </h1>
@@ -113,7 +113,7 @@ const EnvDrilling = () => {
             </div>
 
             {/* Cards */}
-            <div className="w-[90%] mb-[100px] mt-[60vw]">
+            <div className="w-[90%] lg:w-full mb-[100px] mt-[60vw] lg:px-[110px]">
                 <h1 className="font-inter font-600 text-28 md:text-40 lg:text-48 w-[80%] ">
                     Our Comprehensive Drilling Services
                 </h1>
@@ -170,7 +170,7 @@ const EnvDrilling = () => {
                 </div>
             </div>
             {/* Blue background component */}
-            <div className="mb-8 px-4 sm:px-8 sm:mb-40 md:mb-58">
+            <div className="mb-8 px-4 sm:px-0 sm:mb-40 md:mb-58">
                 <TextSection
                     title="Why Choose Statewide Geotechnical for Your Environmental Drilling Needs?"
                     description="state-of-the-art equipment, experienced team, and commitment to safety and environmental responsibility make us the trusted choice for environmental and geotechnical drilling services."

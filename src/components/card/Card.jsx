@@ -1,4 +1,5 @@
 import React from "react";
+import { DrillBit } from "../../assets/assets";
 
 const Card = ({ image, title, description }) => {
     return (
@@ -6,10 +7,13 @@ const Card = ({ image, title, description }) => {
             <img
                 src={image}
                 alt={title}
-                className="w-full h-[30vw] sm:h-[15vw] object-cover rounded-xl"
+                className="w-full h-[30vw] sm:h-[15vw] object-cover rounded-2xl"
             />
-            <div className="mt-4">
-                <h3 className="font-inter font-500 text-14 md:font-600 sm:text-14 md:text-18">
+            <div className="mt-4 px-2">
+                <div>
+                    <img src={DrillBit} />
+                </div>
+                <h3 className="font-inter font-500 text-14 mt-2 md:font-600 sm:text-14 md:text-18">
                     {title}
                 </h3>
                 <p className="sm:hidden font-inter font-400 text-12 sm:text-14 md:text-16  text-gray-600 mt-2">

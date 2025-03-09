@@ -16,11 +16,7 @@ import LandCapability from "./pages/Land Capability/LandCapability"
 import EnvDrilling from "./pages/envDrilling/EnvDrilling"
 import Inspections from "./pages/inspections/Inspections"
 import AccreditedPage from "./pages/accredited/AccreditedPage"
-import ContactSection from "./components/contacts/ContactSection"
-import {Hero} from "./assets/assets"
-import HeroSection from "./components/hero-section/HeroSection"
 import ContactPage from "./pages/contactUs/ContactPage"
-import AppointmentRequestForm from "./components/form/AppointmentRequestForm"
 
 const App = () => {
   return (

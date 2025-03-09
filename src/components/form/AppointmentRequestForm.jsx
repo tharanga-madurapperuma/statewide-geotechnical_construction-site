@@ -54,8 +54,30 @@ const AppointmentRequestForm = () => {
       )
   }
 
+  {isSent &&
+    Swal.fire({
+      icon: "success",
+      title: "Email sent successfully!",
+      confirmButtonText: "OK",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        setIsSent(false)
+      }
+    })}
+  {error &&
+    Swal.fire({
+      icon: "error",
+      title: "Something went wrong!",
+      text: error,
+    }).then((result) => {
+      if (result.isConfirmed) {
+        setError("")
+      }
+    })
+    }
+    
   return (
-    <div id="appointment" className="container mx-auto px-4 lg:px-[80px]">
+    <div id="appointment" className="container mx-auto lg:mt-[128px] px-4 lg:px-[110px]">
       <div className="text-gray-500 text-[18px] text-justify mb-4">
         Our team is available Monday through Friday, 9:00 AM to 5:00 PM. We're
         happy to help you with any questions, discuss your upcoming projects, or
@@ -75,28 +97,9 @@ const AppointmentRequestForm = () => {
           <h3 className="lg:text-[40px] text-2xl text-gray-900 mb-4">
             Appointment Request Form
           </h3>
-          {isSent &&
-            Swal.fire({
-              icon: "success",
-              title: "Email sent successfully!",
-              confirmButtonText: "OK",
-            }).then((result) => {
-              if (result.isConfirmed) {
-                setIsSent(false)
-              }
-            })}
-          {error &&
-            Swal.fire({
-              icon: "error",
-              title: "Something went wrong!",
-              text: error,
-            }).then((result) => {
-              if (result.isConfirmed) {
-                setError("")
-              }
-            })}
+          
           <form onSubmit={handleSubmit}>
-            <div className="mb-4">
+            <div className="mb-4 lg:mb-24">
               <label className="block text-[16px] text-gray-700 font-semibold mb-2">
                 Full Name
               </label>
@@ -107,10 +110,10 @@ const AppointmentRequestForm = () => {
                 onChange={handleChange}
                 required
                 placeholder="Enter your Full Name"
-                className="rounded w-full py-2 px-3 bg-gray-100 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-300"
+                className="rounded w-full py-2 px-3 bg-gray-100  placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-300"
               />
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:mb-24">
               <div className="mb-4">
                 <label className="block text-gray-700 font-semibold mb-2">
                   Email
@@ -130,7 +133,7 @@ const AppointmentRequestForm = () => {
                   Phone Number
                 </label>
                 <input
-                  type="tel"
+                  type="number"
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
@@ -141,7 +144,7 @@ const AppointmentRequestForm = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:mb-24">
               <div className="mb-4">
                 <label className="block text-gray-700 font-semibold mb-2">
                   Preferred Appointment Date
@@ -170,7 +173,7 @@ const AppointmentRequestForm = () => {
               </div>
             </div>
 
-            <div className="mb-4">
+            <div className="mb-4 lg:mb-24">
               <label className="block text-gray-700 font-semibold mb-2">
                 Project Details/Description
               </label>
@@ -184,7 +187,7 @@ const AppointmentRequestForm = () => {
                 rows="3"
               ></textarea>
             </div>
-            <div className="mb-4">
+            <div className="mb-4 lg:mb-24">
               <label className="block text-gray-700 font-semibold mb-2">
                 Questions or Additional Information
               </label>

@@ -17,22 +17,21 @@ const AppointmentRequestForm = () => {
   const [isSent, setIsSent] = useState(false)
   const [error, setError] = useState("")
 
-  // Handle input changes
+  
   const handleChange = (e) => {
     setFormData({...formData, [e.target.name]: e.target.value})
   }
 
-  // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault()
 
-    // Send email using EmailJS
+
     emailjs
       .send(
-        "service_6azo6oa", // Replace with your actual Service ID
-        "template_7x1kxf8", // Replace with your actual Template ID
+        "service_6azo6oa", 
+        "template_7x1kxf8", 
         formData,
-        "DYxkS4Zx6AD3J6JhU" // Replace with your actual Public Key
+        "DYxkS4Zx6AD3J6JhU" 
       )
       .then(
         (response) => {
@@ -83,7 +82,7 @@ const AppointmentRequestForm = () => {
               confirmButtonText: "OK",
             }).then((result) => {
               if (result.isConfirmed) {
-                setIsSent(false) 
+                setIsSent(false)
               }
             })}
           {error &&
@@ -93,7 +92,7 @@ const AppointmentRequestForm = () => {
               text: error,
             }).then((result) => {
               if (result.isConfirmed) {
-                setError("") 
+                setError("")
               }
             })}
           <form onSubmit={handleSubmit}>

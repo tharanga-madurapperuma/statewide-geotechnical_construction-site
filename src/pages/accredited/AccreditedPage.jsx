@@ -13,6 +13,7 @@ const AccreditedPage = () => {
                 description={"Delivering high-precision testing services with industry-leading expertise."}
                 buttonText={"Get in Touch "}
                 buttonLink={"/"}
+                hasBookButton={false}
             />
             <AccreditedFacilitySection />
             

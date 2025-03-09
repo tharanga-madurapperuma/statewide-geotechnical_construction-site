@@ -77,7 +77,7 @@ const AppointmentRequestForm = () => {
     }
     
   return (
-    <div  className="container mx-auto lg:mt-[128px] px-4 lg:px-[110px]">
+    <div  className="container mx-auto lg:mt-[128px] md:px-[80px] lg:px-[100px] xl:px-[110px] mb-[3rem] px-8">
       <div className="text-gray-500 text-[18px] text-justify mb-4">
         Our team is available Monday through Friday, 9:00 AM to 5:00 PM. We're
         happy to help you with any questions, discuss your upcoming projects, or

@@ -1,5 +1,4 @@
 import React from "react"
-import ContactSection from "../../components/contacts/ContactSection"
 import HeroSection from "../../components/hero-section/HeroSection"
 import LicenseCard from "../../components/card-icon-license/CardIconLicense"
 import {DocIcon} from "../../assets/assets"
@@ -8,21 +7,10 @@ import {BsDribbble, BsInstagram} from "react-icons/bs"
 import {RiTwitterLine} from "react-icons/ri"
 import ContactCard from "../../components/contacts/ContactCard"
 import {FaMapMarkerAlt} from "react-icons/fa"
-import ContactMerged from "../../components/contacts/ContactMerged"
 import {IoIosMail} from "react-icons/io"
 import {IoCall} from "react-icons/io5"
 
 const ContactPage = () => {
-  const contactComponents = [
-    <ContactCard icon={<FaMapMarkerAlt />} title="Email Us">
-      <p>info@statewide.com.au</p>
-      <p>support@statewide.com.au</p>
-    </ContactCard>,
-    <ContactCard icon={<FaMapMarkerAlt />} title="Call us">
-      <p>phone: +61 3 9123 4567</p>
-      <p>Fax: +61 3 9123 4568</p>
-    </ContactCard>,
-  ]
   return (
     <div>
       <HeroSection
@@ -31,10 +19,6 @@ const ContactPage = () => {
           "We’re here to help! Whether you’re ready to start your next project or just have a question, the team at Statewide Geotechnical (Aust) Pty Ltd is always available to assist. Let’s connect and see how we can help you with your geotechnical, geological, and engineering needs."
         }
       />
-
-      <div className="lg:hidden block ">
-        <ContactSection />
-      </div>
 
       <div className="lg:block xl:hidden hidden px-8">
         <div className="flex flex-row place-content-between gap-4">
@@ -77,7 +61,8 @@ const ContactPage = () => {
           </ContactCard>
         </div>
       </div>
-      <div className="sm:hidden  flex justify-center  mb-8">
+
+      <div className="sm:hidden  flex justify-center  my-8">
         <div className="flex flex-col  gap-8">
           <ContactCard icon={<IoIosMail />} title="Email Us">
             <p>info@statewide.com.au</p>
@@ -98,7 +83,7 @@ const ContactPage = () => {
       </div>
       <AppointmentRequestForm />
 
-      <div className="lg:px-[110px]  p-3">
+      <div className="md:px-[80px] lg:px-[100px] xl:px-[110px] mb-[3rem] px-8 py-3">
         <h2 className="lg:text-[48px]  text-2xl py-[2rem] font-600 text-gray-900">
           Why Choose Us
         </h2>
@@ -127,7 +112,7 @@ const ContactPage = () => {
         </div>
       </div>
 
-      <div className="lg:px-[110px] lg:mt-[100px] p-3">
+      <div className="md:px-[80px] lg:px-[100px] xl:px-[110px] mb-[3rem] px-8 lg:mt-[100px] py-3">
         <h2 className="lg:text-48 text-2xl font-600 text-gray-900">
           Follow Us
         </h2>
@@ -148,7 +133,7 @@ const ContactPage = () => {
         </div>
       </div>
 
-      <div className="lg:px-[110px] lg:mt-[100px] p-3">
+      <div className="md:px-[80px] lg:px-[100px] xl:px-[110px] mb-[3rem] px-8 lg:mt-[100px] p-3">
         <h2 className="lg:text-48 text-2xl font-600 text-gray-900">
           Visit Our Office
         </h2>

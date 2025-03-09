@@ -3,7 +3,7 @@ import {GroupTalk} from "../../assets/assets"
 
 const AccreditedFacilitySection = () => {
   return (
-    <section className="bg-white w-full  h-auto  mx-auto sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] mb-[3rem] px-5 py-10">
+    <section className="bg-white w-full  h-auto  mx-auto sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] mb-[3rem] px-8 py-10">
       <h2 className="text-xl sm:text-[32px] lg:text-[40px] xl:text-[54px] font-600 lg:mb-[56px] text-gray-900 leading-snug">
         Statewide Laboratories Pty Ltd – Your Trusted 
         NATA-Accredited Testing Facility

@@ -12,16 +12,23 @@ import Drilling from "./pages/drilling/Drilling";
 import Soil from "./pages/soil/Soil";
 import Slopes from "./pages/slopes/Slopes";
 import Road from "./pages/road/Road";
+import Resources from "./pages/resources/Resources";
 import LandCapability from "./pages/Land Capability/LandCapability";
 import EnvDrilling from "./pages/envDrilling/EnvDrilling";
 import Inspections from "./pages/inspections/Inspections";
 import AccreditedPage from "./pages/accredited/AccreditedPage";
 import TrustedLeaders from "./pages/TrustedLeaders";
+import NotFound from "./pages/notFound/NotFound";
+import ContactSection from "./components/contacts/ContactSection";
+import { Hero } from "./assets/assets";
+import HeroSection from "./components/hero-section/HeroSection";
+import ContactPage from "./pages/contactUs/ContactPage";
+import AppointmentRequestForm from "./components/form/AppointmentRequestForm";
 
 const App = () => {
-    return (
-        <div className="overflow-x-hidden">
-            <BrowserRouter>
+  return (
+    <div className="overflow-x-hidden ">
+      <BrowserRouter>
                 <Navbar />
                 <Routes>
                     <Route path="/" element={<Home />} />
@@ -41,17 +48,20 @@ const App = () => {
                     />
                     <Route path="/accredited" element={<AccreditedPage />} />
                     <Route path="/envDrilling" element={<EnvDrilling />} />
+                  <Route path="/inspections" element={<Inspections />} />
                     <Route path="/inspections" element={<Inspections />} />
-
                     <Route
                         path="/TrustedLeaders"
                         element={<TrustedLeaders />}
                     />
+                    <Route path="/*" element={<NotFound />} />
+                    <Route path="/resources" element={<Resources />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>
-        </div>
-    );
-};
+          
+    </div>
+  )
+}
 
-export default App;
+export default App

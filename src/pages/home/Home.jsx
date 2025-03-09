@@ -78,7 +78,7 @@ const Home = () => {
         },
     ];
     return (
-        <div className="flex flex-col w-full">
+        <div className="flex flex-col w-full bg-slate-background">
             {/* HOME - FIRST SECTION */}
             <div className="h-auto w-full">
                 <div className="w-full h-auto flex flex-col items-center">

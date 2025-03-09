@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import { Close, Logo, Menu } from "../../assets/assets";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -9,19 +10,50 @@ const Navbar = () => {
         setMenuOpen(!menuOpen);
     };
 
+    // Navigation
+    const Navigate = useNavigate();
+
     return (
-        <div className="md:h-[92px] md:w-full" onClick={menuEffect}>
+        <div
+            className="md:h-[92px] md:w-full bg-slate-background"
+            onClick={menuEffect}
+        >
             <div className="hidden md:flex justify-between items-center py-6 px-[75px] w-full h-full">
-                <div className="h-full">
+                <div className="h-full sm:w-[30%]">
                     <img className="h-full" src={Logo} />
                 </div>
                 <div className="navbar-items">
-                    <ul className="flex justify-between items-center space-x-24 lg:space-x-40 xl:space-x-48">
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Services</li>
-                        <li>Resources</li>
-                        <li>Contact Us</li>
+                    <ul className="flex justify-between sm:text-16 items-center space-x-24 sm:space-x-10 lg:space-x-40 xl:space-x-48">
+                        <li
+                            className="cursor-pointer hover:text-gray-600 transition duration-300"
+                            onClick={() => Navigate("/")}
+                        >
+                            Home
+                        </li>
+                        <li
+                            className="cursor-pointer hover:text-gray-600 transition duration-300"
+                            onClick={() => Navigate()}
+                        >
+                            About
+                        </li>
+                        <li
+                            className="cursor-pointer hover:text-gray-600 transition duration-300"
+                            onClick={() => Navigate()}
+                        >
+                            Services
+                        </li>
+                        <li
+                            className="cursor-pointer hover:text-gray-600 transition duration-300"
+                            onClick={() => Navigate()}
+                        >
+                            Resources
+                        </li>
+                        <li
+                            className="cursor-pointer hover:text-gray-600 transition duration-300"
+                            onClick={() => Navigate()}
+                        >
+                            Contact Us
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -46,11 +78,36 @@ const Navbar = () => {
                             menuOpen ? "translate-x-0" : "translate-x-full"
                         }`}
                     >
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Services</li>
-                        <li>Resources</li>
-                        <li>Contact Us</li>
+                        <li
+                            className="cursor-pointer hover:text-gray-600 transition duration-300"
+                            onClick={() => Navigate()}
+                        >
+                            Home
+                        </li>
+                        <li
+                            className="cursor-pointer hover:text-gray-600 transition duration-300"
+                            onClick={() => Navigate()}
+                        >
+                            About
+                        </li>
+                        <li
+                            className="cursor-pointer hover:text-gray-600 transition duration-300"
+                            onClick={() => Navigate()}
+                        >
+                            Services
+                        </li>
+                        <li
+                            className="cursor-pointer hover:text-gray-600 transition duration-300"
+                            onClick={() => Navigate()}
+                        >
+                            Resources
+                        </li>
+                        <li
+                            className="cursor-pointer hover:text-gray-600 transition duration-300"
+                            onClick={() => Navigate()}
+                        >
+                            Contact Us
+                        </li>
                     </ul>
                 </div>
             </div>

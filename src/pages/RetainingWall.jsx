@@ -22,7 +22,7 @@ const RetainingWall = () => {
         <h1 className="text-5xl font-semibold mb-6">Retaining Wall Solutions</h1>
         <div className="grid grid-cols-5 grid-rows-10 gap-[24px]">
           {/* Description Box */}
-          <div className="col-span-2 row-span-4 bg-blue-100 p-6 rounded-3xl flex items-center justify-center ">
+          <div className="col-span-2 row-span-4 bg-blue-100 p-6 rounded-3xl flex items-center justify-center">
             <p className="text-gray-700">
               Retaining walls play a critical role in managing soil stability,
               especially on sloped or uneven terrain. Our retaining wall
@@ -60,7 +60,7 @@ const RetainingWall = () => {
             </p>
           </div>
 
-          <div className="col-span-3 row-span-2 col-start-3 row-start-5 border-b-1 border-[#D1D5DB] p-6">
+          <div className="col-span-3 row-span-2 col-start-3 row-start-5 border-b-1 border-[#D1D5DB] p-6 ">
             <h2 className="text-xl font-semibold mb-2">
               Sheet Pile Retaining Walls
             </h2>
@@ -133,7 +133,7 @@ const RetainingWall = () => {
           </div>
 
           {/* Bulk Excavation */}
-          <div className="col-span-3 row-span-4 col-start-4 row-start-2 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF]">
+          <div className="col-span-3 row-span-4 col-start-4 row-start-2 bg-blue-25 p-6 rounded-3xl border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -147,7 +147,7 @@ const RetainingWall = () => {
           </div>
 
           {/* Detailed Excavation */}
-          <div className="col-span-3 row-span-4 col-start-7 row-start-2 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF]">
+          <div className="col-span-3 row-span-4 col-start-7 row-start-2 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -163,7 +163,7 @@ const RetainingWall = () => {
           </div>
 
           {/* Trenching */}
-          <div className="col-span-3 row-span-4 col-start-1 row-start-6 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF]">
+          <div className="col-span-3 row-span-4 col-start-1 row-start-6 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -178,7 +178,7 @@ const RetainingWall = () => {
           </div>
 
           {/* Rock Breaking and Removal */}
-          <div className="col-span-3 row-span-4 col-start-4 row-start-6 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF]">
+          <div className="col-span-3 row-span-4 col-start-4 row-start-6 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -194,7 +194,7 @@ const RetainingWall = () => {
           </div>
 
           {/* Shoring & Site Stabilization */}
-          <div className="col-span-3 row-span-4 col-start-7 row-start-6 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF]">
+          <div className="col-span-3 row-span-4 col-start-7 row-start-6 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>

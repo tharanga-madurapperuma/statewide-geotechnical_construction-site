@@ -7,7 +7,7 @@ import CardIconTextCenter from "../components/card-icon-text-center/CardIconText
 const TrustedLeaders = () => {
   return (
     <div className="flex flex-col w-full items-center justify-center">
-      <div className='w-full h-auto'>
+      <div className="w-full h-auto">
         <HeroSection
           title="Trusted Leaders in Geotechnical & Geological Services"
           description="Over 30,000 successful ground investigation projects completed."
@@ -15,18 +15,20 @@ const TrustedLeaders = () => {
           buttonText="Get in Touch"
         />
 
-        <InfoSection
-          title="About Us"
-          description="Statewide Geotechnical (Aust) Pty Ltd, a trusted leader in geotechnical and geological services. With over 30,000 successful ground investigation projects completed, our expert team of Geotechnical Engineers, Engineering Geologists, and Soil and Laboratory Technicians delivers top-tier services across a variety of industries.
+        <div className="mt-[128px] max-w-[1408px] mx-auto">
+          <InfoSection
+            title="About Us"
+            description="Statewide Geotechnical (Aust) Pty Ltd, a trusted leader in geotechnical and geological services. With over 30,000 successful ground investigation projects completed, our expert team of Geotechnical Engineers, Engineering Geologists, and Soil and Laboratory Technicians delivers top-tier services across a variety of industries.
 
 We proudly serve a diverse range of clients, including consulting engineers, commercial and residential builders, utility companies, local authorities, and government organizations. Our comprehensive suite of geotechnical services is offered under one roof, ensuring a streamlined, efficient process from start to finish."
-          buttonLink="Get in Touch"
-          buttonText="Contact Us to Learn More About Our Services"
-          imageSrc="/Frame2283.png"
-          reverse=""
-        />
+            buttonLink="Get in Touch"
+            buttonText="Contact Us to Learn More About Our Services"
+            imageSrc="/Frame2283.png"
+            reverse=""
+          />
+        </div>
 
-        <div className="mt-[42px] mb-[48px]">
+        <div className="mt-[64px] mb-[64px]">
           <TextSection
             title="Why Choose Us?"
             description="At Statewide Geotechnical, we set ourselves apart with our unique ability to provide all drilling, laboratory testing, and reporting in-house. This integrated approach ensures faster turnaround times, consistent quality, and unmatched reliability throughout every phase of your project. By controlling every aspect of the process, we maintain high standards and offer exceptional value—all while keeping costs lower than larger competitors.

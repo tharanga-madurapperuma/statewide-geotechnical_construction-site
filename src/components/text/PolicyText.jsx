@@ -10,7 +10,7 @@ const PolicyText = ({ title, description, bulletText }) => {
                     <li key={index}>{item}</li>//need to add data as a array
                 ))}
             </ul>
-            <hr className="mt-4 border-[#D1D5DB]" />
+            
         </div>
     );
 };

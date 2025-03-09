@@ -28,18 +28,18 @@ const App = () => {
                 <Navbar />
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/RetainingWall" element={<RetainingWall />} />
+                    <Route path="/retaining" element={<RetainingWall />} />
                     <Route path="/drilling" element={<Drilling />} />
                     <Route path="/soil" element={<Soil />} />
                     <Route path="/slopes" element={<Slopes />} />
                     <Route path="/road" element={<Road />} />
                     <Route path="/land" element={<LandCapability />} />
                     <Route
-                        path="/SiteInvetigate"
+                        path="/siteinvetigate"
                         element={<SiteInvetigate />}
                     />
                     <Route
-                        path="/FoundationBuilt"
+                        path="/foundationbuilt"
                         element={<FoundationBuilt />}
                     />
                     <Route path="/accredited" element={<AccreditedPage />} />
@@ -47,7 +47,7 @@ const App = () => {
                   <Route path="/inspections" element={<Inspections />} />
                     <Route path="/inspections" element={<Inspections />} />
                     <Route
-                        path="/TrustedLeaders"
+                        path="/trustedleaders"
                         element={<TrustedLeaders />}
                     />
                     <Route path="/*" element={<NotFound />} />

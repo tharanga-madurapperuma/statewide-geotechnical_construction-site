@@ -13,6 +13,7 @@ const RetainingWall = () => {
           description="At Statewide Geotechnical (Aust) Pty Ltd, we provide comprehensive retaining wall and excavation services designed to secure your site, optimize space, and ensure stability for your construction project. With expert knowledge of ground behavior and soil mechanics, our team delivers tailored solutions to meet the unique demands of each site, from sloped terrains to complex urban environments."
           buttonText="Get in Touch"
           imagePosition="right"
+          link="www.google.com"
           className="mb-8"
         />
       </div>

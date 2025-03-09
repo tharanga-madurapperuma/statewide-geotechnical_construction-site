@@ -153,8 +153,8 @@ const Road = () => {
                     </p>
                     </div>
                 </div>
-
-                
+                </div>
+              
 
             </div>
 
@@ -163,6 +163,8 @@ const Road = () => {
                 title='Why Choose Statewide Geotechnical for Road Pavement Design?'
                 description='Statewide Geotechnical combines geotechnical expertise with industry-leading analysis to deliver road pavement designs that maximize durability, safety, and cost-efficiency. Our approach is grounded in thorough site assessment, precise material selection, and a commitment to regulatory compliance, ensuring each project meets or exceeds industry standards.'
                 />
+
+          <div className='px-[30px] md:px-[110px] sm:px-[20px]'>
 
             {/* Fourth Section */}
             <div className='flex w-full h-auto bg-white-100 py-21'>

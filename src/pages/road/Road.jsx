@@ -17,7 +17,7 @@ const Road = () => {
                 buttonText="Request a Consultation"
               />
             </div>
-            <div className='px-[30px] md:px-[110px] sm:px-[20px]'>
+          <div className='px-[30px] md:px-[110px] sm:px-[20px]'>
             {/* Second Section */}
             <div className='soil__second-section py-[128px] w-full h-auto'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
@@ -151,18 +151,19 @@ const Road = () => {
                     <p className='text-base sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
                     Effective pavement design requires a deep understanding of soil mechanics, material properties, and structural requirements. Our team utilizes advanced analysis and industry-standard methods to develop pavement designs that offer optimal performance and longevity.
                     </p>
-                    </div>
+                  </div>
                 </div>
-                </div>
-              
-
             </div>
+            
+          </div>
 
             {/* Third Section */}
+            <div className='mb-8 px-4 sm:px-0 sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6'>
             <TextSection
                 title='Why Choose Statewide Geotechnical for Road Pavement Design?'
                 description='Statewide Geotechnical combines geotechnical expertise with industry-leading analysis to deliver road pavement designs that maximize durability, safety, and cost-efficiency. Our approach is grounded in thorough site assessment, precise material selection, and a commitment to regulatory compliance, ensuring each project meets or exceeds industry standards.'
                 />
+            </div>
 
           <div className='px-[30px] md:px-[110px] sm:px-[20px]'>
 

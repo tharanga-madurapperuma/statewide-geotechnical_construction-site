@@ -5,7 +5,7 @@ import { GoArrowUpRight } from "react-icons/go"
 
 const HeroSection = ({title, description, buttonLink, buttonText}) => {
   return (
-    <section className=" my-[15%] md:py-10 md:px-[0.5rem] md:m-[2rem]">
+    <section className=" my-[15%] md:py-10 font-inter md:px-[0.5rem] md:m-[2rem]">
       <div
         className={` md:h-[900px] md:w-full flex items-center bg-cover p-48 bg-center md:rounded-xl hue-rotate-15 saturate-150`}
         style={{backgroundImage: `url(${HomeHero})`}}
@@ -15,7 +15,7 @@ const HeroSection = ({title, description, buttonLink, buttonText}) => {
             {title}
           </h2>
 
-          <p className="text-base md:text-[22px] max-w-[702px] text-gray-600 mt-3 text-justify">
+          <p className="text-base md:text-[22px] max-w-[702px] text-gray-600 mt-3">
             {description}
           </p>
 

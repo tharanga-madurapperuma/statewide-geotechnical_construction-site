@@ -4,7 +4,7 @@ import TextSection from "../components/text/TextSection";
 import InfoSection from "../components/info-section/InfoSection";
 import CardIconTextCenter from "../components/card-icon-text-center/CardIconTextCenter";
 
-const RetainingWall = () => {
+const TrustedLeaders = () => {
   return (
     <div className="flex flex-col w-full items-center justify-center">
       <div className="max-w-[1220px] mx-auto">
@@ -56,8 +56,7 @@ Services"
           <div className="col-span-3 row-span-4 col-start-4">
             <CardIconTextCenter
               iconUrl="/helmet.png"
-              titleText="Fast, Efficient Process
-Services"
+              titleText="Fast, Efficient Process"
               bodyTextPresent="Streamlined workflows reduce timelines and enhance project delivery."
               bodyText="Streamlined workflows reduce timelines and enhance project delivery."
             />
@@ -65,8 +64,7 @@ Services"
           <div className="col-span-3 row-span-4 col-start-7">
             <CardIconTextCenter
               iconUrl="/helmet.png"
-              titleText="Expert Team
-Services"
+              titleText="Expert Team"
               bodyTextPresent="Skilled engineers and technicians dedicated to providing high-quality results."
               bodyText="Skilled engineers and technicians dedicated to providing high-quality results."
             />
@@ -80,9 +78,17 @@ Services"
             />
           </div>
         </div>
+        {/* Footer */}
+        <div className="text-gray-600 mt-[32px] ">
+          <p>
+            Choose Statewide Geotechnical (Aust) Pty Ltd for your next project,
+            and experience the benefits of seamless, reliable, and
+            cost-effective geotechnical services.
+          </p>
+        </div>
       </div>
     </div>
   );
 };
 
-export default RetainingWall;
+export default TrustedLeaders;

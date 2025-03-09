@@ -273,7 +273,7 @@ const FoundationBuilt = () => {
 
           <div className="border-[1px] border-[#D1EDFF] rounded-3xl   ">
             <img
-              src="/Frame2219.png"
+              src="/Frame2258.png"
               alt="Drilling work"
               className="w-full aspect-square object-cover rounded-xl"
             />

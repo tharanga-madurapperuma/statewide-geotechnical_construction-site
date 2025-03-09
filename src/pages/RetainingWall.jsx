@@ -18,7 +18,7 @@ const RetainingWall = () => {
         />
       </div>
 
-      <div className="max-w-[1220px] mx-auto p-8">
+      <div className="max-w-[1220px] mx-auto mt-[94px]">
         <h1 className="text-5xl font-semibold mb-6">Retaining Wall Solutions</h1>
         <div className="grid grid-cols-5 grid-rows-10 gap-[24px]">
           {/* Description Box */}
@@ -35,7 +35,7 @@ const RetainingWall = () => {
           </div>
 
           {/* Retaining Wall Types */}
-          <div className="col-span-3 row-span-2 col-start-3 bg-gray-100 p-6 rounded-lg">
+          <div className="col-span-3 row-span-2 col-start-3  p-6 border-b-1 border-[#D1D5DB]">
             <h2 className="text-xl font-semibold mb-2">
               Gravity Retaining Walls
             </h2>
@@ -47,7 +47,7 @@ const RetainingWall = () => {
             </p>
           </div>
 
-          <div className="col-span-3 row-span-2 col-start-3 row-start-3 bg-gray-100 p-6 rounded-lg">
+          <div className="col-span-3 row-span-2 col-start-3 row-start-3 border-b-1 border-[#D1D5DB] p-6 ">
             <h2 className="text-xl font-semibold mb-2">
               Cantilever Retaining Walls
             </h2>
@@ -60,7 +60,7 @@ const RetainingWall = () => {
             </p>
           </div>
 
-          <div className="col-span-3 row-span-2 col-start-3 row-start-5 bg-gray-100 p-6 rounded-lg">
+          <div className="col-span-3 row-span-2 col-start-3 row-start-5 border-b-1 border-[#D1D5DB] p-6">
             <h2 className="text-xl font-semibold mb-2">
               Sheet Pile Retaining Walls
             </h2>
@@ -73,7 +73,7 @@ const RetainingWall = () => {
             </p>
           </div>
 
-          <div className="col-span-3 row-span-2 col-start-3 row-start-7 bg-gray-100 p-6 rounded-lg">
+          <div className="col-span-3 row-span-2 col-start-3 row-start-7 border-b-1 border-[#D1D5DB] p-6">
             <h2 className="text-xl font-semibold mb-2">
               Anchored Retaining Walls
             </h2>
@@ -85,7 +85,7 @@ const RetainingWall = () => {
             </p>
           </div>
 
-          <div className="col-span-3 row-span-2 col-start-3 row-start-9 bg-gray-100 p-6 rounded-lg">
+          <div className="col-span-3 row-span-2 col-start-3 row-start-9  p-6 ">
             <h2 className="text-xl font-semibold mb-2">
               Segmental Retaining Walls
             </h2>
@@ -109,109 +109,108 @@ const RetainingWall = () => {
         </div>
       </div>
 
-      <div className="max-w-[1220px] mx-auto p-4 sm:p-6 md:p-8 mt-2 sm:mt-4">
-      {/* Header Section */}
-      <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-4 sm:mb-6">
-        Excavation Services
-      </h1>
-      <p className="text-gray-600 text-sm sm:text-base">
-        Our excavation services are designed to support safe, efficient site
-        preparation for construction projects of any scale. We handle all
-        types of excavation, from shallow earthworks for foundations to deep
-        excavations for basements, infrastructure, and industrial facilities.
-        With a commitment to safety and precision, we manage excavation
-        projects with minimal disruption to surrounding areas.
-      </p>
+      <div className="max-w-[1220px] mx-auto mt-[94px]">
+        {/* Header Section */}
+        <h1 className="text-5xl font-semibold mb-6">Excavation Services</h1>
+        <p className="text-gray-600 mb-6">
+          Our excavation services are designed to support safe, efficient site
+          preparation for construction projects of any scale. We handle all
+          types of excavation, from shallow earthworks for foundations to deep
+          excavations for basements, infrastructure, and industrial facilities.
+          With a commitment to safety and precision, we manage excavation
+          projects with minimal disruption to surrounding areas.
+        </p>
 
-      {/* Grid Layout */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8 mt-8">
-        {/* Image Section */}
-        <div className="border border-[#D1EDFF] rounded-3xl overflow-hidden h-[300px] sm:h-[400px]">
-          <img
-            src="/Frame2219.png"
-            alt="Excavation"
-            className="w-full h-full object-cover"
-          />
-        </div>
-
-        {/* Bulk Excavation */}
-        <div className="bg-[#F7FCFF] p-4 sm:p-6 rounded-3xl border border-[#D1EDFF]">
-          <div className="w-12 h-12">
-            <img src="/helmet.png" alt="helmet" />
+        {/* Grid Layout */}
+        <div className="grid grid-cols-9 grid-rows-9 gap-[32px]">
+          {/* Image Section */}
+          <div className="col-span-3 row-span-4 col-start-1 row-start-2 border-[1px] border-[#D1EDFF] rounded-3xl">
+            <img
+              src="/Frame2219.png"
+              alt="Excavation"
+              className="w-full h-full object-cover rounded-3xl"
+            />
           </div>
-          <h2 className="text-lg sm:text-xl font-semibold mb-2 mt-4">Bulk Excavation</h2>
-          <p className="text-gray-600 text-sm sm:text-base">
-            Our bulk excavation services involve large-scale soil and rock
-            removal to prepare sites for construction. Using state-of-the-art
-            equipment, we ensure precise and efficient excavation, regardless
-            of site complexity or soil type.
-          </p>
-        </div>
 
-        {/* Detailed Excavation */}
-        <div className="bg-[#F7FCFF] p-4 sm:p-6 rounded-3xl border border-[#D1EDFF]">
-          <div className="w-12 h-12">
-            <img src="/helmet.png" alt="helmet" className="w-full h-full object-contain" />
+          {/* Bulk Excavation */}
+          <div className="col-span-3 row-span-4 col-start-4 row-start-2 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF]">
+            <div>
+              <img src="/helmet.png" alt="helmet" />
+            </div>
+            <h2 className="text-xl font-semibold mb-2 mt-5">Bulk Excavation</h2>
+            <p className="text-gray-600">
+              Our bulk excavation services involve large-scale soil and rock
+              removal to prepare sites for construction. Using state-of-the-art
+              equipment, we ensure precise and efficient excavation, regardless
+              of site complexity or soil type.
+            </p>
           </div>
-          <h2 className="text-lg sm:text-xl font-semibold mb-2 mt-4">
-            Detailed Excavation
-          </h2>
-          <p className="text-gray-600 text-sm sm:text-base">
-            For projects that require precision, such as foundation or
-            basement preparation, we offer detailed excavation services. Our
-            team uses advanced techniques to create level, stable surfaces
-            that meet project specifications exactly.
-          </p>
-        </div>
 
-        {/* Trenching */}
-        <div className="bg-[#F7FCFF] p-4 sm:p-6 rounded-3xl border border-[#D1EDFF]">
-          <div className="w-12 h-12">
-            <img src="/helmet.png" alt="helmet" className="w-full h-full object-contain" />
+          {/* Detailed Excavation */}
+          <div className="col-span-3 row-span-4 col-start-7 row-start-2 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF]">
+            <div>
+              <img src="/helmet.png" alt="helmet" />
+            </div>
+            <h2 className="text-xl font-semibold mb-2 mt-5">
+              Detailed Excavation
+            </h2>
+            <p className="text-gray-600">
+              For projects that require precision, such as foundation or
+              basement preparation, we offer detailed excavation services. Our
+              team uses advanced techniques to create level, stable surfaces
+              that meet project specifications exactly.
+            </p>
           </div>
-          <h2 className="text-lg sm:text-xl font-semibold mb-2 mt-4">Trenching</h2>
-          <p className="text-gray-600 text-sm sm:text-base">
-            We provide trenching services for utility installation, drainage
-            systems, and other sub-surface requirements. Our trenching
-            solutions are customized to meet depth, width, and safety
-            standards, ensuring your site is ready for utilities and
-            infrastructure installation.
-          </p>
-        </div>
 
-        {/* Rock Breaking and Removal */}
-        <div className="bg-[#F7FCFF] p-4 sm:p-6 rounded-3xl border border-[#D1EDFF]">
-          <div className="w-12 h-12">
-            <img src="/helmet.png" alt="helmet" className="w-full h-full object-contain" />
+          {/* Trenching */}
+          <div className="col-span-3 row-span-4 col-start-1 row-start-6 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF]">
+            <div>
+              <img src="/helmet.png" alt="helmet" />
+            </div>
+            <h2 className="text-xl font-semibold mb-2 mt-5">Trenching</h2>
+            <p className="text-gray-600">
+              We provide trenching services for utility installation, drainage
+              systems, and other sub-surface requirements. Our trenching
+              solutions are customized to meet depth, width, and safety
+              standards, ensuring your site is ready for utilities and
+              infrastructure installation.
+            </p>
           </div>
-          <h2 className="text-lg sm:text-xl font-semibold mb-2 mt-4">
-            Rock Breaking and Removal
-          </h2>
-          <p className="text-gray-600 text-sm sm:text-base">
-            For sites with rocky or challenging soil conditions, we provide
-            specialized rock-breaking and removal services. Our equipment can
-            handle tough materials, clearing the way for smooth excavation and
-            efficient project progress.
-          </p>
-        </div>
 
-        {/* Shoring & Site Stabilization */}
-        <div className="bg-[#F7FCFF] p-4 sm:p-6 rounded-3xl border border-[#D1EDFF]">
-          <div className="w-12 h-12">
-            <img src="/helmet.png" alt="helmet" className="w-full h-full object-contain" />
+          {/* Rock Breaking and Removal */}
+          <div className="col-span-3 row-span-4 col-start-4 row-start-6 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF]">
+            <div>
+              <img src="/helmet.png" alt="helmet" />
+            </div>
+            <h2 className="text-xl font-semibold mb-2 mt-5">
+              Rock Breaking and Removal
+            </h2>
+            <p className="text-gray-600">
+              For sites with rocky or challenging soil conditions, we provide
+              specialized rock-breaking and removal services. Our equipment can
+              handle tough materials, clearing the way for smooth excavation and
+              efficient project progress.
+            </p>
           </div>
-          <h2 className="text-lg sm:text-xl font-semibold mb-2 mt-4">
-            Shoring & Site Stabilization
-          </h2>
-          <p className="text-gray-600 text-sm sm:text-base">
-            Safety is our top priority in excavation. We provide shoring and
-            stabilization solutions to prevent soil collapse, ensuring secure
-            excavation walls for deep or complex urban projects. From sheet
-            piling to bracing systems, we maintain site safety throughout.
-          </p>
+
+          {/* Shoring & Site Stabilization */}
+          <div className="col-span-3 row-span-4 col-start-7 row-start-6 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF]">
+            <div>
+              <img src="/helmet.png" alt="helmet" />
+            </div>
+            <h2 className="text-xl font-semibold mb-2 mt-5">
+              Shoring & Site Stabilization
+            </h2>
+            <p className="text-gray-600">
+              Safety is our top priority in excavation. We provide shoring and
+              stabilization solutions to prevent soil collapse, ensuring secure
+              excavation walls for deep or complex urban projects. From sheet
+              piling to bracing systems, we maintain site safety throughout.
+            </p>
+          </div>
         </div>
-      </div>
-    </div>
+      </div> 
+
       <div className="mt-[42px] mb-[48px]">
         <TextSection
           title="Why Choose Statewide Geotechnical for Retaining Wall and Excavation Services?"

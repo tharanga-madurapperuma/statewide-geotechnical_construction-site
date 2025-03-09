@@ -128,14 +128,19 @@ const LandCapability = () => {
                 </div>
 
             </div>
+            </div>
 
            {/*Third Section*/}
+           <div className='mb-8 px-4 sm:px-0 sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6'>
             <TextSection
                 title="Why Choose Statewide Geotechnical for Land Capability Assessment?"
                 description="With Statewide Geotechnical, you gain a trusted partner who understands the complexities of land capability and development feasibility. Our team combines geotechnical expertise, environmental insight, and regulatory knowledge to deliver comprehensive assessments that support sustainable, compliant project outcomes. We provide clear, actionable recommendations that guide project planning and help clients make informed, responsible land use decisions. Whether for residential subdivision, agricultural expansion, commercial development, or wastewater management, our Land Capability Assessment services deliver the knowledge and support you need for successful, sustainable site development."
                 buttonText="Get a Land Capability Assessment Today"
                 buttonLink="#"
             />
+          </div>
+
+            <div className='px-[30px] md:px-[110px] sm:px-[20px]'>
 
 
             {/* Fourth Section */}

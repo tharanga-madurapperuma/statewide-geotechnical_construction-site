@@ -23,11 +23,11 @@ const ContactPage = () => {
 
       <AppointmentRequestForm />
 
-      <div className="lg:px-[70px]  p-3">
+      <div className="lg:px-[110px]  p-3">
         <h2 className="lg:text-[48px]  text-2xl py-[2rem] font-600 text-gray-900">
           Why Choose Us
         </h2>
-        <div className="w-full h-full lg:px-0  flex gap-5 lg:gap-[10rem] flex-col  md:flex-row">
+        <div className="w-full h-full lg:px-0  flex space-b place-content-between lg:gap-[68px] flex-col  md:flex-row">
           <LicenseCard
             image={DocIcon}
             title="Expertise You Can Trust"
@@ -52,7 +52,7 @@ const ContactPage = () => {
         </div>
       </div>
 
-      <div className="lg:px-[70px] p-3">
+      <div className="lg:px-[110px] lg:mt-[100px] p-3">
         <h2 className="lg:text-48 text-2xl font-600 text-gray-900">
           Follow Us
         </h2>
@@ -73,7 +73,7 @@ const ContactPage = () => {
         </div>
       </div>
 
-      <div className="lg:px-[70px] p-3">
+      <div className="lg:px-[110px] lg:mt-[100px] p-3">
         <h2 className="lg:text-48 text-2xl font-600 text-gray-900">
           Visit Our Office
         </h2>
@@ -93,7 +93,7 @@ const ContactPage = () => {
           referrerPolicy="no-referrer-when-downgrade" 
         ></iframe>
       </div>
-      <div className="lg:px-[70px]  p-3">
+      <div className="lg:px-[110px] lg:mt-[100px] p-3">
         <h2 className="lg:text-48 text-2xl font-600 text-gray-900">
           Have a Question?
         </h2>

@@ -7,9 +7,9 @@ import { Arrowup, WorkerHat, Engineers, Roller } from '../../assets/assets';
 
 const Road = () => {
     return (
-        <div className='w-full flex flex-col'>
+        <div className='w-full flex flex-col items-center bg-slate-background'>
            {/* First Section */}
-           <div className="mt-4 sm:mt-6 px-3 sm:px-4">
+           <div className="mt-4 sm:mt-4 px-3 sm:px-4">
               <ButtonCard
                 image={Roller}
                 title="Road Pavement Design"
@@ -17,8 +17,9 @@ const Road = () => {
                 buttonText="Request a Consultation"
               />
             </div>
+            <div className='px-[30px] md:px-[110px] sm:px-[20px]'>
             {/* Second Section */}
-            <div className='soil__second-section p-[45px] sm:p-[85px] w-full h-auto'>
+            <div className='soil__second-section py-[128px] w-full h-auto'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
                     
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-[35px] w-full">
@@ -164,7 +165,7 @@ const Road = () => {
                 />
 
             {/* Fourth Section */}
-            <div className='flex w-full h-auto bg-white-100 p-21'>
+            <div className='flex w-full h-auto bg-white-100 py-21'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
                   <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
                   Statewide Geotechnical (Aust) Pty Ltd – Your Partner for Resilient Road Infrastructure
@@ -186,6 +187,7 @@ const Road = () => {
                 
 
             </div>
+          </div>
             
         </div>
     );

@@ -6,20 +6,22 @@ import { Engineers, WorkerHat, Arrowup, SoilTesting } from '../../assets/assets'
 
 const Slopes = () => {
     return (
-        <div className='w-full flex flex-col'>
+        <div className='w-full flex flex-col items-center bg-slate-background'>
           {/* First Section */}
-          <div className="mt-4 sm:mt-6 px-3 sm:px-4">
+          <div className="mt-4 sm:mt-4 px-3 sm:px-4">
               <ButtonCard
                 image={SoilTesting}
                 title="Slopes and Stability Assessment"
-                description="At Statewide Geotechnical (Aust) Pvt Ltd, we offer comprehensive slope and stability assessment services designed to mitigate risks and enhance safety for construction projects on sloped or complex terrain. With our in-depth understanding of soil mechanics, ground behavior, and site-specific environmental factors, we provide precise evaluations and customized solutions to ensure stability for both natural and engineered slopes."
+                description="At Statewide Geotechnical (Aust) Pty Ltd, we offer comprehensive slope and stability assessment services designed to mitigate risks and enhance safety for construction projects on sloped or complex terrain. With our in-depth understanding of soil mechanics, ground behavior, and site-specific environmental factors, we provide precise evaluations and customized solutions to ensure stability for both natural and engineered slopes."
                 buttonText="Get in Touch"
               />
             </div>
+
+            <div className='px-[30px] md:px-[110px] sm:px-[20px]'>
             {/* Second Section */}
-            <div className='soil__second-section p-[45px] sm:p-[85px] w-full h-auto'>
+            <div className='soil__second-section py-[128px] w-full h-auto'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
-                    <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
+                    <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-[32px] text-4xl text-center md:text-left'>
                     Our Slope and Stability Assessment Services
                     </h2>
                     <p className='text-base sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
@@ -160,7 +162,7 @@ const Slopes = () => {
 
 
             {/* Fourth Section */}
-            <div className='flex w-full h-auto bg-white-100 p-21'>
+            <div className='flex w-full h-auto bg-white-100 py-21'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
                   <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
                   Statewide Geotechnical (Aust) Pty Ltd – Your Partner for Slope Stability and Safety
@@ -170,7 +172,7 @@ const Slopes = () => {
                   Trust Statewide Geotechnical to deliver comprehensive, science-backed solutions for slopes and stability. With our commitment to precision and safety, we provide the expertise and support you need for stable, reliable, and successful construction on any terrain.
                   </p>
 
-                  <div className='text-left text-[15px] font-medium mt-4 text-blue-600 -pb-15 '>
+                  <div className='text-left text-[15px] font-medium mt-4 text-blue-600 pt-[40px]'>
                      <a href='#' className='flex items-center'>
                         <span className='mr-1'>
                         Get a Consultation
@@ -181,6 +183,7 @@ const Slopes = () => {
                 </div>
                 
 
+            </div>
             </div>
 
 

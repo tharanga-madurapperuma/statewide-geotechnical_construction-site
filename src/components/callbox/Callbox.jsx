@@ -2,7 +2,7 @@ import React from "react";
 
 const CallToAction = () => {
     return (
-        <div className=" py-10 px-8 md:px-40 lg:px-62 w-full mt-26 mb-8">
+        <div className=" py-10 w-full mt-26 mb-8">
             <div className="max-w-7xl mx-auto bg-gradient-to-r from-blue-800 to-blue-900 text-white rounded-2xl overflow-hidden flex h-[297px]">
                 {/* Left Section - Headline */}
                 <div className="w-1/3 sm:w-1/2 p-6 md:p-10 flex items-center justify-center">

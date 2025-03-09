@@ -25,8 +25,11 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import InfoSection from "../../components/info-section/InfoSection";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+    const navigate = useNavigate();
+
     const services = [
         {
             image: geotechnical,
@@ -82,7 +85,7 @@ const Home = () => {
             {/* HOME - FIRST SECTION */}
             <div className="h-auto w-full">
                 <div className="w-full h-auto flex flex-col items-center">
-                    <div className="h-full w-[90%] flex flex-col items-center ">
+                    <div className="h-full w-full p-4 flex flex-col items-center ">
                         {/* <img className="rounded-xl top-0" src={HomeHero} /> */}
                         <div
                             className="w-full h-auto m-[5%] rounded-2xl px-8 py-4 md:p-15 lg:p-[70px] xl:p-[80px] flex flex-col justify-between sm:relative"
@@ -93,19 +96,20 @@ const Home = () => {
                             }}
                         >
                             <div>
-                                <h1 className=" text-blue-950 w-[80%] font-inter font-700 text-24 md:text-40 lg:text-48 xl:text-72">
-                                    Building the Future on Solid Foundations.
+                                <h1 className=" text-blue-950 w-[80%] font-inter font-700 text-24 md:text-40 lg:text-48 xl:text-[76px]">
+                                    Building the Future
+                                    <br /> on Solid Foundations.
                                 </h1>
-                                <p className="w-[90%] lg:w-[60%] my-5 font-poppins font-400 text-12 sm:text-14 md:text-16 lg:text-18 xl:text-24">
+                                <p className="w-[90%] lg:w-[60%] my-5 font-poppins font-400 text-gray-600 text-12 sm:text-14 md:text-16 lg:text-18 xl:text-24">
                                     We provide custom geotechnical engineering
                                     solutions designed to support your project's
                                     success.
                                 </p>
                                 <div className="flex flex-col sm:flex-row items-start sm:items-center sm:mt-15">
-                                    <button className="w-auto text-nowrap h-40 md:h-[44px] lg:h-[48px] xl:h-[50px] bg-blue-600 hover:bg-blue-700  text-white rounded-lg font-inter font-600 text-12 md:text-14 lg:text-16 xl:text-18 px-4 md:px-8 transition duration-500 cursor-pointer">
-                                        Get a Quote
+                                    <button className="w-auto text-nowrap h-40 md:h-[44px] lg:h-[48px] xl:h-[50px] bg-blue-600 hover:bg-blue-700  text-white rounded-xl font-inter font-600 text-12 md:text-14 lg:text-16 xl:text-18 px-4 md:px-8 transition duration-500 cursor-pointer">
+                                        Let's Talk
                                     </button>
-                                    <div className="w-auto h-[38px] md:h-[42px] lg:h-[46px] xl:h-[48px] text-nowrap bg-transparent hover:bg-blue-transparent  text-blue-600 hover:text-blue-700 outline-2 hover:outline-blue-800 outline-solid outline-blue-600 font-inter font-600 text-12 md:text-14 lg:text-16 xl:text-18 rounded-lg flex items-center justify-center px-4 md:px-8 mt-2 sm:mt-0 sm:ml-4  transition duration-500 cursor-pointer">
+                                    <div className="w-auto hidden h-[38px] md:h-[42px] lg:h-[46px] xl:h-[48px] text-nowrap bg-transparent hover:bg-blue-transparent  text-blue-600 hover:text-blue-700 outline-2 hover:outline-blue-800 outline-solid outline-blue-600 font-inter font-600 text-12 md:text-14 lg:text-16 xl:text-18 rounded-lg items-center justify-center px-4 md:px-8 mt-2 sm:mt-0 sm:ml-4  transition duration-500 cursor-pointer">
                                         <p className="mr-2 font-medium">
                                             Explore Services
                                         </p>
@@ -113,9 +117,14 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className=" w-full md:w-[80%] xl:w-[70%] sm:h-[170px] md:h-[200px] hidden mt-15 md:mt-[100px] lg:mt-[150px] xl:mt-[200px] mb-2 lg:mb-0 sm:flex sm:relative bottom-0">
-                                <div className="bg-white w-2/3 h-full rounded-2xl">
-                                    <div className="flex h-full">
+                            <div className=" w-full md:w-[80%] xl:w-[65%] sm:h-[170px] md:h-[200px] xl:h-[220px] hidden mt-15 md:mt-[100px] lg:mt-[150px] xl:mt-[200px] mb-2 lg:mb-0 sm:flex sm:relative bottom-0">
+                                <div className="bg-white w-2/3 h-full rounded-3xl">
+                                    <div
+                                        className="flex h-full cursor-pointer"
+                                        onClick={() => {
+                                            navigate("/TrustedLeaders");
+                                        }}
+                                    >
                                         <div className="h-full w-2/5 flex items-center justify-center">
                                             <img
                                                 className="object-cover h-[80%] w-[80%] rounded-2xl"
@@ -125,7 +134,7 @@ const Home = () => {
                                         <div className="h-full w-3/5 pr-4 flex flex-col justify-center font-inter font-600 text-16 md:text-18 lg:text-24">
                                             <h3 className="text-gray-950">
                                                 See How We Deliver Geotechnical
-                                                Success
+                                                Successs
                                             </h3>
                                             <p className="text-gray-700 mt-4 font-inter font-400 text-12 md:text-14 lg:text-14">
                                                 From soil investigations to
@@ -137,7 +146,7 @@ const Home = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="bg-white w-1/3 h-full rounded-2xl ml-5">
+                                <div className="bg-white w-1/3 h-full rounded-3xl ml-5">
                                     <div className="flex items-center justify-center flex-col h-full w-full">
                                         <img src={ProfilePics} />
                                         <h1 className="font-inter font-600 text-32 lg:text-40">
@@ -152,7 +161,12 @@ const Home = () => {
                         </div>
                         <div className=" w-full h-[224px] bottom-0 sm:hidden m-[5%] flex flex-col">
                             <div className="bg-white  w-full h-full rounded-2xl">
-                                <div className="flex h-full">
+                                <div
+                                    className="flex h-full cursor-pointer"
+                                    onClick={() => {
+                                        navigate("/TrustedLeaders");
+                                    }}
+                                >
                                     <div className="h-full w-1/3">
                                         <img
                                             className="object-cover h-full w-full rounded-md"
@@ -192,7 +206,7 @@ const Home = () => {
             {/* HOME - SECOND SECTION */}
             <div className="w-full">
                 {/* WHO WE ARE */}
-                <div className="mt-8 md:px-8">
+                <div className="mt-8 md:px-[110px]">
                     <InfoSection
                         title="Who We Are"
                         description="At Statewide Geotechnical, we specialize in
@@ -246,10 +260,10 @@ const Home = () => {
                 </div> */}
 
                 {/* WHY CHOOSE US */}
-                <div className="w-full mt-[200px] sm:mt-80 flex flex-col items-center">
-                    <div className="w-full px-[10%] sm:px-[15%] md:px-[10%] lg:px-[15%] xl:px-[20%] 2xl:px-[25%]">
+                <div className="w-full mt-[200px] sm:mt-80 flex flex-col items-center bg-white xl:py-8">
+                    <div className="w-full px-[10%] sm:px-[15%] md:px-[10%] lg:px-[15%] xl:px-[110px]">
                         <div className="text-center">
-                            <h1 className="font-inter font-600 text-28 sm:text-32 md:text-40 lg:text-56 xl:text-62">
+                            <h1 className="font-inter font-600 text-gray-800 text-28 sm:text-32 md:text-40 lg:text-56 xl:text-62">
                                 Why Choose Us?
                             </h1>
                         </div>
@@ -294,7 +308,7 @@ const Home = () => {
                     </div>
                 </div>
                 {/* WHAT WE OFFER */}
-                <div className="overflow-x-hidden w-full px-2 md:px-6 lg:px-8 xl:px-[6%]">
+                <div className="overflow-x-hidden w-full px-2 md:px-6 lg:px-8 xl:px-[110px] xl:mt-8">
                     <div className="w-full h-auto mt-[20vw] sm:mt-62 flex flex-col items-center">
                         <div className="w-full flex justify-between items-center px-6">
                             <h1 className="font-inter font-600 text-28 sm:text-32 md:text-40 lg:text-56 xl:text-62">
@@ -304,7 +318,7 @@ const Home = () => {
                                 SEE ALL SERVICES
                             </p> */}
                         </div>
-                        <div className="flex flex-col sm:grid sm:grid-cols-2 sm:grid-rows-1 sm:gap-3 justify-between w-full h-full mt-10 mb-10 md:mb-1 px-6">
+                        <div className="flex flex-col sm:grid sm:grid-cols-2 sm:grid-rows-1 sm:gap-3 lg:gap-8 justify-between w-full h-full mt-10 mb-10 md:mb-1 px-6">
                             <div className="h-full lg:w-full ">
                                 <img
                                     className="object-cover h-full w-full rounded-3xl"
@@ -363,8 +377,8 @@ const Home = () => {
                             </div>
                         </div>
                         {/* CAROUSEL - SWIPER JS */}
-                        <div className="w-full flex flex-col items-center">
-                            <div className="sm:hidden w-[85%]">
+                        <div className="w-full flex flex-col items-center lg:mt-48">
+                            <div className="sm:hidden w-full">
                                 <Swiper
                                     slidesPerView={2}
                                     spaceBetween={10}
@@ -385,7 +399,7 @@ const Home = () => {
                             <div className="hidden sm:block sm:w-[93%] md:w-[95%] md:mt-2 xl:w-[96%]">
                                 <Swiper
                                     slidesPerView={4}
-                                    spaceBetween={10}
+                                    spaceBetween={32}
                                     keyboard={{
                                         enabled: true,
                                     }}
@@ -470,7 +484,7 @@ const Home = () => {
                     </div>
                 </div> */}
                 {/* START JOURNEY */}
-                <div className="">
+                <div className="xl:px-[110px]">
                     <Callbox />
                 </div>
             </div>

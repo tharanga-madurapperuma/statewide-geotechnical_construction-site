@@ -77,7 +77,7 @@ const AppointmentRequestForm = () => {
     }
     
   return (
-    <div id="appointment" className="container mx-auto lg:mt-[128px] px-4 lg:px-[110px]">
+    <div  className="container mx-auto lg:mt-[128px] px-4 lg:px-[110px]">
       <div className="text-gray-500 text-[18px] text-justify mb-4">
         Our team is available Monday through Friday, 9:00 AM to 5:00 PM. We're
         happy to help you with any questions, discuss your upcoming projects, or
@@ -94,11 +94,11 @@ const AppointmentRequestForm = () => {
       </p>
       <div className="md:flex">
         <div className="lg:w-2/3 w-full md:pr-4">
-          <h3 className="lg:text-[40px] text-2xl text-gray-900 mb-4">
+          <h3 id="appointment" className="lg:text-[40px] text-2xl text-gray-900 mb-4">
             Appointment Request Form
           </h3>
           
-          <form onSubmit={handleSubmit}>
+          <form  onSubmit={handleSubmit}>
             <div className="mb-4 lg:mb-24">
               <label className="block text-[16px] text-gray-700 font-semibold mb-2">
                 Full Name

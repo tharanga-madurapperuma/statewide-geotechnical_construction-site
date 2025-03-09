@@ -10,7 +10,7 @@ const Card = ({ image, title, description }) => {
                 className="w-full h-[30vw] sm:h-[15vw] object-cover rounded-2xl"
             />
             <div className="mt-4 px-2">
-                <div>
+                <div className="w-8 h-8 md:w-auto md:h-auto">
                     <img src={DrillBit} />
                 </div>
                 <h3 className="font-inter font-500 text-14 mt-2 md:font-600 sm:text-14 md:text-18">

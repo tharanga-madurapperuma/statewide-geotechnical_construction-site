@@ -76,7 +76,7 @@ const EnvDrilling = () => {
                         including:
                     </p>
                 </div>
-                <div className="w-full h-full grid grid-cols-3 gap-2 flex-col sm:flex-row">
+                <div className="w-full h-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 flex-col sm:flex-row">
                     <LicenseCard
                         image={DocIcon}
                         title="Water Bore Licenses (Class 1 & 2)"
@@ -170,7 +170,7 @@ const EnvDrilling = () => {
                 </div>
             </div>
             {/* Blue background component */}
-            <div className="mb-8 px-4 sm:px-0 sm:mb-40 md:mb-58">
+            <div className="mb-8 px-4 sm:px-0 sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6">
                 <TextSection
                     title="Why Choose Statewide Geotechnical for Your Environmental Drilling Needs?"
                     description="state-of-the-art equipment, experienced team, and commitment to safety and environmental responsibility make us the trusted choice for environmental and geotechnical drilling services."

@@ -206,7 +206,7 @@ const Home = () => {
             {/* HOME - SECOND SECTION */}
             <div className="w-full">
                 {/* WHO WE ARE */}
-                <div className="mt-8 md:px-[110px]">
+                <div className="mt-[30vw] sm:mt-8 md:px-[110px]">
                     <InfoSection
                         title="Who We Are"
                         description="At Statewide Geotechnical, we specialize in
@@ -308,9 +308,9 @@ const Home = () => {
                     </div>
                 </div>
                 {/* WHAT WE OFFER */}
-                <div className="overflow-x-hidden w-full px-2 md:px-6 lg:px-8 xl:px-[110px] xl:mt-8">
+                <div className="overflow-x-hidden w-full md:px-6 lg:px-8 xl:px-[110px] xl:mt-8">
                     <div className="w-full h-auto mt-[20vw] sm:mt-62 flex flex-col items-center">
-                        <div className="w-full flex justify-between items-center px-6">
+                        <div className="w-full flex justify-between items-center px-6 xl:px-0">
                             <h1 className="font-inter font-600 text-28 sm:text-32 md:text-40 lg:text-56 xl:text-62">
                                 What We Offer
                             </h1>
@@ -318,7 +318,7 @@ const Home = () => {
                                 SEE ALL SERVICES
                             </p> */}
                         </div>
-                        <div className="flex flex-col sm:grid sm:grid-cols-2 sm:grid-rows-1 sm:gap-3 lg:gap-8 justify-between w-full h-full mt-10 mb-10 md:mb-1 px-6">
+                        <div className="flex flex-col sm:grid sm:grid-cols-2 sm:grid-rows-1 sm:gap-3 lg:gap-8 justify-between w-full h-full mt-10 mb-10 md:mb-1 px-6 xl:px-0">
                             <div className="h-full lg:w-full ">
                                 <img
                                     className="object-cover h-full w-full rounded-3xl"
@@ -377,7 +377,7 @@ const Home = () => {
                             </div>
                         </div>
                         {/* CAROUSEL - SWIPER JS */}
-                        <div className="w-full flex flex-col items-center lg:mt-48">
+                        <div className="w-full flex flex-col items-center lg:mt-48 px-6 sm:px-0">
                             <div className="sm:hidden w-full">
                                 <Swiper
                                     slidesPerView={2}
@@ -396,7 +396,7 @@ const Home = () => {
                                     ))}
                                 </Swiper>
                             </div>
-                            <div className="hidden sm:block sm:w-[93%] md:w-[95%] md:mt-2 xl:w-[96%]">
+                            <div className="hidden sm:block sm:w-[93%] md:w-[95%] md:mt-2 xl:w-full">
                                 <Swiper
                                     slidesPerView={4}
                                     spaceBetween={32}
@@ -484,7 +484,7 @@ const Home = () => {
                     </div>
                 </div> */}
                 {/* START JOURNEY */}
-                <div className="xl:px-[110px]">
+                <div className="px-6 md:px-[44px] lg:px-[56px] xl:px-[110px] ">
                     <Callbox />
                 </div>
             </div>

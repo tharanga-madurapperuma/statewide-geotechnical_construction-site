@@ -207,7 +207,7 @@ const Inspections = () => {
             </div>
 
             {/* Blue Component */}
-            <div className="mb-8 px-4 sm:px-0 sm:mb-40 md:mb-58">
+            <div className="mb-8 px-4 sm:px-0 sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6">
                 <TextSection
                     title="Why Choose Us for Earthwork Testing?"
                     description="With industry-leading expertise and rigorous adherence to Australian Standards, our Earthwork Inspection and Testing services provide the precision and oversight needed for secure and durable projects. Whether you need comprehensive supervision, detailed testing, or reliable material assessments, we are here to help you build with confidence."

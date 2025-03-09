@@ -95,99 +95,104 @@ const Drilling = () => {
             </div>
 
             {/* Cards */}
-            <div className="w-[90%] lg:w-full px-[110px] md:mt-[200px] mb-[100px]">
-                <h1 className="font-inter font-600 text-28 md:text-40 lg:text-48 w-[80%] ">
-                    Our Comprehensive Geotechnical Services
-                </h1>
-                <h4 className="font-inter font-500 text-18 mt-2 md:text-28 lg:text-32">
-                    Drill-Only Services
-                </h4>
-                <p className="font-inter font-400 text-14 mt-2 md:text-18 lg:text-24">
-                    For clients requiring 'drill only' services, we provide a
-                    variety of drilling and testing techniques:
-                </p>
-                <div className="w-full grid grid-cols-2 gap-4 mt-4 sm:grid-cols-3 md:grid-cols-4 md:mt-6 lg:mt-8">
-                    <CardIconTextCenter
-                        iconUrl={DrillingBit}
-                        titleText="Auger Drilling"
-                        bodyTextPresent={true}
-                        bodyText="(Solid & Hollow)"
-                    />
-                    <CardIconTextCenter
-                        iconUrl={TopDrill}
-                        titleText="Mud Rotary & Diamond Coring"
-                        bodyTextPresent={false}
-                        bodyText="(Solid & Hollow)"
-                    />
-                    <CardIconTextCenter
-                        iconUrl={WellWall}
-                        titleText="SPT Testing"
-                        bodyTextPresent={true}
-                        bodyText="(Using a hydraulic auto hammer)"
-                    />
-                    <CardIconTextCenter
-                        iconUrl={Hand}
-                        titleText="Undisturbed Sampling"
-                        bodyTextPresent={true}
-                        bodyText="(U-tube, Shelby, Continuous Push)"
-                    />
-                    <CardIconTextCenter
-                        iconUrl={WallDrill}
-                        titleText="Groundwater Monitoring Bores"
-                        bodyTextPresent={true}
-                        bodyText="for hydrological studies"
-                    />
-                    <CardIconTextCenter
-                        iconUrl={WellAttaches}
-                        titleText="Permeability Testing"
-                        bodyTextPresent={true}
-                        bodyText="(Falling and constant head)"
-                    />
-                    <CardIconTextCenter
-                        iconUrl={Gas}
-                        titleText="Pressure Meter Testing"
-                        bodyTextPresent={false}
-                        bodyText="(Solid & Hollow)"
-                    />
-                    <CardIconTextCenter
-                        iconUrl={Weight}
-                        titleText="DCP Testing & In-Situ CBR Evaluation"
-                        bodyTextPresent={true}
-                        bodyText="For on-site soil strength assessments"
-                    />
+            <div className="w-[90%] lg:w-full  md:mt-[200px] mb-[100px] bg-white">
+                <div className="w-full bg-white lg:px-[110px]">
+                    <h1 className="font-inter font-600 text-28 md:text-40 lg:text-48 w-[80%] ">
+                        Our Comprehensive Geotechnical Services
+                    </h1>
+                    <h4 className="font-inter font-500 text-18 mt-2 md:text-28 lg:text-32">
+                        Drill-Only Services
+                    </h4>
+                    <p className="font-inter font-400 text-14 mt-2 md:text-18 lg:text-24">
+                        For clients requiring 'drill only' services, we provide
+                        a variety of drilling and testing techniques:
+                    </p>
+                    <div className="w-full grid grid-cols-2 gap-4 mt-4 sm:grid-cols-3 md:grid-cols-4 md:mt-6 lg:mt-8 ">
+                        <CardIconTextCenter
+                            iconUrl={DrillingBit}
+                            titleText="Auger Drilling"
+                            bodyTextPresent={true}
+                            bodyText="(Solid & Hollow)"
+                        />
+                        <CardIconTextCenter
+                            iconUrl={TopDrill}
+                            titleText="Mud Rotary & Diamond Coring"
+                            bodyTextPresent={false}
+                            bodyText="(Solid & Hollow)"
+                        />
+                        <CardIconTextCenter
+                            iconUrl={WellWall}
+                            titleText="SPT Testing"
+                            bodyTextPresent={true}
+                            bodyText="(Using a hydraulic auto hammer)"
+                        />
+                        <CardIconTextCenter
+                            iconUrl={Hand}
+                            titleText="Undisturbed Sampling"
+                            bodyTextPresent={true}
+                            bodyText="(U-tube, Shelby, Continuous Push)"
+                        />
+                        <CardIconTextCenter
+                            iconUrl={WallDrill}
+                            titleText="Groundwater Monitoring Bores"
+                            bodyTextPresent={true}
+                            bodyText="for hydrological studies"
+                        />
+                        <CardIconTextCenter
+                            iconUrl={WellAttaches}
+                            titleText="Permeability Testing"
+                            bodyTextPresent={true}
+                            bodyText="(Falling and constant head)"
+                        />
+                        <CardIconTextCenter
+                            iconUrl={Gas}
+                            titleText="Pressure Meter Testing"
+                            bodyTextPresent={false}
+                            bodyText="(Solid & Hollow)"
+                        />
+                        <CardIconTextCenter
+                            iconUrl={Weight}
+                            titleText="DCP Testing & In-Situ CBR Evaluation"
+                            bodyTextPresent={true}
+                            bodyText="For on-site soil strength assessments"
+                        />
+                    </div>
                 </div>
-                <h4 className="w-[80%] font-inter font-500 text-18 mt-8 md:text-28 lg:text-32">
-                    Complete Geotechnical Investigations
-                </h4>
-                <p className="w-[90%] font-inter font-400 text-14 mt-2 md:text-18 lg:text-24">
-                    For complete geotechnical investigations, we o;er end-to-end
-                    solutions, including:
-                </p>
-                <div className="w-full grid grid-cols-1 gap-4 mt-4 sm:grid-cols-2 md:grid-cols-3 md:mt-6 lg:mt-8">
-                    <CardIconTextCenterColored
-                        iconUrl={FlaskWhite}
-                        titleText="Laboratory Testing"
-                        bodyTextPresent={true}
-                        bodyText="Our in-house lab conducts a wide range of soil and rock tests."
-                    />
-                    <CardIconTextCenterColored
-                        iconUrl={ManWhite}
-                        titleText="Engineering Assessments"
-                        bodyTextPresent={false}
-                        bodyText="Our expert engineers analyze geotechnical
+
+                <div className="w-full bg-slate-50 lg:px-[110px]">
+                    <h4 className="w-[80%] font-inter font-500 text-18 mt-8 lg:mt-[40px] lg:pt-[40px] md:text-28 lg:text-32">
+                        Complete Geotechnical Investigations
+                    </h4>
+                    <p className="w-[90%] font-inter font-400 text-14 mt-2 md:text-18 lg:text-24">
+                        For complete geotechnical investigations, we o;er
+                        end-to-end solutions, including:
+                    </p>
+                    <div className="w-full grid grid-cols-1 gap-4 mt-4 sm:grid-cols-2 md:grid-cols-3 md:mt-6 lg:mt-8">
+                        <CardIconTextCenterColored
+                            iconUrl={FlaskWhite}
+                            titleText="Laboratory Testing"
+                            bodyTextPresent={true}
+                            bodyText="Our in-house lab conducts a wide range of soil and rock tests."
+                        />
+                        <CardIconTextCenterColored
+                            iconUrl={ManWhite}
+                            titleText="Engineering Assessments"
+                            bodyTextPresent={false}
+                            bodyText="Our expert engineers analyze geotechnical
 conditions and provide detailed recommendations."
-                    />
-                    <CardIconTextCenterColored
-                        iconUrl={DocWhite}
-                        titleText="Comprehensive Reporting"
-                        bodyTextPresent={true}
-                        bodyText="We deliver complete reports with actionable insights to guide project decisions."
-                    />
+                        />
+                        <CardIconTextCenterColored
+                            iconUrl={DocWhite}
+                            titleText="Comprehensive Reporting"
+                            bodyTextPresent={true}
+                            bodyText="We deliver complete reports with actionable insights to guide project decisions."
+                        />
+                    </div>
                 </div>
             </div>
 
             {/* Blue text */}
-            <div className="mb-8 px-4 sm:px-0 sm:mb-40 md:mb-58">
+            <div className="mb-8 px-4 sm:px-0 sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6">
                 <TextSection
                     title="Why Choose Statewide Geotechnical?"
                     description="Operating across Melbourne and throughout Victoria, we are equipped to handle a variety of challenging project requirements. Whether you're working with tight or difficult access sites, or need low-head clearance machinery, our specialized team and advanced equipment ensure the job is done efficiently and accurately."

@@ -35,12 +35,14 @@ const InfoSection = ({
                 <p className="text-[18px] font-400  sm:text-lg text-gray-600 leading-relaxed text-justify mb-5">
                     {description}
                 </p>
-                <a
-                    href={buttonLink}
-                    className="text-[#0064FF] py-2 rounded-md text-base md:text-[18px] sm:text-lg font-medium transition duration-300 hover:text-blue-800 inline-block"
-                >
-                    {buttonText} →
-                </a>
+                {buttonText && (
+                    <a
+                        href={buttonLink}
+                        className="text-[#0064FF] py-2 rounded-md text-base md:text-[18px] sm:text-lg font-medium transition duration-300 hover:text-blue-800 inline-block"
+                    >
+                        {buttonText} →
+                    </a>
+                )}
             </div>
         </section>
     );

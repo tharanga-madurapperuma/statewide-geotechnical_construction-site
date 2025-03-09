@@ -2,17 +2,17 @@ import React from "react";
 import HeroSection from "../components/hero-section/HeroSection";
 import TextSection from "../components/text/TextSection";
 import InfoSection from "../components/info-section/InfoSection";
-import CardIconTextCenterColored from "../components/card-icon-text-center/CardIconTextCenterColored";
+import CardIconTextCenter from "../components/card-icon-text-center/CardIconTextCenter";
 
 const RetainingWall = () => {
   return (
-    <div className="flex flex-col w-full">
+    <div className="flex flex-col w-full items-center justify-center">
       <div className="max-w-[1220px] mx-auto">
         <HeroSection
           title="Trusted Leaders in Geotechnical & Geological Services"
           description="Over 30,000 successful ground investigation projects completed."
-          buttonLink="Get in Touch"
-          buttonText="right"
+          buttonLink="www.google.com"
+          buttonText="Get in Touch"
         />
 
         <InfoSection
@@ -45,7 +45,7 @@ Our team is dedicated to providing accurate, cost-effective geotechnical solutio
 
         <div className="grid grid-cols-12 grid-rows-4 gap-4">
           <div className="col-span-3 row-span-4">
-            <CardIconTextCenterColored
+            <CardIconTextCenter
               iconUrl="/helmet.png"
               titleText="Comprehensive
 Services"
@@ -54,7 +54,7 @@ Services"
             />
           </div>
           <div className="col-span-3 row-span-4 col-start-4">
-            <CardIconTextCenterColored
+            <CardIconTextCenter
               iconUrl="/helmet.png"
               titleText="Fast, Efficient Process
 Services"
@@ -63,7 +63,7 @@ Services"
             />
           </div>
           <div className="col-span-3 row-span-4 col-start-7">
-            <CardIconTextCenterColored
+            <CardIconTextCenter
               iconUrl="/helmet.png"
               titleText="Expert Team
 Services"
@@ -72,7 +72,7 @@ Services"
             />
           </div>
           <div className="col-span-3 row-span-4 col-start-10">
-            <CardIconTextCenterColored
+            <CardIconTextCenter
               iconUrl="/helmet.png"
               titleText="Cost-Effective Solutions"
               bodyTextPresent="We pass savings on to you by minimizing overheads, offering affordable services without compromising quality."

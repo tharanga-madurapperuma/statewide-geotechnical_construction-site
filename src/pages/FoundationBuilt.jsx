@@ -17,7 +17,7 @@ const FoundationBuilt = () => {
         />
       </div>
 
-      <div className="max-w-[1220px] mx-auto p-8">
+      <div className="max-w-[1220px] mx-auto p-8 mt-[48px]">
         <h1 className="text-[48px] font-semibold mb-9">
           Foundation Solutions for Every Project
         </h1>
@@ -34,25 +34,27 @@ const FoundationBuilt = () => {
           <div className="col-span-3 row-span-5 col-start-4">
             <CardIconTextCenterColored
               iconUrl="/Frame2218.png"
-              titleText="Residential Foundations"
-              bodyTextPresent="Our foundation solutions for residential developments prioritize stability and longevity. We assess soil properties, groundwater levels, and potential settlement factors to recommend foundation types best suited for your site. From shallow footings and slab-on-grade to deep foundations for challenging conditions, we deliver foundations that will stand the test of time."
-              bodyText="Our foundation solutions for residential developments prioritize stability and longevity. We assess soil properties, groundwater levels, and potential settlement factors to recommend foundation types best suited for your site. From shallow footings and slab-on-grade to deep foundations for challenging conditions, we deliver foundations that will stand the test of time."
+              titleText="Infrastructure Foundations"
+              bodyTextPresent="Infrastructure projects require a deep understanding of complex ground conditions. We partner with project engineers to design foundations for roads, bridges, pipelines, and more. With advanced testing and analysis, we ensure your infrastructure foundations withstand heavy loads, environmental challenges, and decades of use."
+              bodyText="Infrastructure projects require a deep understanding of complex ground conditions. We partner with project engineers to design foundations for roads, bridges, pipelines, and more. With advanced testing and analysis, we ensure your infrastructure foundations withstand heavy loads, environmental challenges, and decades of use."
             />
           </div>
           <div className="col-span-3 row-span-5 col-start-7">
             <CardIconTextCenterColored
               iconUrl="/Frame2218.png"
-              titleText="Residential Foundations"
-              bodyTextPresent="Our foundation solutions for residential developments prioritize stability and longevity. We assess soil properties, groundwater levels, and potential settlement factors to recommend foundation types best suited for your site. From shallow footings and slab-on-grade to deep foundations for challenging conditions, we deliver foundations that will stand the test of time."
-              bodyText="Our foundation solutions for residential developments prioritize stability and longevity. We assess soil properties, groundwater levels, and potential settlement factors to recommend foundation types best suited for your site. From shallow footings and slab-on-grade to deep foundations for challenging conditions, we deliver foundations that will stand the test of time."
+              titleText="Commercial Foundations"
+              bodyTextPresent="For commercial and industrial projects, we provide robust foundation solutions that meet the unique demands of high-load structures. From warehouses to office buildings, our team recommends foundation types to meet load-bearing requirements and handle soil-structure interaction. Our foundation expertise brings security and stability to your commercial investments."
+              bodyText="For commercial and industrial projects, we provide robust foundation solutions that meet the unique demands of high-load structures. From warehouses to office buildings, our team recommends foundation types to meet load-bearing requirements and handle soil-structure interaction. Our foundation expertise brings security and stability to your commercial investments."
             />
           </div>
         </div>
       </div>
 
-      <div className="max-w-[1220px] mx-auto  p-12">
+      <div className="max-w-[1220px] mx-auto  p-12 mt-[48px]">
         {/* Heading */}
-        <h1 className="text-4xl font-bold mb-[32px]">Foundation Design and Analysis</h1>
+        <h1 className="text-5xl font-bold mb-[32px]">
+          Foundation Design and Analysis
+        </h1>
         <p className="text-gray-600  mt-2  mb-[64px]">
           Our expertise goes beyond standard solutions, providing added value
           with comprehensive support:
@@ -62,30 +64,31 @@ const FoundationBuilt = () => {
         <div className="grid grid-cols-9 grid-rows-8 gap-4 mt-10">
           {/* Left Column */}
           <div className="col-span-3 row-span-4 flex flex-col justify-center items-start pl-6 text-left">
-          <div>
+            <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
             <hr className="mt-10 border-gray-300" />
-            <h2 className="text-xl font-semibold mb-2 mt-5">Driven Piles</h2>
+            <h2 className="text-xl font-semibold mb-2 mt-5">
+              Soil Bearing Capacity Assessments
+            </h2>
             <p className="text-gray-600 mt-5">
-              Our driven piles are ideal for supporting heavy loads in both
-              loose and cohesive soils. This low-disturbance option is perfect
-              for sites that need stability without significant ground
-              disruption.
+              We evaluate soil strength and load-bearing capacity to design the
+              most effective, efficient foundation for your project.
             </p>
           </div>
 
           <div className="col-span-3 row-span-4 col-start-1 row-start-5 flex flex-col justify-center items-start pl-6 text-left">
-          <div>
+            <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
             <hr className="mt-10 border-gray-300" />
-            <h2 className="text-xl font-semibold mb-2 mt-5">Driven Piles</h2>
+            <h2 className="text-xl font-semibold mb-2 mt-5">
+              Settlement Analysis
+            </h2>
             <p className="text-gray-600 mt-5">
-              Our driven piles are ideal for supporting heavy loads in both
-              loose and cohesive soils. This low-disturbance option is perfect
-              for sites that need stability without significant ground
-              disruption.
+              Through in-situ and lab testing, we assess potential settlement
+              risks, recommending adjustments to protect against long-term
+              issues.
             </p>
           </div>
 
@@ -104,33 +107,33 @@ const FoundationBuilt = () => {
               <img src="/helmet.png" alt="helmet" />
             </div>
             <hr className="mt-10 border-gray-300" />
-            <h2 className="text-xl font-semibold mb-2 mt-5">Driven Piles</h2>
+            <h2 className="text-xl font-semibold mb-2 mt-5">
+              Slope Stability and Retaining Structures
+            </h2>
             <p className="text-gray-600 mt-5">
-              Our driven piles are ideal for supporting heavy loads in both
-              loose and cohesive soils. This low-disturbance option is perfect
-              for sites that need stability without significant ground
-              disruption.
+              For sites with slopes, our team offers expert analysis and design
+              recommendations for retaining walls and slope stabilization,
+              ensuring safe, secure construction.
             </p>
-            
           </div>
-         
 
           <div className="col-span-3 row-span-4 col-start-7 row-start-5 flex flex-col justify-center items-start pl-6">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
-            <h2 className="text-xl font-semibold mb-2 mt-5">Driven Piles</h2>
+            <h2 className="text-xl font-semibold mb-2 mt-5">
+              Piling and Deep Foundation Solutions
+            </h2>
             <p className="text-gray-600 mt-5">
-              Our driven piles are ideal for supporting heavy loads in both
-              loose and cohesive soils. This low-disturbance option is perfect
-              for sites that need stability without significant ground
-              disruption.
+              When shallow foundations aren’t feasible, we provide solutions for
+              piling and deep foundations, perfect for sites with weak or
+              compressible soils.
             </p>
           </div>
         </div>
       </div>
-      
-      <div className="max-w-[1220px] mx-auto p-8">
+
+      <div className="max-w-[1220px] mx-auto p-8 mt-[48px]">
         {/* Header Section */}
         <h1 className="text-[48px] font-semibold mb-4">Pile Foundations</h1>
         <p className="text-gray-600 mb-8">
@@ -229,7 +232,7 @@ const FoundationBuilt = () => {
         </div>
       </div>
 
-      <div className="max-w-[1220px] mx-auto p-8">
+      <div className="max-w-[1220px] mx-auto p-8 mt-[48px]">
         {/* Header Section */}
         <h1 className="text-[48px] font-semibold mb-4">Shallow Foundations</h1>
         <p className="text-gray-600 mb-8">

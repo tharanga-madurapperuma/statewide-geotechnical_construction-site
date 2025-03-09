@@ -7,11 +7,11 @@ const HeroSection = ({title, description, buttonLink, buttonText}) => {
   return (
     <section className=" my-[15%] md:py-10 font-inter md:px-[0.5rem] md:m-[2rem]">
       <div
-        className={` md:h-[900px] md:w-full flex items-center bg-cover p-48 bg-center md:rounded-xl hue-rotate-15 saturate-150`}
+        className={` md:h-[720px] md:w-full flex items-center bg-cover md:px-[92px] bg-center md:rounded-xl hue-rotate-15 saturate-150`}
         style={{backgroundImage: `url(${HomeHero})`}}
       >
-        <div className=" p-6 md:p-15 ">
-          <h2 className="text-4xl md:text-[62px] max-w-[702px] font-bold text-textDark">
+        <div className=" px-6 py-[70px] md:p-15 ">
+          <h2 className="text-4xl md:text-[62px] max-w-[702px] lg:mb-24 lg:leading-[76px] font-bold text-textDark">
             {title}
           </h2>
 
@@ -20,7 +20,7 @@ const HeroSection = ({title, description, buttonLink, buttonText}) => {
           </p>
 
           {buttonLink && buttonText && (
-            <div className="mt-6 md:w-[198px]">
+            <div className="mt-8 md:w-[198px]">
               <a
                 href={buttonLink}
                 className="bg-[#0064FF] border-2 border-[#0064FF] text-white py-2 px-5 rounded-lg font-medium text-sm md:text-[20px] inline-flex items-center gap-2 shadow-md hover:bg-transparent hover:text-[#0064FF] hover:border-2 hover:border-[#0064FF] transition duration-300"

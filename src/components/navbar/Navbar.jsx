@@ -74,7 +74,7 @@ const Navbar = () => {
 
                 <div className="w-full flex justify-end absolute">
                     <ul
-                        className={`flex font-poppins font-500 text-16 sm:text-[20px] shadow-xl flex-col bg-gradient-to-bl to-blue-to from-blue-from w-[48%] sm:w-[35%] p-8 sm:p-48 space-y-8 sm:space-y-40 z-50 rounded-tl-2xl rounded-bl-2xl transition-transform duration-500 absolute top-4 ${
+                        className={`flex font-poppins font-500 text-16 sm:text-[20px] shadow-xl flex-col bg-white w-[48%] sm:w-[35%] p-8 sm:p-48 space-y-8 sm:space-y-40 z-50 rounded-tl-2xl rounded-bl-2xl transition-transform duration-500 absolute top-4 ${
                             menuOpen ? "translate-x-0" : "translate-x-full"
                         }`}
                     >

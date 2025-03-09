@@ -18,6 +18,7 @@ const ContactPage = () => {
         description={
           "We’re here to help! Whether you’re ready to start your next project or just have a question, the team at Statewide Geotechnical (Aust) Pty Ltd is always available to assist. Let’s connect and see how we can help you with your geotechnical, geological, and engineering needs."
         }
+        hasBookButton={true}     
       />
 
       <div className="lg:block xl:hidden hidden px-8">

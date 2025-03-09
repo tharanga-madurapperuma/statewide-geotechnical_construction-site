@@ -1,7 +1,7 @@
 import Logo from "./logo.svg";
-import InstaLogo from "./icons/insta.png";
-import DribbleLogo from "./icons/dribble.png";
-import TwitterLogo from "./icons/twitter.png";
+import InstaLogo from "./icons/insta.svg";
+import DribbleLogo from "./icons/dribble.svg";
+import TwitterLogo from "./icons/twitter.svg";
 import LocationIcon from "./icons/location.svg";
 import PhoneIcon from "./icons/phone.svg";
 import MailIcon from "./icons/mail.svg";
@@ -25,6 +25,7 @@ import Icon1 from "./home/choose-us/icon1.png";
 import Icon2 from "./home/choose-us/icon2.png";
 import Icon3 from "./home/choose-us/icon3.png";
 import Icon4 from "./home/choose-us/icon4.png";
+import DrillBit from "./home/drillBit.svg";
 
 import Check from "./home/check.svg";
 
@@ -101,6 +102,7 @@ export {
     MailIcon,
     Arrowup,
     Check,
+    DrillBit,
 };
 
 // Component icons
@@ -122,7 +124,7 @@ export { SoilHero, SoilTesting };
 import Engineers from "./slopes/engineers.svg";
 import GroupTalk from "./slopes/group-talk.svg";
 import Clock from "./slopes/clock.svg";
-export { Engineers , GroupTalk , Clock };
+export { Engineers, GroupTalk, Clock };
 
 //Road page
 import Roller from "./road/roller.svg";

@@ -32,6 +32,10 @@
 
     --color-slate-background: #fbfdff;
 
+    /* Blue Variations */
+    --color-blue-950: #062465 !important;
+    --color-blue-600: #0064ff !important;
+
     /* SIZES */
     --text-10: 10px;
     --text-12: 12px;

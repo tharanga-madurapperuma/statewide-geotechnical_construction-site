@@ -2,6 +2,7 @@ import React from "react";
 import Callbox from "../../components/callbox/Callbox";
 import {
     boreInstallation,
+    Check,
     environmental,
     geotechnical,
     HomeHero,
@@ -23,6 +24,7 @@ import { Keyboard, Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import InfoSection from "../../components/info-section/InfoSection";
 
 const Home = () => {
     const services = [
@@ -76,11 +78,11 @@ const Home = () => {
         },
     ];
     return (
-        <div className="flex flex-col w-full">
+        <div className="flex flex-col w-full bg-slate-background">
             {/* HOME - FIRST SECTION */}
             <div className="h-auto w-full">
-                <div className="w-full h-auto">
-                    <div className="h-full w-[90%] flex flex-col justify-between ">
+                <div className="w-full h-auto flex flex-col items-center">
+                    <div className="h-full w-[90%] flex flex-col items-center ">
                         {/* <img className="rounded-xl top-0" src={HomeHero} /> */}
                         <div
                             className="w-full h-auto m-[5%] rounded-2xl px-8 py-4 md:p-15 lg:p-[70px] xl:p-[80px] flex flex-col justify-between sm:relative"
@@ -190,6 +192,27 @@ const Home = () => {
             {/* HOME - SECOND SECTION */}
             <div className="w-full">
                 {/* WHO WE ARE */}
+                <div className="mt-8 md:px-8">
+                    <InfoSection
+                        title="Who We Are"
+                        description="At Statewide Geotechnical, we specialize in
+                        delivering expert geotechnical drilling,
+                        testing, and consulting services across
+                        Melbourne, Victoria, and Southern New South
+                        Wales. With advanced equipment and a team of
+                        highly qualified professionals, we provide
+                        precise site assessments, environmental
+                        drilling, and geotechnical solutions tailored to
+                        your project needs. Our commitment to safety,
+                        accuracy, and efficiency makes us the trusted
+                        partner for engineers, developers, and
+                        government agencies."
+                        buttonText="Learn More About Us"
+                        buttonLink="#"
+                        imageSrc={HomeSecondWhoWe}
+                        reverse={false}
+                    />
+                </div>
                 {/* <div className="w-full h-[412px] flex">
                     <div className="h-full w-1/2">
                         <img
@@ -271,15 +294,15 @@ const Home = () => {
                     </div>
                 </div>
                 {/* WHAT WE OFFER */}
-                <div className="overflow-x-hidden w-full px-2 md:px-6 lg:px-8 xl:px-40">
+                <div className="overflow-x-hidden w-full px-2 md:px-6 lg:px-8 xl:px-[6%]">
                     <div className="w-full h-auto mt-[20vw] sm:mt-62 flex flex-col items-center">
                         <div className="w-full flex justify-between items-center px-6">
                             <h1 className="font-inter font-600 text-28 sm:text-32 md:text-40 lg:text-56 xl:text-62">
                                 What We Offer
                             </h1>
-                            <p className="text-blue-700 hover:text-blue-900 transition duration-500 cursor-pointer font-inter font-600 text-16 sm:text-18 md:text-24 text-right">
+                            {/* <p className="text-blue-700 hover:text-blue-900 transition duration-500 cursor-pointer font-inter font-600 text-16 sm:text-18 md:text-24 text-right">
                                 SEE ALL SERVICES
-                            </p>
+                            </p> */}
                         </div>
                         <div className="flex flex-col sm:grid sm:grid-cols-2 sm:grid-rows-1 sm:gap-3 justify-between w-full h-full mt-10 mb-10 md:mb-1 px-6">
                             <div className="h-full lg:w-full ">
@@ -288,11 +311,55 @@ const Home = () => {
                                     src={HomeSecondWhatWe}
                                 />
                             </div>
-                            <div className="h-full lg:w-full ">
-                                <img
-                                    className="object-cover mt-3 sm:mt-0 h-full w-full  rounded-3xl"
-                                    src={HomeSecondWhatWe2}
-                                />
+                            <div className="h-full w-full bg-blue-200 rounded-3xl mt-2 sm:mt-0">
+                                <div className="flex flex-col h-full justify-between p-8 xl:p-[50px]">
+                                    <div className="font-inter font-500 w-auto text-blue-700 text-12 md:text-14 lg:text-18 rounded-xl text-center">
+                                        <p className="bg-blue-300 w-[80px] lg:w-[100px] py-1 rounded-2xl">
+                                            Services
+                                        </p>
+                                    </div>
+                                    <h2 className="font-inter font-600 text-24 md:text-3 lg:text-40 text-gray-900">
+                                        Drilling Service
+                                    </h2>
+                                    <p className="font-inter font-400 text-gray-600 text-14 md:text-16 lg:text-18">
+                                        Our Drilling Services provide precise
+                                        and efficient solutions for geotechnical
+                                        and environmental investigations. Using
+                                        advanced drilling techniques, we ensure
+                                        accurate soil and rock sampling,
+                                        groundwater monitoring, and site
+                                        assessments for safe and stable
+                                        construction.
+                                    </p>
+                                    <div className="flex flex-col md:flex-row items-center justify-start w-full mt-4 md:mt-0">
+                                        <div className="flex items-center justify-left w-full">
+                                            <div className="p-1 rounded-3xl bg-blue-300">
+                                                <img src={Check} />
+                                            </div>
+                                            <div className="font-inter font-600 text-gray-900 text-24 md:text-28 lg:text-32 pl-2 ">
+                                                1150+
+                                            </div>
+                                            <div className="font-inter font-400 text-gray-600 text-12 md:text-14 lg:text-18 pl-2">
+                                                Successful
+                                                <br />
+                                                Objects
+                                            </div>
+                                        </div>
+                                        <div className="flex items-center justify-left w-full md:ml-3 mt-2 md:mt-0">
+                                            <div className="p-1 rounded-3xl bg-blue-300">
+                                                <img src={Check} />
+                                            </div>
+                                            <div className="font-inter font-600 text-gray-900 text-24 md:text-28 lg:text-32 pl-2 ">
+                                                40+
+                                            </div>
+                                            <div className="font-inter font-400 text-gray-600 text-12 md:text-14 lg:text-18 pl-2">
+                                                Industry
+                                                <br />
+                                                Partners
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         {/* CAROUSEL - SWIPER JS */}

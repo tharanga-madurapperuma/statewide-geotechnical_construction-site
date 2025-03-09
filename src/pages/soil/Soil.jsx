@@ -6,7 +6,7 @@ import { Arrowup, WorkerHat,SoilHero, SoilTesting } from '../../assets/assets';
 
 const Soil = () => {
     return (
-        <div className="w-full flex flex-col items-center">
+        <div className="w-full flex flex-col">
             {/* First Section */}
             <div className="mt-4 sm:mt-6 px-3 sm:px-4">
               <ButtonCard
@@ -16,9 +16,10 @@ const Soil = () => {
                 buttonText="Get in Touch"
               />
             </div>
+            <div className='px-[110px]'>
 
             {/* Second Section */}
-            <div className='soil__second-section p-[45px] sm:p-[85px] w-full h-auto'>
+            <div className='soil__second-section py-[128px] w-full h-auto'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
                     <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
                         Aggregate Testing Services
@@ -185,7 +186,7 @@ const Soil = () => {
             </div>
 
             {/* Third Section */}
-            <div className='soil__second-section p-[45px] sm:p-[85px] w-full h-auto'>
+            <div className='soil__second-section w-full h-auto'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
                         <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
                             Soil Testing Services
@@ -278,7 +279,7 @@ const Soil = () => {
             </div>
 
             {/* Fourth Section */}
-            <div className='soil__second-section p-[45px] sm:p-[85px] w-full h-auto'>
+            <div className='soil__second-section  py-[128px] w-full h-auto'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
                         <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
                             Rock Testing Services
@@ -355,6 +356,8 @@ const Soil = () => {
                 buttonText='Get in Touch with Our Team'
                 buttonLink='#'
             />
+
+        </div>
 
 
         </div>  

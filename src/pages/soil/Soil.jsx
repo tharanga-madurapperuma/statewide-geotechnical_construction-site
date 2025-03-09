@@ -8,7 +8,7 @@ const Soil = () => {
     return (
         <div className="w-full flex flex-col items-center bg-slate-background">
             {/* First Section */}
-            <div className="mt-4 sm:mt-4 px-3 sm:px-4">
+            <div>
               <ButtonCard
                 image={SoilTesting}
                 title="Soil, Rock & Aggregate Testing for Quality & Stability"
@@ -348,9 +348,10 @@ const Soil = () => {
                           </div>
                 </div>
             </div>
+            </div> 
 
             {/* Fifth Section */}
-            <div className='bg-[#EBF7FF] pb-[40px]'>
+            <div className="mb-8 px-4 sm:px-0 sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6">
               <TextSection
                   title='Partner with Us for Data-Driven Project Success'
                   description='Our laboratory is dedicated to precision and quality, adhering to rigorous standards to provide reliable, actionable data. We’re here to help you build safer, stronger, and more sustainable structures. Contact us today to learn how our soil, rock, and aggregate testing services can support your project’s unique needs and drive your construction success.'
@@ -362,7 +363,7 @@ const Soil = () => {
         </div>
 
 
-        </div>  
+         
     );
 };
 

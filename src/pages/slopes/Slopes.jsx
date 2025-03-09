@@ -148,19 +148,22 @@ const Slopes = () => {
                           
                         </div>
                 </div>
+                </div>
 
             </div>
+            
 
             {/* Third Section */}
+            <div className='mb-8 px-4 sm:px-0 sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6'>
             <TextSection
                 title='Why Choose Statewide Geotechnical for Slope Stability Assessment?'
                 description='With our expert team and state-of-the-art analysis tools, Statewide Geotechnical provides reliable slope and stability assessments that empower you to make informed decisions about site design and safety. Our assessments o8er clear, actionable recommendations to help manage risk, maintain site integrity, and ensure regulatory compliance. Whether for residential, commercial, or infrastructure projects, we tailor our solutions to meet the unique demands of each site, enhancing safety and stability for years to come.'
                 buttonText=""
                 buttonLink="#"
             />   
-
-
-
+            </div>
+            <div className='px-[30px] md:px-[110px] sm:px-[20px]'>
+  
             {/* Fourth Section */}
             <div className='flex w-full h-auto bg-white-100 py-21'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
@@ -184,7 +187,7 @@ const Slopes = () => {
                 
 
             </div>
-            </div>
+          </div>
 
 
         </div>

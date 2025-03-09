@@ -6,8 +6,23 @@ import {DocIcon} from "../../assets/assets"
 import AppointmentRequestForm from "../../components/form/AppointmentRequestForm"
 import {BsDribbble, BsInstagram} from "react-icons/bs"
 import {RiTwitterLine} from "react-icons/ri"
+import ContactCard from "../../components/contacts/ContactCard"
+import {FaMapMarkerAlt} from "react-icons/fa"
+import ContactMerged from "../../components/contacts/ContactMerged"
+import {IoIosMail} from "react-icons/io"
+import {IoCall} from "react-icons/io5"
 
 const ContactPage = () => {
+  const contactComponents = [
+    <ContactCard icon={<FaMapMarkerAlt />} title="Email Us">
+      <p>info@statewide.com.au</p>
+      <p>support@statewide.com.au</p>
+    </ContactCard>,
+    <ContactCard icon={<FaMapMarkerAlt />} title="Call us">
+      <p>phone: +61 3 9123 4567</p>
+      <p>Fax: +61 3 9123 4568</p>
+    </ContactCard>,
+  ]
   return (
     <div>
       <HeroSection
@@ -21,13 +36,73 @@ const ContactPage = () => {
         <ContactSection />
       </div>
 
+      <div className="lg:block xl:hidden hidden px-8">
+        <div className="flex flex-row place-content-between gap-4">
+          <ContactCard icon={<FaMapMarkerAlt />} title="Email Us">
+            <p>info@statewide.com.au</p>
+            <p>support@statewide.com.au</p>
+          </ContactCard>{" "}
+          <ContactCard icon={<FaMapMarkerAlt />} title="Call us">
+            <p>phone: +61 3 9123 4567</p>
+            <p>Fax: +61 3 9123 4568</p>
+          </ContactCard>
+          <ContactCard
+            icon={<FaMapMarkerAlt />}
+            title="Statewide Geotechnical (Aust) Pty Ltd"
+          >
+            <p>17-20 Summer Lane</p>
+            <p>Ringwood, VIC 3134</p>
+          </ContactCard>
+        </div>
+      </div>
+
+      <div className="sm:block lg:hidden hidden px-8">
+        <div className="flex flex-row place-content-between gap-4">
+          <ContactCard icon={<IoIosMail />} title="Email Us">
+            <p>info@statewide.com.au</p>
+            <p>support@statewide.com.au</p>
+          </ContactCard>{" "}
+          <ContactCard icon={<IoCall />} title="Call us">
+            <p>phone: +61 3 9123 4567</p>
+            <p>Fax: +61 3 9123 4568</p>
+          </ContactCard>
+        </div>
+        <div className="flex justify-center pt-40 mb-48">
+          <ContactCard
+            icon={<FaMapMarkerAlt />}
+            title="Statewide Geotechnical (Aust) Pty Ltd"
+          >
+            <p>17-20 Summer Lane</p>
+            <p>Ringwood, VIC 3134</p>
+          </ContactCard>
+        </div>
+      </div>
+      <div className="sm:hidden  flex justify-center  mb-8">
+        <div className="flex flex-col  gap-8">
+          <ContactCard icon={<IoIosMail />} title="Email Us">
+            <p>info@statewide.com.au</p>
+            <p>support@statewide.com.au</p>
+          </ContactCard>{" "}
+          <ContactCard icon={<IoCall />} title="Call us">
+            <p>phone: +61 3 9123 4567</p>
+            <p>Fax: +61 3 9123 4568</p>
+          </ContactCard>
+          <ContactCard
+            icon={<FaMapMarkerAlt />}
+            title="Statewide Geotechnical (Aust) Pty Ltd"
+          >
+            <p>17-20 Summer Lane</p>
+            <p>Ringwood, VIC 3134</p>
+          </ContactCard>
+        </div>
+      </div>
       <AppointmentRequestForm />
 
       <div className="lg:px-[110px]  p-3">
         <h2 className="lg:text-[48px]  text-2xl py-[2rem] font-600 text-gray-900">
           Why Choose Us
         </h2>
-        <div className="w-full h-full lg:px-0  flex space-b place-content-between lg:gap-[68px] flex-col  md:flex-row">
+        <div className="w-full h-full lg:px-0  flex space-b place-content-between gap-[40px] lg:gap-[68px] flex-col  md:flex-row">
           <LicenseCard
             image={DocIcon}
             title="Expertise You Can Trust"
@@ -87,10 +162,10 @@ const ContactPage = () => {
           style={{
             border: "0",
             borderRadius: "10px",
-          }} 
-          allowFullScreen 
+          }}
+          allowFullScreen
           loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade" 
+          referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
       <div className="lg:px-[110px] lg:mt-[100px] p-3">

@@ -15,7 +15,7 @@ const ContactSection = () => {
       </ContactCard>
       ];
   return (
-    <section className="w-full flex flex-col lg:flex-row justify-center items-start gap-6 relative bg-transparent lg:px-0  mt-80 ">
+    <section className="w-full lg:flex hidden lg:flex-row justify-center items-start gap-6 relative bg-transparent lg:px-0  mt-80 ">
       
       {/* Address Card */}
       

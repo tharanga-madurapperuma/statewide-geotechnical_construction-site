@@ -157,7 +157,7 @@ const FoundationBuilt = () => {
             />
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
+          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -170,7 +170,7 @@ const FoundationBuilt = () => {
             </p>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
+          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -184,7 +184,7 @@ const FoundationBuilt = () => {
           </div>
 
           {/* Row 2 */}
-          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
+          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -196,7 +196,7 @@ const FoundationBuilt = () => {
             </p>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
+          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -209,7 +209,7 @@ const FoundationBuilt = () => {
             </p>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
+          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -247,7 +247,7 @@ const FoundationBuilt = () => {
 
         <div className="grid grid-cols-3 gap-[32px]">
           {/* Row 1 */}
-          <div className="col-span-1 bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
+          <div className="col-span-1 bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -259,7 +259,7 @@ const FoundationBuilt = () => {
             </p>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
+          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -280,7 +280,7 @@ const FoundationBuilt = () => {
           </div>
 
           {/* Row 2 */}
-          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
+          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -294,7 +294,7 @@ const FoundationBuilt = () => {
             </p>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
+          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -306,7 +306,7 @@ const FoundationBuilt = () => {
             </p>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
+          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>

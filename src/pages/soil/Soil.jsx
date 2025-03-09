@@ -6,14 +6,15 @@ import { Arrowup, WorkerHat,SoilHero, SoilTesting } from '../../assets/assets';
 
 const Soil = () => {
     return (
-        <div className="w-full flex flex-col">
+        <div className="w-full flex flex-col items-center bg-slate-background">
             {/* First Section */}
-            <div className="mt-4 sm:mt-6 px-3 sm:px-4">
+            <div className="mt-4 sm:mt-4 px-3 sm:px-4">
               <ButtonCard
                 image={SoilTesting}
                 title="Soil, Rock & Aggregate Testing for Quality & Stability"
                 description="Our laboratory offers comprehensive soil, rock, and aggregate testing to ensure material quality, durability, and safety in construction. Using advanced technology and expert analysis, we assess suitability for foundations, pavements, and geotechnical projects. Our industry-standard methods provide accurate data for informed decision-making."
                 buttonText="Get in Touch"
+                buttonLink="/contact"
               />
             </div>
             <div className='px-[110px]'>

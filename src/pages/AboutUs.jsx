@@ -15,7 +15,7 @@ const AboutUs = () => {
           buttonText="Get in Touch"
         />
 
-        <div className="mt-[128px] max-w-[1408px] mx-auto">
+        <div className="mb-8 px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] sm:mb-40 md:mb-58 w-full md:py-6 mt-[64px]">
           <InfoSection
             title="About Us"
             description="Statewide Geotechnical (Aust) Pty Ltd, a trusted leader in geotechnical and geological services. With over 30,000 successful ground investigation projects completed, our expert team of Geotechnical Engineers, Engineering Geologists, and Soil and Laboratory Technicians delivers top-tier services across a variety of industries.
@@ -28,7 +28,7 @@ We proudly serve a diverse range of clients, including consulting engineers, com
           />
         </div>
 
-        <div className="mb-8 px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6">
+        <div className="mb-8 px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6 mt-[64px]">
           <TextSection
             title="Why Choose Us?"
             description="At Statewide Geotechnical, we set ourselves apart with our unique ability to provide all drilling, laboratory testing, and reporting in-house. This integrated approach ensures faster turnaround times, consistent quality, and unmatched reliability throughout every phase of your project. By controlling every aspect of the process, we maintain high standards and offer exceptional value—all while keeping costs lower than larger competitors.
@@ -40,22 +40,21 @@ Our team is dedicated to providing accurate, cost-effective geotechnical solutio
         </div>
       </div>
 
-      <div className="max-w-[1408px] mx-auto p-8">
-        <h2 className="text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4">
+      <div className="max-w-[1408px] mx-auto px-8 mt-[32px]  mb-[32px]">
+        <h2 className="text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-[56px]">
           What We Offer
         </h2>
 
-        <div className="grid grid-cols-12 grid-rows-4 gap-4">
-          <div className="col-span-3 row-span-4">
+        <div className="grid grid-cols-12 grid-rows-1 gap-4">
+          <div className="col-span-12 sm:col-span-6 md:col-span-3">
             <CardIconTextCenter
               iconUrl="/helmet.png"
-              titleText="Comprehensive
-Services"
+              titleText="Comprehensive Services"
               bodyTextPresent="Drilling, soil sampling, laboratory testing, and reporting-all performed in-house."
               bodyText="Drilling, soil sampling, laboratory testing, and reporting-all performed in-house."
             />
           </div>
-          <div className="col-span-3 row-span-4 col-start-4">
+          <div className="col-span-12 sm:col-span-6 md:col-span-3 col-start-1 sm:col-start-7 md:col-start-4">
             <CardIconTextCenter
               iconUrl="/helmet.png"
               titleText="Fast, Efficient Process"
@@ -63,7 +62,7 @@ Services"
               bodyText="Streamlined workflows reduce timelines and enhance project delivery."
             />
           </div>
-          <div className="col-span-3 row-span-4 col-start-7">
+          <div className="col-span-12 sm:col-span-6 md:col-span-3 col-start-1 sm:col-start-7 md:col-start-7">
             <CardIconTextCenter
               iconUrl="/helmet.png"
               titleText="Expert Team"
@@ -71,7 +70,7 @@ Services"
               bodyText="Skilled engineers and technicians dedicated to providing high-quality results."
             />
           </div>
-          <div className="col-span-3 row-span-4 col-start-10">
+          <div className="col-span-12 sm:col-span-6 md:col-span-3 col-start-1 sm:col-start-7 md:col-start-10">
             <CardIconTextCenter
               iconUrl="/helmet.png"
               titleText="Cost-Effective Solutions"
@@ -80,6 +79,7 @@ Services"
             />
           </div>
         </div>
+
         {/* Footer */}
         <div className="text-gray-600 mt-[32px] ">
           <p>

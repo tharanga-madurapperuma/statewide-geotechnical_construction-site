@@ -45,7 +45,6 @@ const App = () => {
                     <Route path="/accredited" element={<AccreditedPage />} />
                     <Route path="/envdrilling" element={<EnvDrilling />} />
                     <Route path="/inspections" element={<Inspections />} />
-                    <Route path="/inspections" element={<Inspections />} />
                     <Route path="/aboutus" element={<AboutUs />} />
                     <Route path="/*" element={<NotFound />} />
                     <Route path="/resources" element={<Resources />} />

@@ -323,7 +323,7 @@ const FoundationBuilt = () => {
         </div>
       </div>
 
-      <div className="mt-[42px] mb-[48px]">
+      <div className="mb-8 px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6">
         <TextSection
           title="Partner with Statewide Geotechnical for Reliable, Cost-Effective Foundations"
           description="With expertise in both shallow and deep foundation systems, Statewide Geotechnical is equipped to provide a foundation solution perfectly aligned with your project’s needs. Whether it’s residential, commercial, or infrastructure, our in-house team of experts ensures safety, reliability, and efficiency from the ground up. Make Statewide Geotechnical (Aust) Pty Ltd your foundation partner, and experience the assurance of quality and value at every stage."

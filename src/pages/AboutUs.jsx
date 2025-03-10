@@ -28,7 +28,7 @@ We proudly serve a diverse range of clients, including consulting engineers, com
           />
         </div>
 
-        <div className="mt-[64px] mb-[64px]">
+        <div className="mb-8 px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6">
           <TextSection
             title="Why Choose Us?"
             description="At Statewide Geotechnical, we set ourselves apart with our unique ability to provide all drilling, laboratory testing, and reporting in-house. This integrated approach ensures faster turnaround times, consistent quality, and unmatched reliability throughout every phase of your project. By controlling every aspect of the process, we maintain high standards and offer exceptional value—all while keeping costs lower than larger competitors.

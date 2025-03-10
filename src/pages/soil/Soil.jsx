@@ -3,6 +3,7 @@ import CardIconTopLeft from '../../components/card-icon-top-left/CardIconTopLeft
 import ButtonCard from '../../components/card/ButtonCard';
 import TextSection from '../../components/text/TextSection';
 import { Arrowup, WorkerHat,SoilHero, SoilTesting } from '../../assets/assets';
+import { Link } from "react-router-dom";
 
 const Soil = () => {
     return (
@@ -27,7 +28,7 @@ const Soil = () => {
                     <p className='text-base mb-[45px] sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
                     Our aggregate testing services are essential for understanding material characteristics, ensuring quality for use in concrete, asphalt, and foundational applications. Properly tested aggregates contribute to the longevity and stability of structures, roads, and other infrastructure.
                     </p>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-[35px] w-full items-center">
+                        <div className="w-full h-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-3 md:gap-4 flex-col sm:flex-row mt-8">
                           <div className='col-span-1 row-span-1 sm:w-full'>
                             <CardIconTopLeft 
                                 iconUrl={WorkerHat}
@@ -175,9 +176,11 @@ const Soil = () => {
                         </div>
                         <div className='flex mt-4 pt-[40px]'>
                             <button href='#' className='flex text-[#4E61F6] font-medium text-center md:text-left text-base sm:text-lg border-b-2 border-transparent hover:border-blue-600 transition duration-300'>
-                            <span>
-                              Learn More About Aggregate Testing
-                            </span>
+                              <Link to="/contact">
+                                <span>
+                                  Learn More About Aggregate Testing
+                                </span>
+                              </Link>
                             <img className='flex w-4 h-4 mt-2 ml-1' src={Arrowup} alt='Arrow up' />
                             </button>
                           </div>
@@ -194,7 +197,7 @@ const Soil = () => {
                         <p className='text-base mb-[56px] sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
                         Soil testing helps you understand the ground beneath your project, providing insight into moisture, compaction, bearing capacity, and stability. These properties are crucial for building strong foundations and structures that endure.
                         </p>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-[35px] w-full">
+                        <div className="w-full h-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-3 md:gap-4 flex-col sm:flex-row mt-8">
                           <div className='col-span-1 row-span-1 sm:w-full'>
                             <CardIconTopLeft 
                                 iconUrl={WorkerHat}
@@ -269,9 +272,11 @@ const Soil = () => {
                         </div>
                         <div className='flex mt-4 pt-[40px]'>
                             <button href='#' className='flex text-[#4E61F6] font-medium text-center md:text-left text-base sm:text-lg border-b-2 border-transparent hover:border-blue-600 transition duration-300'>
-                            <span>
-                            See Rock Testing Details
-                            </span>
+                            <Link to="/contact">
+                              <span>
+                                Explore Soil Testing Options
+                              </span>
+                            </Link>
                             <img className='flex w-4 h-4 mt-2 ml-1' src={Arrowup} alt='Arrow up' />
                             </button>
                           </div>
@@ -279,16 +284,16 @@ const Soil = () => {
             </div>
 
             {/* Fourth Section */}
-            <div className='soil__second-section pb-[60px] pt-[128px] w-full h-auto'>
-                <div className='flex flex-col items-left justify-left w-full h-auto mb-[32px]'>
+            <div className='py-[128px] w-full h-auto'>
+                <div className='flex flex-col items-left justify-left w-full h-auto'>
                         <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
                             Rock Testing Services
                         </h2>
                         <p className='text-base mb-[56px] sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
                         Our rock testing services analyze key properties of rock material, providing data for safe excavation, tunneling, and stability in construction. Reliable testing supports the selection of suitable materials for both structural and geotechnical applications.
                         </p>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-[35px] w-full">
-                          <div className='col-span-1 row-span-1 sm:w-full'>
+                        <div className="w-full h-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-3 md:gap-4 flex-col sm:flex-row mt-8">
+                          <div className='col-span-1 row-span-1 sm:w-full '>
                             <CardIconTopLeft 
                                 iconUrl={WorkerHat}
                                 iconBackground='bg-white-100'
@@ -340,9 +345,11 @@ const Soil = () => {
                         </div>
                         <div className='flex mt-4 pt-[40px]'>
                             <button href='#' className='flex text-[#4E61F6] font-medium text-center md:text-left text-base sm:text-lg border-b-2 border-transparent hover:border-blue-600 transition duration-300'>
-                            <span>
-                              Learn More About Aggregate Testing
-                            </span>
+                              <Link to="/contact">
+                                <span>
+                                See Rock Testing Details
+                                </span>
+                              </Link>
                             <img className='flex w-4 h-4 mt-2 ml-1 sm:ml-5' src={Arrowup} alt='Arrow up' />
                             </button>
                           </div>
@@ -351,12 +358,12 @@ const Soil = () => {
             </div> 
 
             {/* Fifth Section */}
-            <div className="mb-8 px-4 sm:px-0 sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6">
+            <div className="mb-8 px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6">
               <TextSection
                   title='Partner with Us for Data-Driven Project Success'
                   description='Our laboratory is dedicated to precision and quality, adhering to rigorous standards to provide reliable, actionable data. We’re here to help you build safer, stronger, and more sustainable structures. Contact us today to learn how our soil, rock, and aggregate testing services can support your project’s unique needs and drive your construction success.'
                   buttonText='Get in Touch with Our Team'
-                  buttonLink='#'
+                  buttonLink='/contact'
               />
             </div>
 

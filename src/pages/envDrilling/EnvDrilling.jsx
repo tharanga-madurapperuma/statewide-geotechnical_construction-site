@@ -23,7 +23,7 @@ const EnvDrilling = () => {
     return (
         <div className="w-full flex flex-col items-center bg-slate-background">
             {/* Hero Component */}
-            <div className="mt-4 sm:mt-6 px-3 sm:px-0">
+            <div className="mt-4 sm:mt-6 px-3 sm:px-0 ">
                 <ButtonCard
                     image={EnvHero}
                     title="Specialized Environmental & Geotechnical Drilling Services"
@@ -33,7 +33,7 @@ const EnvDrilling = () => {
             </div>
 
             {/* Left pic paragraph component */}
-            <div className="mt-8 sm:mt-40 md:mt-[100px] mb-8 sm:mb-40 md:mb-[100px] md:px-[110px]">
+            <div className=" mt-8 sm:mt-40 md:mt-[100px] lg:mt-[128px] mb-8 sm:mb-40 md:mb-[100px] lg:mb-[64px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
                 <InfoSection
                     title="Expert Drilling Equipment for Challenging Sites"
                     description={
@@ -65,7 +65,7 @@ const EnvDrilling = () => {
             </div>
 
             {/* Middle image card component */}
-            <div className="w-[90%] lg:w-full h-auto py-10 mb-[50px] lg:px-[110px]">
+            <div className=" bg-white w-full max-w-[1920px] h-auto py-[64px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
                 <div className="flex flex-col items-start w-full">
                     <h1 className="w-[80%] mb-4 font-inter text-28 sm:text-40 md:text-40 lg:text-48 font-600">
                         Qualified & Experienced Drillers
@@ -76,7 +76,7 @@ const EnvDrilling = () => {
                         including:
                     </p>
                 </div>
-                <div className="w-full h-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 flex-col sm:flex-row">
+                <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 flex-col sm:flex-row justify-center">
                     <LicenseCard
                         image={DocIcon}
                         title="Water Bore Licenses (Class 1 & 2)"
@@ -93,11 +93,11 @@ const EnvDrilling = () => {
             </div>
 
             {/* Map  */}
-            <div className="w-[80%] lg:w-full mt-[50px] flex flex-col lg:px-[110px]">
+            <div className="w-full pt-[50px] md:pt-[64px] pb-[70vw] sm:pb-[450px] md:pb-[600px] lg:pb-[650px] xl:pb-[50vw] 2xl:pb-[40vw] flex flex-col max-w-[1920px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
                 <h1 className="font-inter font-600 text-24 sm:text-28 md:text-32 lg:text-40 xl:text-48">
                     Service Area
                 </h1>
-                <div className="w-full flex mt-8 relative">
+                <div className="w-full flex mt-8 relative pb-[64px]">
                     <div className=" w-[60%] sm:w-[40%] md:w-[50%] lg:w-[40%] bg-blue-600 p-4 sm:p-6 lg:p-8 rounded-xl absolute right-[5%] top-0 z-20">
                         <p className="font-inter font-500 text-12 sm:text-16 md:text-24 lg:text-32 text-white ">
                             We proudly serve the Melbourne metropolitan area, as
@@ -113,7 +113,7 @@ const EnvDrilling = () => {
             </div>
 
             {/* Cards */}
-            <div className="w-[90%] lg:w-full mb-[100px] mt-[60vw] lg:px-[110px]">
+            <div className="w-full bg-white py-40 md:py-[64px] max-w-[1920px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
                 <h1 className="font-inter font-600 text-28 md:text-40 lg:text-48 w-[80%] ">
                     Our Comprehensive Drilling Services
                 </h1>
@@ -170,7 +170,7 @@ const EnvDrilling = () => {
                 </div>
             </div>
             {/* Blue background component */}
-            <div className="mb-8 px-4 sm:px-0 sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6">
+            <div className="w-full bg-[#EBF7FF] py-6 md:py-[64px]  px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]  ">
                 <TextSection
                     title="Why Choose Statewide Geotechnical for Your Environmental Drilling Needs?"
                     description="state-of-the-art equipment, experienced team, and commitment to safety and environmental responsibility make us the trusted choice for environmental and geotechnical drilling services."

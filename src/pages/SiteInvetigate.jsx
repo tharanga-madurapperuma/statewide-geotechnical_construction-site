@@ -190,7 +190,7 @@ const SiteInvetigate = () => {
         </div>
       </div>
 
-      <div className="max-w-[1220px] mt-[128px] mx-[110px]">
+      <div className="max-w-[1300px] mx-auto mt-[94px]">
         {/* Header */}
         <h1 className="text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-[32px] text-4xl text-center md:text-left">
           Our Site Investigation Services Include

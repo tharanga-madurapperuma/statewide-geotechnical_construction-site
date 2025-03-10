@@ -15,7 +15,7 @@ const SiteInvetigate = () => {
         />
       </div>
 
-      <div className="max-w-7xl mx-auto p-8">
+      <div className="max-w-7xl mx-[110px] mt-[128px]">
         {/* Header Section */}
         <h1 className="text-[48px] font-semibold mb-4">Investigation Techniques</h1>
         <p className="text-gray-600 mb-8">
@@ -38,14 +38,14 @@ const SiteInvetigate = () => {
             />
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
+          <div className="bg-gray-50 p-8 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
-            <h2 className="text-xl font-semibold mb-2 mt-5">
+            <h2 className="font-inter text-[17px] sm:text-[22px] md:text-24 font-500 spacing-28 mb-2 mt-5">
               Wireline Diamond Core Drilling (HQ, NQ & PQ)
             </h2>
-            <p className="text-gray-600 mt-5">
+            <p className="font-inter text-14 sm:text-16 lg:text-18 font-400 spacing-24">
               Our wireline diamond core drilling extracts high-quality core
               samples, offering precise geological data. With multiple available
               core sizes (HQ, NQ, PQ), we select the optimal diameter based on
@@ -53,14 +53,14 @@ const SiteInvetigate = () => {
             </p>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
+          <div className="bg-gray-50 p-8 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
-            <h2 className="text-xl font-semibold mb-2 mt-5">
+            <h2 className="font-inter text-[17px] sm:text-[22px] md:text-24 font-500 spacing-28 mb-2 mt-5">
               Solid and Hollow Auger Borehole Drilling
             </h2>
-            <p className="text-gray-600">
+            <p className="font-inter text-14 sm:text-16 lg:text-18 font-400 spacing-24">
               Ideal for a broad range of ground conditions, our solid and hollow
               auger drilling methods obtain quality samples from both shallow
               and deeper boreholes. This versatile method is essential for
@@ -69,14 +69,14 @@ const SiteInvetigate = () => {
           </div>
 
           {/* Row 2 */}
-          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
+          <div className="bg-gray-50 p-8 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
-            <h2 className="text-xl font-semibold mb-2 mt-5">
+            <h2 className="font-inter text-[17px] sm:text-[22px] md:text-24 font-500 spacing-28 mb-2 mt-5">
               Hand Auger Borehole Drilling
             </h2>
-            <p className="text-gray-600">
+            <p className="font-inter text-14 sm:text-16 lg:text-18 font-400 spacing-24">
               For sites with restricted access or those needing minimal
               disturbance, our hand auger borehole drilling provides a
               low-impact solution. This method is effective for shallow soil
@@ -84,14 +84,14 @@ const SiteInvetigate = () => {
             </p>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
+          <div className="bg-gray-50 p-8 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
-            <h2 className="text-xl font-semibold mb-2 mt-5">
+            <h2 className="font-inter text-[17px] sm:text-[22px] md:text-24 font-500 spacing-28 mb-2 mt-5">
               Cone Penetrometer Tests (CPT)
             </h2>
-            <p className="text-gray-600">
+            <p className="font-inter text-14 sm:text-16 lg:text-18 font-400 spacing-24">
               Our CPT services provide essential in-situ soil data, including
               density, strength, and composition, with options to measure pore
               pressure. CPT is highly effective for soil profiling and layers,
@@ -99,14 +99,14 @@ const SiteInvetigate = () => {
             </p>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
+          <div className="bg-gray-50 p-8 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
-            <h2 className="text-xl font-semibold mb-2 mt-5">
+            <h2 className="font-inter text-[17px] sm:text-[22px] md:text-24 font-500 spacing-28 mb-2 mt-5">
               Backhoe and Hydraulic Excavator Test Pits and Trenches
             </h2>
-            <p className="text-gray-600">
+            <p className="font-inter text-14 sm:text-16 lg:text-18 font-400 spacing-24">
               Using backhoes and hydraulic excavators, we create test pits and
               trenches for direct soil inspection. This approach reveals the
               soil structure, fills, materials levels, and other factors
@@ -115,26 +115,26 @@ const SiteInvetigate = () => {
           </div>
 
           {/* Row 3 */}
-          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
+          <div className="bg-gray-50 p-8 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
-            <h2 className="text-xl font-semibold mb-2 mt-5">
+            <h2 className="font-inter text-[17px] sm:text-[22px] md:text-24 font-500 spacing-28 mb-2 mt-5">
               Bulldozer Costean Excavations
             </h2>
-            <p className="text-gray-600">
+            <p className="font-inter text-14 sm:text-16 lg:text-18 font-400 spacing-24">
               For broad, large-scale sampling, we perform costean excavations.
               This method is ideal for assessing large areas and provides
               insight into subsurface geology and structural stability.
             </p>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
+          <div className="bg-gray-50 p-8 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
-            <h2 className="text-xl font-semibold mb-2 mt-5">Geophysics</h2>
-            <p className="text-gray-600">
+            <h2 className="font-inter text-[17px] sm:text-[22px] md:text-24 font-500 spacing-28 mb-2 mt-5">Geophysics</h2>
+            <p className="font-inter text-14 sm:text-16 lg:text-18 font-400 spacing-24">
               Our geophysics capabilities include penetrating radar (GPR) and
               electrical resistivity, offering non-invasive options for
               subsurface assessments. Geophysics provides rapid, large-area
@@ -153,7 +153,7 @@ const SiteInvetigate = () => {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto p-6">
+      <div className="max-w-[1220px] mx-auto mt-[128px]">
         {/* Header */}
         <h1 className="text-[48px] font-semibold  mb-6">
           Our Site Investigation Services Include

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"; // Import for React Router
 
 const ButtonCard = ({ image, title, description, buttonText, link }) => {
     return (
-        <div className="flex font-inter items-center bg-[#EBF7FF] rounded-3xl max-w-[1408px] mt-[40px] ml-[16px] mr-[16px]">
+        <div className="flex font-inter items-center bg-[#EBF7FF] rounded-3xl mt-[40px] ml-[16px] mr-[16px]">
             {/* Left Section - Text Content */}
             <div className="flex-1 ml-[94px]">
                 <h2 className="text-[62px] font-inter leading-[76px] font-semibold text-[#062465]">

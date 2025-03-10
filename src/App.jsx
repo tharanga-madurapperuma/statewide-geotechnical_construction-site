@@ -17,7 +17,7 @@ import LandCapability from "./pages/Land Capability/LandCapability"
 import EnvDrilling from "./pages/envDrilling/EnvDrilling"
 import Inspections from "./pages/inspections/Inspections"
 import AccreditedPage from "./pages/accredited/AccreditedPage"
-import TrustedLeaders from "./pages/TrustedLeaders";
+import AboutUs from "./pages/AboutUs";
 import NotFound from "./pages/notFound/NotFound";
 import ContactPage from "./pages/contactUs/ContactPage"
 
@@ -43,12 +43,12 @@ const App = () => {
                         element={<FoundationBuilt />}
                     />
                     <Route path="/accredited" element={<AccreditedPage />} />
-                    <Route path="/envDrilling" element={<EnvDrilling />} />
+                    <Route path="/envdrilling" element={<EnvDrilling />} />
                   <Route path="/inspections" element={<Inspections />} />
                     <Route path="/inspections" element={<Inspections />} />
                     <Route
-                        path="/trustedleaders"
-                        element={<TrustedLeaders />}
+                        path="/aboutus"
+                        element={<AboutUs />}
                     />
                     <Route path="/*" element={<NotFound />} />
                     <Route path="/resources" element={<Resources />} />

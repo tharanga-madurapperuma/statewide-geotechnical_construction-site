@@ -24,7 +24,7 @@ const Slopes = () => {
                     <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-[32px] text-4xl text-center md:text-left'>
                     Our Slope and Stability Assessment Services
                     </h2>
-                    <p className='text-base sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
+                    <p className='text-base mb-[45px] sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
                     Slopes and embankments present unique challenges due to factors like soil composition, groundwater levels, and seasonal weather changes. Our team specializes in assessing these complexities, o8ering practical solutions to manage and prevent issues like erosion, landslides, and soil movement.
                     </p>
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-[35px] w-full">

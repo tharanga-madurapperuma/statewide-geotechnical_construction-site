@@ -7,7 +7,7 @@ const ButtonCard = ({ image, title, description, buttonText }) => {
   const buttonLink = "/contact";
 
   return (
-    <div className="font-inter bg-[#EBF7FF] rounded-xl sm:rounded-2xl md:rounded-3xl mx-4 sm:mx-6 md:mx-8 lg:mx-16 mt-6 md:mt-[40px]">
+    <div className="font-inter bg-[#EBF7FF] rounded-xl sm:rounded-2xl md:rounded-3xl mx-4 sm:mx-6 md:mx-8 lg:mx-16 mt-[8px] md:mt-[16px]">
       {/* Mobile layout - Image on top, text below */}
       <div className="block md:hidden p-6 sm:p-2">
         {/* Top Image for Mobile */}

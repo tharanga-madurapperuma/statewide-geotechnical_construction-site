@@ -81,7 +81,7 @@ Our team is dedicated to providing accurate, cost-effective geotechnical solutio
         </div>
 
         {/* Footer */}
-        <div className="text-gray-600 mt-[32px] ">
+        <div className="text-gray-600 mt-[56px] mb-[96px] ">
           <p>
             Choose Statewide Geotechnical (Aust) Pty Ltd for your next project,
             and experience the benefits of seamless, reliable, and

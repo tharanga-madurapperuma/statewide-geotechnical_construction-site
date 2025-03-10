@@ -18,7 +18,9 @@ const SiteInvetigate = () => {
 
       <div className="max-w-[1300px] mx-auto mt-[94px]">
         {/* Header Section */}
-        <h1 className="text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-[32px] text-4xl text-center md:text-left">Investigation Techniques</h1>
+        <h1 className="text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-[32px] text-4xl text-center md:text-left">
+          Investigation Techniques
+        </h1>
         <p className="text-base mb-[45px] sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0">
           Our team employs a diverse range of advanced investigation techniques,
           customized to meet the unique requirements of each site. With
@@ -39,9 +41,7 @@ const SiteInvetigate = () => {
             />
           </div>
 
-          <div >
-          
-
+          <div>
             <CardIconTopLeft
               iconUrl="/helmet.png"
               iconBackground="bg-white-100"
@@ -57,11 +57,9 @@ const SiteInvetigate = () => {
               padding={true}
               backgroundHover={false}
             />
-            
           </div>
 
-          <div >
-            
+          <div>
             <CardIconTopLeft
               iconUrl="/helmet.png"
               iconBackground="bg-white-100"
@@ -80,8 +78,7 @@ const SiteInvetigate = () => {
           </div>
 
           {/* Row 2 */}
-          <div >
-           
+          <div>
             <CardIconTopLeft
               iconUrl="/helmet.png"
               iconBackground="bg-white-100"
@@ -97,11 +94,9 @@ const SiteInvetigate = () => {
               padding={true}
               backgroundHover={false}
             />
-
           </div>
 
-          <div >
-           
+          <div>
             <CardIconTopLeft
               iconUrl="/helmet.png"
               iconBackground="bg-white-100"
@@ -119,9 +114,7 @@ const SiteInvetigate = () => {
             />
           </div>
 
-          <div >
-          
-
+          <div>
             <CardIconTopLeft
               iconUrl="/helmet.png"
               iconBackground="bg-white-100"
@@ -140,9 +133,7 @@ const SiteInvetigate = () => {
           </div>
 
           {/* Row 3 */}
-          <div >
-          
-
+          <div>
             <CardIconTopLeft
               iconUrl="/helmet.png"
               iconBackground="bg-white-100"
@@ -159,9 +150,7 @@ const SiteInvetigate = () => {
             />
           </div>
 
-          <div >
-         
-
+          <div>
             <CardIconTopLeft
               iconUrl="/helmet.png"
               iconBackground="bg-white-100"
@@ -197,9 +186,9 @@ const SiteInvetigate = () => {
         </h1>
 
         {/* Grid Layout */}
-        <div className="grid grid-cols-1 md:grid-cols-8 md:grid-rows-10 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-8 md:grid-rows-10 gap-4 pb-[128px]">
           {/* Image */}
-          <div className="col-span-1 md:col-span-4 md:row-span-3 max-h-[270px] rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
+          <div className="col-span-1 md:col-span-4 md:row-span-3 h-full rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
             <img
               src="/Frame2248.png"
               alt="Site Investigation"
@@ -305,8 +294,8 @@ const SiteInvetigate = () => {
           </div>
 
           {/* Footer */}
-          <div className="col-span-1 md:col-span-8 md:col-start-1 md:row-start-10  text-gray-600">
-            <p>
+          <div className="col-span-1 md:col-span-8 md:col-start-1 md:row-start-10 text-gray-600">
+            <p className="pt-[56px]">
               Statewide Geotechnical’s end-to-end site investigation services
               give you a clear picture of site conditions from the outset,
               providing the data and insights to drive successful project

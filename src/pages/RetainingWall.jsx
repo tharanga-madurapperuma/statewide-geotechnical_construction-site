@@ -13,15 +13,16 @@ const RetainingWall = () => {
           description="At Statewide Geotechnical (Aust) Pty Ltd, we provide comprehensive retaining wall and excavation services designed to secure your site, optimize space, and ensure stability for your construction project. With expert knowledge of ground behavior and soil mechanics, our team delivers tailored solutions to meet the unique demands of each site, from sloped terrains to complex urban environments."
           buttonText="Get in Touch"
           imagePosition="right"
+          link="www.google.com"
           className="mb-8"
         />
       </div>
 
-      <div className="max-w-[1220px] mx-auto p-8">
+      <div className="max-w-[1220px] mx-auto mt-[94px]">
         <h1 className="text-5xl font-semibold mb-6">Retaining Wall Solutions</h1>
         <div className="grid grid-cols-5 grid-rows-10 gap-[24px]">
           {/* Description Box */}
-          <div className="col-span-2 row-span-4 bg-blue-100 p-6 rounded-3xl flex items-center justify-center ">
+          <div className="col-span-2 row-span-4 bg-blue-100 p-6 rounded-3xl flex items-center justify-center">
             <p className="text-gray-700">
               Retaining walls play a critical role in managing soil stability,
               especially on sloped or uneven terrain. Our retaining wall
@@ -34,7 +35,7 @@ const RetainingWall = () => {
           </div>
 
           {/* Retaining Wall Types */}
-          <div className="col-span-3 row-span-2 col-start-3 bg-gray-100 p-6 rounded-lg">
+          <div className="col-span-3 row-span-2 col-start-3  p-6 border-b-1 border-[#D1D5DB]">
             <h2 className="text-xl font-semibold mb-2">
               Gravity Retaining Walls
             </h2>
@@ -46,7 +47,7 @@ const RetainingWall = () => {
             </p>
           </div>
 
-          <div className="col-span-3 row-span-2 col-start-3 row-start-3 bg-gray-100 p-6 rounded-lg">
+          <div className="col-span-3 row-span-2 col-start-3 row-start-3 border-b-1 border-[#D1D5DB] p-6 ">
             <h2 className="text-xl font-semibold mb-2">
               Cantilever Retaining Walls
             </h2>
@@ -59,7 +60,7 @@ const RetainingWall = () => {
             </p>
           </div>
 
-          <div className="col-span-3 row-span-2 col-start-3 row-start-5 bg-gray-100 p-6 rounded-lg">
+          <div className="col-span-3 row-span-2 col-start-3 row-start-5 border-b-1 border-[#D1D5DB] p-6 ">
             <h2 className="text-xl font-semibold mb-2">
               Sheet Pile Retaining Walls
             </h2>
@@ -72,7 +73,7 @@ const RetainingWall = () => {
             </p>
           </div>
 
-          <div className="col-span-3 row-span-2 col-start-3 row-start-7 bg-gray-100 p-6 rounded-lg">
+          <div className="col-span-3 row-span-2 col-start-3 row-start-7 border-b-1 border-[#D1D5DB] p-6">
             <h2 className="text-xl font-semibold mb-2">
               Anchored Retaining Walls
             </h2>
@@ -84,7 +85,7 @@ const RetainingWall = () => {
             </p>
           </div>
 
-          <div className="col-span-3 row-span-2 col-start-3 row-start-9 bg-gray-100 p-6 rounded-lg">
+          <div className="col-span-3 row-span-2 col-start-3 row-start-9  p-6 ">
             <h2 className="text-xl font-semibold mb-2">
               Segmental Retaining Walls
             </h2>
@@ -108,10 +109,10 @@ const RetainingWall = () => {
         </div>
       </div>
 
-      <div className="max-w-[1220px] mx-auto p-8 mt-4">
+      <div className="max-w-[1220px] mx-auto mt-[94px]">
         {/* Header Section */}
         <h1 className="text-5xl font-semibold mb-6">Excavation Services</h1>
-        <p className="text-gray-600">
+        <p className="text-gray-600 mb-6">
           Our excavation services are designed to support safe, efficient site
           preparation for construction projects of any scale. We handle all
           types of excavation, from shallow earthworks for foundations to deep
@@ -132,7 +133,7 @@ const RetainingWall = () => {
           </div>
 
           {/* Bulk Excavation */}
-          <div className="col-span-3 row-span-4 col-start-4 row-start-2 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF]">
+          <div className="col-span-3 row-span-4 col-start-4 row-start-2 bg-blue-25 p-6 rounded-3xl border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -146,7 +147,7 @@ const RetainingWall = () => {
           </div>
 
           {/* Detailed Excavation */}
-          <div className="col-span-3 row-span-4 col-start-7 row-start-2 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF]">
+          <div className="col-span-3 row-span-4 col-start-7 row-start-2 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -162,7 +163,7 @@ const RetainingWall = () => {
           </div>
 
           {/* Trenching */}
-          <div className="col-span-3 row-span-4 col-start-1 row-start-6 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF]">
+          <div className="col-span-3 row-span-4 col-start-1 row-start-6 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -177,7 +178,7 @@ const RetainingWall = () => {
           </div>
 
           {/* Rock Breaking and Removal */}
-          <div className="col-span-3 row-span-4 col-start-4 row-start-6 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF]">
+          <div className="col-span-3 row-span-4 col-start-4 row-start-6 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -193,7 +194,7 @@ const RetainingWall = () => {
           </div>
 
           {/* Shoring & Site Stabilization */}
-          <div className="col-span-3 row-span-4 col-start-7 row-start-6 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF]">
+          <div className="col-span-3 row-span-4 col-start-7 row-start-6 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -208,7 +209,8 @@ const RetainingWall = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> 
+
       <div className="mt-[42px] mb-[48px]">
         <TextSection
           title="Why Choose Statewide Geotechnical for Retaining Wall and Excavation Services?"

@@ -6,19 +6,21 @@ import { Arrowup, WorkerHat,SoilHero, SoilTesting } from '../../assets/assets';
 
 const Soil = () => {
     return (
-        <div className="w-full flex flex-col">
+        <div className="w-full flex flex-col items-center bg-slate-background">
             {/* First Section */}
-            <div className="mt-4 sm:mt-6 px-3 sm:px-4">
+            <div className="mt-4 sm:mt-4 px-3 sm:px-4">
               <ButtonCard
                 image={SoilTesting}
                 title="Soil, Rock & Aggregate Testing for Quality & Stability"
                 description="Our laboratory offers comprehensive soil, rock, and aggregate testing to ensure material quality, durability, and safety in construction. Using advanced technology and expert analysis, we assess suitability for foundations, pavements, and geotechnical projects. Our industry-standard methods provide accurate data for informed decision-making."
                 buttonText="Get in Touch"
+                buttonLink="/contact"
               />
             </div>
+            <div className='px-[110px]'>
 
             {/* Second Section */}
-            <div className='soil__second-section p-[45px] sm:p-[85px] w-full h-auto'>
+            <div className='soil__second-section py-[128px] w-full h-auto'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
                     <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
                         Aggregate Testing Services
@@ -185,7 +187,7 @@ const Soil = () => {
             </div>
 
             {/* Third Section */}
-            <div className='soil__second-section p-[45px] sm:p-[85px] w-full h-auto'>
+            <div className='soil__second-section w-full h-auto'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
                         <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
                             Soil Testing Services
@@ -278,7 +280,7 @@ const Soil = () => {
             </div>
 
             {/* Fourth Section */}
-            <div className='soil__second-section p-[45px] sm:p-[85px] w-full h-auto'>
+            <div className='soil__second-section  py-[128px] w-full h-auto'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
                         <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
                             Rock Testing Services
@@ -355,6 +357,8 @@ const Soil = () => {
                 buttonText='Get in Touch with Our Team'
                 buttonLink='#'
             />
+
+        </div>
 
 
         </div>  

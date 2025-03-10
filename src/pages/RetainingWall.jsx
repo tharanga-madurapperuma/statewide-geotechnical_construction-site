@@ -18,10 +18,10 @@ const RetainingWall = () => {
       </div>
 
       <div className="max-w-[1220px] mx-auto p-8">
-        <h1 className="text-5xl font-bold mb-6">Retaining Wall Solutions</h1>
+        <h1 className="text-5xl font-semibold mb-6">Retaining Wall Solutions</h1>
         <div className="grid grid-cols-5 grid-rows-10 gap-[24px]">
           {/* Description Box */}
-          <div className="col-span-2 row-span-4 bg-blue-100 p-6 rounded-lg">
+          <div className="col-span-2 row-span-4 bg-blue-100 p-6 rounded-3xl flex items-center justify-center ">
             <p className="text-gray-700">
               Retaining walls play a critical role in managing soil stability,
               especially on sloped or uneven terrain. Our retaining wall
@@ -102,7 +102,7 @@ const RetainingWall = () => {
             <img
               src="/Frame2263.png"
               alt="Retaining Wall"
-              className="w-[494px] h-[556px] object-cover rounded-lg"
+              className="w-[494px] h-[556px] object-cover rounded-3xl"
             />
           </div>
         </div>
@@ -110,7 +110,7 @@ const RetainingWall = () => {
 
       <div className="max-w-[1220px] mx-auto p-8 mt-4">
         {/* Header Section */}
-        <h1 className="text-5xl font-bold mb-6">Excavation Services</h1>
+        <h1 className="text-5xl font-semibold mb-6">Excavation Services</h1>
         <p className="text-gray-600">
           Our excavation services are designed to support safe, efficient site
           preparation for construction projects of any scale. We handle all

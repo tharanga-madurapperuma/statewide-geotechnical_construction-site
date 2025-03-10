@@ -19,6 +19,7 @@ import Inspections from "./pages/inspections/Inspections";
 import AccreditedPage from "./pages/accredited/AccreditedPage";
 import TrustedLeaders from "./pages/TrustedLeaders";
 import NotFound from "./pages/notFound/NotFound";
+
 import ContactSection from "./components/contacts/ContactSection";
 import { Hero } from "./assets/assets";
 import HeroSection from "./components/hero-section/HeroSection";
@@ -27,7 +28,7 @@ import AppointmentRequestForm from "./components/form/AppointmentRequestForm";
 
 const App = () => {
   return (
-    <div className="overflow-x-hidden ">
+    <div className="overflow-x-hidden font-inter">
       <BrowserRouter>
                 <Navbar />
                 <Routes>
@@ -56,7 +57,8 @@ const App = () => {
                     />
                     <Route path="/*" element={<NotFound />} />
                     <Route path="/resources" element={<Resources />} />
-                </Routes>
+                    <Route path="/contact" element={<ContactPage />} />
+                  </Routes>
                 <Footer />
             </BrowserRouter>
           

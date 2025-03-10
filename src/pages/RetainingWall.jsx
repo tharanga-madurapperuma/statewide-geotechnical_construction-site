@@ -335,7 +335,7 @@ const RetainingWall = () => {
         </div>
       </div>
 
-      <div className="mt-[64px] mb-[48px]">
+      <div className="mb-8 px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6">
         <TextSection
           title="Why Choose Statewide Geotechnical for Retaining Wall and Excavation Services?"
           description="With our in-house expertise and comprehensive service offerings, Statewide Geotechnical ensures that your retaining wall and excavation needs are handled with precision and care. Our solutions are engineered to provide long-term stability, minimize environmental impact, and optimize the functionality and safety of your site. From the initial design to final excavation, we work closely with you to keep your project on track, on budget, and compliant with regulatory standards.

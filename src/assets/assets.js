@@ -67,6 +67,7 @@ import DocWhite from "./drilling/icons/docWhite.svg";
 import InsHero from "./inspections/insHero.jpg";
 import InsSecond from "./inspections/insSecond.jpg";
 import InsThird from "./inspections/insThird.jpg";
+import TestingIcon from "./inspections/testing.svg";
 
 // Env Drilling page
 import Map from "./envDrilling/map.svg";
@@ -110,7 +111,7 @@ export { WorkerHat };
 export { FileIcon, DownloadIcon };
 
 // Inspections Page
-export { InsHero, InsSecond, InsThird };
+export { InsHero, InsSecond, InsThird, TestingIcon };
 
 // navbar
 export { Menu, Close };

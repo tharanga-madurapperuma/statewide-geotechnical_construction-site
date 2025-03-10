@@ -3,7 +3,7 @@ import React from "react";
 const TextSection = ({ title, description, buttonText, buttonLink }) => {
     return (
         <section className="bg-[#EBF7FF] py-12">
-            <div className="max-w-7xl mx-auto text-center md:text-left">
+            <div className="mx-auto text-center md:text-left">
                 <h2
                     s
                     className="text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4"
@@ -11,7 +11,7 @@ const TextSection = ({ title, description, buttonText, buttonLink }) => {
                     {title}
                 </h2>
 
-                <p className="text-base sm:text-lg text-gray-700 leading-relaxed text-justify max-w-4xl mx-auto md:mx-0">
+                <p className="text-base sm:text-lg text-gray-700 leading-relaxed text-justify mx-auto md:mx-0">
                     {description}
                 </p>
 

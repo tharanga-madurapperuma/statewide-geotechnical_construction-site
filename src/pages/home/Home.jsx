@@ -85,10 +85,10 @@ const Home = () => {
             {/* HOME - FIRST SECTION */}
             <div className="h-auto w-full">
                 <div className="w-full h-auto flex flex-col items-center">
-                    <div className="h-full w-full p-4 flex flex-col items-center ">
+                    <div className="h-full w-full p-2 pt-4 sm:pt-[24px] md:pt-0 sm:p-[16px] flex flex-col items-center ">
                         {/* <img className="rounded-xl top-0" src={HomeHero} /> */}
                         <div
-                            className="w-full h-auto m-[5%] rounded-2xl px-8 py-4 md:p-15 lg:p-[70px] xl:p-[80px] flex flex-col justify-between sm:relative"
+                            className="w-full h-auto rounded-2xl p-6 xl:pl-[94px] xl:pt-[96px] xl:pb-[96px] sm:p-[54px] md:p-[64px] lg:p-[84px] xl:p-0 flex flex-col justify-between sm:relative"
                             style={{
                                 background: `url(${HomeHero})`,
                                 backgroundRepeat: "no-repeat",
@@ -96,17 +96,22 @@ const Home = () => {
                             }}
                         >
                             <div>
-                                <h1 className=" text-blue-950 w-[80%] font-inter font-700 text-24 md:text-40 lg:text-48 xl:text-[76px]">
+                                <h1 className=" text-blue-950 w-full font-inter font-700 text-28 sm:text-40 md:text-48 lg:text-[64px] xl:text-[76px] lg:leading-[70px] xl:leading-[91px] leading-8 sm:leading-[44px] md:leading-[56px]">
                                     Building the Future
                                     <br /> on Solid Foundations.
                                 </h1>
-                                <p className="w-[90%] lg:w-[60%] my-5 font-poppins font-400 text-gray-600 text-12 sm:text-14 md:text-16 lg:text-18 xl:text-24">
+                                <p className="w-[90%] lg:w-[60%] mt-[14px] font-poppins font-400 text-gray-600 text-12 sm:text-14 md:text-16 lg:text-18 xl:text-24">
                                     We provide custom geotechnical engineering
                                     solutions designed to support your project's
                                     success.
                                 </p>
-                                <div className="flex flex-col sm:flex-row items-start sm:items-center sm:mt-15">
-                                    <button className="w-auto text-nowrap h-40 md:h-[44px] lg:h-[48px] xl:h-[50px] bg-blue-600 hover:bg-blue-700  text-white rounded-xl font-inter font-600 text-12 md:text-14 lg:text-16 xl:text-18 px-4 md:px-8 transition duration-500 cursor-pointer">
+                                <div className="flex flex-col sm:flex-row items-start sm:items-center sm:mt-[32px] mt-8">
+                                    <button
+                                        OnClick={() => {
+                                            navigate("/contact");
+                                        }}
+                                        className="w-auto text-nowrap h-40 md:h-[44px] lg:h-[48px] xl:h-[50px] bg-blue-600 hover:bg-blue-700  text-white rounded-xl font-inter font-600 text-12 md:text-14 lg:text-16 xl:text-18 px-4 md:px-8 transition duration-500 cursor-pointer"
+                                    >
                                         Let's Talk
                                     </button>
                                     <div className="w-auto hidden h-[38px] md:h-[42px] lg:h-[46px] xl:h-[48px] text-nowrap bg-transparent hover:bg-blue-transparent  text-blue-600 hover:text-blue-700 outline-2 hover:outline-blue-800 outline-solid outline-blue-600 font-inter font-600 text-12 md:text-14 lg:text-16 xl:text-18 rounded-lg items-center justify-center px-4 md:px-8 mt-2 sm:mt-0 sm:ml-4  transition duration-500 cursor-pointer">
@@ -117,10 +122,10 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className=" w-full md:w-[80%] xl:w-[65%] sm:h-[170px] md:h-[200px] xl:h-[220px] hidden mt-15 md:mt-[100px] lg:mt-[150px] xl:mt-[200px] mb-2 lg:mb-0 sm:flex sm:relative bottom-0">
-                                <div className="bg-white w-2/3 h-full rounded-3xl">
+                            <div className="w-full h-[150px] md:w-[80%] xl:w-[65%] sm:h-[170px] md:h-[200px] xl:h-[220px] mt-15 md:mt-[100px] lg:mt-[150px] xl:mt-[142px] mb-2 xl:mb-[] lg:mb-0 sm:flex sm:relative bottom-0">
+                                <div className="bg-white w-full sm:w-2/3 h-full rounded-3xl">
                                     <div
-                                        className="flex h-full cursor-pointer"
+                                        className="flex h-full cursor-pointer items-center"
                                         onClick={() => {
                                             navigate("/TrustedLeaders");
                                         }}
@@ -131,22 +136,22 @@ const Home = () => {
                                                 src={SuccessWorker}
                                             />
                                         </div>
-                                        <div className="h-full w-3/5 pr-4 flex flex-col justify-center font-inter font-600 text-16 md:text-18 lg:text-24">
+                                        <div className="h-full w-3/5 pr-4 flex flex-col justify-center font-inter font-600 text-14 md:text-18 lg:text-24">
                                             <h3 className="text-gray-950">
-                                                See How We Deliver Geotechnical
-                                                Successs
+                                                Discover Our Expertise in
+                                                Geotechnical Solutions
                                             </h3>
-                                            <p className="text-gray-700 mt-4 font-inter font-400 text-12 md:text-14 lg:text-14">
-                                                From soil investigations to
-                                                foundation solutions, explore
-                                                how our expertise drives
-                                                successful projects with
-                                                stability and precision.
+                                            <p className="text-gray-700 mt-4 font-inter font-400 text-[11px] md:text-14 lg:text-14">
+                                                Learn how our in-house drilling,
+                                                testing, and reporting ensure
+                                                efficiency, quality, and
+                                                cost-effective results for every
+                                                project.
                                             </p>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="bg-white w-1/3 h-full rounded-3xl ml-5">
+                                <div className="bg-white hidden sm:block w-1/3 h-full rounded-3xl ml-5">
                                     <div className="flex items-center justify-center flex-col h-full w-full">
                                         <img src={ProfilePics} />
                                         <h1 className="font-inter font-600 text-32 lg:text-40">
@@ -159,54 +164,14 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className=" w-full h-[224px] bottom-0 sm:hidden m-[5%] flex flex-col">
-                            <div className="bg-white  w-full h-full rounded-2xl">
-                                <div
-                                    className="flex h-full cursor-pointer"
-                                    onClick={() => {
-                                        navigate("/TrustedLeaders");
-                                    }}
-                                >
-                                    <div className="h-full w-1/3">
-                                        <img
-                                            className="object-cover h-full w-full rounded-md"
-                                            src={SuccessWorker}
-                                        />
-                                    </div>
-                                    <div className="h-full w-2/3 ml-5 flex flex-col justify-center font-inter font-600 text-16">
-                                        <h3 className="text-gray-950">
-                                            See How We Deliver Geotechnical
-                                            Success
-                                        </h3>
-                                        <p className="text-gray-700 mt-4 font-inter font-400 text-12">
-                                            From soil investigations to
-                                            foundation solutions, explore how
-                                            our expertise drives successful
-                                            projects with stability and
-                                            precision.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="bg-white w-full h-[150px] rounded-2xl my-15">
-                                <div className="flex items-center justify-center flex-col h-full w-full">
-                                    <img src={ProfilePics} />
-                                    <h1 className="font-inter font-600 text-32 ">
-                                        1K+
-                                    </h1>
-                                    <span className="font-inter font-400 text-24 ">
-                                        Customers
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
+
             {/* HOME - SECOND SECTION */}
             <div className="w-full">
                 {/* WHO WE ARE */}
-                <div className="mt-8 md:px-[110px]">
+                <div className="mt-[50px] sm:mt-[100px] md:mt-40 xl:mt-[128px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
                     <InfoSection
                         title="Who We Are"
                         description="At Statewide Geotechnical, we specialize in
@@ -259,164 +224,205 @@ const Home = () => {
                     </div>
                 </div> */}
 
-                {/* WHY CHOOSE US */}
-                <div className="w-full mt-[200px] sm:mt-80 flex flex-col items-center bg-white xl:py-8">
-                    <div className="w-full px-[10%] sm:px-[15%] md:px-[10%] lg:px-[15%] xl:px-[110px]">
-                        <div className="text-center">
-                            <h1 className="font-inter font-600 text-gray-800 text-28 sm:text-32 md:text-40 lg:text-56 xl:text-62">
-                                Why Choose Us?
-                            </h1>
-                        </div>
-                        <div className="w-full grid grid-cols-2 gap-4 sm:grid-cols-4 justify-evenly mt-8 md:mt-48 lg:mt-62 xl:mt-80">
-                            <div className="flex flex-col justify-start items-center">
-                                <img
-                                    className="w-80 h-80 md:h-auto md:w-auto"
-                                    src={Icon1}
-                                />
-                                <p className="text-center mt-1 md:mt-3 lg:mt-4 font-inter font-500 text-12 sm:text-14 md:text-16 lg:text-18 xl:text-24">
-                                    Advanced Drilling<br></br>Technology
-                                </p>
-                            </div>
-                            <div className="flex flex-col justify-start items-center">
-                                <img
-                                    className="w-80 h-80 md:h-auto md:w-auto"
-                                    src={Icon2}
-                                />
-                                <p className="text-center mt-1 md:mt-3 lg:mt-4 font-inter font-500 text-12 sm:text-14 md:text-16 lg:text-18 xl:text-24">
-                                    Certified & Experienced<br></br>Team
-                                </p>
-                            </div>
-                            <div className="flex flex-col justify-start items-center">
-                                <img
-                                    className="w-80 h-80 md:h-auto md:w-auto"
-                                    src={Icon3}
-                                />
-                                <p className="text-center mt-1 md:mt-3 lg:mt-4 font-inter font-500 text-12 sm:text-14 md:text-16 lg:text-18 xl:text-24">
-                                    Comprehensive<br></br>Geotechnical Solutions
-                                </p>
-                            </div>
-                            <div className="flex flex-col justify-start items-center">
-                                <img
-                                    className="w-80 h-80 md:h-auto md:w-auto"
-                                    src={Icon4}
-                                />
-                                <p className="text-center mt-1 md:mt-3 lg:mt-4 font-inter font-500 text-12 sm:text-14 md:text-16 lg:text-18 xl:text-24">
-                                    Commitment to Safety<br></br>& Compliance
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 {/* WHAT WE OFFER */}
-                <div className="overflow-x-hidden w-full px-2 md:px-6 lg:px-8 xl:px-[110px] xl:mt-8">
-                    <div className="w-full h-auto mt-[20vw] sm:mt-62 flex flex-col items-center">
-                        <div className="w-full flex justify-between items-center px-6">
-                            <h1 className="font-inter font-600 text-28 sm:text-32 md:text-40 lg:text-56 xl:text-62">
-                                What We Offer
-                            </h1>
-                            {/* <p className="text-blue-700 hover:text-blue-900 transition duration-500 cursor-pointer font-inter font-600 text-16 sm:text-18 md:text-24 text-right">
+                <div className="w-full flex flex-col items-center">
+                    <div className="overflow-x-hidden w-full px-[32px] md:px-80 sm:px-[70px] lg:px-[100px] xl:px-[110px] xl:mt-[128px]  max-w-[1920px]">
+                        <div className="w-full h-auto mt-[20vw] sm:mt-62 xl:mt-0 flex flex-col items-center">
+                            <div className="w-full flex justify-between items-center sm:px-0 xl:px-0">
+                                <h1 className="font-inter font-600 text-28 sm:text-32 md:text-40 lg:text-56 xl:text-62">
+                                    What We Offer
+                                </h1>
+                                {/* <p className="text-blue-700 hover:text-blue-900 transition duration-500 cursor-pointer font-inter font-600 text-16 sm:text-18 md:text-24 text-right">
                                 SEE ALL SERVICES
                             </p> */}
-                        </div>
-                        <div className="flex flex-col sm:grid sm:grid-cols-2 sm:grid-rows-1 sm:gap-3 lg:gap-8 justify-between w-full h-full mt-10 mb-10 md:mb-1 px-6">
-                            <div className="h-full lg:w-full ">
-                                <img
-                                    className="object-cover h-full w-full rounded-3xl"
-                                    src={HomeSecondWhatWe}
-                                />
                             </div>
-                            <div className="h-full w-full bg-blue-200 rounded-3xl mt-2 sm:mt-0">
-                                <div className="flex flex-col h-full justify-between p-8 xl:p-[50px]">
-                                    <div className="font-inter font-500 w-auto text-blue-700 text-12 md:text-14 lg:text-18 rounded-xl text-center">
-                                        <p className="bg-blue-300 w-[80px] lg:w-[100px] py-1 rounded-2xl">
-                                            Services
-                                        </p>
-                                    </div>
-                                    <h2 className="font-inter font-600 text-24 md:text-3 lg:text-40 text-gray-900">
-                                        Drilling Service
-                                    </h2>
-                                    <p className="font-inter font-400 text-gray-600 text-14 md:text-16 lg:text-18">
-                                        Our Drilling Services provide precise
-                                        and efficient solutions for geotechnical
-                                        and environmental investigations. Using
-                                        advanced drilling techniques, we ensure
-                                        accurate soil and rock sampling,
-                                        groundwater monitoring, and site
-                                        assessments for safe and stable
-                                        construction.
-                                    </p>
-                                    <div className="flex flex-col md:flex-row items-center justify-start w-full mt-4 md:mt-0">
-                                        <div className="flex items-center justify-left w-full">
-                                            <div className="p-1 rounded-3xl bg-blue-300">
-                                                <img src={Check} />
-                                            </div>
-                                            <div className="font-inter font-600 text-gray-900 text-24 md:text-28 lg:text-32 pl-2 ">
-                                                1150+
-                                            </div>
-                                            <div className="font-inter font-400 text-gray-600 text-12 md:text-14 lg:text-18 pl-2">
-                                                Successful
-                                                <br />
-                                                Objects
-                                            </div>
+                            <div className="flex flex-col sm:grid sm:grid-cols-2 sm:grid-rows-1 sm:gap-3 lg:gap-8 justify-between w-full h-full mt-10 mb-10 md:mb-1 sm:px-0 xl:px-0">
+                                <div className="h-full lg:w-full ">
+                                    <img
+                                        className="object-cover h-full w-full rounded-3xl"
+                                        src={HomeSecondWhatWe}
+                                    />
+                                </div>
+                                <div className="h-full w-full bg-blue-200 rounded-3xl mt-2 sm:mt-0">
+                                    <div className="flex flex-col h-full justify-between p-8 xl:p-[50px]">
+                                        <div className="font-inter font-500 w-auto text-blue-700 text-12 md:text-14 lg:text-18 rounded-xl text-center">
+                                            <p className="bg-blue-300 w-[80px] lg:w-[100px] py-1 rounded-2xl">
+                                                Services
+                                            </p>
                                         </div>
-                                        <div className="flex items-center justify-left w-full md:ml-3 mt-2 md:mt-0">
-                                            <div className="p-1 rounded-3xl bg-blue-300">
-                                                <img src={Check} />
+                                        <h2 className="font-inter font-600 text-24 md:text-3 lg:text-40 text-gray-900">
+                                            Drilling Service
+                                        </h2>
+                                        <p className="font-inter font-400 text-gray-600 text-14 md:text-16 lg:text-18">
+                                            Our Drilling Services provide
+                                            precise and efficient solutions for
+                                            geotechnical and environmental
+                                            investigations. Using advanced
+                                            drilling techniques, we ensure
+                                            accurate soil and rock sampling,
+                                            groundwater monitoring, and site
+                                            assessments for safe and stable
+                                            construction.
+                                        </p>
+                                        <div className="flex flex-col md:flex-row items-center justify-start w-full mt-4 md:mt-0">
+                                            <div className="flex items-center justify-left w-full">
+                                                <div className="p-1 rounded-3xl bg-blue-300">
+                                                    <img src={Check} />
+                                                </div>
+                                                <div className="font-inter font-600 text-gray-900 text-24 md:text-28 lg:text-32 pl-2 ">
+                                                    1150+
+                                                </div>
+                                                <div className="font-inter font-400 text-gray-600 text-12 md:text-14 lg:text-18 pl-2">
+                                                    Successful
+                                                    <br />
+                                                    Objects
+                                                </div>
                                             </div>
-                                            <div className="font-inter font-600 text-gray-900 text-24 md:text-28 lg:text-32 pl-2 ">
-                                                40+
-                                            </div>
-                                            <div className="font-inter font-400 text-gray-600 text-12 md:text-14 lg:text-18 pl-2">
-                                                Industry
-                                                <br />
-                                                Partners
+                                            <div className="flex items-center justify-left w-full md:ml-3 mt-2 md:mt-0">
+                                                <div className="p-1 rounded-3xl bg-blue-300">
+                                                    <img src={Check} />
+                                                </div>
+                                                <div className="font-inter font-600 text-gray-900 text-24 md:text-28 lg:text-32 pl-2 ">
+                                                    40+
+                                                </div>
+                                                <div className="font-inter font-400 text-gray-600 text-12 md:text-14 lg:text-18 pl-2">
+                                                    Industry
+                                                    <br />
+                                                    Partners
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        {/* CAROUSEL - SWIPER JS */}
-                        <div className="w-full flex flex-col items-center lg:mt-48">
-                            <div className="sm:hidden w-full">
-                                <Swiper
-                                    slidesPerView={2}
-                                    spaceBetween={10}
-                                    keyboard={{
-                                        enabled: true,
-                                    }}
-                                    navigation={true}
-                                    modules={[Keyboard, Pagination, Navigation]}
-                                    className="mySwiper"
-                                >
-                                    {services.map((service, index) => (
-                                        <SwiperSlide key={index}>
-                                            <Card {...service} />
-                                        </SwiperSlide>
-                                    ))}
-                                </Swiper>
-                            </div>
-                            <div className="hidden sm:block sm:w-[93%] md:w-[95%] md:mt-2 xl:w-[96%]">
-                                <Swiper
-                                    slidesPerView={4}
-                                    spaceBetween={32}
-                                    keyboard={{
-                                        enabled: true,
-                                    }}
-                                    navigation={true}
-                                    modules={[Keyboard, Pagination, Navigation]}
-                                    className="mySwiper"
-                                >
-                                    {services.map((service, index) => (
-                                        <SwiperSlide key={index}>
-                                            <Card {...service} />
-                                        </SwiperSlide>
-                                    ))}
-                                </Swiper>
+                            {/* CAROUSEL - SWIPER JS */}
+                            <div className="w-full flex flex-col items-center lg:mt-48 sm:px-0">
+                                <div className="sm:hidden w-full">
+                                    {/* Small screen */}
+                                    <Swiper
+                                        slidesPerView={2}
+                                        spaceBetween={10}
+                                        keyboard={{
+                                            enabled: true,
+                                        }}
+                                        navigation={true}
+                                        modules={[
+                                            Keyboard,
+                                            Pagination,
+                                            Navigation,
+                                        ]}
+                                        className="mySwiper"
+                                    >
+                                        {services.map((service, index) => (
+                                            <SwiperSlide key={index}>
+                                                <Card {...service} />
+                                            </SwiperSlide>
+                                        ))}
+                                    </Swiper>
+                                </div>
+                                <div className="hidden sm:block md:hidden w-full">
+                                    {/* Small screen */}
+                                    <Swiper
+                                        slidesPerView={3}
+                                        spaceBetween={10}
+                                        keyboard={{
+                                            enabled: true,
+                                        }}
+                                        navigation={true}
+                                        modules={[
+                                            Keyboard,
+                                            Pagination,
+                                            Navigation,
+                                        ]}
+                                        className="mySwiper"
+                                    >
+                                        {services.map((service, index) => (
+                                            <SwiperSlide key={index}>
+                                                <Card {...service} />
+                                            </SwiperSlide>
+                                        ))}
+                                    </Swiper>
+                                </div>
+                                <div className="hidden md:block sm:w-full md:w-full md:mt-2 xl:w-full sm:px-0">
+                                    <Swiper
+                                        slidesPerView={4}
+                                        spaceBetween={32}
+                                        keyboard={{
+                                            enabled: true,
+                                        }}
+                                        navigation={true}
+                                        modules={[
+                                            Keyboard,
+                                            Pagination,
+                                            Navigation,
+                                        ]}
+                                        className="mySwiper"
+                                    >
+                                        {services.map((service, index) => (
+                                            <SwiperSlide key={index}>
+                                                <Card {...service} />
+                                            </SwiperSlide>
+                                        ))}
+                                    </Swiper>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                {/* WHY CHOOSE US */}
+                <div className="w-full flex flex-col items-center">
+                    <div className="w-full mt-8 sm:mt-80 xl:py-[64px] flex flex-col items-center bg-white  max-w-[1920px]">
+                        <div className="w-full px-[10%] sm:px-full md:px-80 lg:px-[100px] xl:px-[110px]">
+                            <div className="text-center">
+                                <h1 className="font-inter font-600 text-gray-800 text-28 sm:text-32 md:text-40 lg:text-56 xl:text-62">
+                                    Why Choose Us?
+                                </h1>
+                            </div>
+                            <div className="w-full grid grid-cols-2 gap-4 sm:grid-cols-4 justify-evenly mt-8 md:mt-48 lg:mt-62 xl:mt-80">
+                                <div className="flex flex-col justify-start items-center">
+                                    <img
+                                        className="w-80 h-80 md:h-auto md:w-auto"
+                                        src={Icon1}
+                                    />
+                                    <p className="text-center mt-1 md:mt-3 lg:mt-4 xl:mt-8 font-inter font-500 text-12 sm:text-14 md:text-16 lg:text-18 xl:text-24">
+                                        Advanced Drilling<br></br>Technology
+                                    </p>
+                                </div>
+                                <div className="flex flex-col justify-start items-center">
+                                    <img
+                                        className="w-80 h-80 md:h-auto md:w-auto"
+                                        src={Icon2}
+                                    />
+                                    <p className="text-center mt-1 md:mt-3 lg:mt-4 xl:mt-8 font-inter font-500 text-12 sm:text-14 md:text-16 lg:text-18 xl:text-24">
+                                        Certified & Experienced<br></br>Team
+                                    </p>
+                                </div>
+                                <div className="flex flex-col justify-start items-center">
+                                    <img
+                                        className="w-80 h-80 md:h-auto md:w-auto"
+                                        src={Icon3}
+                                    />
+                                    <p className="text-center mt-1 md:mt-3 lg:mt-4 xl:mt-8 font-inter font-500 text-12 sm:text-14 md:text-16 lg:text-18 xl:text-24">
+                                        Comprehensive<br></br>Geotechnical
+                                        Solutions
+                                    </p>
+                                </div>
+                                <div className="flex flex-col justify-start items-center">
+                                    <img
+                                        className="w-80 h-80 md:h-auto md:w-auto"
+                                        src={Icon4}
+                                    />
+                                    <p className="text-center mt-1 md:mt-3 lg:mt-4 xl:mt-8 font-inter font-500 text-12 sm:text-14 md:text-16 lg:text-18 xl:text-24">
+                                        Commitment to Safety<br></br>&
+                                        Compliance
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 {/* PROJECTS */}
 
                 {/* <div>
@@ -484,8 +490,10 @@ const Home = () => {
                     </div>
                 </div> */}
                 {/* START JOURNEY */}
-                <div className="xl:px-[110px]">
-                    <Callbox />
+                <div className="w-full flex flex-col items-center">
+                    <div className="px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px] max-w-[1920px]">
+                        <Callbox />
+                    </div>
                 </div>
             </div>
         </div>

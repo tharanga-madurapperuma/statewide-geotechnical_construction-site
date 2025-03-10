@@ -19,7 +19,7 @@ const Inspections = () => {
             </div>
 
             {/* Info Component */}
-            <div className="mt-8 sm:mt-40 md:mt-[100px] mb-8 sm:mb-40 md:mb-[100px] md:px-[110px]">
+            <div className="mt-8 sm:mt-40 md:mt-[100px] lg:mt-[128px] mb-8 sm:mb-40 md:mb-[100px] lg:mb-[64px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
                 <InfoSection
                     title="Fill Material Assessment"
                     description={
@@ -58,7 +58,7 @@ const Inspections = () => {
             </div>
 
             {/* Cards Component */}
-            <div className="w-[90%] lg:w-full h-auto py-10 mb-[50px] lg:px-[110px]">
+            <div className="w-full h-auto px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px] py-40 md:py-[64px] max-w-[1920px]">
                 <div className="flex flex-col items-start w-full">
                     <h1 className="w-[80%]  mb-4 font-inter text-28 sm:text-[36px] md:text-40 lg:text-48 font-600">
                         Level 1 Inspection & Testing
@@ -167,7 +167,7 @@ const Inspections = () => {
             </div>
 
             {/* Info Component */}
-            <div className="mt-8 sm:mt-40 md:mt-[100px] mb-8 sm:mb-40 md:mb-[100px] md:px-[110px]">
+            <div className="w-full  px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px] py-40 md:py-[64px] max-w-[1920px]">
                 <InfoSection
                     title="Level 2 Testing Services"
                     description={
@@ -207,7 +207,7 @@ const Inspections = () => {
             </div>
 
             {/* Blue Component */}
-            <div className="mb-8 px-4 sm:px-0 sm:mb-40 md:mb-58">
+            <div className="w-full bg-[#EBF7FF] py-6 md:py-[64px]  px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]  ">
                 <TextSection
                     title="Why Choose Us for Earthwork Testing?"
                     description="With industry-leading expertise and rigorous adherence to Australian Standards, our Earthwork Inspection and Testing services provide the precision and oversight needed for secure and durable projects. Whether you need comprehensive supervision, detailed testing, or reliable material assessments, we are here to help you build with confidence."

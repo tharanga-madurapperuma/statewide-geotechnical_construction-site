@@ -12,7 +12,7 @@ import {
 const Footer = () => {
     return (
         <div className="bg-slate-100 w-full h-auto flex justify-center items-center font-inter text-gray-900">
-            <div className="w-full px-[110px] mt-48 flex flex-col md:mt-72 lg:mt-[100px]">
+            <div className="w-full px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] max-w-[1920px] mt-48 flex flex-col md:mt-72 lg:mt-[100px]">
                 <div className="w-full flex flex-col md:flex-row justify-between items-start">
                     <div className="w-full md:w-2/4">
                         <div className="w-full">

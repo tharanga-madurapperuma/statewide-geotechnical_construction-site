@@ -9,7 +9,7 @@ const ButtonCard = ({ image, title, description, buttonText }) => {
   return (
     <div className="font-inter bg-[#EBF7FF] rounded-xl sm:rounded-2xl md:rounded-3xl mx-4 sm:mx-6 md:mx-8 lg:mx-16 mt-6 md:mt-[40px]">
       {/* Mobile layout - Image on top, text below */}
-      <div className="block md:hidden p-6 sm:p-8">
+      <div className="block md:hidden p-6 sm:p-2">
         {/* Top Image for Mobile */}
         <div className="w-full mb-6">
           <img 
@@ -67,7 +67,7 @@ const ButtonCard = ({ image, title, description, buttonText }) => {
         </div>
 
         {/* Right Section - Image with exact spacing */}
-        <div className="w-1/3 ml-[24px] mr-[94px] my-[40px]">
+        <div className="w-1/3 ml-6 mr-[94px] my-[40px]">
           <img 
             src={image} 
             alt={title || "Feature Image"} 

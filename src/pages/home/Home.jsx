@@ -107,7 +107,7 @@ const Home = () => {
                                 </p>
                                 <div className="flex flex-col sm:flex-row items-start sm:items-center sm:mt-[32px] mt-8">
                                     <button
-                                        OnClick={() => {
+                                        onClick={() => {
                                             navigate("/contact");
                                         }}
                                         className="w-auto text-nowrap h-40 md:h-[44px] lg:h-[48px] xl:h-[50px] bg-blue-600 hover:bg-blue-700  text-white rounded-xl font-inter font-600 text-12 md:text-14 lg:text-16 xl:text-18 px-4 md:px-8 transition duration-500 cursor-pointer"
@@ -127,7 +127,7 @@ const Home = () => {
                                     <div
                                         className="flex h-full cursor-pointer items-center"
                                         onClick={() => {
-                                            navigate("/TrustedLeaders");
+                                            navigate("/aboutus");
                                         }}
                                     >
                                         <div className="h-full w-2/5 flex items-center justify-center">

@@ -160,7 +160,7 @@ const Inspections = () => {
                     </p>
                 </div>
                 <div>
-                    <p className="font-inter font-600 text-14 mt-8 mb-4 md:text-18 lg:text-24 text-blue-600">
+                    <p className="font-inter font-600 text-14 mt-8 mb-4 md:text-18 lg:text-24 text-blue-600 hover:text-blue-700 cursor-pointer transition duration-300"> 
                         Discover the Benefits of Level 1 Supervision →
                     </p>
                 </div>

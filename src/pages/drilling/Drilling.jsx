@@ -163,46 +163,50 @@ const Drilling = () => {
                     </div>
                 </div>
 
-                <div className="w-full bg-slate-50 py-[64px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]  max-w-[1920px]">
-                    <h4 className="w-[80%] font-inter font-500 text-18 md:text-28 lg:text-32 ">
-                        Complete Geotechnical Investigations
-                    </h4>
-                    <p className="w-[90%] font-inter font-400 text-14 mt-2 md:text-18 lg:text-24">
-                        For complete geotechnical investigations, we o;er
-                        end-to-end solutions, including:
-                    </p>
-                    <div className="w-full grid grid-cols-1 gap-4 mt-4 sm:grid-cols-2 md:grid-cols-3 md:mt-6 lg:mt-8">
-                        <CardIconTextCenterColored
-                            iconUrl={FlaskWhite}
-                            titleText="Laboratory Testing"
-                            bodyTextPresent={true}
-                            bodyText="Our in-house lab conducts a wide range of soil and rock tests."
-                        />
-                        <CardIconTextCenterColored
-                            iconUrl={ManWhite}
-                            titleText="Engineering Assessments"
-                            bodyTextPresent={false}
-                            bodyText="Our expert engineers analyze geotechnical
+                <div className="w-full flex flex-col items-center bg-slate-50">
+                    <div className="w-full bg-slate-50 py-[64px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px] max-w-[1920px]">
+                        <h4 className="w-[80%] font-inter font-500 text-18 md:text-28 lg:text-32 ">
+                            Complete Geotechnical Investigations
+                        </h4>
+                        <p className="w-[90%] font-inter font-400 text-14 mt-2 md:text-18 lg:text-24">
+                            For complete geotechnical investigations, we o;er
+                            end-to-end solutions, including:
+                        </p>
+                        <div className="w-full grid grid-cols-1 gap-4 mt-4 sm:grid-cols-2 md:grid-cols-3 md:mt-6 lg:mt-8">
+                            <CardIconTextCenterColored
+                                iconUrl={FlaskWhite}
+                                titleText="Laboratory Testing"
+                                bodyTextPresent={true}
+                                bodyText="Our in-house lab conducts a wide range of soil and rock tests."
+                            />
+                            <CardIconTextCenterColored
+                                iconUrl={ManWhite}
+                                titleText="Engineering Assessments"
+                                bodyTextPresent={false}
+                                bodyText="Our expert engineers analyze geotechnical
 conditions and provide detailed recommendations."
-                        />
-                        <CardIconTextCenterColored
-                            iconUrl={DocWhite}
-                            titleText="Comprehensive Reporting"
-                            bodyTextPresent={true}
-                            bodyText="We deliver complete reports with actionable insights to guide project decisions."
-                        />
+                            />
+                            <CardIconTextCenterColored
+                                iconUrl={DocWhite}
+                                titleText="Comprehensive Reporting"
+                                bodyTextPresent={true}
+                                bodyText="We deliver complete reports with actionable insights to guide project decisions."
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
 
             {/* Blue text */}
-            <div className="w-full bg-[#EBF7FF] py-6 md:py-[64px]  px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
-                <TextSection
-                    title="Why Choose Statewide Geotechnical?"
-                    description="Operating across Melbourne and throughout Victoria, we are equipped to handle a variety of challenging project requirements. Whether you're working with tight or difficult access sites, or need low-head clearance machinery, our specialized team and advanced equipment ensure the job is done efficiently and accurately."
-                    buttonText="Get in Touch Today for Expert Geotechnical Services"
-                    buttonLink="#"
-                />
+            <div className="w-full flex flex-col items-center bg-[#EBF7FF]">
+                <div className="w-full bg-[#EBF7FF] py-6 md:py-[64px]  px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px] max-w-[1920px]">
+                    <TextSection
+                        title="Why Choose Statewide Geotechnical?"
+                        description="Operating across Melbourne and throughout Victoria, we are equipped to handle a variety of challenging project requirements. Whether you're working with tight or difficult access sites, or need low-head clearance machinery, our specialized team and advanced equipment ensure the job is done efficiently and accurately."
+                        buttonText="Get in Touch Today for Expert Geotechnical Services"
+                        buttonLink="#"
+                    />
+                </div>
             </div>
         </div>
     );

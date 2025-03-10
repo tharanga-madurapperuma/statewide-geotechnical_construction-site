@@ -116,7 +116,7 @@ const RetainingWall = () => {
       <div className="max-w-[1220px] mx-auto mt-[94px]">
         {/* Header Section */}
         <h1 className="text-5xl font-semibold mb-6">Excavation Services</h1>
-        <p className="text-gray-600 mb-6">
+        <p className="text-gray-600">
           Our excavation services are designed to support safe, efficient site
           preparation for construction projects of any scale. We handle all
           types of excavation, from shallow earthworks for foundations to deep
@@ -141,8 +141,8 @@ const RetainingWall = () => {
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
-            <h2 className="text-xl font-semibold mb-2 mt-5">Bulk Excavation</h2>
-            <p className="text-gray-600">
+            <h2 className="font-inter text-[17px] sm:text-[22px] md:text-24 font-500 spacing-28 mb-2 mt-5">Bulk Excavation</h2>
+            <p className="font-inter text-14 sm:text-16 lg:text-18 font-400 spacing-24">
               Our bulk excavation services involve large-scale soil and rock
               removal to prepare sites for construction. Using state-of-the-art
               equipment, we ensure precise and efficient excavation, regardless
@@ -155,10 +155,10 @@ const RetainingWall = () => {
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
-            <h2 className="text-xl font-semibold mb-2 mt-5">
+            <h2 className="font-inter text-[17px] sm:text-[22px] md:text-24 font-500 spacing-28 mb-2 mt-5">
               Detailed Excavation
             </h2>
-            <p className="text-gray-600">
+            <p className="font-inter text-14 sm:text-16 lg:text-18 font-400 spacing-24">
               For projects that require precision, such as foundation or
               basement preparation, we offer detailed excavation services. Our
               team uses advanced techniques to create level, stable surfaces
@@ -171,8 +171,8 @@ const RetainingWall = () => {
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
-            <h2 className="text-xl font-semibold mb-2 mt-5">Trenching</h2>
-            <p className="text-gray-600">
+            <h2 className="font-inter text-[17px] sm:text-[22px] md:text-24 font-500 spacing-28 mb-2 mt-5">Trenching</h2>
+            <p className="font-inter text-14 sm:text-16 lg:text-18 font-400 spacing-24">
               We provide trenching services for utility installation, drainage
               systems, and other sub-surface requirements. Our trenching
               solutions are customized to meet depth, width, and safety
@@ -186,10 +186,10 @@ const RetainingWall = () => {
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
-            <h2 className="text-xl font-semibold mb-2 mt-5">
+            <h2 className="font-inter text-[17px] sm:text-[22px] md:text-24 font-500 spacing-28 mb-2 mt-5">
               Rock Breaking and Removal
             </h2>
-            <p className="text-gray-600">
+            <p className="font-inter text-14 sm:text-16 lg:text-18 font-400 spacing-24">
               For sites with rocky or challenging soil conditions, we provide
               specialized rock-breaking and removal services. Our equipment can
               handle tough materials, clearing the way for smooth excavation and
@@ -202,10 +202,10 @@ const RetainingWall = () => {
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
-            <h2 className="text-xl font-semibold mb-2 mt-5">
+            <h2 className="font-inter text-[17px] sm:text-[22px] md:text-24 font-500 spacing-28 mb-2 mt-5">
               Shoring & Site Stabilization
             </h2>
-            <p className="text-gray-600">
+            <p className="font-inter text-14 sm:text-16 lg:text-18 font-400 spacing-24">
               Safety is our top priority in excavation. We provide shoring and
               stabilization solutions to prevent soil collapse, ensuring secure
               excavation walls for deep or complex urban projects. From sheet

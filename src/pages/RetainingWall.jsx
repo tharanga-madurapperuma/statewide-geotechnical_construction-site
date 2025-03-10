@@ -19,7 +19,9 @@ const RetainingWall = () => {
       </div>
 
       <div className="max-w-[1220px] mx-auto mt-[94px]">
-        <h1 className="text-5xl font-semibold mb-6">Retaining Wall Solutions</h1>
+        <h1 className="text-5xl font-semibold mb-6">
+          Retaining Wall Solutions
+        </h1>
         <div className="grid grid-cols-5 grid-rows-10 gap-[24px]">
           {/* Description Box */}
           <div className="col-span-2 row-span-4 bg-blue-100 p-6 rounded-3xl flex items-center justify-center">
@@ -35,7 +37,7 @@ const RetainingWall = () => {
           </div>
 
           {/* Retaining Wall Types */}
-          <div className="col-span-3 row-span-2 col-start-3  p-6 border-b-1 border-[#D1D5DB]">
+          <div className="col-span-3 row-span-2 col-start-3 p-6 border-b-1 border-[#D1D5DB]">
             <h2 className="text-xl font-semibold mb-2">
               Gravity Retaining Walls
             </h2>
@@ -93,8 +95,10 @@ const RetainingWall = () => {
               We offer segmental walls using modular blocks for projects
               requiring flexibility and aesthetic appeal, such as landscaping
               and light commercial applications. These walls are cost-effective
-              and allow for easy customization to suit the project's layout and
-              appearance.
+              and allow for easy customization to suit the project’s layout and
+              appearance. Each retaining wall is engineered to meet the specific
+              load, drainage, and aesthetic requirements of the site, ensuring
+              that your project stays secure and visually appealing.
             </p>
           </div>
 
@@ -103,7 +107,7 @@ const RetainingWall = () => {
             <img
               src="/Frame2263.png"
               alt="Retaining Wall"
-              className="w-[494px] h-[556px] object-cover rounded-3xl"
+              className="w-[494px] h-[624px] object-cover rounded-3xl"
             />
           </div>
         </div>
@@ -133,7 +137,7 @@ const RetainingWall = () => {
           </div>
 
           {/* Bulk Excavation */}
-          <div className="col-span-3 row-span-4 col-start-4 row-start-2 bg-blue-25 p-6 rounded-3xl border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
+          <div className="col-span-3 row-span-4 col-start-4 row-start-2 bg-blue-25 p-8 rounded-3xl border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -147,7 +151,7 @@ const RetainingWall = () => {
           </div>
 
           {/* Detailed Excavation */}
-          <div className="col-span-3 row-span-4 col-start-7 row-start-2 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
+          <div className="col-span-3 row-span-4 col-start-7 row-start-2 bg-[#F7FCFF] p-8 rounded-3xl border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -163,7 +167,7 @@ const RetainingWall = () => {
           </div>
 
           {/* Trenching */}
-          <div className="col-span-3 row-span-4 col-start-1 row-start-6 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
+          <div className="col-span-3 row-span-4 col-start-1 row-start-6 bg-[#F7FCFF] p-8 rounded-3xl border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -178,7 +182,7 @@ const RetainingWall = () => {
           </div>
 
           {/* Rock Breaking and Removal */}
-          <div className="col-span-3 row-span-4 col-start-4 row-start-6 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
+          <div className="col-span-3 row-span-4 col-start-4 row-start-6 bg-[#F7FCFF] p-8 rounded-3xl border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -194,7 +198,7 @@ const RetainingWall = () => {
           </div>
 
           {/* Shoring & Site Stabilization */}
-          <div className="col-span-3 row-span-4 col-start-7 row-start-6 bg-[#F7FCFF] p-6 rounded-3xl border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
+          <div className="col-span-3 row-span-4 col-start-7 row-start-6 bg-[#F7FCFF] p-8 rounded-3xl border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
             <div>
               <img src="/helmet.png" alt="helmet" />
             </div>
@@ -209,9 +213,9 @@ const RetainingWall = () => {
             </p>
           </div>
         </div>
-      </div> 
+      </div>
 
-      <div className="mt-[42px] mb-[48px]">
+      <div className="mt-[64px] mb-[48px]">
         <TextSection
           title="Why Choose Statewide Geotechnical for Retaining Wall and Excavation Services?"
           description="With our in-house expertise and comprehensive service offerings, Statewide Geotechnical ensures that your retaining wall and excavation needs are handled with precision and care. Our solutions are engineered to provide long-term stability, minimize environmental impact, and optimize the functionality and safety of your site. From the initial design to final excavation, we work closely with you to keep your project on track, on budget, and compliant with regulatory standards.

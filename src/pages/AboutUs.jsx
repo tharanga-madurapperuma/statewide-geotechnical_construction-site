@@ -4,7 +4,7 @@ import TextSection from "../components/text/TextSection";
 import InfoSection from "../components/info-section/InfoSection";
 import CardIconTextCenter from "../components/card-icon-text-center/CardIconTextCenter";
 
-const TrustedLeaders = () => {
+const AboutUs = () => {
   return (
     <div className="flex flex-col w-full items-center justify-center">
       <div className="w-full h-auto">
@@ -93,4 +93,4 @@ Services"
   );
 };
 
-export default TrustedLeaders;
+export default AboutUs;

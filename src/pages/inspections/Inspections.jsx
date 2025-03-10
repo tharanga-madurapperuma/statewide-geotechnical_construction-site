@@ -1,5 +1,11 @@
 import React from "react";
-import { InsHero, InsSecond, InsThird, WorkerHat } from "../../assets/assets";
+import {
+    InsHero,
+    InsSecond,
+    InsThird,
+    TestingIcon,
+    WorkerHat,
+} from "../../assets/assets";
 import InfoSection from "../../components/info-section/InfoSection";
 import TextSection from "../../components/text/TextSection";
 import ButtonCard from "../../components/card/ButtonCard";
@@ -79,7 +85,7 @@ const Inspections = () => {
                 </div>
                 <div className="w-full h-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-3 md:gap-4 flex-col sm:flex-row mt-8">
                     <CardIconTopLeft
-                        iconUrl={WorkerHat}
+                        iconUrl={TestingIcon}
                         iconBackground="bg-white"
                         background="bg-blue-25"
                         stroke={true}
@@ -91,7 +97,7 @@ const Inspections = () => {
                         backgroundHover={false}
                     />
                     <CardIconTopLeft
-                        iconUrl={WorkerHat}
+                        iconUrl={TestingIcon}
                         iconBackground="bg-white"
                         background="bg-blue-25"
                         stroke={true}
@@ -103,7 +109,7 @@ const Inspections = () => {
                         backgroundHover={false}
                     />
                     <CardIconTopLeft
-                        iconUrl={WorkerHat}
+                        iconUrl={TestingIcon}
                         iconBackground="bg-white"
                         background="bg-blue-25"
                         stroke={true}
@@ -115,7 +121,7 @@ const Inspections = () => {
                         backgroundHover={false}
                     />
                     <CardIconTopLeft
-                        iconUrl={WorkerHat}
+                        iconUrl={TestingIcon}
                         iconBackground="bg-white"
                         background="bg-blue-25"
                         stroke={true}
@@ -127,7 +133,7 @@ const Inspections = () => {
                         backgroundHover={false}
                     />
                     <CardIconTopLeft
-                        iconUrl={WorkerHat}
+                        iconUrl={TestingIcon}
                         iconBackground="bg-white"
                         background="bg-blue-25"
                         stroke={true}
@@ -139,7 +145,7 @@ const Inspections = () => {
                         backgroundHover={false}
                     />
                     <CardIconTopLeft
-                        iconUrl={WorkerHat}
+                        iconUrl={TestingIcon}
                         iconBackground="bg-white"
                         background="bg-blue-25"
                         stroke={true}
@@ -160,7 +166,7 @@ const Inspections = () => {
                     </p>
                 </div>
                 <div>
-                    <p className="font-inter font-600 text-14 mt-8 mb-4 md:text-18 lg:text-24 text-blue-600">
+                    <p className="font-inter font-600 text-14 mt-8 mb-4 md:text-18 lg:text-24 text-blue-600 hover:text-blue-700 cursor-pointer transition duration-300">
                         Discover the Benefits of Level 1 Supervision →
                     </p>
                 </div>

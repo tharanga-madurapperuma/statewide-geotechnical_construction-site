@@ -3,12 +3,13 @@ import CardIconTopLeft from '../../components/card-icon-top-left/CardIconTopLeft
 import ButtonCard from '../../components/card/ButtonCard';
 import TextSection from '../../components/text/TextSection';
 import { Engineers, WorkerHat, Arrowup, SoilTesting } from '../../assets/assets';
+import { Link } from "react-router-dom";
 
 const Slopes = () => {
     return (
         <div className='w-full flex flex-col items-center bg-slate-background'>
           {/* First Section */}
-          <div className="mt-4 sm:mt-4 px-3 sm:px-4">
+          <div>
               <ButtonCard
                 image={SoilTesting}
                 title="Slopes and Stability Assessment"
@@ -154,12 +155,11 @@ const Slopes = () => {
             
 
             {/* Third Section */}
-            <div className='mb-8 px-4 sm:px-0 sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6'>
+            <div className='mb-8 px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6'>
             <TextSection
                 title='Why Choose Statewide Geotechnical for Slope Stability Assessment?'
                 description='With our expert team and state-of-the-art analysis tools, Statewide Geotechnical provides reliable slope and stability assessments that empower you to make informed decisions about site design and safety. Our assessments o8er clear, actionable recommendations to help manage risk, maintain site integrity, and ensure regulatory compliance. Whether for residential, commercial, or infrastructure projects, we tailor our solutions to meet the unique demands of each site, enhancing safety and stability for years to come.'
-                buttonText=""
-                buttonLink="#"
+               
             />   
             </div>
             <div className='px-[30px] md:px-[110px] sm:px-[20px]'>
@@ -177,8 +177,10 @@ const Slopes = () => {
 
                   <div className='text-left text-[15px] font-medium mt-4 text-blue-600 pt-[40px]'>
                      <a href='#' className='flex items-center'>
-                        <span className='mr-1'>
-                        Get a Consultation
+                        <span className='mr-1 text-[18px]'>
+                          <Link to="/contact">
+                             Get a Consultation
+                          </Link>
                         </span>
                          <img className=' pl-1 flex w-6 h-6 pl-1' src={Arrowup} alt='Arrow up' />
                      </a>

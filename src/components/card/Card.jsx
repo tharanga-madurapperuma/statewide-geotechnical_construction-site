@@ -1,9 +1,17 @@
 import React from "react";
 import { DrillBit } from "../../assets/assets";
+import { useNavigate } from "react-router-dom";
 
-const Card = ({ image, title, description }) => {
+const Card = ({ image, title, description, link }) => {
+    const navigate = useNavigate();
+
     return (
-        <div className="rounded-lg">
+        <div
+            className="rounded-lg cursor-pointer"
+            onClick={() => {
+                navigate(`/${link}`);
+            }}
+        >
             <img
                 src={image}
                 alt={title}

@@ -33,51 +33,73 @@ const Home = () => {
     const services = [
         {
             image: geotechnical,
-            title: "Geotechnical Drilling",
+            title: "Geotechnical Drilling & Testing",
             description:
                 "Precision drilling for soil and rock investigations to support construction and engineering projects.",
+            link: "drilling",
         },
         {
             image: environmental,
             title: "Environmental Drilling",
             description:
                 "Specialized drilling for groundwater studies, contamination assessments, and environmental compliance.",
+            link: "envdrilling",
         },
         {
             image: soilTesting,
-            title: "Soil & Rock Testing",
+            title: "Earthwork Inspections",
             description:
-                "Advanced lab testing to analyze soil and rock properties for stability and safety.",
+                "Comprehensive testing and inspections to ensure soil compaction, stability, and compliance with construction standards.",
+            link: "inspections",
         },
         {
             image: boreInstallation,
-            title: "Monitoring Bore Installation",
+            title: "Soil & Rock Testing",
             description:
-                "Reliable bore installation for groundwater monitoring and site assessments.",
+                "Laboratory analysis of soil, rock, and aggregates to assess strength, composition, and suitability for construction.",
+            link: "soil",
         },
         {
             image: geotechnical,
-            title: "Geotechnical Drilling",
+            title: "Slope Stability Assessment",
             description:
-                "Precision drilling for soil and rock investigations to support construction and engineering projects.",
+                "Detailed evaluation of slopes to prevent landslides, erosion, and structural failures in various terrains.",
+            link: "slopes",
         },
         {
             image: environmental,
-            title: "Environmental Drilling",
+            title: "Road Pavement Design",
             description:
-                "Specialized drilling for groundwater studies, contamination assessments, and environmental compliance.",
+                "Engineering-based pavement solutions designed for durability, load-bearing capacity, and long-term performance.",
+            link: "road",
         },
         {
             image: soilTesting,
-            title: "Soil & Rock Testing",
+            title: "Land Capability Assessment",
             description:
-                "Advanced lab testing to analyze soil and rock properties for stability and safety.",
+                "Evaluation of soil, drainage, and environmental factors to determine land suitability for development and agriculture.",
+            link: "land",
         },
         {
             image: boreInstallation,
-            title: "Monitoring Bore Installation",
+            title: "Retaining Walls & Excavation",
             description:
-                "Reliable bore installation for groundwater monitoring and site assessments.",
+                "Geotechnical assessments for safe excavation and retaining wall design to prevent soil movement and structural damage.",
+            link: "retaining",
+        },
+        {
+            image: geotechnical,
+            title: "Site Investigations",
+            description:
+                "Comprehensive on-site assessments to identify ground conditions, potential risks, and construction feasibility.",
+            link: "siteinvetigate",
+        },
+        {
+            image: soilTesting,
+            title: "Foundation Engineering",
+            description:
+                "Expert analysis and design of strong, stable foundations for residential, commercial, and industrial structures",
+            link: "retaining",
         },
     ];
     return (

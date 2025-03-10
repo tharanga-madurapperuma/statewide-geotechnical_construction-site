@@ -2,7 +2,7 @@ import React from "react";
 
 const TextSection = ({ title, description, buttonText, buttonLink }) => {
     return (
-        <section className="bg-[#EBF7FF] py-12">
+        <section className="bg-[#EBF7FF] py-[32px]">
             <div className="mx-auto text-center md:text-left">
                 <h2
                     s

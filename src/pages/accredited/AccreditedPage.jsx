@@ -14,6 +14,7 @@ const AccreditedPage = () => {
                 buttonLink={"/"}
                 hasBookButton={false}
             />
+        
             <AccreditedFacilitySection />
         </div>
     );

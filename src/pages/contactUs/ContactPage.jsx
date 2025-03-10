@@ -116,7 +116,7 @@ const ContactPage = () => {
                     </div>
                 </div>
 
-                <div className="md:px-[80px] lg:px-[100px] xl:px-[110px] mb-[3rem] px-8 lg:mt-[100px] py-3 w-full max-w-[1920px]">
+                <div className="md:px-[80px] lg:px-[100px] xl:px-[110px] mb-[3rem] px-8 lg:mt-[64px] py-3 w-full max-w-[1920px]">
                     <h2 className="lg:text-48 text-2xl font-600 text-gray-900">
                         Follow Us
                     </h2>
@@ -137,7 +137,7 @@ const ContactPage = () => {
                     </div>
                 </div>
 
-                <div className="md:px-[80px] lg:px-[100px] xl:px-[110px] mb-[3rem] px-8 lg:mt-[100px] p-3 w-full max-w-[1920px]">
+                <div className="md:px-[80px] lg:px-[100px] xl:px-[110px] mb-[3rem] px-8 lg:mt-[64px] p-3 w-full max-w-[1920px]">
                     <h2 className="lg:text-48 text-2xl font-600 text-gray-900">
                         Visit Our Office
                     </h2>
@@ -157,7 +157,7 @@ const ContactPage = () => {
                         referrerPolicy="no-referrer-when-downgrade"
                     ></iframe>
                 </div>
-                <div className="lg:px-[110px] lg:mt-[100px] p-3 w-full max-w-[1920px]">
+                <div className="lg:px-[110px] lg:mt-[64px] p-3 w-full max-w-[1920px] mb-[64px]">
                     <h2 className="lg:text-48 text-2xl font-600 text-gray-900">
                         Have a Question?
                     </h2>

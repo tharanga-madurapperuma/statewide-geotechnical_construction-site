@@ -1,6 +1,6 @@
 import React from "react";
 import ButtonCard from "../components/card/ButtonCard";
-import CardIconTextCenterColored from "../components/card-icon-text-center/CardIconTextCenterColored";
+
 import TextSection from "../components/text/TextSection";
 import CardIconTopLeft from "../components/card-icon-top-left/CardIconTopLeft";
 
@@ -24,119 +24,192 @@ const FoundationBuilt = () => {
         </h1>
 
         {/* Responsive Grid Layout */}
-<div>
-  {/* Desktop Layout (lg and up) - Original 9-column layout */}
-  <div className="hidden lg:grid grid-cols-9 grid-rows-5 gap-4 mt-[56px]">
-    <div className="col-span-3 row-span-5">
-      <CardIconTextCenterColored
-        iconUrl="/Frame2218.png"
-        titleText="Residential Foundations"
-        bodyTextPresent="Our foundation solutions for residential developments prioritize stability and longevity. We assess soil properties, groundwater levels, and potential settlement factors to recommend foundation types best suited for your site. From shallow footings and slab-on-grade to deep foundations for challenging conditions, we deliver foundations that will stand the test of time."
-        bodyText="Our foundation solutions for residential developments prioritize stability and longevity. We assess soil properties, groundwater levels, and potential settlement factors to recommend foundation types best suited for your site. From shallow footings and slab-on-grade to deep foundations for challenging conditions, we deliver foundations that will stand the test of time."
-      />
-    </div>
-    <div className="col-span-3 row-span-5 col-start-4">
-      <CardIconTextCenterColored
-        iconUrl="/Frame2218.png"
-        titleText="Infrastructure Foundations"
-        bodyTextPresent="Infrastructure projects require a deep understanding of complex ground conditions. We partner with project engineers to design foundations for roads, bridges, pipelines, and more. With advanced testing and analysis, we ensure your infrastructure foundations withstand heavy loads, environmental challenges, and decades of use."
-        bodyText="Infrastructure projects require a deep understanding of complex ground conditions. We partner with project engineers to design foundations for roads, bridges, pipelines, and more. With advanced testing and analysis, we ensure your infrastructure foundations withstand heavy loads, environmental challenges, and decades of use."
-      />
-    </div>
-    <div className="col-span-3 row-span-5 col-start-7">
-      <CardIconTextCenterColored
-        iconUrl="/Frame2218.png"
-        titleText="Commercial Foundations"
-        bodyTextPresent="For commercial and industrial projects, we provide robust foundation solutions that meet the unique demands of high-load structures. From warehouses to office buildings, our team recommends foundation types to meet load-bearing requirements and handle soil-structure interaction. Our foundation expertise brings security and stability to your commercial investments."
-        bodyText="For commercial and industrial projects, we provide robust foundation solutions that meet the unique demands of high-load structures. From warehouses to office buildings, our team recommends foundation types to meet load-bearing requirements and handle soil-structure interaction. Our foundation expertise brings security and stability to your commercial investments."
-      />
-    </div>
-  </div>
+        <div>
+          {/* Desktop Layout (lg and up) - Original 9-column layout */}
+          <div className="hidden lg:grid grid-cols-9 grid-rows-5 gap-4 mt-[56px]">
+            <div className="col-span-3 row-span-5">
+              <CardIconTopLeft
+                iconUrl="/Frame2218.png"
+                iconBackground="bg-white-100"
+                background="bg-blue-600"
+                stroke={true}
+                titleText="Residential Foundations"
+                bodyText="Our foundation solutions for residential developments prioritize stability and longevity. We assess soil properties, groundwater levels, and potential settlement factors to recommend foundation types best suited for your site. From shallow footings and slab-on-grade to deep foundations for challenging conditions, we deliver foundations that will stand the test of time."
+                titleColor="text-white"
+                bodyColor="text-white"
+                padding={true}
+                backgroundHover={true}
+              />
+            </div>
+            <div className="col-span-3 row-span-5 col-start-4">
+              <CardIconTopLeft
+                iconUrl="/Frame2218.png"
+                iconBackground="bg-white-100"
+                background="bg-blue-600"
+                stroke={true}
+                titleText="Infrastructure Foundations"
+                bodyText="Infrastructure projects require a deep understanding of complex ground conditions. We partner with project engineers to design foundations for roads, bridges, pipelines, and more. With advanced testing and analysis, we ensure your infrastructure foundations withstand heavy loads, environmental challenges, and decades of use."
+                titleColor="text-white"
+                bodyColor="text-white"
+                padding={true}
+                backgroundHover={true}
+              />
+            </div>
+            <div className="col-span-3 row-span-5 col-start-7">
 
-  {/* Tablet Layout (md) - 2-column layout */}
-  <div className="hidden md:grid lg:hidden grid-cols-2 gap-6 px-4">
-    <div className="col-span-1">
-      <CardIconTextCenterColored
-        iconUrl="/Frame2218.png"
-        titleText="Residential Foundations"
-        bodyTextPresent="Our foundation solutions for residential developments prioritize stability and longevity. We assess soil properties, groundwater levels, and potential settlement factors to recommend foundation types best suited for your site. From shallow footings and slab-on-grade to deep foundations for challenging conditions, we deliver foundations that will stand the test of time."
-        bodyText="Our foundation solutions for residential developments prioritize stability and longevity. We assess soil properties, groundwater levels, and potential settlement factors to recommend foundation types best suited for your site. From shallow footings and slab-on-grade to deep foundations for challenging conditions, we deliver foundations that will stand the test of time."
-      />
-    </div>
-    <div className="col-span-1">
-      <CardIconTextCenterColored
-        iconUrl="/Frame2218.png"
-        titleText="Infrastructure Foundations"
-        bodyTextPresent="Infrastructure projects require a deep understanding of complex ground conditions. We partner with project engineers to design foundations for roads, bridges, pipelines, and more. With advanced testing and analysis, we ensure your infrastructure foundations withstand heavy loads, environmental challenges, and decades of use."
-        bodyText="Infrastructure projects require a deep understanding of complex ground conditions. We partner with project engineers to design foundations for roads, bridges, pipelines, and more. With advanced testing and analysis, we ensure your infrastructure foundations withstand heavy loads, environmental challenges, and decades of use."
-      />
-    </div>
-    <div className="col-span-2">
-      <CardIconTextCenterColored
-        iconUrl="/Frame2218.png"
-        titleText="Commercial Foundations"
-        bodyTextPresent="For commercial and industrial projects, we provide robust foundation solutions that meet the unique demands of high-load structures. From warehouses to office buildings, our team recommends foundation types to meet load-bearing requirements and handle soil-structure interaction. Our foundation expertise brings security and stability to your commercial investments."
-        bodyText="For commercial and industrial projects, we provide robust foundation solutions that meet the unique demands of high-load structures. From warehouses to office buildings, our team recommends foundation types to meet load-bearing requirements and handle soil-structure interaction. Our foundation expertise brings security and stability to your commercial investments."
-      />
-    </div>
-  </div>
+              <CardIconTopLeft
+                iconUrl="/Frame2218.png"
+                iconBackground="bg-white-100"
+                background="bg-blue-600"
+                stroke={true}
+                titleText="Commercial Foundations"
+                bodyText="For commercial and industrial projects, we provide robust foundation solutions that meet the unique demands of high-load structures. From warehouses to office buildings, our team recommends foundation types to meet load-bearing requirements and handle soil-structure interaction. Our foundation expertise brings security and stability to your commercial investments."
+                titleColor="text-white"
+                bodyColor="text-white"
+                padding={true}
+                backgroundHover={true}
+              />
+            </div>
+          </div>
 
-  {/* Small Tablet Layout (sm) - 2-column but different arrangement */}
-  <div className="hidden sm:grid md:hidden grid-cols-2 gap-4 px-4">
-    <div className="col-span-2">
-      <CardIconTextCenterColored
-        iconUrl="/Frame2218.png"
-        titleText="Residential Foundations"
-        bodyTextPresent="Our foundation solutions for residential developments prioritize stability and longevity. We assess soil properties, groundwater levels, and potential settlement factors to recommend foundation types best suited for your site. From shallow footings and slab-on-grade to deep foundations for challenging conditions, we deliver foundations that will stand the test of time."
-        bodyText="Our foundation solutions for residential developments prioritize stability and longevity. We assess soil properties, groundwater levels, and potential settlement factors to recommend foundation types best suited for your site. From shallow footings and slab-on-grade to deep foundations for challenging conditions, we deliver foundations that will stand the test of time."
-      />
-    </div>
-    <div className="col-span-1">
-      <CardIconTextCenterColored
-        iconUrl="/Frame2218.png"
-        titleText="Infrastructure Foundations"
-        bodyTextPresent="Infrastructure projects require a deep understanding of complex ground conditions. We partner with project engineers to design foundations for roads, bridges, pipelines, and more. With advanced testing and analysis, we ensure your infrastructure foundations withstand heavy loads, environmental challenges, and decades of use."
-        bodyText="Infrastructure projects require a deep understanding of complex ground conditions. We partner with project engineers to design foundations for roads, bridges, pipelines, and more. With advanced testing and analysis, we ensure your infrastructure foundations withstand heavy loads, environmental challenges, and decades of use."
-      />
-    </div>
-    <div className="col-span-1">
-      <CardIconTextCenterColored
-        iconUrl="/Frame2218.png"
-        titleText="Commercial Foundations"
-        bodyTextPresent="For commercial and industrial projects, we provide robust foundation solutions that meet the unique demands of high-load structures. From warehouses to office buildings, our team recommends foundation types to meet load-bearing requirements and handle soil-structure interaction. Our foundation expertise brings security and stability to your commercial investments."
-        bodyText="For commercial and industrial projects, we provide robust foundation solutions that meet the unique demands of high-load structures. From warehouses to office buildings, our team recommends foundation types to meet load-bearing requirements and handle soil-structure interaction. Our foundation expertise brings security and stability to your commercial investments."
-      />
-    </div>
-  </div>
+          {/* Tablet Layout (md) - 2-column layout */}
+          <div className="hidden md:grid lg:hidden grid-cols-2 gap-6 px-4">
+            <div className="col-span-1">
+            <CardIconTopLeft
+                iconUrl="/Frame2218.png"
+                iconBackground="bg-white-100"
+                background="bg-blue-600"
+                stroke={true}
+                titleText="Residential Foundations"
+                bodyText="Our foundation solutions for residential developments prioritize stability and longevity. We assess soil properties, groundwater levels, and potential settlement factors to recommend foundation types best suited for your site. From shallow footings and slab-on-grade to deep foundations for challenging conditions, we deliver foundations that will stand the test of time."
+                titleColor="text-white"
+                bodyColor="text-white"
+                padding={true}
+                backgroundHover={true}
+              />
+            </div>
+            <div className="col-span-1">
+            <CardIconTopLeft
+                iconUrl="/Frame2218.png"
+                iconBackground="bg-white-100"
+                background="bg-blue-600"
+                stroke={true}
+                titleText="Infrastructure Foundations"
+                bodyText="Infrastructure projects require a deep understanding of complex ground conditions. We partner with project engineers to design foundations for roads, bridges, pipelines, and more. With advanced testing and analysis, we ensure your infrastructure foundations withstand heavy loads, environmental challenges, and decades of use."
+                titleColor="text-white"
+                bodyColor="text-white"
+                padding={true}
+                backgroundHover={true}
+              />
+            </div>
+            <div className="col-span-2">
+            <CardIconTopLeft
+                iconUrl="/Frame2218.png"
+                iconBackground="bg-white-100"
+                background="bg-blue-600"
+                stroke={true}
+                titleText="Commercial Foundations"
+                bodyText="For commercial and industrial projects, we provide robust foundation solutions that meet the unique demands of high-load structures. From warehouses to office buildings, our team recommends foundation types to meet load-bearing requirements and handle soil-structure interaction. Our foundation expertise brings security and stability to your commercial investments."
+                titleColor="text-white"
+                bodyColor="text-white"
+                padding={true}
+                backgroundHover={true}
+              />
+            </div>
+          </div>
 
-  {/* Mobile Layout (xs) - Single column stacked */}
-  <div className="block sm:hidden px-4 space-y-6">
-    <div>
-      <CardIconTextCenterColored
-        iconUrl="/Frame2218.png"
-        titleText="Residential Foundations"
-        bodyTextPresent="Our foundation solutions for residential developments prioritize stability and longevity. We assess soil properties, groundwater levels, and potential settlement factors to recommend foundation types best suited for your site. From shallow footings and slab-on-grade to deep foundations for challenging conditions, we deliver foundations that will stand the test of time."
-        bodyText="Our foundation solutions for residential developments prioritize stability and longevity. We assess soil properties, groundwater levels, and potential settlement factors to recommend foundation types best suited for your site. From shallow footings and slab-on-grade to deep foundations for challenging conditions, we deliver foundations that will stand the test of time."
-      />
-    </div>
-    <div>
-      <CardIconTextCenterColored
-        iconUrl="/Frame2218.png"
-        titleText="Infrastructure Foundations"
-        bodyTextPresent="Infrastructure projects require a deep understanding of complex ground conditions. We partner with project engineers to design foundations for roads, bridges, pipelines, and more. With advanced testing and analysis, we ensure your infrastructure foundations withstand heavy loads, environmental challenges, and decades of use."
-        bodyText="Infrastructure projects require a deep understanding of complex ground conditions. We partner with project engineers to design foundations for roads, bridges, pipelines, and more. With advanced testing and analysis, we ensure your infrastructure foundations withstand heavy loads, environmental challenges, and decades of use."
-      />
-    </div>
-    <div>
-      <CardIconTextCenterColored
-        iconUrl="/Frame2218.png"
-        titleText="Commercial Foundations"
-        bodyTextPresent="For commercial and industrial projects, we provide robust foundation solutions that meet the unique demands of high-load structures. From warehouses to office buildings, our team recommends foundation types to meet load-bearing requirements and handle soil-structure interaction. Our foundation expertise brings security and stability to your commercial investments."
-        bodyText="For commercial and industrial projects, we provide robust foundation solutions that meet the unique demands of high-load structures. From warehouses to office buildings, our team recommends foundation types to meet load-bearing requirements and handle soil-structure interaction. Our foundation expertise brings security and stability to your commercial investments."
-      />
-    </div>
-  </div>
-</div>
+          {/* Small Tablet Layout (sm) - 2-column but different arrangement */}
+          <div className="hidden sm:grid md:hidden grid-cols-2 gap-4 px-4">
+            <div className="col-span-2">
+            <CardIconTopLeft
+                iconUrl="/Frame2218.png"
+                iconBackground="bg-white-100"
+                background="bg-blue-600"
+                stroke={true}
+                titleText="Residential Foundations"
+                bodyText="Our foundation solutions for residential developments prioritize stability and longevity. We assess soil properties, groundwater levels, and potential settlement factors to recommend foundation types best suited for your site. From shallow footings and slab-on-grade to deep foundations for challenging conditions, we deliver foundations that will stand the test of time."
+                titleColor="text-white"
+                bodyColor="text-white"
+                padding={true}
+                backgroundHover={true}
+              />
+            </div>
+            <div className="col-span-1">
+            <CardIconTopLeft
+                iconUrl="/Frame2218.png"
+                iconBackground="bg-white-100"
+                background="bg-blue-600"
+                stroke={true}
+                titleText="Infrastructure Foundations"
+                bodyText="Infrastructure projects require a deep understanding of complex ground conditions. We partner with project engineers to design foundations for roads, bridges, pipelines, and more. With advanced testing and analysis, we ensure your infrastructure foundations withstand heavy loads, environmental challenges, and decades of use."
+                titleColor="text-white"
+                bodyColor="text-white"
+                padding={true}
+                backgroundHover={true}
+              />
+            </div>
+            <div className="col-span-1">
+            <CardIconTopLeft
+                iconUrl="/Frame2218.png"
+                iconBackground="bg-white-100"
+                background="bg-blue-600"
+                stroke={true}
+                titleText="Commercial Foundations"
+                bodyText="For commercial and industrial projects, we provide robust foundation solutions that meet the unique demands of high-load structures. From warehouses to office buildings, our team recommends foundation types to meet load-bearing requirements and handle soil-structure interaction. Our foundation expertise brings security and stability to your commercial investments."
+                titleColor="text-white"
+                bodyColor="text-white"
+                padding={true}
+                backgroundHover={true}
+              />
+            </div>
+          </div>
+
+          {/* Mobile Layout (xs) - Single column stacked */}
+          <div className="block sm:hidden px-4 space-y-6">
+            <div>
+            <CardIconTopLeft
+                iconUrl="/Frame2218.png"
+                iconBackground="bg-white-100"
+                background="bg-blue-600"
+                stroke={true}
+                titleText="Residential Foundations"
+                bodyText="Our foundation solutions for residential developments prioritize stability and longevity. We assess soil properties, groundwater levels, and potential settlement factors to recommend foundation types best suited for your site. From shallow footings and slab-on-grade to deep foundations for challenging conditions, we deliver foundations that will stand the test of time."
+                titleColor="text-white"
+                bodyColor="text-white"
+                padding={true}
+                backgroundHover={true}
+              />
+            </div>
+            <div>
+            <CardIconTopLeft
+                iconUrl="/Frame2218.png"
+                iconBackground="bg-white-100"
+                background="bg-blue-600"
+                stroke={true}
+                titleText="Infrastructure Foundations"
+                bodyText="Infrastructure projects require a deep understanding of complex ground conditions. We partner with project engineers to design foundations for roads, bridges, pipelines, and more. With advanced testing and analysis, we ensure your infrastructure foundations withstand heavy loads, environmental challenges, and decades of use."
+                titleColor="text-white"
+                bodyColor="text-white"
+                padding={true}
+                backgroundHover={true}
+              />
+            </div>
+            <div>
+            <CardIconTopLeft
+                iconUrl="/Frame2218.png"
+                iconBackground="bg-white-100"
+                background="bg-blue-600"
+                stroke={true}
+                titleText="Commercial Foundations"
+                bodyText="For commercial and industrial projects, we provide robust foundation solutions that meet the unique demands of high-load structures. From warehouses to office buildings, our team recommends foundation types to meet load-bearing requirements and handle soil-structure interaction. Our foundation expertise brings security and stability to your commercial investments."
+                titleColor="text-white"
+                bodyColor="text-white"
+                padding={true}
+                backgroundHover={true}
+              />
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="max-w-[1300px] mx-auto mt-[94px]">
@@ -425,100 +498,92 @@ const FoundationBuilt = () => {
           </div>
 
           <div className="col-span-1 row-span-1">
-          
             <CardIconTopLeft
-                  iconUrl="/helmet.png"
-                  iconBackground="bg-white-100"
-                  background="bg-Primary-100"
-                  stroke={true}
-                  titleText="Driven Piles"
-                  bodyText="Our driven piles are ideal for supporting heavy loads in both
+              iconUrl="/helmet.png"
+              iconBackground="bg-white-100"
+              background="bg-Primary-100"
+              stroke={true}
+              titleText="Driven Piles"
+              bodyText="Our driven piles are ideal for supporting heavy loads in both
               loose and cohesive soils. This low-disturbance option is perfect
               for sites that need stability without significant ground
               disruption."
-                  titleColor="text-gray-900"
-                  bodyColor="text-gray-900"
-                  padding={true}
-                  backgroundHover={false}
-                />
+              titleColor="text-gray-900"
+              bodyColor="text-gray-900"
+              padding={true}
+              backgroundHover={false}
+            />
           </div>
 
           <div className="col-span-1 row-span-1">
-            
-
             <CardIconTopLeft
-                  iconUrl="/helmet.png"
-                  iconBackground="bg-white-100"
-                  background="bg-Primary-100"
-                  stroke={true}
-                  titleText="Bored Piles"
-                  bodyText="For urban projects or areas sensitive to vibration, our bored
+              iconUrl="/helmet.png"
+              iconBackground="bg-white-100"
+              background="bg-Primary-100"
+              stroke={true}
+              titleText="Bored Piles"
+              bodyText="For urban projects or areas sensitive to vibration, our bored
               piles oAer deep, reinforced support. Bored piles are an excellent
               choice for high-rise buildings, bridges, and structures with
               complex foundation needs."
-                  titleColor="text-gray-900"
-                  bodyColor="text-gray-900"
-                  padding={true}
-                  backgroundHover={false}
-                />
+              titleColor="text-gray-900"
+              bodyColor="text-gray-900"
+              padding={true}
+              backgroundHover={false}
+            />
           </div>
 
           {/* Row 2 */}
           <div className="col-span-1 row-span-1">
-        
-
             <CardIconTopLeft
-                  iconUrl="/helmet.png"
-                  iconBackground="bg-white-100"
-                  background="bg-Primary-100"
-                  stroke={true}
-                  titleText="Screw Piles"
-                  bodyText="Our screw piles install quickly and work in diverse soil types,
+              iconUrl="/helmet.png"
+              iconBackground="bg-white-100"
+              background="bg-Primary-100"
+              stroke={true}
+              titleText="Screw Piles"
+              bodyText="Our screw piles install quickly and work in diverse soil types,
               making them ideal for light to moderate loads in residential and
               smaller commercial projects."
-                  titleColor="text-gray-900"
-                  bodyColor="text-gray-900"
-                  padding={true}
-                  backgroundHover={false}
-                />
+              titleColor="text-gray-900"
+              bodyColor="text-gray-900"
+              padding={true}
+              backgroundHover={false}
+            />
           </div>
 
           <div className="col-span-1 row-span-1">
-            
             <CardIconTopLeft
-                  iconUrl="/helmet.png"
-                  iconBackground="bg-white-100"
-                  background="bg-Primary-100"
-                  stroke={true}
-                  titleText="Micropiles"
-                  bodyText="For confined spaces or difficult ground conditions, our micropiles
+              iconUrl="/helmet.png"
+              iconBackground="bg-white-100"
+              background="bg-Primary-100"
+              stroke={true}
+              titleText="Micropiles"
+              bodyText="For confined spaces or difficult ground conditions, our micropiles
               provide high-capacity support with minimal space requirements.
               Perfect for retrofit applications and underpinning, micropiles
               reinforce existing foundations safely and efficiently."
-                  titleColor="text-gray-900"
-                  bodyColor="text-gray-900"
-                  padding={true}
-                  backgroundHover={false}
-                />
+              titleColor="text-gray-900"
+              bodyColor="text-gray-900"
+              padding={true}
+              backgroundHover={false}
+            />
           </div>
 
           <div className="col-span-1 row-span-1">
-            
             <CardIconTopLeft
-                  iconUrl="/helmet.png"
-                  iconBackground="bg-white-100"
-                  background="bg-Primary-100"
-                  stroke={true}
-                  titleText="Piling Analysis and Testing"
-                  bodyText="We conduct rigorous load-bearing assessments and pile load
+              iconUrl="/helmet.png"
+              iconBackground="bg-white-100"
+              background="bg-Primary-100"
+              stroke={true}
+              titleText="Piling Analysis and Testing"
+              bodyText="We conduct rigorous load-bearing assessments and pile load
               testing, including static and dynamic testing, to validate design
               assumptions and ensure foundations perform to spec."
-                  titleColor="text-gray-900"
-                  bodyColor="text-gray-900"
-                  padding={true}
-                  backgroundHover={false}
-                />
-            
+              titleColor="text-gray-900"
+              bodyColor="text-gray-900"
+              padding={true}
+              backgroundHover={false}
+            />
           </div>
         </div>
         {/* Footer */}
@@ -532,7 +597,9 @@ const FoundationBuilt = () => {
 
       <div className="max-w-[1300px] mx-auto mt-[94px]">
         {/* Header Section */}
-        <h1 className="text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-[32px] text-4xl text-center md:text-left">Shallow Foundations</h1>
+        <h1 className="text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-[32px] text-4xl text-center md:text-left">
+          Shallow Foundations
+        </h1>
         <p className="text-base mb-[45px] sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0">
           For stable ground projects, our shallow foundation solutions provide
           an efficient, cost-effective choice. Shallow foundations work well for
@@ -546,8 +613,6 @@ const FoundationBuilt = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-[35px] w-full">
           {/* Row 1 */}
           <div className="col-span-1 row-span-1">
-            
-
             <CardIconTopLeft
               iconUrl="/helmet.png"
               iconBackground="bg-white-100"
@@ -565,8 +630,6 @@ const FoundationBuilt = () => {
           </div>
 
           <div className="col-span-1 row-span-1">
-            
-
             <CardIconTopLeft
               iconUrl="/helmet.png"
               iconBackground="bg-white-100"
@@ -593,8 +656,6 @@ const FoundationBuilt = () => {
 
           {/* Row 2 */}
           <div className="col-span-1 row-span-1">
-            
-
             <CardIconTopLeft
               iconUrl="/helmet.png"
               iconBackground="bg-white-100"
@@ -612,8 +673,6 @@ const FoundationBuilt = () => {
           </div>
 
           <div className="col-span-1 row-span-1">
-           
-
             <CardIconTopLeft
               iconUrl="/helmet.png"
               iconBackground="bg-white-100"
@@ -631,8 +690,6 @@ const FoundationBuilt = () => {
           </div>
 
           <div className="col-span-1 row-span-1">
-          
-
             <CardIconTopLeft
               iconUrl="/helmet.png"
               iconBackground="bg-white-100"
@@ -652,7 +709,7 @@ const FoundationBuilt = () => {
         </div>
       </div>
 
-      <div className="mb-8 px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6">
+      <div className="mb-8 px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6 mt-[64px]">
         <TextSection
           title="Partner with Statewide Geotechnical for Reliable, Cost-Effective Foundations"
           description="With expertise in both shallow and deep foundation systems, Statewide Geotechnical is equipped to provide a foundation solution perfectly aligned with your project’s needs. Whether it’s residential, commercial, or infrastructure, our in-house team of experts ensures safety, reliability, and efficiency from the ground up. Make Statewide Geotechnical (Aust) Pty Ltd your foundation partner, and experience the assurance of quality and value at every stage."

@@ -6,9 +6,9 @@ import { WorkerHat, Mapping, Arrowup } from '../../assets/assets';
 
 const LandCapability = () => {
     return (
-        <div className='w-full flex flex-col'>
+        <div className='w-full flex flex-col items-center bg-slate-background'>
             {/* First Section */}
-           <div className="mt-4 sm:mt-6 px-3 sm:px-4">
+           <div className="mt-4 sm:mt-4 px-3 sm:px-4">
               <ButtonCard
                 image={Mapping}
                 title="Land Capability Assessment"
@@ -16,14 +16,15 @@ const LandCapability = () => {
                 buttonText="Get in Touch"
               />
             </div>
+            <div className='px-[30px] md:px-[110px] sm:px-[20px]'>
 
              {/* Second Section */}
-             <div className='soil__second-section p-[45px] sm:p-[85px] w-full h-auto'>
+             <div className='soil__second-section py-[128px] w-full h-auto'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
-                    <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
+                    <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-[32px] text-4xl text-center md:text-left'>
                     Our Land Capability Assessment Services
                     </h2>
-                    <p className='text-base sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
+                    <p className='text-base mb-[45px] sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
                     Land Capability Assessments are essential for determining the viability of a site for its intended use, whether that’s residential development, wastewater treatment, agriculture, or industrial facilities. Our in-depth LCA services provide clients with a clear understanding of land constraints and opportunities, allowing for informed, sustainable decisions.
                     </p>
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-[35px] w-full">
@@ -127,18 +128,23 @@ const LandCapability = () => {
                 </div>
 
             </div>
+            </div>
 
-          {/*Third Section*/}
+           {/*Third Section*/}
+           <div className='mb-8 px-4 sm:px-0 sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6'>
             <TextSection
                 title="Why Choose Statewide Geotechnical for Land Capability Assessment?"
                 description="With Statewide Geotechnical, you gain a trusted partner who understands the complexities of land capability and development feasibility. Our team combines geotechnical expertise, environmental insight, and regulatory knowledge to deliver comprehensive assessments that support sustainable, compliant project outcomes. We provide clear, actionable recommendations that guide project planning and help clients make informed, responsible land use decisions. Whether for residential subdivision, agricultural expansion, commercial development, or wastewater management, our Land Capability Assessment services deliver the knowledge and support you need for successful, sustainable site development."
                 buttonText="Get a Land Capability Assessment Today"
                 buttonLink="#"
             />
+          </div>
+
+            <div className='px-[30px] md:px-[110px] sm:px-[20px]'>
 
 
             {/* Fourth Section */}
-                <div className='flex w-full h-auto bg-white-100 p-21'>
+                <div className='flex w-full h-auto bg-white-100 py-21'>
                     <div className='flex flex-col items-left justify-left w-full h-auto'>
                         <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
                         Statewide Geotechnical (Aust) Pty Ltd – Your Partner in Sustainable Land Use
@@ -148,7 +154,7 @@ const LandCapability = () => {
                         Let Statewide Geotechnical help you unlock the full potential of your land. With our commitment to accuracy, sustainability, and regulatory compliance, we provide the insights needed to bring your project to life while respecting and preserving the natural environment.
                         </p>
             
-                        <div className='text-left text-[15px] font-medium mt-4 text-blue-600 -pb-15 '>
+                        <div className='text-left text-[15px] font-medium mt-4 text-blue-600 pt-40 '>
                             <a href='#' className='flex items-center'>
                                 <span className='mr-1'>
                                     Get a Consultation
@@ -160,6 +166,7 @@ const LandCapability = () => {
                             
             
                 </div>
+               </div>
            
         </div>
     );

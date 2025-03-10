@@ -1,17 +1,23 @@
 import React from "react"
 import {HomeHero} from "../../assets/assets"
 import ContactSection from "../contacts/ContactSection"
-import { GoArrowUpRight } from "react-icons/go"
+import {GoArrowUpRight} from "react-icons/go"
 
-const HeroSection = ({title, description, buttonLink, buttonText}) => {
+const HeroSection = ({
+  title,
+  description,
+  buttonLink,
+  buttonText,
+  hasBookButton,
+}) => {
   return (
-    <section className=" my-[15%] md:py-10 font-inter md:px-[0.5rem] md:m-[2rem]">
+    <section className=" my-[5%] md:py-10 px-2 md:px-4 ">
       <div
-        className={` md:h-[720px] md:w-full flex items-center bg-cover md:px-[92px] bg-center md:rounded-xl hue-rotate-15 saturate-150`}
+        className={` md:h-[720px]   w-full flex items-center bg-cover py-[60px]  px-6 md:px-15 lg:px-[94px] xl:px-[120px] bg-center rounded-xl hue-rotate-15 saturate-150`}
         style={{backgroundImage: `url(${HomeHero})`}}
       >
-        <div className=" p-6 md:p-15 ">
-          <h2 className="text-4xl md:text-[62px] max-w-[702px] font-bold text-textDark">
+        <div className="">
+          <h2 className="text-4xl md:text-[62px] max-w-[702px] lg:mb-24 lg:leading-[76px] font-bold text-gray-900">
             {title}
           </h2>
 
@@ -20,19 +26,30 @@ const HeroSection = ({title, description, buttonLink, buttonText}) => {
           </p>
 
           {buttonLink && buttonText && (
-            <div className="mt-6 md:w-[198px]">
+            <div className="mt-8 md:w-[198px]">
               <a
                 href={buttonLink}
                 className="bg-[#0064FF] border-2 border-[#0064FF] text-white py-2 px-5 rounded-lg font-medium text-sm md:text-[20px] inline-flex items-center gap-2 shadow-md hover:bg-transparent hover:text-[#0064FF] hover:border-2 hover:border-[#0064FF] transition duration-300"
               >
-                {buttonText } <GoArrowUpRight />
+                {buttonText} <GoArrowUpRight />
               </a>
             </div>
           )}
-          <div className="lg:block hidden">
+          <div className="xl:block hidden">
             {!buttonLink && !buttonText && <ContactSection />}
           </div>
-
+          {hasBookButton && (
+            <div className="xl:hidden block">
+              <div className="mt-8 md:w-[198px]">
+                <a
+                  href="#appointment"
+                  className="bg-[#0064FF] border-2 border-[#0064FF] text-white py-2 px-5 rounded-lg font-medium text-sm md:text-[20px] inline-flex items-center gap-2 shadow-md hover:bg-transparent hover:text-[#0064FF] hover:border-2 hover:border-[#0064FF] transition duration-300"
+                >
+                  Book appt. <GoArrowUpRight />
+                </a>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </section>

@@ -8,27 +8,26 @@ const Soil = () => {
     return (
         <div className="w-full flex flex-col items-center bg-slate-background">
             {/* First Section */}
-            <div className="mt-4 sm:mt-4 px-3 sm:px-4">
+            <div>
               <ButtonCard
                 image={SoilTesting}
                 title="Soil, Rock & Aggregate Testing for Quality & Stability"
                 description="Our laboratory offers comprehensive soil, rock, and aggregate testing to ensure material quality, durability, and safety in construction. Using advanced technology and expert analysis, we assess suitability for foundations, pavements, and geotechnical projects. Our industry-standard methods provide accurate data for informed decision-making."
                 buttonText="Get in Touch"
-                buttonLink="/contact"
               />
             </div>
-            <div className='px-[110px]'>
+            <div className='px-[30px] md:px-[110px] sm:px-[20px]'>
 
             {/* Second Section */}
             <div className='soil__second-section py-[128px] w-full h-auto'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
-                    <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
+                    <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-[32px] text-4xl text-center md:text-left'>
                         Aggregate Testing Services
                     </h2>
-                    <p className='text-base sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
+                    <p className='text-base mb-[45px] sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
                     Our aggregate testing services are essential for understanding material characteristics, ensuring quality for use in concrete, asphalt, and foundational applications. Properly tested aggregates contribute to the longevity and stability of structures, roads, and other infrastructure.
                     </p>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-[35px] w-full">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-[35px] w-full items-center">
                           <div className='col-span-1 row-span-1 sm:w-full'>
                             <CardIconTopLeft 
                                 iconUrl={WorkerHat}
@@ -174,7 +173,7 @@ const Soil = () => {
                           </div>
                           
                         </div>
-                        <div className='flex mt-4'>
+                        <div className='flex mt-4 pt-[40px]'>
                             <button href='#' className='flex text-[#4E61F6] font-medium text-center md:text-left text-base sm:text-lg border-b-2 border-transparent hover:border-blue-600 transition duration-300'>
                             <span>
                               Learn More About Aggregate Testing
@@ -189,10 +188,10 @@ const Soil = () => {
             {/* Third Section */}
             <div className='soil__second-section w-full h-auto'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
-                        <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
+                        <h2 className='text-24 sm:text-36 md:text-48 font-600 mb-[32px] text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
                             Soil Testing Services
                         </h2>
-                        <p className='text-base sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
+                        <p className='text-base mb-[56px] sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
                         Soil testing helps you understand the ground beneath your project, providing insight into moisture, compaction, bearing capacity, and stability. These properties are crucial for building strong foundations and structures that endure.
                         </p>
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-[35px] w-full">
@@ -268,10 +267,10 @@ const Soil = () => {
                           </div>
                           
                         </div>
-                        <div className='flex mt-4'>
+                        <div className='flex mt-4 pt-[40px]'>
                             <button href='#' className='flex text-[#4E61F6] font-medium text-center md:text-left text-base sm:text-lg border-b-2 border-transparent hover:border-blue-600 transition duration-300'>
                             <span>
-                              Learn More About Aggregate Testing
+                            See Rock Testing Details
                             </span>
                             <img className='flex w-4 h-4 mt-2 ml-1' src={Arrowup} alt='Arrow up' />
                             </button>
@@ -280,12 +279,12 @@ const Soil = () => {
             </div>
 
             {/* Fourth Section */}
-            <div className='soil__second-section  py-[128px] w-full h-auto'>
-                <div className='flex flex-col items-left justify-left w-full h-auto'>
+            <div className='soil__second-section pb-[60px] pt-[128px] w-full h-auto'>
+                <div className='flex flex-col items-left justify-left w-full h-auto mb-[32px]'>
                         <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
                             Rock Testing Services
                         </h2>
-                        <p className='text-base sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
+                        <p className='text-base mb-[56px] sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
                         Our rock testing services analyze key properties of rock material, providing data for safe excavation, tunneling, and stability in construction. Reliable testing supports the selection of suitable materials for both structural and geotechnical applications.
                         </p>
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-[35px] w-full">
@@ -339,7 +338,7 @@ const Soil = () => {
 
                           
                         </div>
-                        <div className='flex mt-4'>
+                        <div className='flex mt-4 pt-[40px]'>
                             <button href='#' className='flex text-[#4E61F6] font-medium text-center md:text-left text-base sm:text-lg border-b-2 border-transparent hover:border-blue-600 transition duration-300'>
                             <span>
                               Learn More About Aggregate Testing
@@ -349,19 +348,22 @@ const Soil = () => {
                           </div>
                 </div>
             </div>
+            </div> 
 
             {/* Fifth Section */}
-            <TextSection
-                title='Partner with Us for Data-Driven Project Success'
-                description='Our laboratory is dedicated to precision and quality, adhering to rigorous standards to provide reliable, actionable data. We’re here to help you build safer, stronger, and more sustainable structures. Contact us today to learn how our soil, rock, and aggregate testing services can support your project’s unique needs and drive your construction success.'
-                buttonText='Get in Touch with Our Team'
-                buttonLink='#'
-            />
+            <div className="mb-8 px-4 sm:px-0 sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6">
+              <TextSection
+                  title='Partner with Us for Data-Driven Project Success'
+                  description='Our laboratory is dedicated to precision and quality, adhering to rigorous standards to provide reliable, actionable data. We’re here to help you build safer, stronger, and more sustainable structures. Contact us today to learn how our soil, rock, and aggregate testing services can support your project’s unique needs and drive your construction success.'
+                  buttonText='Get in Touch with Our Team'
+                  buttonLink='#'
+              />
+            </div>
 
         </div>
 
 
-        </div>  
+         
     );
 };
 

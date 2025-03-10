@@ -1,35 +1,40 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const CallToAction = () => {
-    return (
-        <div className=" py-10 w-full mt-26 mb-8">
-            <div className="max-w-7xl mx-auto bg-gradient-to-r from-blue-800 to-blue-900 text-white rounded-2xl overflow-hidden flex h-[297px]">
-                {/* Left Section - Headline */}
-                <div className="w-1/3 sm:w-1/2 p-6 md:p-10 flex items-center justify-center">
-                    <h2 className="text-18 sm:text-3xl md:text-5xl md:pl-8 font-bold text-left">
-                        start your journey with us now
-                    </h2>
-                </div>
-                {/* Right Section - Text and Button */}
-                <div className="w-2/3 sm:w-1/2 p-6 md:p-10 flex flex-col xl:mr-8 justify-between">
-                    <p className="text-12 sm:text-sm md:text-base md:mt-8 leading-relaxed">
-                        Need expert drilling solutions? Contact us today for a
-                        consultation or request a quote. Our team is ready to
-                        assist with your geotechnical and environmental drilling
-                        needs. Fill out the form below, or reach us directly via
-                        phone or email. We proudly serve clients across Victoria
-                        and Southern NSW.
-                    </p>
-                    <a
-                        href="#"
-                        className="inline-block  text-white-900 font-medium py-3 rounded-full hover:bg-blue-900 transition-all text-sm w-max"
-                    >
-                        Request a Quote Now →
-                    </a>
-                </div>
-            </div>
-        </div>
-    );
+const CTAComponent = () => {
+  return (
+    <div className="my-[64px] md:my-[128px] py-4 bg-[#062465] z-2 w-full mx-auto text-white rounded-2xl overflow-hidden flex flex-col md:flex-row h-auto items-center relative px-4 md:px-2">
+      {/* Circle on the left */}
+      <div
+        className="absolute -z-1 -left-16 md:-left-29 top-1/2 transform -translate-y-1/2 w-36 md:w-150 h-36 md:h-150 rounded-full bg-[#0A2D6F]"
+        aria-hidden="true"
+      ></div>
+
+      {/* Left section */}
+      <div className="flex py-2 text-center my-6 px-[36px] md:pl-[55px]">
+        <h1 className="text-[32px] sm:text-[36px] md:text-[45px] lg:text-[58px] leading-[36px] sm:leading-[46px] md:leading-[68px] font-bold">
+          Start your journey <br />
+          with us now
+        </h1>
+      </div>
+
+      {/* Right section */}
+      <div className="mt-3 flex-1 text-center md:text-left px-[36px] md:pr-40">
+        <p className="text-sm sm:text-base md:text-lg leading-6 sm:leading-7 mb-4 md:mb-3">
+          Need expert drilling solutions? Contact us today for a consultation or
+          request a quote. Our team is ready to assist with your geotechnical
+          and environmental drilling needs. Fill out the form below, or reach us
+          directly via phone or email. We proudly serve clients across Victoria
+          and Southern NSW.
+        </p>
+        <Link to="/contact" className="text-blue-600 hover:underline">
+        <button className="text-[#fff] font-semibold pt-7 pb-5 px-6 md:px-1 rounded-full transition duration-300">
+          Request a Quote Now →
+        </button>
+        </Link>
+      </div>
+    </div>
+  );
 };
 
-export default CallToAction;
+export default CTAComponent;

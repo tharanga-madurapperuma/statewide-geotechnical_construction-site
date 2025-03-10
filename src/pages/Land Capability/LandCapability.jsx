@@ -132,7 +132,7 @@ const LandCapability = () => {
             </div>
 
            {/*Third Section*/}
-           <div className='mb-8 px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6'>
+           <div className='mb-8 px-8 -mt-[64px] sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6'>
             <TextSection
                 title="Why Choose Statewide Geotechnical for Land Capability Assessment?"
                 description="With Statewide Geotechnical, you gain a trusted partner who understands the complexities of land capability and development feasibility. Our team combines geotechnical expertise, environmental insight, and regulatory knowledge to deliver comprehensive assessments that support sustainable, compliant project outcomes. We provide clear, actionable recommendations that guide project planning and help clients make informed, responsible land use decisions. Whether for residential subdivision, agricultural expansion, commercial development, or wastewater management, our Land Capability Assessment services deliver the knowledge and support you need for successful, sustainable site development."
@@ -145,7 +145,7 @@ const LandCapability = () => {
 
 
             {/* Fourth Section */}
-                <div className='flex w-full h-auto bg-white-100 py-21'>
+                <div className='flex w-full -mt-[64px] h-auto bg-white-100 py-21'>
                     <div className='flex flex-col items-left justify-left w-full h-auto'>
                         <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
                         Statewide Geotechnical (Aust) Pty Ltd – Your Partner in Sustainable Land Use

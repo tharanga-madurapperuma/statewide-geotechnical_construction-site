@@ -155,7 +155,7 @@ const Slopes = () => {
             
 
             {/* Third Section */}
-            <div className='mb-8 px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6'>
+            <div className='mb-[64px] -mt-[64px] px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6'>
             <TextSection
                 title='Why Choose Statewide Geotechnical for Slope Stability Assessment?'
                 description='With our expert team and state-of-the-art analysis tools, Statewide Geotechnical provides reliable slope and stability assessments that empower you to make informed decisions about site design and safety. Our assessments offer clear, actionable recommendations to help manage risk, maintain site integrity, and ensure regulatory compliance. Whether for residential, commercial, or infrastructure projects, we tailor our solutions to meet the unique demands of each site, enhancing safety and stability for years to come.'
@@ -165,7 +165,7 @@ const Slopes = () => {
             <div className='px-[30px] md:px-[110px] sm:px-[20px]'>
   
             {/* Fourth Section */}
-            <div className='flex w-full h-auto bg-white-100 py-21'>
+            <div className='flex w-full h-auto bg-white-100 py-21 mb-[64px] -mt-[64px]'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
                   <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
                   Statewide Geotechnical (Aust) Pty Ltd – Your Partner for Slope Stability and Safety

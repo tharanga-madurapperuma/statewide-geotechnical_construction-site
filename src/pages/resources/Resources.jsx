@@ -20,7 +20,7 @@ const Resources = () => {
                 />
             </div>
             {/* second Section*/}
-            <div className='-px-50 md:px-0 w-full h-auto'>
+            <div className='-px-50 mt-[128px] md:px-0 w-full h-auto'>
             <div>
                 <PolicyText
                     title="1. Quality Assurance Policy"
@@ -189,7 +189,7 @@ const Resources = () => {
                 </div>
 
             </div>
-            <div className="p-[45px] sm:p-[85px] w-full h-auto">
+            <div className="p-[45px] -mt-[60px] mb-[50px] sm:p-[85px] w-full h-auto">
                 <div className="flex flex-col items-left justify-left w-full h-auto">
                     <h2 className="text- pb-[32px] sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left">Contact Us</h2>
                     <p className="text-base sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0">

@@ -61,7 +61,7 @@ const Drilling = () => {
                                 #1
                             </h1>
                             <h2 className="md:w-[80%] font-inter font-500 text-18 sm:text-24 lg:text-32 md:text-24 mt-4 sm:mt-3 xl:mt-[40px] lg:mt-5 md:mt-3">
-                                Tight & DiDicult Access Sites
+                                Tight & Difficult Access Sites
                             </h2>
                             <p className="md:w-[80%] font-inter font-400 text-12 sm:text-18 lg:text-16 mt-2 xl:mt-6 md:text-14 lg:mt-3">
                                 We have the expertise and equipment to operate
@@ -169,7 +169,7 @@ const Drilling = () => {
                             Complete Geotechnical Investigations
                         </h4>
                         <p className="w-[90%] font-inter font-400 text-14 mt-2 md:text-18 lg:text-24">
-                            For complete geotechnical investigations, we o;er
+                            For complete geotechnical investigations, we offer
                             end-to-end solutions, including:
                         </p>
                         <div className="w-full grid grid-cols-1 gap-4 mt-4 sm:grid-cols-2 md:grid-cols-3 md:mt-6 lg:mt-8">

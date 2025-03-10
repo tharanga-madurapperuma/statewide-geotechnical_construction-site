@@ -1,10 +1,11 @@
 import React from "react";
 import ButtonCard from "../components/card/ButtonCard";
+import CardIconTopLeft from "../components/card-icon-top-left/CardIconTopLeft";
 
 const SiteInvetigate = () => {
   return (
     <div className="flex flex-col w-full items-center justify-center">
-      <div className="flex items-center justify-center h-screen mt-0">
+      <div className="mt-2 sm:mt-2 px-3 sm:px-4">
         <ButtonCard
           image="/Rectangle646.png"
           title="Site Investigations"
@@ -15,10 +16,10 @@ const SiteInvetigate = () => {
         />
       </div>
 
-      <div className="max-w-7xl mx-[110px] mt-[128px]">
+      <div className="max-w-[1300px] mx-auto mt-[94px]">
         {/* Header Section */}
-        <h1 className="text-[48px] font-semibold mb-4">Investigation Techniques</h1>
-        <p className="text-gray-600 mb-8">
+        <h1 className="text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-[32px] text-4xl text-center md:text-left">Investigation Techniques</h1>
+        <p className="text-base mb-[45px] sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0">
           Our team employs a diverse range of advanced investigation techniques,
           customized to meet the unique requirements of each site. With
           state-of-the-art equipment and tailored methodologies, we offer
@@ -28,7 +29,7 @@ const SiteInvetigate = () => {
           Our Site Investigation Techniques include:
         </p>
 
-        <div className="grid grid-cols-3 gap-[32px]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 grid-rows-3 gap-4 pt-[35px] w-full">
           {/* Row 1 */}
           <div className="col-span-1 border-[1px] border-[#D1EDFF] rounded-3xl">
             <img
@@ -38,109 +39,145 @@ const SiteInvetigate = () => {
             />
           </div>
 
-          <div className="bg-gray-50 p-8 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
-            <div>
-              <img src="/helmet.png" alt="helmet" />
-            </div>
-            <h2 className="font-inter text-[17px] sm:text-[22px] md:text-24 font-500 spacing-28 mb-2 mt-5">
-              Wireline Diamond Core Drilling (HQ, NQ & PQ)
-            </h2>
-            <p className="font-inter text-14 sm:text-16 lg:text-18 font-400 spacing-24">
-              Our wireline diamond core drilling extracts high-quality core
+          <div >
+          
+
+            <CardIconTopLeft
+              iconUrl="/helmet.png"
+              iconBackground="bg-white-100"
+              background="bg-Primary-100"
+              stroke={true}
+              titleText="Wireline Diamond Core Drilling (HQ, NQ & PQ)"
+              bodyText="Our wireline diamond core drilling extracts high-quality core
               samples, offering precise geological data. With multiple available
               core sizes (HQ, NQ, PQ), we select the optimal diameter based on
-              the project's specific needs and site conditions.
-            </p>
+              the project's specific needs and site conditions."
+              titleColor="text-gray-900"
+              bodyColor="text-gray-900"
+              padding={true}
+              backgroundHover={false}
+            />
+            
           </div>
 
-          <div className="bg-gray-50 p-8 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
-            <div>
-              <img src="/helmet.png" alt="helmet" />
-            </div>
-            <h2 className="font-inter text-[17px] sm:text-[22px] md:text-24 font-500 spacing-28 mb-2 mt-5">
-              Solid and Hollow Auger Borehole Drilling
-            </h2>
-            <p className="font-inter text-14 sm:text-16 lg:text-18 font-400 spacing-24">
-              Ideal for a broad range of ground conditions, our solid and hollow
+          <div >
+            
+            <CardIconTopLeft
+              iconUrl="/helmet.png"
+              iconBackground="bg-white-100"
+              background="bg-Primary-100"
+              stroke={true}
+              titleText="Solid and Hollow Auger Borehole Drilling"
+              bodyText="Ideal for a broad range of ground conditions, our solid and hollow
               auger drilling methods obtain quality samples from both shallow
               and deeper boreholes. This versatile method is essential for
-              understanding subsurface conditions.
-            </p>
+              understanding subsurface conditions."
+              titleColor="text-gray-900"
+              bodyColor="text-gray-900"
+              padding={true}
+              backgroundHover={false}
+            />
           </div>
 
           {/* Row 2 */}
-          <div className="bg-gray-50 p-8 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
-            <div>
-              <img src="/helmet.png" alt="helmet" />
-            </div>
-            <h2 className="font-inter text-[17px] sm:text-[22px] md:text-24 font-500 spacing-28 mb-2 mt-5">
-              Hand Auger Borehole Drilling
-            </h2>
-            <p className="font-inter text-14 sm:text-16 lg:text-18 font-400 spacing-24">
-              For sites with restricted access or those needing minimal
+          <div >
+           
+            <CardIconTopLeft
+              iconUrl="/helmet.png"
+              iconBackground="bg-white-100"
+              background="bg-Primary-100"
+              stroke={true}
+              titleText="Hand Auger Borehole Drilling"
+              bodyText="For sites with restricted access or those needing minimal
               disturbance, our hand auger borehole drilling provides a
               low-impact solution. This method is effective for shallow soil
-              analysis in both urban and remote areas.
-            </p>
+              analysis in both urban and remote areas."
+              titleColor="text-gray-900"
+              bodyColor="text-gray-900"
+              padding={true}
+              backgroundHover={false}
+            />
+
           </div>
 
-          <div className="bg-gray-50 p-8 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
-            <div>
-              <img src="/helmet.png" alt="helmet" />
-            </div>
-            <h2 className="font-inter text-[17px] sm:text-[22px] md:text-24 font-500 spacing-28 mb-2 mt-5">
-              Cone Penetrometer Tests (CPT)
-            </h2>
-            <p className="font-inter text-14 sm:text-16 lg:text-18 font-400 spacing-24">
-              Our CPT services provide essential in-situ soil data, including
+          <div >
+           
+            <CardIconTopLeft
+              iconUrl="/helmet.png"
+              iconBackground="bg-white-100"
+              background="bg-Primary-100"
+              stroke={true}
+              titleText="Cone Penetrometer Tests (CPT)"
+              bodyText="Our CPT services provide essential in-situ soil data, including
               density, strength, and composition, with options to measure pore
               pressure. CPT is highly effective for soil profiling and layers,
-              identifying soft zones, and detecting weak grounds.
-            </p>
+              identifying soft zones, and detecting weak grounds."
+              titleColor="text-gray-900"
+              bodyColor="text-gray-900"
+              padding={true}
+              backgroundHover={false}
+            />
           </div>
 
-          <div className="bg-gray-50 p-8 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
-            <div>
-              <img src="/helmet.png" alt="helmet" />
-            </div>
-            <h2 className="font-inter text-[17px] sm:text-[22px] md:text-24 font-500 spacing-28 mb-2 mt-5">
-              Backhoe and Hydraulic Excavator Test Pits and Trenches
-            </h2>
-            <p className="font-inter text-14 sm:text-16 lg:text-18 font-400 spacing-24">
-              Using backhoes and hydraulic excavators, we create test pits and
+          <div >
+          
+
+            <CardIconTopLeft
+              iconUrl="/helmet.png"
+              iconBackground="bg-white-100"
+              background="bg-Primary-100"
+              stroke={true}
+              titleText="Backhoe and Hydraulic Excavator Test Pits and Trenches"
+              bodyText="Using backhoes and hydraulic excavators, we create test pits and
               trenches for direct soil inspection. This approach reveals the
               soil structure, fills, materials levels, and other factors
-              critical to your project's foundation.
-            </p>
+              critical to your project's foundation."
+              titleColor="text-gray-900"
+              bodyColor="text-gray-900"
+              padding={true}
+              backgroundHover={false}
+            />
           </div>
 
           {/* Row 3 */}
-          <div className="bg-gray-50 p-8 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
-            <div>
-              <img src="/helmet.png" alt="helmet" />
-            </div>
-            <h2 className="font-inter text-[17px] sm:text-[22px] md:text-24 font-500 spacing-28 mb-2 mt-5">
-              Bulldozer Costean Excavations
-            </h2>
-            <p className="font-inter text-14 sm:text-16 lg:text-18 font-400 spacing-24">
-              For broad, large-scale sampling, we perform costean excavations.
+          <div >
+          
+
+            <CardIconTopLeft
+              iconUrl="/helmet.png"
+              iconBackground="bg-white-100"
+              background="bg-Primary-100"
+              stroke={true}
+              titleText="Bulldozer Costean Excavations"
+              bodyText="For broad, large-scale sampling, we perform costean excavations.
               This method is ideal for assessing large areas and provides
-              insight into subsurface geology and structural stability.
-            </p>
+              insight into subsurface geology and structural stability."
+              titleColor="text-gray-900"
+              bodyColor="text-gray-900"
+              padding={true}
+              backgroundHover={false}
+            />
           </div>
 
-          <div className="bg-gray-50 p-8 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF] hover:bg-blue-50 hover:border-blue-300 transition duration-700">
-            <div>
-              <img src="/helmet.png" alt="helmet" />
-            </div>
-            <h2 className="font-inter text-[17px] sm:text-[22px] md:text-24 font-500 spacing-28 mb-2 mt-5">Geophysics</h2>
-            <p className="font-inter text-14 sm:text-16 lg:text-18 font-400 spacing-24">
-              Our geophysics capabilities include penetrating radar (GPR) and
+          <div >
+         
+
+            <CardIconTopLeft
+              iconUrl="/helmet.png"
+              iconBackground="bg-white-100"
+              background="bg-Primary-100"
+              stroke={true}
+              titleText="Geophysics"
+              bodyText="Our geophysics capabilities include penetrating radar (GPR) and
               electrical resistivity, offering non-invasive options for
               subsurface assessments. Geophysics provides rapid, large-area
               data, aiding in identifying ground stability and structural
-              composition.
-            </p>
+              composition."
+              titleColor="text-gray-900"
+              bodyColor="text-gray-900"
+              padding={true}
+              backgroundHover={false}
+            />
           </div>
 
           <div className="col-span-1">
@@ -153,9 +190,9 @@ const SiteInvetigate = () => {
         </div>
       </div>
 
-      <div className="max-w-[1220px] mx-auto mt-[128px]">
+      <div className="max-w-[1300px] mx-auto mt-[94px]">
         {/* Header */}
-        <h1 className="text-[48px] font-semibold  mb-6">
+        <h1 className="text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-[32px] text-4xl text-center md:text-left">
           Our Site Investigation Services Include
         </h1>
 

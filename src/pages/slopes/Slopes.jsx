@@ -26,7 +26,7 @@ const Slopes = () => {
                     Our Slope and Stability Assessment Services
                     </h2>
                     <p className='text-base mb-[45px] sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
-                    Slopes and embankments present unique challenges due to factors like soil composition, groundwater levels, and seasonal weather changes. Our team specializes in assessing these complexities, o8ering practical solutions to manage and prevent issues like erosion, landslides, and soil movement.
+                    Slopes and embankments present unique challenges due to factors like soil composition, groundwater levels, and seasonal weather changes. Our team specializes in assessing these complexities, offering practical solutions to manage and prevent issues like erosion, landslides, and soil movement.
                     </p>
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-[35px] w-full">
                           <div className='col-span-1 row-span-1 sm:w-full'>
@@ -56,7 +56,7 @@ const Slopes = () => {
                                 background='bg-Primary-100'
                                 stroke={true}
                                 titleText='Landslide Risk Evaluation'
-                                bodyText='In areas prone to landslides or soil erosion, we o8er specialized risk evaluation to identify high-risk zones and recommend preventive measures. Our team considers geological, hydrological, and environmental factors to develop strategies that minimize landslide potential.'
+                                bodyText='In areas prone to landslides or soil erosion, we offer specialized risk evaluation to identify high-risk zones and recommend preventive measures. Our team considers geological, hydrological, and environmental factors to develop strategies that minimize landslide potential.'
                                 titleColor='text-gray-900'
                                 bodyColor='text-gray-900'
                                 padding={true}
@@ -90,7 +90,7 @@ const Slopes = () => {
                                 background='bg-Primary-100'
                                 stroke={true}
                                 titleText='Drainage and Erosion Control'
-                                bodyText='Poor drainage and uncontrolled surface water can significantly impact slope stability. We provide drainage analysis and design solutions, including surface and subsurface drainage systems, to manage water flow and prevent erosion. E8ective drainage solutions are crucial for reducing hydrostatic pressure and enhancing slope resilience.'
+                                bodyText='Poor drainage and uncontrolled surface water can significantly impact slope stability. We provide drainage analysis and design solutions, including surface and subsurface drainage systems, to manage water flow and prevent erosion. Effective drainage solutions are crucial for reducing hydrostatic pressure and enhancing slope resilience.'
                                 titleColor='text-gray-900'
                                 bodyColor='text-gray-900'
                                 padding={true}
@@ -138,7 +138,7 @@ const Slopes = () => {
                                 background='bg-Primary-100'
                                 stroke={true}
                                 titleText='Ground Reinforcement and Soil Stabilization'
-                                bodyText='In cases where soil reinforcement is needed, we o8er solutions such as geogrids, soil nailing, and grouting. These methods improve soil strength and cohesion, stabilizing slopes and enhancing load-bearing capacity. Our tailored reinforcement solutions help secure even the most complex slopes.'
+                                bodyText='In cases where soil reinforcement is needed, we offer solutions such as geogrids, soil nailing, and grouting. These methods improve soil strength and cohesion, stabilizing slopes and enhancing load-bearing capacity. Our tailored reinforcement solutions help secure even the most complex slopes.'
                                 titleColor='text-gray-900'
                                 bodyColor='text-gray-900'
                                 padding={true}
@@ -158,7 +158,7 @@ const Slopes = () => {
             <div className='mb-8 px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6'>
             <TextSection
                 title='Why Choose Statewide Geotechnical for Slope Stability Assessment?'
-                description='With our expert team and state-of-the-art analysis tools, Statewide Geotechnical provides reliable slope and stability assessments that empower you to make informed decisions about site design and safety. Our assessments o8er clear, actionable recommendations to help manage risk, maintain site integrity, and ensure regulatory compliance. Whether for residential, commercial, or infrastructure projects, we tailor our solutions to meet the unique demands of each site, enhancing safety and stability for years to come.'
+                description='With our expert team and state-of-the-art analysis tools, Statewide Geotechnical provides reliable slope and stability assessments that empower you to make informed decisions about site design and safety. Our assessments offer clear, actionable recommendations to help manage risk, maintain site integrity, and ensure regulatory compliance. Whether for residential, commercial, or infrastructure projects, we tailor our solutions to meet the unique demands of each site, enhancing safety and stability for years to come.'
                
             />   
             </div>

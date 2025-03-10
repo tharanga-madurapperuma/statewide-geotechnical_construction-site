@@ -8,6 +8,7 @@ import {
     PhoneIcon,
     MailIcon,
 } from "../../assets/assets";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -39,10 +40,15 @@ const Footer = () => {
                                 Quick Links
                             </span>
                             <div className="font-inter font-400 text-14 mt-8 lg:text-16">
+                                <Link to={"/aboutus"}>
                                 <p className="mb-2">About us</p>
-                                <p className="mb-2">Services</p>
+                                </Link>
+                                <Link to={"/contact"}>
                                 <p className="mb-2">Contact Us</p>
+                                </Link>
+                                <Link to={"/resources"}>
                                 <p className="mb-2">Resources</p>
+                                </Link>
                             </div>
                         </div>
                         <div className=" w-2/3 sm:w-1/2 md:w-2/2 px-6 md:pl-40 lg:flex lg:flex-col items-end">

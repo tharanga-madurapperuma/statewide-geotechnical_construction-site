@@ -128,7 +128,7 @@ import Clock from "./slopes/clock.svg";
 export { Engineers, GroupTalk, Clock };
 
 //Road page
-import Roller from "./road/roller.svg";
+import Roller from "./road/roller.png";
 
 export { Roller };
 

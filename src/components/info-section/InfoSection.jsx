@@ -27,7 +27,7 @@ const InfoSection = ({
             <div className="flex-1 text-left">
                 <h2
                     className={`text-2xl sm:text-3xl font-600  text-gray-900 mb-4 ${
-                        reverse ? "md:text-[48px]" : " md:md:text-[62px]"
+                        reverse ? "md:text-[48px]" : " md:md:text-[48px]"
                     }`}
                 >
                     {title}

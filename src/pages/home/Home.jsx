@@ -40,60 +40,70 @@ const Home = () => {
             title: "Geotechnical Drilling & Testing",
             description:
                 "Precision drilling for soil and rock investigations to support construction and engineering projects.",
+            link: "drilling",
         },
         {
             image: EnvironmentalDrilling,
             title: "Environmental Drilling",
             description:
                 "Specialized drilling for groundwater studies, contamination assessments, and environmental compliance.",
+            link: "envdrilling",
         },
         {
             image: EarthworkInspections,
             title: "Earthwork Inspections",
             description:
                 "Comprehensive testing and inspections to ensure soil compaction, stability, and compliance with construction standards.",
+            link: "inspections",
         },
         {
             image: SoilRockTesting,
             title: "Soil & Rock Testing",
             description:
                 "Laboratory analysis of soil, rock, and aggregates to assess strength, composition, and suitability for construction.",
+            link: "soil",
         },
         {
             image: SlopeStabilityAssessment,
             title: "Slope Stability Assessment",
             description:
                 "Detailed evaluation of slopes to prevent landslides, erosion, and structural failures in various terrains.",
+            link: "slopes",
         },
         {
             image: RoadPavementDesign,
-            title: "oad Pavement Design",
+            title: "Road Pavement Design",
             description:
                 "Engineering-based pavement solutions designed for durability, load-bearing capacity, and long-term performance.",
+            link: "road",
         },
         {
             image: LandCapabilityAssessment,
             title: "Land Capability Assessment",
             description:
                 "Evaluation of soil, drainage, and environmental factors to determine land suitability for development and agriculture.",
+            link: "land",
         },
         {
             image: RetainingWallsExcavation,
             title: "Retaining Walls & Excavation",
             description:
                 "Geotechnical assessments for safe excavation and retaining wall design to prevent soil movement and structural damage.",
+            link: "retaining",
         },
         {
             image: SiteInvestigations,
             title: "Site Investigations",
             description:
                 "Comprehensive on-site assessments to identify ground conditions, potential risks, and construction feasibility.",
+            link: "siteinvetigate",
         },
         {
             image: FoundationEngineering,
             title: "Foundation Engineering",
             description:
                 "Expert analysis and design of strong, stable foundations for residential, commercial, and industrial structures.",
+            link: "foundationbuilt",
         },
     ];
     return (

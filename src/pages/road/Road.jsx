@@ -3,13 +3,14 @@ import CardIconTopLeft from '../../components/card-icon-top-left/CardIconTopLeft
 import ButtonCard from '../../components/card/ButtonCard';
 import TextSection from '../../components/text/TextSection';
 import { Arrowup, WorkerHat, Engineers, Roller } from '../../assets/assets';
+import { Link } from "react-router-dom";
 
 
 const Road = () => {
     return (
         <div className='w-full flex flex-col items-center bg-slate-background'>
            {/* First Section */}
-           <div className="mt-4 sm:mt-4 px-3 sm:px-4">
+           <div>
               <ButtonCard
                 image={Roller}
                 title="Road Pavement Design"
@@ -158,7 +159,7 @@ const Road = () => {
           </div>
 
             {/* Third Section */}
-            <div className='mb-8 px-4 sm:px-0 sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6'>
+            <div className='mb-8 -mt-[64px] px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6'>
             <TextSection
                 title='Why Choose Statewide Geotechnical for Road Pavement Design?'
                 description='Statewide Geotechnical combines geotechnical expertise with industry-leading analysis to deliver road pavement designs that maximize durability, safety, and cost-efficiency. Our approach is grounded in thorough site assessment, precise material selection, and a commitment to regulatory compliance, ensuring each project meets or exceeds industry standards.'
@@ -168,7 +169,7 @@ const Road = () => {
           <div className='px-[30px] md:px-[110px] sm:px-[20px]'>
 
             {/* Fourth Section */}
-            <div className='flex w-full h-auto bg-white-100 py-21'>
+            <div className='flex w-full -mt-[64px] h-auto bg-white-100 py-21'>
                 <div className='flex flex-col items-left justify-left w-full h-auto'>
                   <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
                   Statewide Geotechnical (Aust) Pty Ltd – Your Partner for Resilient Road Infrastructure
@@ -180,9 +181,11 @@ const Road = () => {
 
                   <div className='text-left text-[15px] font-medium mt-4 text-blue-600 -pb-15 '>
                      <a href='#' className='flex items-center'>
-                        <span className='mr-1'>
+                      <Link to="/contact">
+                        <span className='mr-1 text-[18px]'>
                         Get a Consultation
                         </span>
+                      </Link>
                          <img className=' pl-1 flex w-4 h-4 pl-1' src={Arrowup} alt='Arrow up' />
                      </a>
                 </div>

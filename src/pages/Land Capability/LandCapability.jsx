@@ -3,12 +3,13 @@ import ButtonCard from '../../components/card/ButtonCard';
 import CardIconTopLeft from '../../components/card-icon-top-left/CardIconTopLeft';
 import TextSection from '../../components/text/TextSection';
 import { WorkerHat, Mapping, Arrowup } from '../../assets/assets';
+import { Link } from 'react-router-dom';
 
 const LandCapability = () => {
     return (
         <div className='w-full flex flex-col items-center bg-slate-background'>
             {/* First Section */}
-           <div className="mt-4 sm:mt-4 px-3 sm:px-4">
+           <div>
               <ButtonCard
                 image={Mapping}
                 title="Land Capability Assessment"
@@ -131,12 +132,12 @@ const LandCapability = () => {
             </div>
 
            {/*Third Section*/}
-           <div className='mb-8 px-4 sm:px-0 sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6'>
+           <div className='mb-8 px-8 -mt-[64px] sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6'>
             <TextSection
                 title="Why Choose Statewide Geotechnical for Land Capability Assessment?"
                 description="With Statewide Geotechnical, you gain a trusted partner who understands the complexities of land capability and development feasibility. Our team combines geotechnical expertise, environmental insight, and regulatory knowledge to deliver comprehensive assessments that support sustainable, compliant project outcomes. We provide clear, actionable recommendations that guide project planning and help clients make informed, responsible land use decisions. Whether for residential subdivision, agricultural expansion, commercial development, or wastewater management, our Land Capability Assessment services deliver the knowledge and support you need for successful, sustainable site development."
                 buttonText="Get a Land Capability Assessment Today"
-                buttonLink="#"
+                buttonLink="/contact"
             />
           </div>
 
@@ -144,7 +145,7 @@ const LandCapability = () => {
 
 
             {/* Fourth Section */}
-                <div className='flex w-full h-auto bg-white-100 py-21'>
+                <div className='flex w-full -mt-[64px] h-auto bg-white-100 py-21'>
                     <div className='flex flex-col items-left justify-left w-full h-auto'>
                         <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
                         Statewide Geotechnical (Aust) Pty Ltd – Your Partner in Sustainable Land Use
@@ -156,9 +157,11 @@ const LandCapability = () => {
             
                         <div className='text-left text-[15px] font-medium mt-4 text-blue-600 pt-40 '>
                             <a href='#' className='flex items-center'>
-                                <span className='mr-1'>
+                              <Link to="/contact">
+                                <span className='mr-1 text-[18px]'>
                                     Get a Consultation
                                 </span>
+                              </Link>
                                      <img className=' pl-1 flex w-4 h-4 pl-1' src={Arrowup} alt='Arrow up' />
                             </a>
                         </div>

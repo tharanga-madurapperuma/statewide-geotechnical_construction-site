@@ -27,6 +27,21 @@ import Icon3 from "./home/choose-us/icon3.png";
 import Icon4 from "./home/choose-us/icon4.png";
 import DrillBit from "./home/drillBit.svg";
 
+//  New files
+import FoundationEngineering from "./home/new/foundation_engineering.webp";
+import SiteInvestigations from "./home/new/site_investigations.webp";
+import RetainingWallsExcavation from "./home/new/retaining_walls_excavation.webp";
+import LandCapabilityAssessment from "./home/new/land_capability_assessment.webp";
+import RoadPavementDesign from "./home/new/road_pavement_design.webp";
+import SlopeStabilityAssessment from "./home/new/slope_stability_assessment.webp";
+import EarthworkInspections from "./home/new/earthwork_inspections.webp";
+import SoilRockTesting from "./home/new/soil_rock_testing.webp";
+import HeroSection2 from "./home/new/hero_section_2.webp";
+import EnvironmentalDrilling from "./home/new/environmental_drilling.webp";
+import GeotechnicalDrillingTesting from "./home/new/geotechnical_drilling_testing.webp";
+import WhoWeAre from "./home/new/who_we_are.webp";
+import WhatWeOffer from "./home/new/what_we_offer.webp";
+
 import Check from "./home/check.svg";
 
 // component icons
@@ -104,6 +119,23 @@ export {
     Arrowup,
     Check,
     DrillBit,
+};
+
+// New Home Images
+export {
+    FoundationEngineering,
+    SiteInvestigations,
+    RetainingWallsExcavation,
+    LandCapabilityAssessment,
+    RoadPavementDesign,
+    SlopeStabilityAssessment,
+    EarthworkInspections,
+    SoilRockTesting,
+    HeroSection2,
+    EnvironmentalDrilling,
+    GeotechnicalDrillingTesting,
+    WhoWeAre,
+    WhatWeOffer,
 };
 
 // Component icons

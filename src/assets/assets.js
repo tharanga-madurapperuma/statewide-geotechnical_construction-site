@@ -8,18 +8,18 @@ import MailIcon from "./icons/mail.svg";
 
 // Home
 import rightArrow from "./icons/right-arrow.png";
-import HomeHero from "./home/hero.jpg";
+import HomeHero from "./home/hero.webp";
 import SuccessWorker from "./home/success-worker.jpg";
 import ProfilePics from "./home/profile-pics.png";
 
-import HomeSecondWhoWe from "./home/home_second-first.jpg";
-import HomeSecondWhatWe from "./home/home_second-second-1.png";
+import HomeSecondWhoWe from "./home/home_second-first.webp";
+import HomeSecondWhatWe from "./home/home_second-second-1.webp";
 import HomeSecondWhatWe2 from "./home/home_second-second-2.png";
 
-import geotechnical from "./home/geotechnical.jpg";
-import environmental from "./home/environmental.png";
-import soilTesting from "./home/soil-testing.jpg";
-import boreInstallation from "./home/bore-installation.jpg";
+import geotechnical from "./home/geotechnical.webp";
+import environmental from "./home/environmental.webp";
+import soilTesting from "./home/earthwork_inspections.webp";
+import boreInstallation from "./home/soil_rock_testing.webp";
 
 import Icon1 from "./home/choose-us/icon1.png";
 import Icon2 from "./home/choose-us/icon2.png";

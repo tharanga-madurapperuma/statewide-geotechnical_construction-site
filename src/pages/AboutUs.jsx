@@ -46,7 +46,7 @@ Our team is dedicated to providing accurate, cost-effective geotechnical solutio
                     What We Offer
                 </h2>
 
-                <div className="grid grid-cols-12 grid-rows-1 gap-4">
+                <div className="grid grid-cols-12 grid-rows-1 gap-6">
                     <div className="col-span-12 sm:col-span-6 md:col-span-3">
                         <CardIconTextCenter
                             iconUrl="/helmet.png"

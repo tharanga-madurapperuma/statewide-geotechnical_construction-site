@@ -723,7 +723,7 @@ const FoundationBuilt = () => {
                     title="Partner with Statewide Geotechnical for Reliable, Cost-Effective Foundations"
                     description="With expertise in both shallow and deep foundation systems, Statewide Geotechnical is equipped to provide a foundation solution perfectly aligned with your project’s needs. Whether it’s residential, commercial, or infrastructure, our in-house team of experts ensures safety, reliability, and efficiency from the ground up. Make Statewide Geotechnical (Aust) Pty Ltd your foundation partner, and experience the assurance of quality and value at every stage."
                     buttonText="Request a Consultation!"
-                    buttonLink="www.google.com"
+                    buttonLink="/contact"
                 />
             </div>
         </div>

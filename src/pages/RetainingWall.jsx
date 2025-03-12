@@ -12,14 +12,14 @@ import {
 const RetainingWall = () => {
     return (
         <div className="flex flex-col w-full items-center justify-center">
-            <div className="px-3 sm:px-4">
+            <div>
                 <ButtonCard
                     image={RetainingWallHero}
                     title="Retaining Walls and Excavation Services"
                     description="At Statewide Geotechnical (Aust) Pty Ltd, we provide comprehensive retaining wall and excavation services designed to secure your site, optimize space, and ensure stability for your construction project. With expert knowledge of ground behavior and soil mechanics, our team delivers tailored solutions to meet the unique demands of each site, from sloped terrains to complex urban environments."
                     buttonText="Get in Touch"
                     imagePosition="right"
-                    link="www.google.com"
+                    
                     className="mb-8"
                 />
             </div>
@@ -361,7 +361,7 @@ const RetainingWall = () => {
 
 Choose Statewide Geotechnical (Aust) Pty Ltd for retaining wall and excavation services that deliver both structural integrity and peace of mind."
                     buttonText="Get in Touch with Our Team"
-                    buttonLink="www.google.com"
+                    buttonLink="/contact"
                 />
             </div>
         </div>

@@ -22,7 +22,7 @@ const SiteInvetigate = () => {
                 />
             </div>
 
-            <div className="max-w-[1300px] mx-auto mt-[94px]">
+            <div className="mx-auto mt-[94px] px-[30px] md:px-[110px] sm:px-[20px]">
                 {/* Header Section */}
                 <h1 className="text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-[32px] text-4xl text-center md:text-left">
                     Investigation Techniques
@@ -50,7 +50,7 @@ const SiteInvetigate = () => {
 
                     <div>
                         <CardIconTopLeft
-                            iconUrl="/helmet.png"
+                            iconUrl="/Investigation_Techniques.png"
                             iconBackground="bg-white-100"
                             background="bg-Primary-100"
                             stroke={true}
@@ -68,7 +68,7 @@ const SiteInvetigate = () => {
 
                     <div>
                         <CardIconTopLeft
-                            iconUrl="/helmet.png"
+                            iconUrl="/Investigation_Techniques.png"
                             iconBackground="bg-white-100"
                             background="bg-Primary-100"
                             stroke={true}
@@ -87,7 +87,7 @@ const SiteInvetigate = () => {
                     {/* Row 2 */}
                     <div>
                         <CardIconTopLeft
-                            iconUrl="/helmet.png"
+                            iconUrl="/Investigation_Techniques.png"
                             iconBackground="bg-white-100"
                             background="bg-Primary-100"
                             stroke={true}
@@ -105,7 +105,7 @@ const SiteInvetigate = () => {
 
                     <div>
                         <CardIconTopLeft
-                            iconUrl="/helmet.png"
+                            iconUrl="/Investigation_Techniques.png"
                             iconBackground="bg-white-100"
                             background="bg-Primary-100"
                             stroke={true}
@@ -123,7 +123,7 @@ const SiteInvetigate = () => {
 
                     <div>
                         <CardIconTopLeft
-                            iconUrl="/helmet.png"
+                            iconUrl="/Investigation_Techniques.png"
                             iconBackground="bg-white-100"
                             background="bg-Primary-100"
                             stroke={true}
@@ -142,7 +142,7 @@ const SiteInvetigate = () => {
                     {/* Row 3 */}
                     <div>
                         <CardIconTopLeft
-                            iconUrl="/helmet.png"
+                            iconUrl="/Investigation_Techniques.png"
                             iconBackground="bg-white-100"
                             background="bg-Primary-100"
                             stroke={true}
@@ -159,7 +159,7 @@ const SiteInvetigate = () => {
 
                     <div>
                         <CardIconTopLeft
-                            iconUrl="/helmet.png"
+                            iconUrl="/Investigation_Techniques.png"
                             iconBackground="bg-white-100"
                             background="bg-Primary-100"
                             stroke={true}
@@ -186,7 +186,7 @@ const SiteInvetigate = () => {
                 </div>
             </div>
 
-            <div className="max-w-[1300px] mx-auto mt-[94px]">
+            <div className="mx-auto mt-[94px] px-[30px] md:px-[110px] sm:px-[20px]">
                 {/* Header */}
                 <h1 className="text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-[32px] text-4xl text-center md:text-left">
                     Our Site Investigation Services Include
@@ -204,10 +204,10 @@ const SiteInvetigate = () => {
                     </div>
 
                     {/* Drilling */}
-                    <div className="col-span-1 md:col-span-4 md:row-span-3 bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
+                    <div className="col-span-1 md:col-span-4 md:row-span-3 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
                         <div className="bg">
                             <img
-                                src="/helmet3.png"
+                                src="/Excavation_Services.png"
                                 alt="helmet"
                                 className="w-[50px] h-[50px]"
                             />
@@ -226,10 +226,10 @@ const SiteInvetigate = () => {
                     </div>
 
                     {/* Test Pits */}
-                    <div className="col-span-1 md:col-span-4 md:row-span-3 bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
+                    <div className="col-span-1 md:col-span-4 md:row-span-3 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
                         <div className="bg">
                             <img
-                                src="/helmet3.png"
+                                src="/Excavation_Services.png"
                                 alt="helmet"
                                 className="w-[50px] h-[50px]"
                             />
@@ -248,10 +248,10 @@ const SiteInvetigate = () => {
                     </div>
 
                     {/* In-Situ Testing */}
-                    <div className="col-span-1 md:col-span-4 md:row-span-3 bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
+                    <div className="col-span-1 md:col-span-4 md:row-span-3 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
                         <div className="bg">
                             <img
-                                src="/helmet4.png"
+                                src="/Excavation_Services.png"
                                 alt="helmet"
                                 className="w-[50px] h-[50px]"
                             />
@@ -271,10 +271,10 @@ const SiteInvetigate = () => {
                     </div>
 
                     {/* Laboratory Investigations */}
-                    <div className="col-span-1 md:col-span-4 md:row-span-3 bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
+                    <div className="col-span-1 md:col-span-4 md:row-span-3 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
                         <div className="bg">
                             <img
-                                src="/helmet3.png"
+                                src="/Excavation_Services.png"
                                 alt="helmet"
                                 className="w-[50px] h-[50px]"
                             />
@@ -293,10 +293,10 @@ const SiteInvetigate = () => {
                     </div>
 
                     {/* Reporting */}
-                    <div className="col-span-1 md:col-span-4 md:row-span-3 bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
+                    <div className="col-span-1 md:col-span-4 md:row-span-3 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
                         <div className="bg">
                             <img
-                                src="/helmet3.png"
+                                src="/Excavation_Services.png"
                                 alt="helmet"
                                 className="w-[50px] h-[50px]"
                             />

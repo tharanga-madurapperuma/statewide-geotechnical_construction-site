@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import HeroSection from "../../components/hero-section/HeroSection";
 import LicenseCard from "../../components/card-icon-license/CardIconLicense";
 import { DocIcon } from "../../assets/assets";
@@ -9,8 +9,19 @@ import ContactCard from "../../components/contacts/ContactCard";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { IoCall } from "react-icons/io5";
+import { useLocation } from "react-router-dom";
 
 const ContactPage = () => {
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.hash === "#contactForm") {
+            const element = document.getElementById("contactForm");
+            if (element) {
+                element.scrollIntoView({ behavior: "smooth" });
+            }
+        }
+    }, [location]);
     return (
         <div className="md:mt-[108px]">
             <HeroSection
@@ -82,7 +93,7 @@ const ContactPage = () => {
                     </ContactCard>
                 </div>
             </div>
-            <div className="w-full flex flex-col items-center">
+            <div className="w-full flex flex-col items-center" id="contactForm">
                 <AppointmentRequestForm />
             </div>
 

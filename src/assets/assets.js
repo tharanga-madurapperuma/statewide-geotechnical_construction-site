@@ -9,6 +9,7 @@ import MailIcon from "./icons/mail.svg";
 // Home
 import rightArrow from "./icons/right-arrow.png";
 import HomeHero from "./home/hero.webp";
+import HomeOnly from "./home/homeHero.webp";
 import SuccessWorker from "./home/success-worker.jpg";
 import ProfilePics from "./home/profile-pics.png";
 
@@ -21,10 +22,10 @@ import environmental from "./home/environmental.webp";
 import soilTesting from "./home/earthwork_inspections.webp";
 import boreInstallation from "./home/soil_rock_testing.webp";
 
-import Icon1 from "./home/choose-us/icon1.png";
-import Icon2 from "./home/choose-us/icon2.png";
-import Icon3 from "./home/choose-us/icon3.png";
-import Icon4 from "./home/choose-us/icon4.png";
+import Icon1 from "./home/choose-us/icon.svg";
+import Icon2 from "./home/choose-us/Expert_Team.svg";
+import Icon3 from "./home/choose-us/icon3.svg";
+import Icon4 from "./home/choose-us/icon4.svg";
 import DrillBit from "./home/drillBit.svg";
 
 //  New Home files
@@ -162,6 +163,7 @@ export {
     Arrowup,
     Check,
     DrillBit,
+    HomeOnly,
 };
 
 // New Home Images

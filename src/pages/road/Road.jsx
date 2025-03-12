@@ -8,6 +8,7 @@ import {
     RoadHero,
     Road1,
     Road2,
+    RoadIcon,
 } from "../../assets/assets";
 import { Link } from "react-router-dom";
 
@@ -30,7 +31,7 @@ const Road = () => {
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-[35px] w-full">
                             <div className="col-span-1 row-span-1 sm:w-full">
                                 <CardIconTopLeft
-                                    iconUrl={WorkerHat}
+                                    iconUrl={RoadIcon}
                                     iconBackground="bg-white-100"
                                     background="bg-Primary-100"
                                     stroke={true}
@@ -53,7 +54,7 @@ const Road = () => {
 
                             <div className="col-span-1 row-span-1">
                                 <CardIconTopLeft
-                                    iconUrl={WorkerHat}
+                                    iconUrl={RoadIcon}
                                     iconBackground="bg-white"
                                     background="bg-Primary-100"
                                     stroke={true}
@@ -68,7 +69,7 @@ const Road = () => {
 
                             <div className="col-span-1 row-span-1">
                                 <CardIconTopLeft
-                                    iconUrl={WorkerHat}
+                                    iconUrl={RoadIcon}
                                     iconBackground="bg-white"
                                     background="bg-Primary-100"
                                     stroke={true}
@@ -91,7 +92,7 @@ const Road = () => {
 
                             <div className="col-span-1 row-span-1">
                                 <CardIconTopLeft
-                                    iconUrl={WorkerHat}
+                                    iconUrl={RoadIcon}
                                     iconBackground="bg-white"
                                     background="bg-Primary-100"
                                     stroke={true}
@@ -106,7 +107,7 @@ const Road = () => {
 
                             <div className="col-span-1 row-span-1">
                                 <CardIconTopLeft
-                                    iconUrl={WorkerHat}
+                                    iconUrl={RoadIcon}
                                     iconBackground="bg-white-100"
                                     background="bg-Primary-100"
                                     stroke={true}
@@ -121,7 +122,7 @@ const Road = () => {
 
                             <div className="col-span-1 row-span-1">
                                 <CardIconTopLeft
-                                    iconUrl={WorkerHat}
+                                    iconUrl={RoadIcon}
                                     iconBackground="bg-white"
                                     background="bg-Primary-100"
                                     stroke={true}
@@ -136,7 +137,7 @@ const Road = () => {
 
                             <div className="col-span-1 row-span-1">
                                 <CardIconTopLeft
-                                    iconUrl={WorkerHat}
+                                    iconUrl={RoadIcon}
                                     iconBackground="bg-white"
                                     background="bg-Primary-100"
                                     stroke={true}

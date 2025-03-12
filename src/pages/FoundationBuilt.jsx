@@ -8,6 +8,7 @@ import {
     FoundationPile,
     FoundationServices,
     FoundationShallow,
+    WorkerHat,
 } from "../assets/assets";
 
 const FoundationBuilt = () => {
@@ -35,7 +36,7 @@ const FoundationBuilt = () => {
                     <div className="hidden lg:grid grid-cols-9 grid-rows-5 gap-4 mt-[56px]">
                         <div className="col-span-3 row-span-5">
                             <CardIconTopLeft
-                                iconUrl={FoundationServices}
+                                iconUrl="/Frame2218.png"
                                 iconBackground="bg-white-100"
                                 background="bg-blue-600"
                                 stroke={true}
@@ -268,7 +269,7 @@ const FoundationBuilt = () => {
                         {/* Center Image */}
                         <div className="col-span-3 row-span-8 col-start-4 flex justify-center items-center">
                             <img
-                                src="/Frame2237.png"
+                                src={FoundationServices}
                                 alt="Foundation Analysis"
                                 className="rounded-2xl shadow-lg w-full h-auto"
                             />
@@ -622,7 +623,7 @@ const FoundationBuilt = () => {
                     {/* Row 1 */}
                     <div className="col-span-1 row-span-1">
                         <CardIconTopLeft
-                            iconUrl={FoundationShallow}
+                            iconUrl={WorkerHat}
                             iconBackground="bg-white-100"
                             background="bg-Primary-100"
                             stroke={true}
@@ -656,7 +657,7 @@ const FoundationBuilt = () => {
 
                     <div className="border-[1px] border-[#D1EDFF] rounded-3xl   ">
                         <img
-                            src="/Frame2258.png"
+                            src={FoundationShallow}
                             alt="Drilling work"
                             className="w-full aspect-square object-cover rounded-xl"
                         />

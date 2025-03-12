@@ -2,6 +2,9 @@ import React from "react";
 import {
     Arm,
     Bell,
+    Box,
+    Card,
+    Certificate,
     DocIcon,
     Dosar,
     DrillingBit,
@@ -78,17 +81,14 @@ const EnvDrilling = () => {
                 </div>
                 <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 flex-col sm:flex-row justify-center">
                     <LicenseCard
-                        image={DocIcon}
+                        image={Certificate}
                         title="Water Bore Licenses (Class 1 & 2)"
                     />
                     <LicenseCard
-                        image={DocIcon}
+                        image={Card}
                         title="Building Industry White Cards"
                     />
-                    <LicenseCard
-                        image={DocIcon}
-                        title="First Aid Certification"
-                    />
+                    <LicenseCard image={Box} title="First Aid Certification" />
                 </div>
             </div>
 

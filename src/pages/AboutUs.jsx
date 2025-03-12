@@ -7,7 +7,7 @@ import { AboutHero } from "../assets/assets";
 
 const AboutUs = () => {
     return (
-        <div className="flex flex-col w-full items-center justify-center">
+        <div className="flex flex-col w-full items-center justify-center md:mt-[108px]">
             <div className="w-full h-auto">
                 <HeroSection
                     title="Trusted Leaders in Geotechnical & Geological Services"

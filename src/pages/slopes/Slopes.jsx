@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Slopes = () => {
     return (
-        <div className="w-full flex flex-col items-center bg-slate-background">
+        <div className="w-full flex flex-col items-center bg-slate-background md:mt-[108px]">
             {/* First Section */}
             <div>
                 <ButtonCard

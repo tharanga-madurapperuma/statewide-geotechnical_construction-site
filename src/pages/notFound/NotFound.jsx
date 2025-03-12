@@ -5,7 +5,7 @@ const NotFound = () => {
     const navigation = useNavigate();
 
     return (
-        <div className="w-full h-full flex flex-col items-center bg-slate-background">
+        <div className="w-full h-full flex flex-col items-center bg-slate-background md:mt-[108px]">
             <div className="w-full flex flex-col items-center my-[150px]">
                 <h1 className="font-inter font-600 text-[50px] md:text-80 sm:text-62">
                     Not Found

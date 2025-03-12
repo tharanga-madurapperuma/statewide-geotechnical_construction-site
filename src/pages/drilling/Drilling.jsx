@@ -22,11 +22,11 @@ import TextSection from "../../components/text/TextSection";
 
 const Drilling = () => {
     return (
-        <div className="w-full flex flex-col items-center bg-slate-background">
+        <div className="w-full flex flex-col items-center bg-slate-background md:mt-[108px]">
             {/* Hero Hashan Component */}
 
             {/* Sevindu Component */}
-            <div className="mt-4 sm:mt-6 px-3 sm:px-0">
+            <div className="mt-4 sm:mt-6 md:mt-0 px-3 sm:px-0">
                 <ButtonCard
                     image={Hero}
                     title="Expert Geotechnical Drilling, Testing, and Consulting Services"

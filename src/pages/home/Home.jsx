@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Callbox from "../../components/callbox/Callbox";
 import Card from "../../components/card/Card";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -33,6 +33,43 @@ import {
 
 const Home = () => {
     const navigate = useNavigate();
+
+    const swiperRef = useRef(null);
+    const mainDivRef = useRef(null);
+    const [isHovering, setIsHovering] = useState(false);
+    const [isAtEdge, setIsAtEdge] = useState(false);
+
+    useEffect(() => {
+        const handleWheel = (event) => {
+            if (isHovering && swiperRef.current && swiperRef.current.swiper) {
+                const swiper = swiperRef.current.swiper;
+
+                // If at the first or last slide, allow vertical scrolling
+                if (isAtEdge) {
+                    return;
+                }
+
+                event.preventDefault(); // Prevent vertical scrolling
+
+                if (event.deltaY > 0) {
+                    swiper.slideNext();
+                } else {
+                    swiper.slidePrev();
+                }
+            }
+        };
+
+        const mainDiv = mainDivRef.current;
+        if (mainDiv) {
+            mainDiv.addEventListener("wheel", handleWheel, { passive: false });
+        }
+
+        return () => {
+            if (mainDiv) {
+                mainDiv.removeEventListener("wheel", handleWheel);
+            }
+        };
+    }, [isHovering, isAtEdge]);
 
     const services = [
         {
@@ -107,7 +144,10 @@ const Home = () => {
         },
     ];
     return (
-        <div className="flex flex-col w-full bg-slate-background">
+        <div
+            className="flex flex-col w-full bg-slate-background md:mt-[108px]"
+            ref={mainDivRef}
+        >
             {/* HOME - FIRST SECTION */}
             <div className="h-auto w-full">
                 <div className="w-full h-auto flex flex-col items-center">
@@ -164,7 +204,7 @@ const Home = () => {
                                                 }
                                             />
                                         </div>
-                                        <div className="h-full w-3/5 pr-4 flex flex-col justify-center font-inter font-600 text-14 md:text-18 lg:text-24">
+                                        <div className="h-full w-3/5 pr-4 flex flex-col justify-center font-inter font-600 text-14 md:text-18 lg:text-[20px] xl:text-24">
                                             <h3 className="text-gray-950">
                                                 Discover Our Expertise in
                                                 Geotechnical Solutions
@@ -371,14 +411,28 @@ const Home = () => {
                                         ))}
                                     </Swiper>
                                 </div>
-                                <div className="hidden md:block sm:w-full md:w-full md:mt-2 xl:w-full sm:px-0">
+                                <div
+                                    className="hidden md:block sm:w-full md:w-full md:mt-2 xl:w-full sm:px-0"
+                                    onMouseEnter={() => setIsHovering(true)}
+                                    onMouseLeave={() => {
+                                        setIsHovering(false);
+                                        setIsAtEdge(false); // 🔥 Reset this when mouse leaves
+                                    }}
+                                >
                                     <Swiper
+                                        ref={swiperRef}
                                         slidesPerView={4}
                                         spaceBetween={32}
-                                        keyboard={{
-                                            enabled: true,
-                                        }}
+                                        keyboard={{ enabled: true }}
                                         navigation={true}
+                                        onSlideChange={() => {
+                                            const swiper =
+                                                swiperRef.current.swiper;
+                                            setIsAtEdge(
+                                                swiper.isBeginning ||
+                                                    swiper.isEnd
+                                            );
+                                        }}
                                         modules={[
                                             Keyboard,
                                             Pagination,

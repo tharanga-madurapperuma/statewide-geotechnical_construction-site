@@ -13,7 +13,7 @@ import {
 
 const FoundationBuilt = () => {
     return (
-        <div className="flex flex-col w-full items-center justify-center">
+        <div className="flex flex-col w-full items-center justify-center md:mt-[108px]">
             <div className="flex items-center justify-center mt-0">
                 <ButtonCard
                     image={FoundationHero}

@@ -18,6 +18,8 @@
 }
 
 @theme {
+    --breakpoint-xs: 30rem;
+
     /* POPPINS */
     --font-poppins: "Poppins", sans-serif;
     --font-inter: "Inter", sans-serif;

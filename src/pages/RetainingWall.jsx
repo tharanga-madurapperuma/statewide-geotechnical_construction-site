@@ -11,7 +11,7 @@ import {
 
 const RetainingWall = () => {
     return (
-        <div className="flex flex-col w-full items-center justify-center">
+        <div className="flex flex-col w-full items-center justify-center md:mt-[108px]">
             <div className="px-3 sm:px-4">
                 <ButtonCard
                     image={RetainingWallHero}

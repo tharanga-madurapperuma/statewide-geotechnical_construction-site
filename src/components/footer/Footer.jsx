@@ -14,12 +14,14 @@ const Footer = () => {
     return (
         <div className="bg-slate-100 w-full h-auto flex justify-center items-center font-inter text-gray-900">
             <div className="w-full px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] max-w-[1920px] mt-48 flex flex-col md:mt-72 lg:mt-[100px]">
-
                 <div className="w-full flex flex-col md:flex-row justify-between items-start">
                     <div className="w-full md:w-2/4">
-                        <div className="w-full">
-                            <img src={Logo} />
-                        </div>
+                        <Link to={"/"}>
+                            <div className="w-full">
+                                <img src={Logo} />
+                            </div>
+                        </Link>
+
                         <div>
                             <p className="md:w-[70%] font-inter font-400 text-14 mt-8 mb-4 md:text-16">
                                 Statewide Geotechnical (Aust) Pty Ltd delivers
@@ -41,13 +43,13 @@ const Footer = () => {
                             </span>
                             <div className="font-inter font-400 text-14 mt-8 lg:text-16">
                                 <Link to={"/aboutus"}>
-                                <p className="mb-2">About us</p>
+                                    <p className="mb-2">About us</p>
                                 </Link>
                                 <Link to={"/contact"}>
-                                <p className="mb-2">Contact Us</p>
+                                    <p className="mb-2">Contact Us</p>
                                 </Link>
                                 <Link to={"/resources"}>
-                                <p className="mb-2">Resources</p>
+                                    <p className="mb-2">Resources</p>
                                 </Link>
                             </div>
                         </div>

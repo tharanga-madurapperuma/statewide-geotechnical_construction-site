@@ -1,5 +1,5 @@
 import React from "react";
-import { HomeHero } from "../../assets/assets";
+import { AboutHero, HomeHero } from "../../assets/assets";
 import ContactSection from "../contacts/ContactSection";
 import { GoArrowUpRight } from "react-icons/go";
 
@@ -14,7 +14,7 @@ const HeroSection = ({
         <section className=" my-[5%] md:my-0 md:py-10 px-2 md:px-4 ">
             <div
                 className={` md:h-[720px]   w-full flex items-center bg-cover py-[60px]  px-6 sm:px-[64px] md:px-[74px] lg:px-[94px] xl:px-[94px] bg-center rounded-xl hue-rotate-15 saturate-150`}
-                style={{ backgroundImage: `url(${HomeHero})` }}
+                style={{ backgroundImage: `url(${AboutHero})` }}
             >
                 <div className="">
                     <h2 className="text-4xl md:text-[62px] max-w-[702px] lg:mb-24 lg:leading-[76px] font-bold text-gray-900">

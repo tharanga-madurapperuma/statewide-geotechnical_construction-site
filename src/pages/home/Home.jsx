@@ -1,23 +1,5 @@
 import React from "react";
 import Callbox from "../../components/callbox/Callbox";
-import {
-    boreInstallation,
-    Check,
-    environmental,
-    geotechnical,
-    HomeHero,
-    HomeSecondWhatWe,
-    HomeSecondWhatWe2,
-    HomeSecondWhoWe,
-    Icon1,
-    Icon2,
-    Icon3,
-    Icon4,
-    ProfilePics,
-    rightArrow,
-    soilTesting,
-    SuccessWorker,
-} from "../../assets/assets";
 import Card from "../../components/card/Card";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Keyboard, Navigation, Pagination } from "swiper/modules";
@@ -26,80 +8,102 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import InfoSection from "../../components/info-section/InfoSection";
 import { useNavigate } from "react-router-dom";
+import {
+    Check,
+    EarthworkInspections,
+    EnvironmentalDrilling,
+    FoundationEngineering,
+    GeotechnicalDrillingTesting,
+    HeroSection2,
+    Icon1,
+    Icon2,
+    Icon3,
+    Icon4,
+    LandCapabilityAssessment,
+    ProfilePics,
+    RetainingWallsExcavation,
+    rightArrow,
+    RoadPavementDesign,
+    SiteInvestigations,
+    SlopeStabilityAssessment,
+    SoilRockTesting,
+    WhatWeOffer,
+    WhoWeAre,
+} from "../../assets/assets";
 
 const Home = () => {
     const navigate = useNavigate();
 
     const services = [
         {
-            image: geotechnical,
+            image: GeotechnicalDrillingTesting,
             title: "Geotechnical Drilling & Testing",
             description:
                 "Precision drilling for soil and rock investigations to support construction and engineering projects.",
             link: "drilling",
         },
         {
-            image: environmental,
+            image: EnvironmentalDrilling,
             title: "Environmental Drilling",
             description:
                 "Specialized drilling for groundwater studies, contamination assessments, and environmental compliance.",
             link: "envdrilling",
         },
         {
-            image: soilTesting,
+            image: EarthworkInspections,
             title: "Earthwork Inspections",
             description:
                 "Comprehensive testing and inspections to ensure soil compaction, stability, and compliance with construction standards.",
             link: "inspections",
         },
         {
-            image: boreInstallation,
+            image: SoilRockTesting,
             title: "Soil & Rock Testing",
             description:
                 "Laboratory analysis of soil, rock, and aggregates to assess strength, composition, and suitability for construction.",
             link: "soil",
         },
         {
-            image: geotechnical,
+            image: SlopeStabilityAssessment,
             title: "Slope Stability Assessment",
             description:
                 "Detailed evaluation of slopes to prevent landslides, erosion, and structural failures in various terrains.",
             link: "slopes",
         },
         {
-            image: environmental,
+            image: RoadPavementDesign,
             title: "Road Pavement Design",
             description:
                 "Engineering-based pavement solutions designed for durability, load-bearing capacity, and long-term performance.",
             link: "road",
         },
         {
-            image: soilTesting,
+            image: LandCapabilityAssessment,
             title: "Land Capability Assessment",
             description:
                 "Evaluation of soil, drainage, and environmental factors to determine land suitability for development and agriculture.",
             link: "land",
         },
         {
-            image: boreInstallation,
+            image: RetainingWallsExcavation,
             title: "Retaining Walls & Excavation",
             description:
                 "Geotechnical assessments for safe excavation and retaining wall design to prevent soil movement and structural damage.",
             link: "retaining",
         },
         {
-            image: geotechnical,
+            image: SiteInvestigations,
             title: "Site Investigations",
             description:
                 "Comprehensive on-site assessments to identify ground conditions, potential risks, and construction feasibility.",
             link: "siteinvetigate",
         },
         {
-            image: soilTesting,
+            image: FoundationEngineering,
             title: "Foundation Engineering",
             description:
-                "Expert analysis and design of strong, stable foundations for residential, commercial, and industrial structures",
-            link: "retaining",
+                "Expert analysis and design of strong, stable foundations for residential, commercial, and industrial structures.",
+            link: "foundationbuilt",
         },
     ];
     return (
@@ -112,7 +116,7 @@ const Home = () => {
                         <div
                             className="w-full h-auto rounded-2xl p-6 xl:pl-[94px] xl:pt-[96px] xl:pb-[96px] sm:p-[54px] md:p-[64px] lg:p-[84px] xl:p-0 flex flex-col justify-between sm:relative"
                             style={{
-                                background: `url(${HomeHero})`,
+                                background: `url(${HeroSection2})`,
                                 backgroundRepeat: "no-repeat",
                                 backgroundSize: "cover",
                             }}
@@ -155,7 +159,9 @@ const Home = () => {
                                         <div className="h-full w-2/5 flex items-center justify-center">
                                             <img
                                                 className="object-cover h-[80%] w-[80%] rounded-2xl"
-                                                src={SuccessWorker}
+                                                src={
+                                                    GeotechnicalDrillingTesting
+                                                }
                                             />
                                         </div>
                                         <div className="h-full w-3/5 pr-4 flex flex-col justify-center font-inter font-600 text-14 md:text-18 lg:text-24">
@@ -210,7 +216,7 @@ const Home = () => {
                         government agencies."
                         buttonText="Learn More About Us"
                         buttonLink="#"
-                        imageSrc={HomeSecondWhoWe}
+                        imageSrc={WhoWeAre}
                         reverse={false}
                     />
                 </div>
@@ -262,7 +268,7 @@ const Home = () => {
                                 <div className="h-full lg:w-full ">
                                     <img
                                         className="object-cover h-full w-full rounded-3xl"
-                                        src={HomeSecondWhatWe}
+                                        src={WhatWeOffer}
                                     />
                                 </div>
                                 <div className="h-full w-full bg-blue-200 rounded-3xl mt-2 sm:mt-0">

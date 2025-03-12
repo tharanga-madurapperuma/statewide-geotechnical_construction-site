@@ -12,11 +12,11 @@ import { IoCall } from "react-icons/io5";
 
 const ContactPage = () => {
     return (
-        <div className="">
+        <div className="md:mt-[108px]">
             <HeroSection
                 title={"Contact Us"}
                 description={
-                    "We’re here to help! Whether you’re ready to start your next project or just have a question, the team at Statewide Geotechnical (Aust) Pty Ltd is always available to assist. Let’s connect and see how we can help you with your geotechnical, geological, and engineering needs."
+                    "We’re here to help! Whether you're ready to start your next project or just have a question, the team at Statewide Geotechnical (Aust) Pty Ltd is always available to assist. Let’s connect and see how we can help you with your geotechnical, geological, and engineering needs."
                 }
                 hasBookButton={true}
             />

@@ -24,9 +24,9 @@ import LicenseCard from "../../components/card-icon-license/CardIconLicense";
 
 const EnvDrilling = () => {
     return (
-        <div className="w-full flex flex-col items-center bg-slate-background">
+        <div className="w-full flex flex-col items-center bg-slate-background md:mt-[108px]">
             {/* Hero Component */}
-            <div className="mt-4 sm:mt-6 px-3 sm:px-0 ">
+            <div className="mt-4 sm:mt-0 px-3 sm:px-0 ">
                 <ButtonCard
                     image={EnvHero}
                     title="Specialized Environmental & Geotechnical Drilling Services"

@@ -12,11 +12,11 @@ const CardIconTextCenter = ({
                 <div className="mt-1 md:mt-2 lg:mt-6">
                     <img src={iconUrl} />
                 </div>
-                <h2 className="font-inter text-14 font-500 text-center md:text-18 lg:text-24">
+                <h2 className="font-inter text-14 font-500 text-center md:text-18 lg:text-24 mt-5">
                     {titleText}
                 </h2>
                 {bodyTextPresent && (
-                    <p className="font-inter text-12 font-400 mt-1 sm:text-12 text-center md:text-14 lg:text-16 lg:mb-6 lg:w-[70%]">
+                    <p className="font-inter text-12 font-400 mt-2 sm:text-12 text-center md:text-14 lg:text-16 lg:mb-6 lg:w-[70%]">
                         {bodyText}
                     </p>
                 )}

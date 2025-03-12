@@ -164,7 +164,7 @@ const LandCapability = () => {
                                     </span>
                                 </Link>
                                 <img
-                                    className=" pl-1 flex w-4 h-4 pl-1"
+                                    className=" pl-1 flex w-4 h-4"
                                     src={Arrowup}
                                     alt="Arrow up"
                                 />

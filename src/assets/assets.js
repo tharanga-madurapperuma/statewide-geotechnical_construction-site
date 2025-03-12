@@ -27,7 +27,7 @@ import Icon3 from "./home/choose-us/icon3.png";
 import Icon4 from "./home/choose-us/icon4.png";
 import DrillBit from "./home/drillBit.svg";
 
-//  New files
+//  New Home files
 import FoundationEngineering from "./home/new/foundation_engineering.webp";
 import SiteInvestigations from "./home/new/site_investigations.webp";
 import RetainingWallsExcavation from "./home/new/retaining_walls_excavation.webp";
@@ -50,6 +50,7 @@ import FileIcon from "./icons/fileicon.svg";
 import DownloadIcon from "./icons/download.svg";
 import Arrowup from "./icons/arrow-tr.svg";
 import ArrowAngled from "./icons/arrow-angled.svg";
+
 // navbar icons
 import Menu from "./navbar/menu.svg";
 import Close from "./navbar/cancel.svg";
@@ -79,19 +80,57 @@ import ManWhite from "./drilling/icons/manWhite.svg";
 import DocWhite from "./drilling/icons/docWhite.svg";
 
 // Inspections page
-import InsHero from "./inspections/insHero.jpg";
-import InsSecond from "./inspections/insSecond.jpg";
-import InsThird from "./inspections/insThird.jpg";
+import InsHero from "./inspections/insHero.webp";
+import InsSecond from "./inspections/insSecond.webp";
+import InsThird from "./inspections/insThird.webp";
 import TestingIcon from "./inspections/testing.svg";
 
 // Env Drilling page
 import Map from "./envDrilling/map.svg";
-import EnvHero from "./envDrilling/hero.jpg";
-import EnvSecond from "./envDrilling/envSecond.jpg";
+import EnvHero from "./envDrilling/hero.webp";
+import EnvSecond from "./envDrilling/envSecond.webp";
 import DocIcon from "./envDrilling/docIcon.svg";
 
-import Hero from "./drilling/hero.jpg";
-import DrillingSecond from "./drilling/second.png";
+import Hero from "./drilling/hero.webp";
+import DrillingSecond from "./drilling/second.webp";
+
+// Retaining Wall page
+import RetainingWallHero from "./retaining/retaining_walls_excavation_hero.webp";
+import RetainingWallSolutions from "./retaining/retaining_walls_excavation_retaining_wall_solutions.webp";
+import RetainingWallServices from "./retaining/retaining_walls_excavation_excavation_services.webp";
+
+export { RetainingWallHero, RetainingWallSolutions, RetainingWallServices };
+
+// Investigations
+import InvestigationHero from "./investigations/site_investigations_hero.webp";
+import InvestigationTech from "./investigations/site_investigations_investigation_techniques.webp";
+import InvestigationTech2 from "./investigations/site_investigations_investigation_techniques_2.webp";
+import InvestigationServices from "./investigations/site_investigations_investigation_services.webp";
+
+export {
+    InvestigationHero,
+    InvestigationTech,
+    InvestigationTech2,
+    InvestigationServices,
+};
+
+// Foundation Built
+import FoundationHero from "./foundation/foundation_engineering_hero.webp";
+import FoundationServices from "./foundation/foundation_engineering_foundation_design.webp";
+import FoundationPile from "./foundation/foundation_engineering_pile-foundations.webp";
+import FoundationShallow from "./foundation/foundation_engineering_shallow_foundations.webp";
+
+export {
+    FoundationHero,
+    FoundationServices,
+    FoundationPile,
+    FoundationShallow,
+};
+
+// About Us
+import AboutHero from "./about/about_us.webp";
+
+export { AboutHero };
 
 export {
     Logo,
@@ -148,24 +187,27 @@ export { InsHero, InsSecond, InsThird, TestingIcon };
 // navbar
 export { Menu, Close };
 //soil page
-import SoilHero from "./soil/worker.svg";
-import SoilTesting from "./soil/soil.svg";
+import SoilHero from "./soil/worker.webp";
+import SoilTesting from "./soil/soil.webp";
 
 export { SoilHero, SoilTesting };
 
 //slopes page
-import Engineers from "./slopes/engineers.svg";
+import Engineers from "./slopes/engineers.webp";
 import GroupTalk from "./slopes/group-talk.svg";
 import Clock from "./slopes/clock.svg";
-export { Engineers, GroupTalk, Clock };
+import SlopeHero from "./slopes/slope.webp";
+export { Engineers, GroupTalk, Clock, SlopeHero };
 
 //Road page
-import Roller from "./road/roller.png";
+import RoadHero from "./road/road1.webp";
+import Road1 from "./road/road2.webp";
+import Road2 from "./road/road3.webp";
 
-export { Roller };
+export { RoadHero, Road1, Road2 };
 
 //Land Capability page
-import Mapping from "./land/mapping.svg";
+import Mapping from "./land/mapping.webp";
 
 export { Mapping };
 

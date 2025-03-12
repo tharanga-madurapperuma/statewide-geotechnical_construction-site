@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ButtonCard from "../components/card/ButtonCard";
 import CardIconTextCenter from "../components/card-icon-text-center/CardIconTextCenter";
 import TextSection from "../components/text/TextSection";
@@ -10,8 +10,18 @@ import {
 } from "../assets/assets";
 
 const RetainingWall = () => {
+    // Home top
+    useEffect(() => {
+        const element = document.getElementById("hero");
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    }, []);
     return (
-        <div className="flex flex-col w-full items-center justify-center md:mt-[108px]">
+        <div
+            className="flex flex-col w-full items-center justify-center md:mt-[108px]"
+            id="hero"
+        >
             <div className="px-3 sm:px-4">
                 <ButtonCard
                     image={RetainingWallHero}

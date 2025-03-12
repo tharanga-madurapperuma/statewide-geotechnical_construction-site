@@ -30,9 +30,7 @@ const Card = ({ image, title, description, link }) => {
                         : description}
                 </p>
                 <p className="hidden sm:block font-inter font-400 text-12 sm:text-14 md:text-16 text-gray-600 mt-2">
-                    {description.length > 100
-                        ? `${description.slice(0, 80)}...`
-                        : description}
+                    {description}
                 </p>
             </div>
         </div>

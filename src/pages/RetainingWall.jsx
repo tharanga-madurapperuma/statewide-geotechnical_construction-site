@@ -230,7 +230,7 @@ const RetainingWall = () => {
                 </div>
             </div>
 
-            <div className="max-w-[1300px] mx-auto mt-[94px]">
+            <div className="mx-auto mt-[94px] px-[30px] md:px-[110px] sm:px-[20px]">
                 {/* Header Section */}
                 <h1 className="text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-[32px] text-4xl text-center md:text-left">
                     Excavation Services
@@ -259,7 +259,7 @@ const RetainingWall = () => {
                     {/* Bulk Excavation */}
                     <div className="col-span-1 row-span-1">
                         <CardIconTopLeft
-                            iconUrl="/helmet.png"
+                            iconUrl="/Excavation_Services.png"
                             iconBackground="bg-white-100"
                             background="bg-Primary-100"
                             stroke={true}
@@ -278,7 +278,7 @@ const RetainingWall = () => {
                     {/* Detailed Excavation */}
                     <div className="col-span-1 row-span-1">
                         <CardIconTopLeft
-                            iconUrl="/helmet.png"
+                            iconUrl="/Excavation_Services.png"
                             iconBackground="bg-white-100"
                             background="bg-Primary-100"
                             stroke={true}
@@ -297,7 +297,7 @@ const RetainingWall = () => {
                     {/* Trenching */}
                     <div className="col-span-1 row-span-1">
                         <CardIconTopLeft
-                            iconUrl="/helmet.png"
+                            iconUrl="/Excavation_Services.png"
                             iconBackground="bg-white-100"
                             background="bg-Primary-100"
                             stroke={true}
@@ -317,7 +317,7 @@ const RetainingWall = () => {
                     {/* Rock Breaking and Removal */}
                     <div className="col-span-1 row-span-1">
                         <CardIconTopLeft
-                            iconUrl="/helmet.png"
+                            iconUrl="/Excavation_Services.png"
                             iconBackground="bg-white-100"
                             background="bg-Primary-100"
                             stroke={true}
@@ -336,7 +336,7 @@ const RetainingWall = () => {
                     {/* Shoring & Site Stabilization */}
                     <div className="col-span-1 row-span-1 ">
                         <CardIconTopLeft
-                            iconUrl="/helmet.png"
+                            iconUrl="/Excavation_Services.png"
                             iconBackground="bg-white-100"
                             background="bg-Primary-100"
                             stroke={true}

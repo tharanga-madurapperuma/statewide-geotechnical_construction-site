@@ -18,18 +18,17 @@ const RetainingWall = () => {
         }
     }, []);
     return (
-        <div
-            className="flex flex-col w-full items-center justify-center md:mt-[108px]"
-            id="hero"
-        >
-            <div className="px-3 sm:px-4">
+
+        <div className="flex flex-col w-full items-center justify-center">
+            <div>
+
                 <ButtonCard
                     image={RetainingWallHero}
                     title="Retaining Walls and Excavation Services"
                     description="At Statewide Geotechnical (Aust) Pty Ltd, we provide comprehensive retaining wall and excavation services designed to secure your site, optimize space, and ensure stability for your construction project. With expert knowledge of ground behavior and soil mechanics, our team delivers tailored solutions to meet the unique demands of each site, from sloped terrains to complex urban environments."
                     buttonText="Get in Touch"
                     imagePosition="right"
-                    link="www.google.com"
+                    
                     className="mb-8"
                 />
             </div>
@@ -240,7 +239,7 @@ const RetainingWall = () => {
                 </div>
             </div>
 
-            <div className="max-w-[1300px] mx-auto mt-[94px]">
+            <div className="mx-auto mt-[94px] px-[30px] md:px-[110px] sm:px-[20px]">
                 {/* Header Section */}
                 <h1 className="text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-[32px] text-4xl text-center md:text-left">
                     Excavation Services
@@ -269,7 +268,7 @@ const RetainingWall = () => {
                     {/* Bulk Excavation */}
                     <div className="col-span-1 row-span-1">
                         <CardIconTopLeft
-                            iconUrl="/helmet.png"
+                            iconUrl="/Excavation_Services.png"
                             iconBackground="bg-white-100"
                             background="bg-Primary-100"
                             stroke={true}
@@ -288,7 +287,7 @@ const RetainingWall = () => {
                     {/* Detailed Excavation */}
                     <div className="col-span-1 row-span-1">
                         <CardIconTopLeft
-                            iconUrl="/helmet.png"
+                            iconUrl="/Excavation_Services.png"
                             iconBackground="bg-white-100"
                             background="bg-Primary-100"
                             stroke={true}
@@ -307,7 +306,7 @@ const RetainingWall = () => {
                     {/* Trenching */}
                     <div className="col-span-1 row-span-1">
                         <CardIconTopLeft
-                            iconUrl="/helmet.png"
+                            iconUrl="/Excavation_Services.png"
                             iconBackground="bg-white-100"
                             background="bg-Primary-100"
                             stroke={true}
@@ -327,7 +326,7 @@ const RetainingWall = () => {
                     {/* Rock Breaking and Removal */}
                     <div className="col-span-1 row-span-1">
                         <CardIconTopLeft
-                            iconUrl="/helmet.png"
+                            iconUrl="/Excavation_Services.png"
                             iconBackground="bg-white-100"
                             background="bg-Primary-100"
                             stroke={true}
@@ -346,7 +345,7 @@ const RetainingWall = () => {
                     {/* Shoring & Site Stabilization */}
                     <div className="col-span-1 row-span-1 ">
                         <CardIconTopLeft
-                            iconUrl="/helmet.png"
+                            iconUrl="/Excavation_Services.png"
                             iconBackground="bg-white-100"
                             background="bg-Primary-100"
                             stroke={true}
@@ -371,7 +370,7 @@ const RetainingWall = () => {
 
 Choose Statewide Geotechnical (Aust) Pty Ltd for retaining wall and excavation services that deliver both structural integrity and peace of mind."
                     buttonText="Get in Touch with Our Team"
-                    buttonLink="www.google.com"
+                    buttonLink="/contact"
                 />
             </div>
         </div>

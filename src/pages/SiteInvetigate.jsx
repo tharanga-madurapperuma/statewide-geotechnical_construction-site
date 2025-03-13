@@ -10,8 +10,10 @@ import {
 
 const SiteInvetigate = () => {
     return (
-        <div className="flex flex-col w-full items-center justify-center md:mt-[108px]">
-            <div className="mt-2 sm:mt-2 px-3 sm:px-4">
+
+        <div className="flex flex-col w-full items-center justify-center">
+            <div>
+
                 <ButtonCard
                     image={InvestigationHero}
                     title="Site Investigations"
@@ -22,7 +24,7 @@ const SiteInvetigate = () => {
                 />
             </div>
 
-            <div className="max-w-[1300px] mx-auto mt-[94px]">
+            <div className="mx-auto mt-[94px] px-[30px] md:px-[110px] sm:px-[20px]">
                 {/* Header Section */}
                 <h1 className="text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-[32px] text-4xl text-center md:text-left">
                     Investigation Techniques
@@ -50,7 +52,7 @@ const SiteInvetigate = () => {
 
                     <div>
                         <CardIconTopLeft
-                            iconUrl="/helmet.png"
+                            iconUrl="/Investigation_Techniques.png"
                             iconBackground="bg-white-100"
                             background="bg-Primary-100"
                             stroke={true}
@@ -68,7 +70,7 @@ const SiteInvetigate = () => {
 
                     <div>
                         <CardIconTopLeft
-                            iconUrl="/helmet.png"
+                            iconUrl="/Investigation_Techniques.png"
                             iconBackground="bg-white-100"
                             background="bg-Primary-100"
                             stroke={true}
@@ -87,7 +89,7 @@ const SiteInvetigate = () => {
                     {/* Row 2 */}
                     <div>
                         <CardIconTopLeft
-                            iconUrl="/helmet.png"
+                            iconUrl="/Investigation_Techniques.png"
                             iconBackground="bg-white-100"
                             background="bg-Primary-100"
                             stroke={true}
@@ -105,7 +107,7 @@ const SiteInvetigate = () => {
 
                     <div>
                         <CardIconTopLeft
-                            iconUrl="/helmet.png"
+                            iconUrl="/Investigation_Techniques.png"
                             iconBackground="bg-white-100"
                             background="bg-Primary-100"
                             stroke={true}
@@ -123,7 +125,7 @@ const SiteInvetigate = () => {
 
                     <div>
                         <CardIconTopLeft
-                            iconUrl="/helmet.png"
+                            iconUrl="/Investigation_Techniques.png"
                             iconBackground="bg-white-100"
                             background="bg-Primary-100"
                             stroke={true}
@@ -142,7 +144,7 @@ const SiteInvetigate = () => {
                     {/* Row 3 */}
                     <div>
                         <CardIconTopLeft
-                            iconUrl="/helmet.png"
+                            iconUrl="/Investigation_Techniques.png"
                             iconBackground="bg-white-100"
                             background="bg-Primary-100"
                             stroke={true}
@@ -159,7 +161,7 @@ const SiteInvetigate = () => {
 
                     <div>
                         <CardIconTopLeft
-                            iconUrl="/helmet.png"
+                            iconUrl="/Investigation_Techniques.png"
                             iconBackground="bg-white-100"
                             background="bg-Primary-100"
                             stroke={true}
@@ -186,7 +188,7 @@ const SiteInvetigate = () => {
                 </div>
             </div>
 
-            <div className="max-w-[1300px] mx-auto mt-[94px]">
+            <div className="mx-auto mt-[94px] px-[30px] md:px-[110px] sm:px-[20px]">
                 {/* Header */}
                 <h1 className="text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-[32px] text-4xl text-center md:text-left">
                     Our Site Investigation Services Include
@@ -204,115 +206,118 @@ const SiteInvetigate = () => {
                     </div>
 
                     {/* Drilling */}
-                    <div className="col-span-1 md:col-span-4 md:row-span-3 bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
-                        <div className="bg">
-                            <img
-                                src="/helmet3.png"
-                                alt="helmet"
-                                className="w-[50px] h-[50px]"
-                            />
-                        </div>
-                        <h2 className="text-xl font-semibold mb-2 mt-4">
-                            Drilling
-                        </h2>
-                        <p className="text-gray-600">
-                            Equipped with advanced technology, our drilling team
+                    <div className="col-span-1 md:col-span-4 md:row-span-3">
+                        
+                        <CardIconTopLeft
+                            iconUrl="/Excavation_Services.png"
+                            iconBackground="bg-white-100"
+                            background="bg-Primary-100"
+                            stroke={true}
+                            titleText="Drilling"
+                            bodyText="Equipped with advanced technology, our drilling team
                             provides precise soil and rock samples from all
                             depths, even in challenging terrains. We adapt our
                             drilling approach to meet your project’s unique
                             requirements, ensuring dependable data on subsurface
-                            conditions.
-                        </p>
+                            conditions."
+                            titleColor="text-gray-900"
+                            bodyColor="text-gray-900"
+                            padding={true}
+                            backgroundHover={false}
+                        />
                     </div>
 
                     {/* Test Pits */}
-                    <div className="col-span-1 md:col-span-4 md:row-span-3 bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
-                        <div className="bg">
-                            <img
-                                src="/helmet3.png"
-                                alt="helmet"
-                                className="w-[50px] h-[50px]"
-                            />
-                        </div>
-                        <h2 className="text-xl font-semibold mb-2 mt-4">
-                            Test Pits
-                        </h2>
-                        <p className="text-gray-600">
-                            Our test pit excavations allow for direct
+                    <div className="col-span-1 md:col-span-4 md:row-span-3">
+                       
+                        <CardIconTopLeft
+                            iconUrl="/Excavation_Services.png"
+                            iconBackground="bg-white-100"
+                            background="bg-Primary-100"
+                            stroke={true}
+                            titleText="Test Pits"
+                            bodyText="Our test pit excavations allow for direct
                             observation of subsurface materials, providing
                             valuable insights into soil layers, groundwater
                             levels, and potential site challenges. Test pits are
                             a vital component for thorough site assessment and
-                            planning.
-                        </p>
+                            planning."
+                            titleColor="text-gray-900"
+                            bodyColor="text-gray-900"
+                            padding={true}
+                            backgroundHover={false}
+                        />
                     </div>
 
                     {/* In-Situ Testing */}
-                    <div className="col-span-1 md:col-span-4 md:row-span-3 bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
-                        <div className="bg">
-                            <img
-                                src="/helmet4.png"
-                                alt="helmet"
-                                className="w-[50px] h-[50px]"
-                            />
-                        </div>
-                        <h2 className="text-xl font-semibold mb-2 mt-4">
-                            In-Situ Testing
-                        </h2>
-                        <p className="text-gray-600">
-                            We conduct a variety of in-situ tests, such as
+                    <div className="col-span-1 md:col-span-4 md:row-span-3">
+                       
+
+                        <CardIconTopLeft
+                            iconUrl="/Excavation_Services.png"
+                            iconBackground="bg-white-100"
+                            background="bg-Primary-100"
+                            stroke={true}
+                            titleText="In-Situ Testing"
+                            bodyText="We conduct a variety of in-situ tests, such as
                             Standard Penetration Tests (SPT) and Cone
                             Penetration Testing (CPT), to measure soil
                             properties directly on-site. These methods ensure
                             highly accurate data without disturbing samples,
                             providing key insights into soil density, shear
-                            strength, and compaction.
-                        </p>
+                            strength, and compaction."
+                            titleColor="text-gray-900"
+                            bodyColor="text-gray-900"
+                            padding={true}
+                            backgroundHover={false}
+                        />
                     </div>
 
                     {/* Laboratory Investigations */}
-                    <div className="col-span-1 md:col-span-4 md:row-span-3 bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
-                        <div className="bg">
-                            <img
-                                src="/helmet3.png"
-                                alt="helmet"
-                                className="w-[50px] h-[50px]"
-                            />
-                        </div>
-                        <h2 className="text-xl font-semibold mb-2 mt-4">
-                            Laboratory Investigations
-                        </h2>
-                        <p className="text-gray-600">
-                            Our in-house lab is fully equipped for detailed
+                    <div className="col-span-1 md:col-span-4 md:row-span-3">
+                        
+
+                        <CardIconTopLeft
+                            iconUrl="/Excavation_Services.png"
+                            iconBackground="bg-white-100"
+                            background="bg-Primary-100"
+                            stroke={true}
+                            titleText="Laboratory Investigations"
+                            bodyText="Our in-house lab is fully equipped for detailed
                             analyses of soil, rock, and groundwater samples. Our
                             laboratory testing covers everything from moisture
                             content and grain size distribution to compaction
                             and Atterberg limits, delivering critical
-                            information for engineering and planning.
-                        </p>
+                            information for engineering and planning."
+                            titleColor="text-gray-900"
+                            bodyColor="text-gray-900"
+                            padding={true}
+                            backgroundHover={false}
+                        />
                     </div>
 
                     {/* Reporting */}
-                    <div className="col-span-1 md:col-span-4 md:row-span-3 bg-gray-50 p-6 rounded-3xl bg-[#F7FCFF] border-[1px] border-[#D1EDFF]">
-                        <div className="bg">
-                            <img
-                                src="/helmet3.png"
-                                alt="helmet"
-                                className="w-[50px] h-[50px]"
-                            />
-                        </div>
-                        <h2 className="text-xl font-semibold mb-2 mt-4">
-                            Reporting
-                        </h2>
-                        <p className="text-gray-600">
-                            We deliver detailed, actionable reports tailored to
+                    <div className="col-span-1 md:col-span-4 md:row-span-3">
+                    
+
+                        <CardIconTopLeft
+                            iconUrl="/Excavation_Services.png"
+                            iconBackground="bg-white-100"
+                            background="bg-Primary-100"
+                            stroke={true}
+                            titleText="Reporting"
+                            bodyText="We deliver detailed, actionable reports tailored to
                             industry standards and project-specific
                             requirements. Our reports provide a clear overview
                             of site conditions, potential challenges, and
                             engineering recommendations, empowering you with the
                             insights needed for confident, informed
-                            decision-making.
-                        </p>
+                            decision-making."
+                            titleColor="text-gray-900"
+                            bodyColor="text-gray-900"
+                            padding={true}
+                            backgroundHover={false}
+                        />
                     </div>
 
                     {/* Footer */}

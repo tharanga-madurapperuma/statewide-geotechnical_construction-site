@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
     InsHero,
     InsSecond,
@@ -12,10 +12,20 @@ import ButtonCard from "../../components/card/ButtonCard";
 import CardIconTopLeft from "../../components/card-icon-top-left/CardIconTopLeft";
 
 const Inspections = () => {
+    // Home top
+    useEffect(() => {
+        const element = document.getElementById("hero");
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    }, []);
     return (
-        <div className="w-full flex flex-col items-center bg-slate-background">
+        <div
+            className="w-full flex flex-col items-center bg-slate-background md:mt-[108px]"
+            id="hero"
+        >
             {/* Hero Component */}
-            <div className="mt-4 sm:mt-6 px-3 sm:px-4">
+            <div className="mt-4 sm:mt-0 px-3 sm:px-4">
                 <ButtonCard
                     image={InsHero}
                     title="Earthwork Inspections & Testing Services"
@@ -213,12 +223,12 @@ const Inspections = () => {
             </div>
 
             {/* Blue Component */}
-            <div className="w-full bg-[#EBF7FF] py-6 md:py-[64px]  px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px] mb-[64px] ">
+            <div className="w-full bg-[#EBF7FF] py-6 md:py-[64px]  px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px] mb-[64px]">
                 <TextSection
                     title="Why Choose Us for Earthwork Testing?"
                     description="With industry-leading expertise and rigorous adherence to Australian Standards, our Earthwork Inspection and Testing services provide the precision and oversight needed for secure and durable projects. Whether you need comprehensive supervision, detailed testing, or reliable material assessments, we are here to help you build with confidence."
                     buttonText="Get in Touch to Ensure Quality Earthwork"
-                    buttonLink="#"
+                    buttonLink="/contact/#contactForm"
                 />
             </div>
         </div>

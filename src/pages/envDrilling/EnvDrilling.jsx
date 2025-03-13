@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
     Arm,
     Bell,
+    Box,
+    Card,
+    Certificate,
     DocIcon,
     Dosar,
     DrillingBit,
@@ -20,10 +23,21 @@ import TextSection from "../../components/text/TextSection";
 import LicenseCard from "../../components/card-icon-license/CardIconLicense";
 
 const EnvDrilling = () => {
+    // Home top
+    useEffect(() => {
+        const element = document.getElementById("hero");
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    }, []);
+
     return (
-        <div className="w-full flex flex-col items-center bg-slate-background">
+        <div
+            className="w-full flex flex-col items-center bg-slate-background md:mt-[108px]"
+            id="hero"
+        >
             {/* Hero Component */}
-            <div className="mt-4 sm:mt-6 px-3 sm:px-0 ">
+            <div className="mt-4 sm:mt-0 px-3 sm:px-0 ">
                 <ButtonCard
                     image={EnvHero}
                     title="Specialized Environmental & Geotechnical Drilling Services"
@@ -78,35 +92,32 @@ const EnvDrilling = () => {
                 </div>
                 <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 flex-col sm:flex-row justify-center">
                     <LicenseCard
-                        image={DocIcon}
+                        image={Certificate}
                         title="Water Bore Licenses (Class 1 & 2)"
                     />
                     <LicenseCard
-                        image={DocIcon}
+                        image={Card}
                         title="Building Industry White Cards"
                     />
-                    <LicenseCard
-                        image={DocIcon}
-                        title="First Aid Certification"
-                    />
+                    <LicenseCard image={Box} title="First Aid Certification" />
                 </div>
             </div>
 
             {/* Map  */}
-            <div className="w-full pt-[50px] md:pt-[64px] pb-[70vw] sm:pb-[450px] md:pb-[600px] lg:pb-[650px] xl:pb-[50vw] 2xl:pb-[40vw] flex flex-col max-w-[1920px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
+            <div className="w-full pt-[50px] md:pt-[64px] pb-[70vw] sm:pb-[55vw] lg:pb-[50vw] 2xl:pb-[45vw] flex flex-col max-w-[1920px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
                 <h1 className="font-inter font-600 text-24 sm:text-28 md:text-32 lg:text-40 xl:text-48">
                     Service Area
                 </h1>
                 <div className="w-full flex mt-8 relative pb-[64px]">
                     <div className=" w-[60%] sm:w-[40%] md:w-[50%] lg:w-[40%] bg-blue-600 p-4 sm:p-6 lg:p-8 rounded-xl absolute right-[5%] top-0 z-20">
-                        <p className="font-inter font-500 text-12 sm:text-16 md:text-24 lg:text-32 text-white ">
+                        <p className="font-inter font-500 text-12 sm:text-16 md:text-24 lg:text-24 xl:text-32 text-white ">
                             We proudly serve the Melbourne metropolitan area, as
                             well as regions across Victoria and Southern New
                             South Wales.
                         </p>
                     </div>
                     <img
-                        className="w-[80%] absolute top-[70px] left-[5%] sm:w-[80%] md:w-[80%] lg:w-[70%] z-10"
+                        className="w-[80%] absolute top-[70px] left-[5%] sm:w-[80%] md:w-[80%] lg:w-[70%] max-w-[800px] z-10"
                         src={Map}
                     />
                 </div>
@@ -170,12 +181,12 @@ const EnvDrilling = () => {
                 </div>
             </div>
             {/* Blue background component */}
-            <div className="w-full bg-[#EBF7FF] py-6 md:py-[64px]  px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]  ">
+            <div className="w-full bg-[#EBF7FF] py-6 md:py-[64px]  px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]  mb-[64px]">
                 <TextSection
                     title="Why Choose Statewide Geotechnical for Your Environmental Drilling Needs?"
                     description="state-of-the-art equipment, experienced team, and commitment to safety and environmental responsibility make us the trusted choice for environmental and geotechnical drilling services."
                     buttonText="Get in Touch Today for Expert Drilling Solutions"
-                    buttonLink="#"
+                    buttonLink="/contact/#contactForm"
                 />
             </div>
         </div>

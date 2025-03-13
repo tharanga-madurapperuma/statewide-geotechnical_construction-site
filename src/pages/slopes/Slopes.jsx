@@ -179,11 +179,12 @@ const Slopes = () => {
                              Get a Consultation
                           </Link>
                         </span>
-                         <img className=' pl-1 flex w-6 h-6 pl-1' src={Arrowup} alt='Arrow up' />
+                         <img className=' pl-1 flex w-6 h-6' src={Arrowup} alt='Arrow up' />
                      </a>
                 </div>
 
                 </div>
+            </div>
             </div>
         </div>
     );

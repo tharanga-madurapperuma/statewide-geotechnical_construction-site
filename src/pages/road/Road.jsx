@@ -197,12 +197,13 @@ const Road = () => {
                         Get a Consultation
                         </span>
                       </Link>
-                         <img className=' pl-1 flex w-4 h-4 pl-1' src={Arrowup} alt='Arrow up' />
+                         <img className=' pl-1 flex w-4 h-4' src={Arrowup} alt='Arrow up' />
                      </a>
                 </div>
 
                 </div>
             </div>
+        </div>
         </div>
     );
 };

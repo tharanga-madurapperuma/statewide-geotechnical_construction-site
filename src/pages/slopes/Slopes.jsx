@@ -185,6 +185,7 @@ const Slopes = () => {
 
                 </div>
             </div>
+            </div>
         </div>
     );
 };

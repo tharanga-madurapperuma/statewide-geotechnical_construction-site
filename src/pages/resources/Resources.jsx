@@ -19,102 +19,90 @@ const Resources = () => {
                 />
             </div>
             {/* second Section*/}
-            <div className="-px-50 mt-[128px] md:px-0 w-full h-auto">
-                <div>
-                    <PolicyText
-                        title="1. Quality Assurance Policy"
-                        description="We strive for excellence in our engineering services. Our Quality Assurance Policy ensures that all projects are delivered to the highest standards, with thorough reviews conducted at every stage. Key aspects include:"
-                        bulletText={[
-                            "Comprehensive project planning and documentation",
-                            "Regular internal audits and reviews",
-                            "Client feedback mechanisms to continuously improve our services",
-                        ]}
-                    />
-                    <div className="pt-3 px-[95px]">
-                        <hr className="mt-4 border-[#D1D5DB]" />
-                    </div>
+
+            <div className='-px-50 mt-[128px] md:px-0 w-full h-auto'>
+            <div>
+                <PolicyText
+                    title="1. Quality Assurance Policy"
+                    description="We strive for excellence in our engineering services. Our Quality Assurance Policy ensures that all projects are delivered to the highest standards, with thorough reviews conducted at every stage. Key aspects include:"
+                    bulletText={[
+                        "Comprehensive project planning and documentation",
+                        "Regular internal audits and reviews",
+                        "Client feedback mechanisms to continuously improve our services",
+                    ]} 
+                />
+                <div className='py-[56px] px-[95px]'>
+                     <hr className="mt-4 border-[#D1D5DB]" />
                 </div>
-                <div>
-                    <PolicyText
-                        title="2. Safety Policy"
-                        description="The safety of our employees, clients, and the public is our top priority. Our Safety Policy encompasses:"
-                        bulletText={[
-                            "Compliance with all relevant health and safety regulations.",
-                            "Regular training and safety drills for staI.",
-                            "Implementation of risk management strategies on all job sites.",
-                        ]}
-                    />
-                    <div className="pt-3 px-[95px]">
-                        <hr className="mt-4 border-[#D1D5DB]" />
-                    </div>
+            </div>
+            <div>
+                <PolicyText
+                    title="2. Safety Policy"
+                    description="The safety of our employees, clients, and the public is our top priority. Our Safety Policy encompasses:"
+                    bulletText={[
+                        "Compliance with all relevant health and safety regulations.",
+                        "Regular training and safety drills for staI.",
+                        "Implementation of risk management strategies on all job sites.",
+                    ]} 
+                />
+                <div className='py-[56px] px-[95px]'>
+                     <hr className="mt-4 border-[#D1D5DB]" />
                 </div>
-                <div>
-                    <PolicyText
-                        title="3. Environmental Policy"
-                        description="We recognize the importance of sustainable practices in geotechnical engineering. Our Environmental Policy includes:"
-                        bulletText={[
-                            "Commitment to reducing our environmental impact.",
-                            "Sustainable resource management and waste reduction strategies.",
-                            "Compliance with environmental regulations and standards.",
-                        ]}
-                    />
-                    <div className="pt-3 px-[95px]">
-                        <hr className="mt-4 border-[#D1D5DB]" />
-                    </div>
+            </div>     
+            <div>
+                <PolicyText
+                    title="3. Environmental Policy"
+                    description="We recognize the importance of sustainable practices in geotechnical engineering. Our Environmental Policy includes:"
+                    bulletText={[
+                        "Commitment to reducing our environmental impact.",
+                        "Sustainable resource management and waste reduction strategies.",
+                        "Compliance with environmental regulations and standards.",
+                    ]} 
+                />
+                <div className='py-[56px] px-[95px]'>
+                     <hr className="mt-4 border-[#D1D5DB]" />
                 </div>
-                <div>
-                    <PolicyText
-                        title="4. Confidentiality Policy"
-                        description="We understand the importance of confidentiality in our client relationships. Our Confidentiality Policy covers:"
-                        bulletText={[
-                            "Protection of client information and project details.",
-                            "Non-disclosure agreements for sensitive information.",
-                            "Secure handling of all documents and data.",
-                        ]}
-                    />
-                    <div className="pt-3 px-[95px]">
-                        <hr className="mt-4 border-[#D1D5DB]" />
-                    </div>
+            </div>
+            <div>
+                <PolicyText
+                    title="4. Confidentiality Policy"
+                    description="We understand the importance of confidentiality in our client relationships. Our Confidentiality Policy covers:"
+                    bulletText={[
+                        "Protection of client information and project details.",
+                        "Non-disclosure agreements for sensitive information.",
+                        "Secure handling of all documents and data.",
+                    ]} 
+                />
+                <div className='py-[56px] px-[95px]'>
+                     <hr className="mt-4 border-[#D1D5DB]" />
                 </div>
-                <div>
-                    <PolicyText
-                        title="5. Complaints and Feedback Policy"
-                        description="We welcome feedback and are committed to addressing any concerns. Our Complaints and Feedback Policy outlines:"
-                        bulletText={[
-                            "A straightforward process for submitting complaints or suggestions.",
-                            "Timely responses to all feedback received.",
-                            "Regular reviews of complaints to improve our services.",
-                        ]}
-                    />
-                    <div className="pt-3 px-[95px]">
-                        <hr className="mt-4 border-[#D1D5DB]" />
-                    </div>
+            </div>
+            <div>
+                <PolicyText
+                    title="5. Complaints and Feedback Policy"
+                    description="We welcome feedback and are committed to addressing any concerns. Our Complaints and Feedback Policy outlines:"
+                    bulletText={[
+                        "A straightforward process for submitting complaints or suggestions.",
+                        "Timely responses to all feedback received.",
+                        "Regular reviews of complaints to improve our services.",
+                    ]} 
+                />
+                <div className='py-[56px] px-[95px]'>
+                     <hr className="mt-4 border-[#D1D5DB]" />
                 </div>
-                <div>
-                    <PolicyText
-                        title="6. Data Protection and Privacy Policy"
-                        description="We prioritize the privacy of our clients and employees. Our Data Protection and Privacy Policy ensures:"
-                        bulletText={[
-                            "Compliance with all applicable data protection laws.",
-                            "Secure storage and processing of personal information.",
-                            "Transparency in how we collect, use, and store data.",
-                        ]}
-                    />
-                    <div className="pt-3 px-[95px]">
-                        <hr className="mt-4 border-[#D1D5DB]" />
-                    </div>
-                </div>
-                <div>
-                    <PolicyText
-                        title="7. Insurance and Liability Documentation"
-                        description="To protect our clients and employees, we maintain comprehensive insurance coverage, including:"
-                        bulletText={[
-                            "Professional Indemnity Insurance",
-                            "Public Liability Insurance",
-                            "Fleet and Equipment Insurance",
-                            "WorkCover Insurance",
-                        ]}
-                    />
+            </div>
+            <div>
+                <PolicyText
+                    title="6. Data Protection and Privacy Policy"
+                    description="We prioritize the privacy of our clients and employees. Our Data Protection and Privacy Policy ensures:"
+                    bulletText={[
+                        "Compliance with all applicable data protection laws.",
+                        "Secure storage and processing of personal information.",
+                        "Transparency in how we collect, use, and store data.",
+                    ]} 
+                />
+                <div className='py-[56px] px-[95px]'>
+                     <hr className="mt-4 border-[#D1D5DB]" />
                 </div>
             </div>
 

@@ -134,7 +134,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="w-full col-span-1 ">
-                        <div className="w-full xs:pl-8 sm:pl-0">
+                        <div className="w-full xs:pl-8 sm:pl-0 md:pl-8 lg:pl-[50px] xl:pl-[100px]">
                             <span className="font-poppins font-600 text-14 md:text-14 lg:text-16 xl:text-16">
                                 Quick Links
                             </span>
@@ -142,9 +142,7 @@ const Footer = () => {
                                 <Link to={"/aboutus"}>
                                     <p className="mb-2">About us</p>
                                 </Link>
-                                <Link to={"#"}>
-                                    <p className="mb-2">Services</p>
-                                </Link>
+
                                 <Link to={"/contact"}>
                                     <p className="mb-2">Contact Us</p>
                                 </Link>

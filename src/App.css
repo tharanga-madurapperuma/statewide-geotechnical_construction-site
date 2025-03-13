@@ -160,30 +160,31 @@
 .swiper-button-prev,
 .swiper-button-next {
     position: absolute;
-    top: 50%;
+    top: 98% !important;
     transform: translateY(-50%);
     width: 30px; /* Adjust as needed */
     height: 30px; /* Adjust as needed */
     color: rgb(255, 255, 255) !important; /* Optional: for better visibility */
-    z-index: 10;
+    z-index: 1000;
+    font-weight: 700 !important;
 }
 
 .swiper-button-prev {
     position: absolute;
-    left: 20px; /* Adjust as needed */
-    color: rgb(255, 255, 255) !important;
+    left: 40% !important; /* Adjust as needed */
+    color: rgba(0, 0, 0, 0.7) !important;
     padding: 20px;
     border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .swiper-button-next {
     position: absolute;
-    right: 20px; /* Adjust as needed */
-    color: rgb(255, 255, 255) !important;
+    right: 40% !important; /* Adjust as needed */
+    color: rgba(0, 0, 0, 0.7) !important;
     padding: 20px;
     border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .mySwiper {
@@ -193,6 +194,25 @@
 
 .swiper-wrapper {
     overflow: visible !important;
+    padding-bottom: 50px;
+}
+
+.services:hover .services-icon {
+    color: rgba(0, 100, 255, 1);
+}
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 8px !important;
+    z-index: 0;
+}
+
+.swiper-pagination-bullet {
+    background-color: rgba(0, 0, 0, 0.666) !important;
+    width: 10px !important;
+    height: 10px !important;
 }
 
 /* ANIMATIONS */
@@ -220,5 +240,50 @@
     }
     to {
         height: auto; /* Expand to 120% width */
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .swiper-button-prev {
+        left: 35% !important;
+    }
+
+    .swiper-button-next {
+        right: 35% !important;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .swiper-button-prev {
+        left: 35% !important;
+    }
+
+    .swiper-button-next {
+        right: 35% !important;
+    }
+
+    .swiper-pagination-fraction,
+    .swiper-pagination-custom,
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+        bottom: 4px !important;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .swiper-button-prev {
+        left: 25% !important;
+    }
+
+    .swiper-button-next {
+        right: 25% !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .swiper-pagination-bullet {
+        background-color: rgba(0, 0, 0, 0.666) !important;
+        width: 8px !important;
+        height: 8px !important;
     }
 }

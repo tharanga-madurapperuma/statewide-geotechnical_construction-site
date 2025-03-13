@@ -75,6 +75,7 @@ import Weight from "./drilling/icons/weight.svg";
 import WallDrill from "./drilling/icons/wallDrill.svg";
 import WellAttaches from "./drilling/icons/wellAttaches.svg";
 import Man from "./drilling/icons/man.svg";
+import TwoMen from "./drilling/icons/twoMenWhite.svg";
 
 import FlaskWhite from "./drilling/icons/flaskWhite.svg";
 import ManWhite from "./drilling/icons/manWhite.svg";
@@ -247,6 +248,7 @@ export {
     DocWhite,
     Hero,
     DrillingSecond,
+    TwoMen,
 };
 
 // Env Drilling Page

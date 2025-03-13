@@ -155,8 +155,8 @@ const LandCapability = () => {
                         Let Statewide Geotechnical help you unlock the full potential of your land. With our commitment to accuracy, sustainability, and regulatory compliance, we provide the insights needed to bring your project to life while respecting and preserving the natural environment.
                         </p>
             
-                        <div className='text-left text-[15px] font-medium mt-4 text-blue-600 pt-40 '>
-                            <a href='#' className='flex items-center'>
+                        <div className='flex mt-4 pt-[40px]'>
+                            <a href='#' className='flex text-[#4E61F6] font-medium text-center md:text-left text-base sm:text-lg border-b-2 border-transparent hover:border-blue-600 transition duration-300'>
                               <Link to="/contact">
                                 <span className='mr-1 text-[18px]'>
                                     Get a Consultation

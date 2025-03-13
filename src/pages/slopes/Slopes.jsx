@@ -175,8 +175,8 @@ const Slopes = () => {
                   Trust Statewide Geotechnical to deliver comprehensive, science-backed solutions for slopes and stability. With our commitment to precision and safety, we provide the expertise and support you need for stable, reliable, and successful construction on any terrain.
                   </p>
 
-                  <div className='text-left text-[15px] font-medium mt-4 text-blue-600 pt-[40px]'>
-                     <a href='#' className='flex items-center'>
+                  <div className='flex mt-4 pt-[40px]'>
+                     <a href='#' className='flex text-[#4E61F6] font-medium text-center md:text-left text-base sm:text-lg border-b-2 border-transparent hover:border-blue-600 transition duration-300'>
                         <span className='mr-1 text-[18px]'>
                           <Link to="/contact">
                              Get a Consultation

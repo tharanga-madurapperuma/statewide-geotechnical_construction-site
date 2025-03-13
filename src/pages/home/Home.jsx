@@ -39,38 +39,6 @@ const Home = () => {
     const [isHovering, setIsHovering] = useState(false);
     const [isAtEdge, setIsAtEdge] = useState(false);
 
-    useEffect(() => {
-        const handleWheel = (event) => {
-            if (isHovering && swiperRef.current && swiperRef.current.swiper) {
-                const swiper = swiperRef.current.swiper;
-
-                // If at the first or last slide, allow vertical scrolling
-                if (isAtEdge) {
-                    return;
-                }
-
-                event.preventDefault(); // Prevent vertical scrolling
-
-                if (event.deltaY > 0) {
-                    swiper.slideNext();
-                } else {
-                    swiper.slidePrev();
-                }
-            }
-        };
-
-        const mainDiv = mainDivRef.current;
-        if (mainDiv) {
-            mainDiv.addEventListener("wheel", handleWheel, { passive: false });
-        }
-
-        return () => {
-            if (mainDiv) {
-                mainDiv.removeEventListener("wheel", handleWheel);
-            }
-        };
-    }, [isHovering, isAtEdge]);
-
     // Home top
     useEffect(() => {
         const element = document.getElementById("hero");
@@ -198,12 +166,7 @@ const Home = () => {
                             </div>
                             <div className="w-full h-[150px] md:w-[80%] xl:w-[65%] sm:h-[170px] md:h-[200px] xl:h-[220px] mt-15 md:mt-[100px] lg:mt-[150px] xl:mt-[142px] mb-2 xl:mb-[] lg:mb-0 sm:flex sm:relative bottom-0">
                                 <div className="bg-white w-full sm:w-2/3 h-full rounded-3xl">
-                                    <div
-                                        className="flex h-full cursor-pointer items-center"
-                                        onClick={() => {
-                                            navigate("/aboutus");
-                                        }}
-                                    >
+                                    <div className="flex h-full cursor-pointer items-center">
                                         <div className="h-full w-2/5 flex items-center justify-center">
                                             <img
                                                 className="object-cover h-[80%] w-[80%] rounded-2xl"
@@ -369,6 +332,9 @@ const Home = () => {
                                         keyboard={{
                                             enabled: true,
                                         }}
+                                        pagination={{
+                                            clickable: true,
+                                        }}
                                         navigation={true}
                                         modules={[
                                             Keyboard,
@@ -391,6 +357,9 @@ const Home = () => {
                                         spaceBetween={10}
                                         keyboard={{
                                             enabled: true,
+                                        }}
+                                        pagination={{
+                                            clickable: true,
                                         }}
                                         navigation={true}
                                         modules={[
@@ -421,6 +390,9 @@ const Home = () => {
                                         spaceBetween={32}
                                         keyboard={{ enabled: true }}
                                         navigation={true}
+                                        pagination={{
+                                            clickable: true,
+                                        }}
                                         onSlideChange={() => {
                                             const swiper =
                                                 swiperRef.current.swiper;

@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Close, Logo, Menu } from "../../assets/assets";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { IoIosArrowDown } from "react-icons/io";
 import "../../App.css";
 
@@ -10,6 +10,7 @@ const Navbar = () => {
     const navigate = useNavigate();
     const [activeMenu, setActiveMenu] = useState("home");
     const [servicesMenuOpen, setServicesMenuOpen] = useState(false);
+    const location = useLocation();
 
     const submenuItems = [
         { name: "Geotechnical Drilling & Testing", url: "/drilling" },
@@ -21,13 +22,28 @@ const Navbar = () => {
         { name: "Site Investigations", url: "/siteinvetigate" },
     ];
 
+    useEffect(() => {
+        const path = location.pathname;
+        if (path === "/") {
+            setActiveMenu("home");
+        } else if (path === "/aboutus") {
+            setActiveMenu("about");
+        } else if (path === "/resources") {
+            setActiveMenu("resources");
+        } else if (path === "/contact") {
+            setActiveMenu("contact");
+        } else if (submenuItems.some((item) => item.url === path)) {
+            setActiveMenu("services");
+        }
+    }, [location.pathname]);
+
     return (
         <div className="md:h-[92px] w-full md:w-full bg-slate-background z-100 fixed">
             {/* NAVBAR FOR DESKTOP */}
             <div className="hidden md:flex justify-between items-center py-6 px-80 lg:px-[100px] xl:px-[110px] w-full h-full">
                 <div className="h-full sm:w-[30%]">
                     <img
-                        className="h-full"
+                        className="h-full cursor-pointer"
                         src={Logo}
                         alt="Logo"
                         onClick={() => {
@@ -41,9 +57,10 @@ const Navbar = () => {
                         <li
                             className="cursor-pointer hover:text-blue-600 transition duration-300 flex flex-col items-center relative"
                             onClick={() => {
-                                navigate("/");
-                                setActiveMenu("home");
                                 setMenuOpen(false);
+                                setShowSubmenu(false);
+                                setActiveMenu("home");
+                                navigate("/");
                             }}
                         >
                             Home
@@ -54,9 +71,10 @@ const Navbar = () => {
                         <li
                             className="cursor-pointer hover:text-blue-600 transition duration-300 flex flex-col items-center relative"
                             onClick={() => {
-                                navigate("/aboutus");
-                                setActiveMenu("about");
                                 setMenuOpen(false);
+                                setShowSubmenu(false);
+                                setActiveMenu("about");
+                                navigate("/aboutus");
                             }}
                         >
                             About
@@ -64,9 +82,9 @@ const Navbar = () => {
                                 <div className="line-animation bg-blue-600 absolute -bottom-1 left-1/2 transform -translate-x-1/2"></div>
                             ) : null}
                         </li>
-                        <li className="cursor-pointer hover:text-blue-600 transition duration-300 -pb-3 relative">
+                        <li className=" cursor-pointer hover:text-blue-600 transition duration-300 -pb-3 relative">
                             <div
-                                className="flex flex-col items-center relative"
+                                className="services flex flex-col items-center relative"
                                 onClick={() => {
                                     setActiveMenu("services");
                                     setShowSubmenu(!showSubmenu);
@@ -75,7 +93,7 @@ const Navbar = () => {
                             >
                                 <div className="flex items-center">
                                     Services{" "}
-                                    <span className="ml-1 text-gray-500">
+                                    <span className="ml-1 text-gray-500 services-icon">
                                         <IoIosArrowDown />
                                     </span>
                                 </div>
@@ -83,11 +101,7 @@ const Navbar = () => {
 
                             {/* Submenu */}
                             {showSubmenu && (
-                                <ul
-                                    className="p-2 absolute left-0 w-[250px] bg-white shadow-md rounded-lg z-50"
-                                    onMouseEnter={() => setShowSubmenu(true)}
-                                    onMouseLeave={() => setShowSubmenu(false)}
-                                >
+                                <ul className="p-2 absolute left-0 w-[250px] bg-white shadow-md rounded-lg z-50">
                                     {submenuItems.map((item, index) => (
                                         <li
                                             key={index}
@@ -106,9 +120,10 @@ const Navbar = () => {
                         <li
                             className="cursor-pointer hover:text-blue-600 transition duration-300 flex flex-col items-center relative"
                             onClick={() => {
-                                navigate("/resources");
-                                setActiveMenu("resources");
                                 setMenuOpen(false);
+                                setShowSubmenu(false);
+                                setActiveMenu("resources");
+                                navigate("/resources");
                             }}
                         >
                             Resources
@@ -119,9 +134,10 @@ const Navbar = () => {
                         <li
                             className="cursor-pointer hover:text-blue-600 transition duration-300 flex flex-col items-center relative"
                             onClick={() => {
-                                navigate("/contact");
-                                setActiveMenu("contact");
                                 setMenuOpen(false);
+                                setShowSubmenu(false);
+                                setActiveMenu("contact");
+                                navigate("/contact");
                             }}
                         >
                             Contact Us
@@ -135,9 +151,9 @@ const Navbar = () => {
 
             {/* NAVBAR FOR SMALL SCREENS */}
             <div className="md:hidden relative z-20 w-full pb-4 sm:pb-[20px] md:pb-0">
-                <div className="h-full w-full flex justify-between items-center px-8 pt-4 sm:px-80">
+                <div className="h-full w-full flex justify-between items-center px-8 pt-4 sm:px-80 ">
                     <img
-                        className="w-[50%] sm:w-[40%] top-0 left-0"
+                        className="w-[50%] xs:w-[40%] sm:w-[40%] top-0 left-0 cursor-pointer"
                         src={Logo}
                         alt="Logo"
                         onClick={() => {

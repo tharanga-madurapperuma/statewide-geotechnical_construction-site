@@ -14,6 +14,7 @@ import {
     Weight,
     WellAttaches,
     WellWall,
+    TwoMen,
 } from "../../assets/assets";
 import CardIconTextCenterColored from "../../components/card-icon-text-center/CardIconTextCenterColored";
 import ButtonCard from "../../components/card/ButtonCard";
@@ -184,23 +185,23 @@ const Drilling = () => {
                         </p>
                         <div className="w-full grid grid-cols-1 gap-4 mt-4 sm:grid-cols-2 md:grid-cols-3 md:mt-6 lg:mt-8">
                             <CardIconTextCenterColored
+                                iconUrl={TwoMen}
+                                titleText="Site Investigations"
+                                bodyTextPresent={true}
+                                bodyText="Our experts ensure precise geotechnical analysis, advanced drilling, and reliable site assessments for safe construction."
+                            />
+                            <CardIconTextCenterColored
                                 iconUrl={FlaskWhite}
                                 titleText="Laboratory Testing"
                                 bodyTextPresent={true}
-                                bodyText="Our in-house lab conducts a wide range of soil and rock tests."
+                                bodyText="Our in-house lab conducts a wide range of soil and rock tests, accredited by NATA."
                             />
                             <CardIconTextCenterColored
                                 iconUrl={ManWhite}
                                 titleText="Engineering Assessments"
-                                bodyTextPresent={false}
-                                bodyText="Our expert engineers analyze geotechnical
-conditions and provide detailed recommendations."
-                            />
-                            <CardIconTextCenterColored
-                                iconUrl={DocWhite}
-                                titleText="Comprehensive Reporting"
                                 bodyTextPresent={true}
-                                bodyText="We deliver complete reports with actionable insights to guide project decisions."
+                                bodyText="Our expert engineers analyse geotechnical
+conditions and provide detailed recommendations."
                             />
                         </div>
                     </div>

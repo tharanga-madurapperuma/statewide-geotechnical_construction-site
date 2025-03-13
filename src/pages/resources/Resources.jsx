@@ -31,7 +31,7 @@ const Resources = () => {
                         "Client feedback mechanisms to continuously improve our services",
                     ]} 
                 />
-                <div className='pt-3 px-[95px]'>
+                <div className='py-[56px] px-[95px]'>
                      <hr className="mt-4 border-[#D1D5DB]" />
                 </div>
             </div>
@@ -45,7 +45,7 @@ const Resources = () => {
                         "Implementation of risk management strategies on all job sites.",
                     ]} 
                 />
-                <div className='pt-3 px-[95px]'>
+                <div className='py-[56px] px-[95px]'>
                      <hr className="mt-4 border-[#D1D5DB]" />
                 </div>
             </div>     
@@ -59,7 +59,7 @@ const Resources = () => {
                         "Compliance with environmental regulations and standards.",
                     ]} 
                 />
-                <div className='pt-3 px-[95px]'>
+                <div className='py-[56px] px-[95px]'>
                      <hr className="mt-4 border-[#D1D5DB]" />
                 </div>
             </div>
@@ -73,7 +73,7 @@ const Resources = () => {
                         "Secure handling of all documents and data.",
                     ]} 
                 />
-                <div className='pt-3 px-[95px]'>
+                <div className='py-[56px] px-[95px]'>
                      <hr className="mt-4 border-[#D1D5DB]" />
                 </div>
             </div>
@@ -87,7 +87,7 @@ const Resources = () => {
                         "Regular reviews of complaints to improve our services.",
                     ]} 
                 />
-                <div className='pt-3 px-[95px]'>
+                <div className='py-[56px] px-[95px]'>
                      <hr className="mt-4 border-[#D1D5DB]" />
                 </div>
             </div>
@@ -101,7 +101,7 @@ const Resources = () => {
                         "Transparency in how we collect, use, and store data.",
                     ]} 
                 />
-                <div className='pt-3 px-[95px]'>
+                <div className='py-[56px] px-[95px]'>
                      <hr className="mt-4 border-[#D1D5DB]" />
                 </div>
             </div>

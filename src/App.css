@@ -194,3 +194,31 @@
 .swiper-wrapper {
     overflow: visible !important;
 }
+
+/* ANIMATIONS */
+
+.line-animation {
+    height: 2px;
+    width: 0; /* Start with 0 width */
+    border-radius: 2px;
+    margin: 0 auto; /* Center the line */
+    animation: expandLine 0.3s forwards; /* Animation duration and fill mode */
+}
+
+@keyframes expandLine {
+    from {
+        width: 0; /* Start from 0 width */
+    }
+    to {
+        width: 120%; /* Expand to 120% width */
+    }
+}
+
+@keyframes down-animation {
+    from {
+        height: 0; /* Start from 0 width */
+    }
+    to {
+        height: auto; /* Expand to 120% width */
+    }
+}

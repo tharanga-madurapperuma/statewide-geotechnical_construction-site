@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import CardIconTextCenter from "../../components/card-icon-text-center/CardIconTextCenter";
 import {
     DocWhite,
@@ -21,16 +21,26 @@ import InfoSection from "../../components/info-section/InfoSection";
 import TextSection from "../../components/text/TextSection";
 
 const Drilling = () => {
+    // Home top
+    useEffect(() => {
+        const element = document.getElementById("hero");
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    }, []);
     return (
-        <div className="w-full flex flex-col items-center bg-slate-background">
+        <div
+            className="w-full flex flex-col items-center bg-slate-background md:mt-[108px]"
+            id="hero"
+        >
             {/* Hero Hashan Component */}
 
             {/* Sevindu Component */}
-            <div className="mt-4 sm:mt-6 px-3 sm:px-0">
+            <div className="mt-4 sm:mt-6 md:mt-0 px-3 sm:px-0">
                 <ButtonCard
-                    image={Hero}
+                    image={DrillingSecond}
                     title="Expert Geotechnical Drilling, Testing, and Consulting Services"
-                    description="Statewide Geotechnical provides a full range of geotechnical services, including drilling, sampling, down-hole testing, and monitoring bore installation. We serve a wide variety of clients, including engineers, architects, government agencies, and developers, offering customized solutions for every project."
+                    description="Statewide Geotechnical provides a full range of geotechnical services, including drilling, sampling, in-situ testing, and monitoring bore installation. We serve a wide variety of projects including residential, commercial, utility and infrastructure developments."
                     buttonText="Request a Consultation"
                 />
             </div>
@@ -41,7 +51,7 @@ const Drilling = () => {
                     description="Operating across Melbourne and throughout Victoria, we are equipped to handle a variety of challenging project requirements. Whether you're working with tight or difficult access sites, or need low-head clearance machinery, our specialized team and advanced equipment ensure the job is done efficiently and accurately."
                     buttonText=""
                     buttonLink=""
-                    imageSrc={DrillingSecond}
+                    imageSrc={Hero}
                     reverse={false}
                 />
             </div>
@@ -104,7 +114,7 @@ const Drilling = () => {
                     <h1 className="font-inter font-600 text-28 md:text-40 lg:text-48 w-full sm:w-[80%] ">
                         Our Comprehensive Geotechnical Services
                     </h1>
-                    <h4 className="font-inter font-500 text-18 mt-2 md:text-28 lg:text-32">
+                    {/* <h4 className="font-inter font-500 text-18 mt-2 md:text-28 lg:text-32">
                         Drill-Only Services
                     </h4>
                     <p className="font-inter font-400 text-14 mt-2 md:text-18 lg:text-24">
@@ -160,7 +170,7 @@ const Drilling = () => {
                             bodyTextPresent={true}
                             bodyText="For on-site soil strength assessments"
                         />
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="w-full flex flex-col items-center bg-slate-50">
@@ -198,13 +208,13 @@ conditions and provide detailed recommendations."
             </div>
 
             {/* Blue text */}
-            <div className="w-full flex flex-col items-center bg-[#EBF7FF]">
+            <div className="w-full flex flex-col items-center bg-[#EBF7FF] mb-[64px]">
                 <div className="w-full bg-[#EBF7FF] py-6 md:py-[64px]  px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px] max-w-[1920px]">
                     <TextSection
                         title="Why Choose Statewide Geotechnical?"
                         description="Operating across Melbourne and throughout Victoria, we are equipped to handle a variety of challenging project requirements. Whether you're working with tight or difficult access sites, or need low-head clearance machinery, our specialized team and advanced equipment ensure the job is done efficiently and accurately."
                         buttonText="Get in Touch Today for Expert Geotechnical Services"
-                        buttonLink="#"
+                        buttonLink="/contact/#contactForm"
                     />
                 </div>
             </div>

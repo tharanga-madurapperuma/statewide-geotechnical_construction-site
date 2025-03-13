@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const LandCapability = () => {
     return (
-        <div className="w-full flex flex-col items-center bg-slate-background">
+        <div className="w-full flex flex-col items-center bg-slate-background md:mt-[108px]">
             {/* First Section */}
             <div>
                 <ButtonCard
@@ -156,6 +156,7 @@ const LandCapability = () => {
                             environment.
                         </p>
 
+
                         <div className="text-left text-[15px] font-medium mt-4 text-blue-600 pt-40 ">
                             <a href="#" className="flex items-center">
                                 <Link to="/contact">
@@ -168,6 +169,7 @@ const LandCapability = () => {
                                     src={Arrowup}
                                     alt="Arrow up"
                                 />
+
                             </a>
                         </div>
                     </div>

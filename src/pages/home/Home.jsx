@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Callbox from "../../components/callbox/Callbox";
 import Card from "../../components/card/Card";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -14,7 +14,7 @@ import {
     EnvironmentalDrilling,
     FoundationEngineering,
     GeotechnicalDrillingTesting,
-    HeroSection2,
+    HomeOnly,
     Icon1,
     Icon2,
     Icon3,
@@ -34,6 +34,51 @@ import {
 const Home = () => {
     const navigate = useNavigate();
 
+    const swiperRef = useRef(null);
+    const mainDivRef = useRef(null);
+    const [isHovering, setIsHovering] = useState(false);
+    const [isAtEdge, setIsAtEdge] = useState(false);
+
+    useEffect(() => {
+        const handleWheel = (event) => {
+            if (isHovering && swiperRef.current && swiperRef.current.swiper) {
+                const swiper = swiperRef.current.swiper;
+
+                // If at the first or last slide, allow vertical scrolling
+                if (isAtEdge) {
+                    return;
+                }
+
+                event.preventDefault(); // Prevent vertical scrolling
+
+                if (event.deltaY > 0) {
+                    swiper.slideNext();
+                } else {
+                    swiper.slidePrev();
+                }
+            }
+        };
+
+        const mainDiv = mainDivRef.current;
+        if (mainDiv) {
+            mainDiv.addEventListener("wheel", handleWheel, { passive: false });
+        }
+
+        return () => {
+            if (mainDiv) {
+                mainDiv.removeEventListener("wheel", handleWheel);
+            }
+        };
+    }, [isHovering, isAtEdge]);
+
+    // Home top
+    useEffect(() => {
+        const element = document.getElementById("hero");
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    }, []);
+
     const services = [
         {
             image: GeotechnicalDrillingTesting,
@@ -49,18 +94,18 @@ const Home = () => {
                 "Specialized drilling for groundwater studies, contamination assessments, and environmental compliance.",
             link: "envdrilling",
         },
-        {
-            image: EarthworkInspections,
-            title: "Earthwork Inspections",
-            description:
-                "Comprehensive testing and inspections to ensure soil compaction, stability, and compliance with construction standards.",
-            link: "inspections",
-        },
+        // {
+        //     image: EarthworkInspections,
+        //     title: "Earthwork Inspections",
+        //     description:
+        //         "Comprehensive testing and inspections to ensure soil compaction, stability, and compliance with construction standards.",
+        //     link: "inspections",
+        // },
         {
             image: SoilRockTesting,
             title: "Soil & Rock Testing",
             description:
-                "Laboratory analysis of soil, rock, and aggregates to assess strength, composition, and suitability for construction.",
+                "NATA Accredited Laboratory facilities analysing soil and rock properties for sustainability and safety.",
             link: "soil",
         },
         {
@@ -84,13 +129,13 @@ const Home = () => {
                 "Evaluation of soil, drainage, and environmental factors to determine land suitability for development and agriculture.",
             link: "land",
         },
-        {
-            image: RetainingWallsExcavation,
-            title: "Retaining Walls & Excavation",
-            description:
-                "Geotechnical assessments for safe excavation and retaining wall design to prevent soil movement and structural damage.",
-            link: "retaining",
-        },
+        // {
+        //     image: RetainingWallsExcavation,
+        //     title: "Retaining Walls & Excavation",
+        //     description:
+        //         "Geotechnical assessments for safe excavation and retaining wall design to prevent soil movement and structural damage.",
+        //     link: "retaining",
+        // },
         {
             image: SiteInvestigations,
             title: "Site Investigations",
@@ -98,16 +143,20 @@ const Home = () => {
                 "Comprehensive on-site assessments to identify ground conditions, potential risks, and construction feasibility.",
             link: "siteinvetigate",
         },
-        {
-            image: FoundationEngineering,
-            title: "Foundation Engineering",
-            description:
-                "Expert analysis and design of strong, stable foundations for residential, commercial, and industrial structures.",
-            link: "foundationbuilt",
-        },
+        // {
+        //     image: FoundationEngineering,
+        //     title: "Foundation Engineering",
+        //     description:
+        //         "Expert analysis and design of strong, stable foundations for residential, commercial, and industrial structures.",
+        //     link: "foundationbuilt",
+        // },
     ];
     return (
-        <div className="flex flex-col w-full bg-slate-background">
+        <div
+            className="flex flex-col w-full bg-slate-background md:mt-[108px] mt-[45px] sm:mt-[70px]"
+            id="hero"
+            ref={mainDivRef}
+        >
             {/* HOME - FIRST SECTION */}
             <div className="h-auto w-full">
                 <div className="w-full h-auto flex flex-col items-center">
@@ -116,7 +165,7 @@ const Home = () => {
                         <div
                             className="w-full h-auto rounded-2xl p-6 xl:pl-[94px] xl:pt-[96px] xl:pb-[96px] sm:p-[54px] md:p-[64px] lg:p-[84px] xl:p-0 flex flex-col justify-between sm:relative"
                             style={{
-                                background: `url(${HeroSection2})`,
+                                background: `url(${HomeOnly})`,
                                 backgroundRepeat: "no-repeat",
                                 backgroundSize: "cover",
                             }}
@@ -127,9 +176,8 @@ const Home = () => {
                                     <br /> on Solid Foundations.
                                 </h1>
                                 <p className="w-[90%] lg:w-[60%] mt-[14px] font-poppins font-400 text-gray-600 text-12 sm:text-14 md:text-16 lg:text-18 xl:text-24">
-                                    We provide custom geotechnical engineering
-                                    solutions designed to support your project's
-                                    success.
+                                    Established, Reliable, Multi-Disciplinary,
+                                    Accredited
                                 </p>
                                 <div className="flex flex-col sm:flex-row items-start sm:items-center sm:mt-[32px] mt-8">
                                     <button
@@ -138,7 +186,7 @@ const Home = () => {
                                         }}
                                         className="w-auto text-nowrap h-40 md:h-[44px] lg:h-[48px] xl:h-[50px] bg-blue-600 hover:bg-blue-700  text-white rounded-xl font-inter font-600 text-12 md:text-14 lg:text-16 xl:text-18 px-4 md:px-8 transition duration-500 cursor-pointer"
                                     >
-                                        Let's Talk
+                                        Get a Quote
                                     </button>
                                     <div className="w-auto hidden h-[38px] md:h-[42px] lg:h-[46px] xl:h-[48px] text-nowrap bg-transparent hover:bg-blue-transparent  text-blue-600 hover:text-blue-700 outline-2 hover:outline-blue-800 outline-solid outline-blue-600 font-inter font-600 text-12 md:text-14 lg:text-16 xl:text-18 rounded-lg items-center justify-center px-4 md:px-8 mt-2 sm:mt-0 sm:ml-4  transition duration-500 cursor-pointer">
                                         <p className="mr-2 font-medium">
@@ -164,17 +212,17 @@ const Home = () => {
                                                 }
                                             />
                                         </div>
-                                        <div className="h-full w-3/5 pr-4 flex flex-col justify-center font-inter font-600 text-14 md:text-18 lg:text-24">
+                                        <div className="h-full w-3/5 pr-4 flex flex-col justify-center font-inter font-600 text-14 md:text-18 lg:text-[20px] xl:text-24">
                                             <h3 className="text-gray-950">
-                                                Discover Our Expertise in
-                                                Geotechnical Solutions
+                                                Laying Strong Foundations for
+                                                Tomorrow's Structures
                                             </h3>
                                             <p className="text-gray-700 mt-4 font-inter font-400 text-[11px] md:text-14 lg:text-14">
-                                                Learn how our in-house drilling,
-                                                testing, and reporting ensure
-                                                efficiency, quality, and
-                                                cost-effective results for every
-                                                project.
+                                                Our expert geotechnical team
+                                                provides precise drilling,
+                                                testing, and reporting to ensure
+                                                stability, safety, and
+                                                efficiency for every project.
                                             </p>
                                         </div>
                                     </div>
@@ -186,7 +234,7 @@ const Home = () => {
                                             1K+
                                         </h1>
                                         <span className="font-inter font-400 text-24 ">
-                                            Customers
+                                            Clients
                                         </span>
                                     </div>
                                 </div>
@@ -202,20 +250,9 @@ const Home = () => {
                 <div className="mt-[50px] sm:mt-[100px] md:mt-40 xl:mt-[128px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
                     <InfoSection
                         title="Who We Are"
-                        description="At Statewide Geotechnical, we specialize in
-                        delivering expert geotechnical drilling,
-                        testing, and consulting services across
-                        Melbourne, Victoria, and Southern New South
-                        Wales. With advanced equipment and a team of
-                        highly qualified professionals, we provide
-                        precise site assessments, environmental
-                        drilling, and geotechnical solutions tailored to
-                        your project needs. Our commitment to safety,
-                        accuracy, and efficiency makes us the trusted
-                        partner for engineers, developers, and
-                        government agencies."
+                        description="At Statewide Geotechnical, we specialise in delivering expert geotechnical drilling, testing, and consulting services across Melbourne, Victoria, South Australia, and New South Wales. With advanced equipment and a team of highly qualified professionals, we provide precise site assessments, environmental drilling, and geotechnical solutions tailored to your project needs. Our commitment to safety, accuracy, and efficiency makes us the trusted partner for engineers, developers, and government agencies."
                         buttonText="Learn More About Us"
-                        buttonLink="#"
+                        buttonLink="/aboutus"
                         imageSrc={WhoWeAre}
                         reverse={false}
                     />
@@ -279,18 +316,17 @@ const Home = () => {
                                             </p>
                                         </div>
                                         <h2 className="font-inter font-600 text-24 md:text-3 lg:text-40 text-gray-900">
-                                            Drilling Service
+                                            Site Investigation
                                         </h2>
                                         <p className="font-inter font-400 text-gray-600 text-14 md:text-16 lg:text-18">
-                                            Our Drilling Services provide
+                                            Our consultancy services provide
                                             precise and efficient solutions for
-                                            geotechnical and environmental
-                                            investigations. Using advanced
-                                            drilling techniques, we ensure
-                                            accurate soil and rock sampling,
-                                            groundwater monitoring, and site
-                                            assessments for safe and stable
-                                            construction.
+                                            geotechnical and laboratory testing.
+                                            Using advanced drilling techniques,
+                                            we ensure accurate soil and rock
+                                            sampling, groundwater monitoring,
+                                            and site assessments for safe and
+                                            stable construction.
                                         </p>
                                         <div className="flex flex-col md:flex-row items-center justify-start w-full mt-4 md:mt-0">
                                             <div className="flex items-center justify-left w-full">
@@ -298,7 +334,7 @@ const Home = () => {
                                                     <img src={Check} />
                                                 </div>
                                                 <div className="font-inter font-600 text-gray-900 text-24 md:text-28 lg:text-32 pl-2 ">
-                                                    1150+
+                                                    30000+
                                                 </div>
                                                 <div className="font-inter font-400 text-gray-600 text-12 md:text-14 lg:text-18 pl-2">
                                                     Successful
@@ -311,12 +347,12 @@ const Home = () => {
                                                     <img src={Check} />
                                                 </div>
                                                 <div className="font-inter font-600 text-gray-900 text-24 md:text-28 lg:text-32 pl-2 ">
-                                                    40+
+                                                    30+
                                                 </div>
                                                 <div className="font-inter font-400 text-gray-600 text-12 md:text-14 lg:text-18 pl-2">
-                                                    Industry
+                                                    Years of
                                                     <br />
-                                                    Partners
+                                                    Excellence
                                                 </div>
                                             </div>
                                         </div>
@@ -371,14 +407,28 @@ const Home = () => {
                                         ))}
                                     </Swiper>
                                 </div>
-                                <div className="hidden md:block sm:w-full md:w-full md:mt-2 xl:w-full sm:px-0">
+                                <div
+                                    className="hidden md:block sm:w-full md:w-full md:mt-2 xl:w-full sm:px-0"
+                                    onMouseEnter={() => setIsHovering(true)}
+                                    onMouseLeave={() => {
+                                        setIsHovering(false);
+                                        setIsAtEdge(false); // 🔥 Reset this when mouse leaves
+                                    }}
+                                >
                                     <Swiper
+                                        ref={swiperRef}
                                         slidesPerView={4}
                                         spaceBetween={32}
-                                        keyboard={{
-                                            enabled: true,
-                                        }}
+                                        keyboard={{ enabled: true }}
                                         navigation={true}
+                                        onSlideChange={() => {
+                                            const swiper =
+                                                swiperRef.current.swiper;
+                                            setIsAtEdge(
+                                                swiper.isBeginning ||
+                                                    swiper.isEnd
+                                            );
+                                        }}
                                         modules={[
                                             Keyboard,
                                             Pagination,
@@ -406,6 +456,12 @@ const Home = () => {
                                 <h1 className="font-inter font-600 text-gray-800 text-28 sm:text-32 md:text-40 lg:text-56 xl:text-62">
                                     Why Choose Us?
                                 </h1>
+                                <p className="text-gray-900 pt-40 font-inter font-400 text-14 sm:text-16 md:text-18 lg:text-24">
+                                    Comprehensive ground investigations,
+                                    NATA-accredited soil and rock testing, and
+                                    technical reporting—all under one roof for
+                                    seamless, reliable results.
+                                </p>
                             </div>
                             <div className="w-full grid grid-cols-2 gap-4 sm:grid-cols-4 justify-evenly mt-8 md:mt-48 lg:mt-62 xl:mt-80">
                                 <div className="flex flex-col justify-start items-center">

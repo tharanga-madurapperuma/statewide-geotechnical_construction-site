@@ -94,13 +94,13 @@ const Home = () => {
                 "Specialized drilling for groundwater studies, contamination assessments, and environmental compliance.",
             link: "envdrilling",
         },
-        {
-            image: EarthworkInspections,
-            title: "Earthwork Inspections",
-            description:
-                "Comprehensive testing and inspections to ensure soil compaction, stability, and compliance with construction standards.",
-            link: "inspections",
-        },
+        // {
+        //     image: EarthworkInspections,
+        //     title: "Earthwork Inspections",
+        //     description:
+        //         "Comprehensive testing and inspections to ensure soil compaction, stability, and compliance with construction standards.",
+        //     link: "inspections",
+        // },
         {
             image: SoilRockTesting,
             title: "Soil & Rock Testing",
@@ -129,13 +129,13 @@ const Home = () => {
                 "Evaluation of soil, drainage, and environmental factors to determine land suitability for development and agriculture.",
             link: "land",
         },
-        {
-            image: RetainingWallsExcavation,
-            title: "Retaining Walls & Excavation",
-            description:
-                "Geotechnical assessments for safe excavation and retaining wall design to prevent soil movement and structural damage.",
-            link: "retaining",
-        },
+        // {
+        //     image: RetainingWallsExcavation,
+        //     title: "Retaining Walls & Excavation",
+        //     description:
+        //         "Geotechnical assessments for safe excavation and retaining wall design to prevent soil movement and structural damage.",
+        //     link: "retaining",
+        // },
         {
             image: SiteInvestigations,
             title: "Site Investigations",
@@ -143,17 +143,17 @@ const Home = () => {
                 "Comprehensive on-site assessments to identify ground conditions, potential risks, and construction feasibility.",
             link: "siteinvetigate",
         },
-        {
-            image: FoundationEngineering,
-            title: "Foundation Engineering",
-            description:
-                "Expert analysis and design of strong, stable foundations for residential, commercial, and industrial structures.",
-            link: "foundationbuilt",
-        },
+        // {
+        //     image: FoundationEngineering,
+        //     title: "Foundation Engineering",
+        //     description:
+        //         "Expert analysis and design of strong, stable foundations for residential, commercial, and industrial structures.",
+        //     link: "foundationbuilt",
+        // },
     ];
     return (
         <div
-            className="flex flex-col w-full bg-slate-background md:mt-[108px]"
+            className="flex flex-col w-full bg-slate-background md:mt-[108px] mt-[45px] sm:mt-[70px]"
             id="hero"
             ref={mainDivRef}
         >

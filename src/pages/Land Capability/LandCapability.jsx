@@ -38,7 +38,7 @@ const LandCapability = () => {
                             <div className="col-span-1 row-span-1 sm:w-full">
                                 <CardIconTopLeft
                                     iconUrl={DownMan}
-                                    iconBackground="bg-white-100"
+                                    iconBackground="bg-white"
                                     background="bg-Primary-100"
                                     stroke={true}
                                     titleText="Soil and Geotechnical Analysis"

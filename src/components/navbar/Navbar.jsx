@@ -108,6 +108,8 @@ const Navbar = () => {
                                             className="px-4 py-3 text-[16px] blue-600 text-gray-700 hover:bg-gray-100 hover:text-blue-600 cursor-pointer"
                                             onClick={() => {
                                                 setActiveMenu("services");
+                                                setMenuOpen(false);
+                                                setShowSubmenu(false);
                                                 navigate(item.url);
                                             }}
                                         >

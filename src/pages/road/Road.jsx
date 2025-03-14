@@ -32,7 +32,7 @@ const Road = () => {
                             <div className="col-span-1 row-span-1 sm:w-full">
                                 <CardIconTopLeft
                                     iconUrl={RoadIcon}
-                                    iconBackground="bg-white-100"
+                                    iconBackground="bg-white"
                                     background="bg-Primary-100"
                                     stroke={true}
                                     titleText="Pavement Type Selection and Design"
@@ -44,7 +44,7 @@ const Road = () => {
                                 />
                             </div>
 
-                            <div className="col-span-1 row-span-1 h-[450px]">
+                            <div className="col-span-1 row-span-1 h-auto">
                                 <img
                                     src={Road1}
                                     alt="Engineers"

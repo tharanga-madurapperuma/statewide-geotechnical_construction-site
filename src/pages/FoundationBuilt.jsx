@@ -25,7 +25,7 @@ const FoundationBuilt = () => {
                 />
             </div>
 
-            <div className="max-w-[1300px] mx-auto mt-[94px]">
+            <div className="mx-auto mt-[94px] px-[30px] md:px-[110px] sm:px-[20px]">
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-900 font-inter mb-6 md:mb-[32px] text-center md:text-left">
                     Foundation Solutions for Every Project
                 </h1>
@@ -79,7 +79,7 @@ const FoundationBuilt = () => {
                     </div>
 
                     {/* Tablet Layout (md) - 2-column layout */}
-                    <div className="hidden md:grid lg:hidden grid-cols-2 gap-6 px-4">
+                    <div className="hidden md:grid lg:hidden grid-cols-2 gap-6">
                         <div className="col-span-1">
                             <CardIconTopLeft
                                 iconUrl="/Frame2218.png"
@@ -125,7 +125,7 @@ const FoundationBuilt = () => {
                     </div>
 
                     {/* Small Tablet Layout (sm) - 2-column but different arrangement */}
-                    <div className="hidden sm:grid md:hidden grid-cols-2 gap-4 px-4">
+                    <div className="hidden sm:grid md:hidden grid-cols-2 gap-4">
                         <div className="col-span-2">
                             <CardIconTopLeft
                                 iconUrl="/Frame2218.png"
@@ -171,7 +171,7 @@ const FoundationBuilt = () => {
                     </div>
 
                     {/* Mobile Layout (xs) - Single column stacked */}
-                    <div className="block sm:hidden px-4 space-y-6">
+                    <div className="block sm:hidden space-y-6">
                         <div>
                             <CardIconTopLeft
                                 iconUrl="/Frame2218.png"
@@ -218,7 +218,7 @@ const FoundationBuilt = () => {
                 </div>
             </div>
 
-            <div className="max-w-[1300px] mx-auto mt-[94px]">
+            <div className="mx-auto mt-[94px] px-[30px] md:px-[110px] sm:px-[20px]">
                 {/* Heading */}
                 <h1 className="text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-[32px] text-4xl text-center md:text-left">
                     Foundation Design and Analysis
@@ -249,7 +249,7 @@ const FoundationBuilt = () => {
                             />
                         </div>
 
-                        <div className="col-span-3 row-span-4 col-start-1 row-start-5 flex flex-col justify-center items-start pl-6 text-left">
+                        <div className="col-span-3 row-span-4 col-start-1 row-start-5 flex flex-col justify-center items-start text-left">
                             <CardIconTopLeft
                                 iconUrl="/helmet.png"
                                 iconBackground="bg-white-100"
@@ -276,7 +276,7 @@ const FoundationBuilt = () => {
                         </div>
 
                         {/* Right Column */}
-                        <div className="col-span-3 row-span-4 col-start-7 row-start-1 flex flex-col justify-center items-start pl-6">
+                        <div className="col-span-3 row-span-4 col-start-7 row-start-1 flex flex-col justify-center items-start ">
                             <CardIconTopLeft
                                 iconUrl="/helmet.png"
                                 iconBackground="bg-white-100"
@@ -293,7 +293,7 @@ const FoundationBuilt = () => {
                             />
                         </div>
 
-                        <div className="col-span-3 row-span-4 col-start-7 row-start-5 flex flex-col justify-center items-start pl-6">
+                        <div className="col-span-3 row-span-4 col-start-7 row-start-5 flex flex-col justify-center items-start ">
                             <CardIconTopLeft
                                 iconUrl="/helmet.png"
                                 iconBackground="bg-white-100"
@@ -314,7 +314,7 @@ const FoundationBuilt = () => {
                     {/* Tablet View (sm to md) */}
                     <div className="hidden sm:block md:hidden">
                         {/* Top Section - Image */}
-                        <div className="mb-6 px-4">
+                        <div className="mb-6">
                             <img
                                 src="/Frame2237.png"
                                 alt="Foundation Analysis"
@@ -323,8 +323,8 @@ const FoundationBuilt = () => {
                         </div>
 
                         {/* Bottom Section - 2x2 Grid */}
-                        <div className="grid grid-cols-2 gap-6 px-4">
-                            <div className="flex flex-col justify-center items-start pl-6 text-left mb-6">
+                        <div className="grid grid-cols-2 gap-6">
+                            <div className="flex flex-col justify-center items-start text-left mb-6">
                                 <CardIconTopLeft
                                     iconUrl="/helmet.png"
                                     iconBackground="bg-white-100"
@@ -340,7 +340,7 @@ const FoundationBuilt = () => {
                                 />
                             </div>
 
-                            <div className="flex flex-col justify-center items-start pl-6 text-left mb-6">
+                            <div className="flex flex-col justify-center items-start text-left mb-6">
                                 <CardIconTopLeft
                                     iconUrl="/helmet.png"
                                     iconBackground="bg-white-100"
@@ -357,7 +357,7 @@ const FoundationBuilt = () => {
                                 />
                             </div>
 
-                            <div className="flex flex-col justify-center items-start pl-6 text-left mb-6">
+                            <div className="flex flex-col justify-center items-start text-left mb-6">
                                 <CardIconTopLeft
                                     iconUrl="/helmet.png"
                                     iconBackground="bg-white-100"
@@ -374,7 +374,7 @@ const FoundationBuilt = () => {
                                 />
                             </div>
 
-                            <div className="flex flex-col justify-center items-start pl-6 text-left mb-6">
+                            <div className="flex flex-col justify-center items-start text-left mb-6">
                                 <CardIconTopLeft
                                     iconUrl="/helmet.png"
                                     iconBackground="bg-white-100"
@@ -396,7 +396,7 @@ const FoundationBuilt = () => {
                     {/* Mobile View (xs to sm) */}
                     <div className="block sm:hidden">
                         {/* Top Image */}
-                        <div className="mb-6 px-4">
+                        <div className="mb-6">
                             <img
                                 src="/Frame2237.png"
                                 alt="Foundation Analysis"
@@ -405,8 +405,8 @@ const FoundationBuilt = () => {
                         </div>
 
                         {/* Stacked Cards */}
-                        <div className="space-y-6 px-4">
-                            <div className="flex flex-col justify-center items-start pl-4 text-left">
+                        <div className="space-y-6">
+                            <div className="flex flex-col justify-center items-start text-left">
                                 <CardIconTopLeft
                                     iconUrl="/helmet.png"
                                     iconBackground="bg-white-100"
@@ -422,7 +422,7 @@ const FoundationBuilt = () => {
                                 />
                             </div>
 
-                            <div className="flex flex-col justify-center items-start pl-4 text-left">
+                            <div className="flex flex-col justify-center items-start text-left">
                                 <CardIconTopLeft
                                     iconUrl="/helmet.png"
                                     iconBackground="bg-white-100"
@@ -439,7 +439,7 @@ const FoundationBuilt = () => {
                                 />
                             </div>
 
-                            <div className="flex flex-col justify-center items-start pl-4 text-left">
+                            <div className="flex flex-col justify-center items-start text-left">
                                 <CardIconTopLeft
                                     iconUrl="/helmet.png"
                                     iconBackground="bg-white-100"
@@ -477,7 +477,7 @@ const FoundationBuilt = () => {
                 </div>
             </div>
 
-            <div className="max-w-[1300px] mx-auto mt-[94px]">
+            <div className="mx-auto mt-[94px] px-[30px] md:px-[110px] sm:px-[20px]">
                 {/* Header Section */}
                 <h1 className="text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-[32px] text-4xl text-center md:text-left">
                     Pile Foundations
@@ -603,7 +603,7 @@ const FoundationBuilt = () => {
                 </div>
             </div>
 
-            <div className="max-w-[1300px] mx-auto mt-[94px]">
+            <div className="mx-auto mt-[94px] px-[30px] md:px-[110px] sm:px-[20px]">
                 {/* Header Section */}
                 <h1 className="text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-[32px] text-4xl text-center md:text-left">
                     Shallow Foundations
@@ -723,7 +723,7 @@ const FoundationBuilt = () => {
                     title="Partner with Statewide Geotechnical for Reliable, Cost-Effective Foundations"
                     description="With expertise in both shallow and deep foundation systems, Statewide Geotechnical is equipped to provide a foundation solution perfectly aligned with your project’s needs. Whether it’s residential, commercial, or infrastructure, our in-house team of experts ensures safety, reliability, and efficiency from the ground up. Make Statewide Geotechnical (Aust) Pty Ltd your foundation partner, and experience the assurance of quality and value at every stage."
                     buttonText="Request a Consultation!"
-                    buttonLink="www.google.com"
+                    buttonLink="/contact"
                 />
             </div>
         </div>

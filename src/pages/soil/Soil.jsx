@@ -44,7 +44,7 @@ const Soil = () => {
                             <div className="col-span-1 row-span-1 sm:w-full">
                                 <CardIconTopLeft
                                     iconUrl={CardIconSoil}
-                                    iconBackground="bg-white-100"
+                                    iconBackground="bg-white"
                                     background="bg-Primary-100"
                                     stroke={true}
                                     titleText="Particle Size Distribution (AS 1141.11)"

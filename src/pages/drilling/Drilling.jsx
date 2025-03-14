@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import CardIconTextCenter from "../../components/card-icon-text-center/CardIconTextCenter";
 import {
     DocWhite,
@@ -14,6 +14,7 @@ import {
     Weight,
     WellAttaches,
     WellWall,
+    TwoMen,
 } from "../../assets/assets";
 import CardIconTextCenterColored from "../../components/card-icon-text-center/CardIconTextCenterColored";
 import ButtonCard from "../../components/card/ButtonCard";
@@ -21,16 +22,26 @@ import InfoSection from "../../components/info-section/InfoSection";
 import TextSection from "../../components/text/TextSection";
 
 const Drilling = () => {
+    // Home top
+    useEffect(() => {
+        const element = document.getElementById("hero");
+        if (element) {
+            window.scrollBy({ top: -100, behavior: "smooth" });
+        }
+    }, []);
     return (
-        <div className="w-full flex flex-col items-center bg-slate-background md:mt-[108px]">
+        <div
+            className="w-full flex flex-col items-center bg-slate-background md:mt-[108px]"
+            id="hero"
+        >
             {/* Hero Hashan Component */}
 
             {/* Sevindu Component */}
             <div className="mt-4 sm:mt-6 md:mt-0 px-3 sm:px-0">
                 <ButtonCard
-                    image={Hero}
+                    image={DrillingSecond}
                     title="Expert Geotechnical Drilling, Testing, and Consulting Services"
-                    description="Statewide Geotechnical provides a full range of geotechnical services, including drilling, sampling, down-hole testing, and monitoring bore installation. We serve a wide variety of clients, including engineers, architects, government agencies, and developers, offering customized solutions for every project."
+                    description="Statewide Geotechnical provides a full range of geotechnical services, including drilling, sampling, in-situ testing, and monitoring bore installation. We serve a wide variety of projects including residential, commercial, utility and infrastructure developments."
                     buttonText="Request a Consultation"
                 />
             </div>
@@ -41,7 +52,7 @@ const Drilling = () => {
                     description="Operating across Melbourne and throughout Victoria, we are equipped to handle a variety of challenging project requirements. Whether you're working with tight or difficult access sites, or need low-head clearance machinery, our specialized team and advanced equipment ensure the job is done efficiently and accurately."
                     buttonText=""
                     buttonLink=""
-                    imageSrc={DrillingSecond}
+                    imageSrc={Hero}
                     reverse={false}
                 />
             </div>
@@ -104,7 +115,7 @@ const Drilling = () => {
                     <h1 className="font-inter font-600 text-28 md:text-40 lg:text-48 w-full sm:w-[80%] ">
                         Our Comprehensive Geotechnical Services
                     </h1>
-                    <h4 className="font-inter font-500 text-18 mt-2 md:text-28 lg:text-32">
+                    {/* <h4 className="font-inter font-500 text-18 mt-2 md:text-28 lg:text-32">
                         Drill-Only Services
                     </h4>
                     <p className="font-inter font-400 text-14 mt-2 md:text-18 lg:text-24">
@@ -160,7 +171,7 @@ const Drilling = () => {
                             bodyTextPresent={true}
                             bodyText="For on-site soil strength assessments"
                         />
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="w-full flex flex-col items-center bg-slate-50">
@@ -174,23 +185,23 @@ const Drilling = () => {
                         </p>
                         <div className="w-full grid grid-cols-1 gap-4 mt-4 sm:grid-cols-2 md:grid-cols-3 md:mt-6 lg:mt-8">
                             <CardIconTextCenterColored
+                                iconUrl={TwoMen}
+                                titleText="Site Investigations"
+                                bodyTextPresent={true}
+                                bodyText="Our experts ensure precise geotechnical analysis, advanced drilling, and reliable site assessments for safe construction."
+                            />
+                            <CardIconTextCenterColored
                                 iconUrl={FlaskWhite}
                                 titleText="Laboratory Testing"
                                 bodyTextPresent={true}
-                                bodyText="Our in-house lab conducts a wide range of soil and rock tests."
+                                bodyText="Our in-house lab conducts a wide range of soil and rock tests, accredited by NATA."
                             />
                             <CardIconTextCenterColored
                                 iconUrl={ManWhite}
                                 titleText="Engineering Assessments"
-                                bodyTextPresent={false}
-                                bodyText="Our expert engineers analyze geotechnical
-conditions and provide detailed recommendations."
-                            />
-                            <CardIconTextCenterColored
-                                iconUrl={DocWhite}
-                                titleText="Comprehensive Reporting"
                                 bodyTextPresent={true}
-                                bodyText="We deliver complete reports with actionable insights to guide project decisions."
+                                bodyText="Our expert engineers analyse geotechnical
+conditions and provide detailed recommendations."
                             />
                         </div>
                     </div>
@@ -198,13 +209,13 @@ conditions and provide detailed recommendations."
             </div>
 
             {/* Blue text */}
-            <div className="w-full flex flex-col items-center bg-[#EBF7FF]">
+            <div className="w-full flex flex-col items-center bg-[#EBF7FF] mb-[64px]">
                 <div className="w-full bg-[#EBF7FF] py-6 md:py-[64px]  px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px] max-w-[1920px]">
                     <TextSection
                         title="Why Choose Statewide Geotechnical?"
                         description="Operating across Melbourne and throughout Victoria, we are equipped to handle a variety of challenging project requirements. Whether you're working with tight or difficult access sites, or need low-head clearance machinery, our specialized team and advanced equipment ensure the job is done efficiently and accurately."
                         buttonText="Get in Touch Today for Expert Geotechnical Services"
-                        buttonLink="#"
+                        buttonLink="/contact/#contactForm"
                     />
                 </div>
             </div>

@@ -38,7 +38,7 @@ const LandCapability = () => {
                             <div className="col-span-1 row-span-1 sm:w-full">
                                 <CardIconTopLeft
                                     iconUrl={DownMan}
-                                    iconBackground="bg-white-100"
+                                    iconBackground="bg-white"
                                     background="bg-Primary-100"
                                     stroke={true}
                                     titleText="Soil and Geotechnical Analysis"
@@ -156,6 +156,7 @@ const LandCapability = () => {
                             environment.
                         </p>
 
+
                         <div className="text-left text-[15px] font-medium mt-4 text-blue-600 pt-40 ">
                             <a href="#" className="flex items-center">
                                 <Link to="/contact">
@@ -164,10 +165,11 @@ const LandCapability = () => {
                                     </span>
                                 </Link>
                                 <img
-                                    className=" pl-1 flex w-4 h-4 pl-1"
+                                    className=" pl-1 flex w-4 h-4"
                                     src={Arrowup}
                                     alt="Arrow up"
                                 />
+
                             </a>
                         </div>
                     </div>

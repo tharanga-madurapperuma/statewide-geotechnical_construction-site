@@ -11,7 +11,7 @@ const CTAComponent = () => {
       ></div>
 
       {/* Left section */}
-      <div className="flex py-2 text-center my-6 px-[36px] md:pl-[55px]">
+      <div className="flex py-2 text-left my-6 px-[36px] md:pl-[55px]">
         <h1 className="text-[32px] sm:text-[36px] md:text-[45px] lg:text-[58px] leading-[36px] sm:leading-[46px] md:leading-[68px] font-bold">
           Start your journey <br />
           with us now
@@ -19,7 +19,7 @@ const CTAComponent = () => {
       </div>
 
       {/* Right section */}
-      <div className="mt-3 flex-1 text-center md:text-left px-[36px] md:pr-40">
+      <div className="mt-3 py-5 flex-1 text-center md:text-left px-[36px] md:pr-40">
         <p className="text-sm sm:text-base md:text-lg leading-6 sm:leading-7 mb-4 md:mb-3">
           Need expert drilling solutions? Contact us today for a consultation or
           request a quote. Our team is ready to assist with your geotechnical
@@ -28,9 +28,9 @@ const CTAComponent = () => {
           and Southern NSW.
         </p>
         <Link to="/contact" className="text-blue-600 hover:underline">
-        <button className="text-[#fff] font-semibold pt-7 pb-5 px-6 md:px-1 rounded-full transition duration-300">
+        <a href="#" className="text-[#fff] font-semibold pt-7 pb-5 px-6 md:px-1 rounded-full transition duration-300">
           Request a Quote Now →
-        </button>
+        </a>
         </Link>
       </div>
     </div>

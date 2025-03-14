@@ -32,7 +32,7 @@ const Road = () => {
                             <div className="col-span-1 row-span-1 sm:w-full">
                                 <CardIconTopLeft
                                     iconUrl={RoadIcon}
-                                    iconBackground="bg-white-100"
+                                    iconBackground="bg-white"
                                     background="bg-Primary-100"
                                     stroke={true}
                                     titleText="Pavement Type Selection and Design"
@@ -44,7 +44,7 @@ const Road = () => {
                                 />
                             </div>
 
-                            <div className="col-span-1 row-span-1 h-[450px]">
+                            <div className="col-span-1 row-span-1 h-auto">
                                 <img
                                     src={Road1}
                                     alt="Engineers"
@@ -176,40 +176,34 @@ const Road = () => {
                 />
             </div>
 
-            <div className="px-[30px] md:px-[110px] sm:px-[20px]">
-                {/* Fourth Section */}
-                <div className="flex w-full -mt-[64px] h-auto bg-white-100 py-21">
-                    <div className="flex flex-col items-left justify-left w-full h-auto">
-                        <h2 className="text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left">
-                            Statewide Geotechnical (Aust) Pty Ltd – Your Partner
-                            for Resilient Road Infrastructure
-                        </h2>
-                        <p className="text-base sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0">
-                            From local access roads to high-capacity highways,
-                            trust Statewide Geotechnical to provide road
-                            pavement design solutions that stand the test of
-                            time. With our experience and dedication to quality,
-                            we deliver safe, sustainable, and high-performance
-                            pavements for all types of infrastructure projects.
-                        </p>
 
-                        <div className="text-left text-[15px] font-medium mt-4 text-blue-600 -pb-15 ">
-                            <a href="#" className="flex items-center">
-                                <Link to="/contact">
-                                    <span className="mr-1 text-[18px]">
-                                        Get a Consultation
-                                    </span>
-                                </Link>
-                                <img
-                                    className=" pl-1 flex w-4 h-4 pl-1"
-                                    src={Arrowup}
-                                    alt="Arrow up"
-                                />
-                            </a>
-                        </div>
-                    </div>
+          <div className='px-[30px] md:px-[110px] sm:px-[20px]'>
+
+            {/* Fourth Section */}
+            <div className='flex w-full -mt-[64px] h-auto bg-white-100 py-21'>
+                <div className='flex flex-col items-left justify-left w-full h-auto'>
+                  <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
+                  Statewide Geotechnical (Aust) Pty Ltd – Your Partner for Resilient Road Infrastructure
+
+                  </h2>
+                  <p className='text-base sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
+                  From local access roads to high-capacity highways, trust Statewide Geotechnical to provide road pavement design solutions that stand the test of time. With our experience and dedication to quality, we deliver safe, sustainable, and high-performance pavements for all types of infrastructure projects.
+                  </p>
+
+                  <div className='flex mt-4 pt-[40px]'>
+                     <a href='#' className='flex text-[#4E61F6] font-medium text-center md:text-left text-base sm:text-lg border-b-2 border-transparent hover:border-blue-600 transition duration-300'>
+                      <Link to="/contact">
+                        <span className='mr-1 text-[18px]'>
+                        Get a Consultation
+                        </span>
+                      </Link>
+                         <img className=' pl-1 flex w-4 h-4' src={Arrowup} alt='Arrow up' />
+                     </a>
+                </div>
+
                 </div>
             </div>
+        </div>
         </div>
     );
 };

@@ -37,7 +37,7 @@ const Slopes = () => {
                             <div className="col-span-1 row-span-1 sm:w-full">
                                 <CardIconTopLeft
                                     iconUrl={WorkerHat}
-                                    iconBackground="bg-white-100"
+                                    iconBackground="bg-white"
                                     background="bg-Primary-100"
                                     stroke={true}
                                     titleText="Geotechnical Site Assessment"
@@ -158,39 +158,33 @@ const Slopes = () => {
                     description="With our expert team and state-of-the-art analysis tools, Statewide Geotechnical provides reliable slope and stability assessments that empower you to make informed decisions about site design and safety. Our assessments offer clear, actionable recommendations to help manage risk, maintain site integrity, and ensure regulatory compliance. Whether for residential, commercial, or infrastructure projects, we tailor our solutions to meet the unique demands of each site, enhancing safety and stability for years to come."
                 />
             </div>
-            <div className="px-[30px] md:px-[110px] sm:px-[20px]">
-                {/* Fourth Section */}
-                <div className="flex w-full h-auto bg-white-100 py-21 mb-[64px] -mt-[64px]">
-                    <div className="flex flex-col items-left justify-left w-full h-auto">
-                        <h2 className="text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left">
-                            Statewide Geotechnical (Aust) Pty Ltd – Your Partner
-                            for Slope Stability and Safety
-                        </h2>
-                        <p className="text-base sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0">
-                            Trust Statewide Geotechnical to deliver
-                            comprehensive, science-backed solutions for slopes
-                            and stability. With our commitment to precision and
-                            safety, we provide the expertise and support you
-                            need for stable, reliable, and successful
-                            construction on any terrain.
-                        </p>
 
-                        <div className="text-left text-[15px] font-medium mt-4 text-blue-600 pt-[40px]">
-                            <a href="#" className="flex items-center">
-                                <span className="mr-1 text-[18px]">
-                                    <Link to="/contact">
-                                        Get a Consultation
-                                    </Link>
-                                </span>
-                                <img
-                                    className=" pl-1 flex w-6 h-6"
-                                    src={Arrowup}
-                                    alt="Arrow up"
-                                />
-                            </a>
-                        </div>
-                    </div>
+            <div className='px-[30px] md:px-[110px] sm:px-[20px]'>
+  
+            {/* Fourth Section */}
+            <div className='flex w-full h-auto bg-white-100 py-21 mb-[64px] -mt-[64px]'>
+                <div className='flex flex-col items-left justify-left w-full h-auto'>
+                  <h2 className='text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-4 text-4xl text-center md:text-left'>
+                  Statewide Geotechnical (Aust) Pty Ltd – Your Partner for Slope Stability and Safety
+
+                  </h2>
+                  <p className='text-base sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0'>
+                  Trust Statewide Geotechnical to deliver comprehensive, science-backed solutions for slopes and stability. With our commitment to precision and safety, we provide the expertise and support you need for stable, reliable, and successful construction on any terrain.
+                  </p>
+
+                  <div className='flex mt-4 pt-[40px]'>
+                     <a href='#' className='flex text-[#4E61F6] font-medium text-center md:text-left text-base sm:text-lg border-b-2 border-transparent hover:border-blue-600 transition duration-300'>
+                        <span className='mr-1 text-[18px]'>
+                          <Link to="/contact">
+                             Get a Consultation
+                          </Link>
+                        </span>
+                         <img className=' pl-1 flex w-6 h-6' src={Arrowup} alt='Arrow up' />
+                     </a>
                 </div>
+
+                </div>
+            </div>
             </div>
         </div>
     );

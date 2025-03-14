@@ -1,25 +1,56 @@
-import React from "react"
-import HeroSection from "../../components/hero-section/HeroSection"
-import LicenseCard from "../../components/card-icon-license/CardIconLicense"
-import {DocIcon} from "../../assets/assets"
-import AppointmentRequestForm from "../../components/form/AppointmentRequestForm"
-import {BsDribbble, BsInstagram} from "react-icons/bs"
-import {RiTwitterLine} from "react-icons/ri"
-import ContactCard from "../../components/contacts/ContactCard"
-import {FaMapMarkerAlt} from "react-icons/fa"
-import {IoIosMail} from "react-icons/io"
-import {IoCall} from "react-icons/io5"
+import React, { useEffect } from "react";
+import HeroSection from "../../components/hero-section/HeroSection";
+import LicenseCard from "../../components/card-icon-license/CardIconLicense";
+import { DocIcon } from "../../assets/assets";
+import AppointmentRequestForm from "../../components/form/AppointmentRequestForm";
+import { BsDribbble, BsInstagram } from "react-icons/bs";
+import { RiTwitterLine } from "react-icons/ri";
+import ContactCard from "../../components/contacts/ContactCard";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
+import { IoCall } from "react-icons/io5";
+import { useLocation } from "react-router-dom";
 
 const ContactPage = () => {
-  return (
-    <div className="md:mt-[108px]">
-      <HeroSection
-        title={"Contact Us"}
-        description={
-          "We’re here to help! Whether you're ready to start your next project or just have a question, the team at Statewide Geotechnical (Aust) Pty Ltd is always available to assist. Let’s connect and see how we can help you with your geotechnical, geological, and engineering needs."
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.hash === "#contactForm") {
+            const element = document.getElementById("contactForm");
+            if (element) {
+                element.scrollIntoView({ behavior: "smooth" });
+            }
         }
-        hasBookButton={true}
-      />
+    }, [location]);
+    return (
+        <div className="md:mt-[108px]">
+            <HeroSection
+                title={"Contact Us"}
+                description={
+                    "We’re here to help! Whether you're ready to start your next project or just have a question, the team at Statewide Geotechnical (Aust) Pty Ltd is always available to assist. Let’s connect and see how we can help you with your geotechnical, geological, and engineering needs."
+                }
+                hasBookButton={true}
+            />
+
+            <div className="lg:block xl:hidden hidden px-8 md:px-[100px]">
+                <div className="flex flex-row place-content-between gap-4">
+                    <ContactCard icon={<FaMapMarkerAlt />} title="Email Us">
+                        <p>info@statewide.com.au</p>
+                        <p>support@statewide.com.au</p>
+                    </ContactCard>{" "}
+                    <ContactCard icon={<FaMapMarkerAlt />} title="Call us">
+                        <p>phone: +61 3 9123 4567</p>
+                        <p>Fax: +61 3 9123 4568</p>
+                    </ContactCard>
+                    <ContactCard
+                        icon={<FaMapMarkerAlt />}
+                        title="Statewide Geotechnical (Aust) Pty Ltd"
+                    >
+                        <p>17-20 Summer Lane</p>
+                        <p>Ringwood, VIC 3134</p>
+                    </ContactCard>
+                </div>
+            </div>
 
       <div className="lg:block xl:hidden hidden px-8 md:px-[30px] mt-8">
         <div className="flex flex-row place-content-between gap-4">
@@ -61,6 +92,9 @@ const ContactPage = () => {
             <p>Ringwood, VIC 3134</p>
           </ContactCard>
         </div>
+      </div>
+      <div className="w-full flex flex-col items-center" id="contactForm">
+         <AppointmentRequestForm />
       </div>
 
       <div className="sm:hidden  flex justify-center  my-8 ">

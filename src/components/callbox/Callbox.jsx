@@ -11,7 +11,7 @@ const CTAComponent = () => {
       ></div>
 
       {/* Left section */}
-      <div className="flex py-2 text-center my-6 px-[36px] md:pl-[55px]">
+      <div className="flex py-2 text-left my-6 px-[36px] md:pl-[55px]">
         <h1 className="text-[32px] sm:text-[36px] md:text-[45px] lg:text-[58px] leading-[36px] sm:leading-[46px] md:leading-[68px] font-bold">
           Start your journey <br />
           with us now

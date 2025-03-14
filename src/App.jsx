@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import React, { useEffect } from "react";
+import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import Home from "./pages/home/Home";
@@ -21,11 +21,23 @@ import AboutUs from "./pages/AboutUs";
 import NotFound from "./pages/notFound/NotFound";
 import ContactPage from "./pages/contactUs/ContactPage";
 
+const ScrollToTop = () => {
+    const { pathname } = useLocation();
+  
+    useEffect(() => {
+      // Scroll to the top of the page on route change
+      window.scrollTo(0, 0);
+    }, [pathname]);
+  
+    return null;
+  };
+
 const App = () => {
     return (
         <div className="overflow-x-hidden font-inter">
             <BrowserRouter>
                 <Navbar />
+                <ScrollToTop />
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/retaining" element={<RetainingWall />} />

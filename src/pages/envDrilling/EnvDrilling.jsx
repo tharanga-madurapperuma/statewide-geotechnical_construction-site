@@ -28,6 +28,9 @@ const EnvDrilling = () => {
         const element = document.getElementById("hero");
         if (element) {
             element.scrollIntoView({ behavior: "smooth" });
+            setTimeout(() => {
+                window.scrollBy({ top: -100, behavior: "smooth" });
+            }, 300); // Add a small delay to ensure the first scroll is complete
         }
     }, []);
 

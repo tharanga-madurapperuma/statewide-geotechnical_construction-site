@@ -158,22 +158,20 @@ const Footer = () => {
                                 Our Affiliations
                             </span>
                             <div className="font-inter font-400 mt-8 text-12 md:text-12 lg:text-14 xl:text-16">
-                                <Link to={"#"}>
+                                
                                     <p className="mb-2">Engineers Australia</p>
-                                </Link>
-                                <Link to={"#"}>
+                                
                                     <p className="mb-2">
                                         Australian Geomechanics Society
                                     </p>
-                                </Link>
-                                <Link to={"#"}>
+                                
+                               
                                     <p className="mb-2">
                                         Australian Drilling Industry Association
                                     </p>
-                                </Link>
-                                <Link to={"#"}>
+                               
                                     <p className="mb-2">NATA</p>
-                                </Link>
+                                
                             </div>
                         </div>
                     </div>

@@ -11,7 +11,7 @@ import {
 const SiteInvetigate = () => {
     return (
 
-        <div className="flex flex-col w-full items-center justify-center">
+        <div className="flex flex-col w-full items-center bg-slate-background md:mt-[108px]">
             <div>
 
                 <ButtonCard
@@ -42,18 +42,18 @@ const SiteInvetigate = () => {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 grid-rows-3 gap-4 pt-[35px] w-full">
                     {/* Row 1 */}
-                    <div className="col-span-1 border-[1px] border-[#D1EDFF] rounded-3xl">
-                        <img
-                            src={InvestigationTech}
-                            alt="Drilling work"
-                            className="w-full aspect-square object-cover rounded-xl"
+                    <div className="col-span-1 row-span-1 h-auto">
+                         <img
+                         src={InvestigationTech}
+                         alt="Investigation Techniques"
+                         className="w-full h-full object-cover rounded-3xl"
                         />
                     </div>
 
                     <div>
                         <CardIconTopLeft
                             iconUrl="/Investigation_Techniques.png"
-                            iconBackground="bg-white-100"
+                            iconBackground="bg-white"
                             background="bg-Primary-100"
                             stroke={true}
                             titleText="Wireline Diamond Core Drilling (HQ, NQ & PQ)"
@@ -71,7 +71,7 @@ const SiteInvetigate = () => {
                     <div>
                         <CardIconTopLeft
                             iconUrl="/Investigation_Techniques.png"
-                            iconBackground="bg-white-100"
+                            iconBackground="bg-white"
                             background="bg-Primary-100"
                             stroke={true}
                             titleText="Solid and Hollow Auger Borehole Drilling"
@@ -90,7 +90,7 @@ const SiteInvetigate = () => {
                     <div>
                         <CardIconTopLeft
                             iconUrl="/Investigation_Techniques.png"
-                            iconBackground="bg-white-100"
+                            iconBackground="bg-white"
                             background="bg-Primary-100"
                             stroke={true}
                             titleText="Hand Auger Borehole Drilling"
@@ -108,7 +108,7 @@ const SiteInvetigate = () => {
                     <div>
                         <CardIconTopLeft
                             iconUrl="/Investigation_Techniques.png"
-                            iconBackground="bg-white-100"
+                            iconBackground="bg-white"
                             background="bg-Primary-100"
                             stroke={true}
                             titleText="Cone Penetrometer Tests (CPT)"
@@ -126,7 +126,7 @@ const SiteInvetigate = () => {
                     <div>
                         <CardIconTopLeft
                             iconUrl="/Investigation_Techniques.png"
-                            iconBackground="bg-white-100"
+                            iconBackground="bg-white"
                             background="bg-Primary-100"
                             stroke={true}
                             titleText="Backhoe and Hydraulic Excavator Test Pits and Trenches"
@@ -145,7 +145,7 @@ const SiteInvetigate = () => {
                     <div>
                         <CardIconTopLeft
                             iconUrl="/Investigation_Techniques.png"
-                            iconBackground="bg-white-100"
+                            iconBackground="bg-white"
                             background="bg-Primary-100"
                             stroke={true}
                             titleText="Bulldozer Costean Excavations"
@@ -162,7 +162,7 @@ const SiteInvetigate = () => {
                     <div>
                         <CardIconTopLeft
                             iconUrl="/Investigation_Techniques.png"
-                            iconBackground="bg-white-100"
+                            iconBackground="bg-white"
                             background="bg-Primary-100"
                             stroke={true}
                             titleText="Geophysics"
@@ -178,11 +178,11 @@ const SiteInvetigate = () => {
                         />
                     </div>
 
-                    <div className="col-span-1">
-                        <img
-                            src={InvestigationTech2}
-                            alt="Site investigation"
-                            className="w-full aspect-square object-cover rounded-xl"
+                    <div className="col-span-1 row-span-1 h-auto">
+                         <img
+                         src={InvestigationTech2}
+                         alt="Engineers"
+                         className="w-full h-full object-cover rounded-3xl"
                         />
                     </div>
                 </div>
@@ -210,7 +210,7 @@ const SiteInvetigate = () => {
                         
                         <CardIconTopLeft
                             iconUrl="/Excavation_Services.png"
-                            iconBackground="bg-white-100"
+                            iconBackground="bg-white"
                             background="bg-Primary-100"
                             stroke={true}
                             titleText="Drilling"
@@ -232,7 +232,7 @@ const SiteInvetigate = () => {
                        
                         <CardIconTopLeft
                             iconUrl="/Excavation_Services.png"
-                            iconBackground="bg-white-100"
+                            iconBackground="bg-white"
                             background="bg-Primary-100"
                             stroke={true}
                             titleText="Test Pits"
@@ -255,7 +255,7 @@ const SiteInvetigate = () => {
 
                         <CardIconTopLeft
                             iconUrl="/Excavation_Services.png"
-                            iconBackground="bg-white-100"
+                            iconBackground="bg-white"
                             background="bg-Primary-100"
                             stroke={true}
                             titleText="In-Situ Testing"
@@ -279,7 +279,7 @@ const SiteInvetigate = () => {
 
                         <CardIconTopLeft
                             iconUrl="/Excavation_Services.png"
-                            iconBackground="bg-white-100"
+                            iconBackground="bg-white"
                             background="bg-Primary-100"
                             stroke={true}
                             titleText="Laboratory Investigations"
@@ -302,7 +302,7 @@ const SiteInvetigate = () => {
 
                         <CardIconTopLeft
                             iconUrl="/Excavation_Services.png"
-                            iconBackground="bg-white-100"
+                            iconBackground="bg-white"
                             background="bg-Primary-100"
                             stroke={true}
                             titleText="Reporting"

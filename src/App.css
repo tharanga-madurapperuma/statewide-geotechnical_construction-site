@@ -287,3 +287,18 @@
         height: 8px !important;
     }
 }
+
+.PhoneInputInput:focus{
+    border: 2px solid #d1d5db;
+}
+
+.PhoneInputInput{
+  border-radius: 12px; 
+  width: 100%; 
+  padding: 12px; 
+  background-color: #e5e7eb; 
+  color: #6b7280; 
+  outline: none; 
+  border: 1px solid transparent;
+  transition: box-shadow 0.2s ease-in-out;
+}

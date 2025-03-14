@@ -2,6 +2,7 @@ import React from "react";
 import { AboutHero, HomeHero } from "../../assets/assets";
 import ContactSection from "../contacts/ContactSection";
 import { GoArrowUpRight } from "react-icons/go";
+import { Link } from "react-router-dom";
 
 const HeroSection = ({
     title,
@@ -27,12 +28,12 @@ const HeroSection = ({
 
                     {buttonLink && buttonText && (
                         <div className="mt-8 md:w-[198px]">
-                            <a
-                                href={buttonLink}
-                                className="bg-[#0064FF] border-2 border-[#0064FF] text-white py-2 px-5 rounded-lg font-medium text-sm md:text-[20px] inline-flex items-center gap-2 shadow-md hover:bg-transparent hover:text-[#0064FF] hover:border-2 hover:border-[#0064FF] transition duration-300"
+                            <Link
+                                to="/contact"
+                                className="bg-[#0064FF] border-2 border-[#0064FF] text-white py-2 px-5 rounded-lg font-medium text-sm md:text-[20px] inline-flex items-center gap-2 shadow-md  hover:bg-blue-700 transition duration-300"
                             >
                                 {buttonText} <GoArrowUpRight />
-                            </a>
+                            </Link>
                         </div>
                     )}
                     <div className="xl:block hidden">
@@ -43,7 +44,7 @@ const HeroSection = ({
                             <div className="mt-8 md:w-[198px]">
                                 <a
                                     href="#appointment"
-                                    className="bg-[#0064FF] border-2 border-[#0064FF] text-white py-2 px-5 rounded-lg font-medium text-sm md:text-[20px] inline-flex items-center gap-2 shadow-md hover:bg-transparent hover:text-[#0064FF] hover:border-2 hover:border-[#0064FF] transition duration-300"
+                                    className="bg-[#0064FF] border-2 border-[#0064FF] text-white py-2 px-5 rounded-lg font-medium text-sm md:text-[20px] inline-flex items-center gap-2 shadow-md hover:bg-blue-700 transition duration-300"
                                 >
                                     Book appt. <GoArrowUpRight />
                                 </a>

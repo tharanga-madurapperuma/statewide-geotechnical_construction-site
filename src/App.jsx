@@ -24,7 +24,7 @@ import ContactPage from "./pages/contactUs/ContactPage";
 const App = () => {
     return (
         <div className="overflow-x-hidden font-inter">
-            <BrowserRouter>
+            <BrowserRouter >
                 <Navbar />
                 <Routes>
                     <Route path="/" element={<Home />} />

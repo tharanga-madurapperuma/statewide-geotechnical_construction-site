@@ -1,15 +1,16 @@
 import React from "react";
 import ContactCard from "./ContactCard";
-import { FaMapMarkerAlt, FaEnvelope, FaPhone } from "react-icons/fa"; // Import icons
+import { FaMapMarkerAlt } from "react-icons/fa"; // Import icons
 import ContactMerged from "./ContactMerged";
+import { IoCall, IoMail } from "react-icons/io5";
 
 const ContactSection = () => {
     const contactComponents = [
-        <ContactCard icon={<FaMapMarkerAlt /> } title="Email Us">
+        <ContactCard icon={<IoMail /> } title="Email Us">
         <p>info@statewide.com.au</p>
         <p>support@statewide.com.au</p>
       </ContactCard>,
-        <ContactCard icon={<FaMapMarkerAlt /> } title="Call us">
+        <ContactCard icon={<IoCall /> } title="Call us">
         <p>phone: +61 3 9123 4567</p>
         <p>Fax: +61 3 9123 4568</p>
       </ContactCard>

@@ -26,7 +26,7 @@ const Drilling = () => {
     useEffect(() => {
         const element = document.getElementById("hero");
         if (element) {
-            element.scrollIntoView({ behavior: "smooth" });
+            window.scrollBy({ top: -100, behavior: "smooth" });
         }
     }, []);
     return (

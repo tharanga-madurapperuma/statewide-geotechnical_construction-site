@@ -124,7 +124,7 @@ const EnvDrilling = () => {
             </div>
 
             {/* Cards */}
-            <div className="w-full bg-white py-40 md:py-[64px] max-w-[1920px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
+            {/* <div className="w-full bg-white py-40 md:py-[64px] max-w-[1920px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
                 <h1 className="font-inter font-600 text-28 md:text-40 lg:text-48 w-[80%] ">
                     Our Comprehensive Drilling Services
                 </h1>
@@ -179,7 +179,7 @@ const EnvDrilling = () => {
                         bodyText="Safe and environmentally responsible decommissioning of wells and boreholes"
                     />
                 </div>
-            </div>
+            </div> */}
             {/* Blue background component */}
             <div className="w-full bg-[#EBF7FF] py-6 md:py-[64px]  px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]  mb-[64px]">
                 <TextSection

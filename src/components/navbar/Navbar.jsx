@@ -15,7 +15,7 @@ const Navbar = () => {
     const submenuItems = [
         { name: "Geotechnical Drilling & Testing", url: "/drilling" },
         { name: "Environmental Drilling", url: "/envdrilling" },
-        { name: "Soil & Rock Testing", url: "/soil" },
+        { name: "NATA Accredited Laboratory Testing", url: "/nata-accredited" },
         { name: "Slope Stability Assessment", url: "/slopes" },
         { name: "Road Pavement Design", url: "/road" },
         { name: "Land Capability Assessment", url: "/land" },

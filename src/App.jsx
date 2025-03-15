@@ -42,7 +42,7 @@ const App = () => {
                     <Route path="/" element={<Home />} />
                     <Route path="/retaining" element={<RetainingWall />} />
                     <Route path="/drilling" element={<Drilling />} />
-                    <Route path="/soil" element={<Soil />} />
+                    <Route path="/nata-accredited" element={<Soil />} />
                     <Route path="/slopes" element={<Slopes />} />
                     <Route path="/road" element={<Road />} />
                     <Route path="/land" element={<LandCapability />} />

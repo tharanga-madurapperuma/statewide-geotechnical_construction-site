@@ -3,6 +3,7 @@ import ButtonCard from "../components/card/ButtonCard";
 import CardIconTextCenter from "../components/card-icon-text-center/CardIconTextCenter";
 import InfoSection from "../components/info-section/InfoSection";
 import LicenseCard from "../components/card-icon-license/CardIconLicense";
+import CardIconTextCenterColored from "../components/card-icon-text-center/CardIconTextCenterColored";
 
 import {
   InvestigationHero,
@@ -26,6 +27,9 @@ import {
   Card,
   Box,
   Map,
+  TwoMen,
+  FlaskWhite,
+  ManWhite,
 } from "../assets/assets";
 
 const Site = () => {
@@ -180,6 +184,46 @@ const Site = () => {
             className="w-[80%] absolute top-[70px] left-[5%] sm:w-[80%] md:w-[80%] lg:w-[70%] max-w-[800px] z-10"
             src={Map}
           />
+        </div>
+      </div>
+
+      <div className="w-full lg:w-full bg-white flex flex-col items-center">
+        <div className="w-full flex flex-col items-center bg-slate-50">
+          <div className="w-full bg-slate-50 py-[64px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px] max-w-[1920px]">
+            <h1 className="font-inter font-600 text-28 md:text-40 lg:text-48 w-full sm:w-[80%] ">
+              Our Comprehensive Geotechnical Services
+            </h1>
+            <h4 className="w-[80%] font-inter font-500 text-18 md:text-28 lg:text-32 mt-[64px]">
+              Complete Geotechnical Investigations
+            </h4>
+            <p className="w-[90%] font-inter font-400 text-14 mt-2 md:text-18 lg:text-24">
+              For complete geotechnical investigations, we offer end-to-end
+              solutions, including:
+            </p>
+            <div className="w-full grid grid-cols-1 gap-4 mt-4 sm:grid-cols-2 md:grid-cols-3 md:mt-6 lg:mt-8">
+              <CardIconTextCenterColored
+                iconUrl={TwoMen}
+                titleText="Site Investigations"
+                bodyTextPresent={true}
+                bodyText="Our experts ensure precise geotechnical analysis, advanced drilling, and reliable site assessments for safe construction."
+              />
+              <CardIconTextCenterColored
+                iconUrl={FlaskWhite}
+                titleText="Laboratory Testing"
+                bodyTextPresent={true}
+                bodyText="Our in-house lab conducts a wide range of soil and rock tests, accredited by NATA."
+              />
+              <div className="sm:col-span-2 sm:px-[20%] md:col-span-1 md:px-0">
+                <CardIconTextCenterColored
+                  iconUrl={ManWhite}
+                  titleText="Engineering Assessments"
+                  bodyTextPresent={true}
+                  bodyText="Our expert engineers analyse geotechnical
+conditions and provide detailed recommendations."
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

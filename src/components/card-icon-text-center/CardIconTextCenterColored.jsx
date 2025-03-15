@@ -8,7 +8,7 @@ const CardIconTextCenterColored = ({
 }) => {
     return (
         <div className="w-full h-full ">
-            <div className="w-full h-full flex flex-col items-center rounded-2xl bg-blue-600 text-white hover:bg-blue-700 transition duration-700 pb-4 px-2 sm:px-4 xl:px-8 lg:py-8">
+            <div className="w-full h-full flex flex-col items-center rounded-2xl bg-blue-600 text-white hover:bg-blue-700 transition duration-700 p-8 sm:px-4 xl:px-8 lg:py-8">
                 <div className="mt-1 md:mt-2 lg:mt-6">
                     <img className="text-white" src={iconUrl} />
                 </div>

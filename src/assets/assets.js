@@ -263,3 +263,6 @@ export {
 
 // Env Drilling Page
 export { Map, EnvHero, EnvSecond, DocIcon, Certificate, Card, Box };
+
+import GeotechnicalReportImg from "./backgrounds/geo-technical.png";
+export { GeotechnicalReportImg };

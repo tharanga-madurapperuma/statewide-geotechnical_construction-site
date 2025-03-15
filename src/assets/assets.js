@@ -9,6 +9,7 @@ import MailIcon from "./icons/mail.svg";
 // Home
 import rightArrow from "./icons/right-arrow.png";
 import HomeHero from "./home/hero.webp";
+import HomeOnly from "./home/homeHero.webp";
 import SuccessWorker from "./home/success-worker.jpg";
 import ProfilePics from "./home/profile-pics.png";
 
@@ -21,10 +22,10 @@ import environmental from "./home/environmental.webp";
 import soilTesting from "./home/earthwork_inspections.webp";
 import boreInstallation from "./home/soil_rock_testing.webp";
 
-import Icon1 from "./home/choose-us/icon1.png";
-import Icon2 from "./home/choose-us/icon2.png";
-import Icon3 from "./home/choose-us/icon3.png";
-import Icon4 from "./home/choose-us/icon4.png";
+import Icon1 from "./home/choose-us/icon.svg";
+import Icon2 from "./home/choose-us/Expert_Team.svg";
+import Icon3 from "./home/choose-us/icon3.svg";
+import Icon4 from "./home/choose-us/icon4.svg";
 import DrillBit from "./home/drillBit.svg";
 
 //  New Home files
@@ -74,6 +75,7 @@ import Weight from "./drilling/icons/weight.svg";
 import WallDrill from "./drilling/icons/wallDrill.svg";
 import WellAttaches from "./drilling/icons/wellAttaches.svg";
 import Man from "./drilling/icons/man.svg";
+import TwoMen from "./drilling/icons/twoMenWhite.svg";
 
 import FlaskWhite from "./drilling/icons/flaskWhite.svg";
 import ManWhite from "./drilling/icons/manWhite.svg";
@@ -90,6 +92,10 @@ import Map from "./envDrilling/map.svg";
 import EnvHero from "./envDrilling/hero.webp";
 import EnvSecond from "./envDrilling/envSecond.webp";
 import DocIcon from "./envDrilling/docIcon.svg";
+
+import Certificate from "./envDrilling/certificate.svg";
+import Card from "./envDrilling/card.svg";
+import Box from "./envDrilling/box.svg";
 
 import Hero from "./drilling/hero.webp";
 import DrillingSecond from "./drilling/second.webp";
@@ -158,6 +164,7 @@ export {
     Arrowup,
     Check,
     DrillBit,
+    HomeOnly,
 };
 
 // New Home Images
@@ -189,8 +196,11 @@ export { Menu, Close };
 //soil page
 import SoilHero from "./soil/worker.webp";
 import SoilTesting from "./soil/soil.webp";
+import CardIconSoil from "./soil/CardIconSoil.svg";
+import Tube from "./soil/TubeIconSoil.svg";
+import RockTesting from "./soil/RockTesting.svg";
 
-export { SoilHero, SoilTesting };
+export { SoilHero, SoilTesting, CardIconSoil, Tube, RockTesting };
 
 //slopes page
 import Engineers from "./slopes/engineers.webp";
@@ -203,13 +213,15 @@ export { Engineers, GroupTalk, Clock, SlopeHero };
 import RoadHero from "./road/road1.webp";
 import Road1 from "./road/road2.webp";
 import Road2 from "./road/road3.webp";
+import RoadIcon from "./road/road.svg";
 
-export { RoadHero, Road1, Road2 };
+export { RoadHero, Road1, Road2, RoadIcon };
 
 //Land Capability page
 import Mapping from "./land/mapping.webp";
+import DownMan from "./land/DownMan.svg";
 
-export { Mapping };
+export { Mapping, DownMan };
 
 // Drilling page
 export {
@@ -236,7 +248,8 @@ export {
     DocWhite,
     Hero,
     DrillingSecond,
+    TwoMen,
 };
 
 // Env Drilling Page
-export { Map, EnvHero, EnvSecond, DocIcon };
+export { Map, EnvHero, EnvSecond, DocIcon, Certificate, Card, Box };

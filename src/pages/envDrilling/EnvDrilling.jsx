@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
     Arm,
     Bell,
+    Box,
+    Card,
+    Certificate,
     DocIcon,
     Dosar,
     DrillingBit,
@@ -20,10 +23,21 @@ import TextSection from "../../components/text/TextSection";
 import LicenseCard from "../../components/card-icon-license/CardIconLicense";
 
 const EnvDrilling = () => {
+    // Home top
+    useEffect(() => {
+        const element = document.getElementById("hero");
+        if (element) {
+            window.scrollBy({ top: -100, behavior: "smooth" });
+        }
+    }, []);
+
     return (
-        <div className="w-full flex flex-col items-center bg-slate-background">
+        <div
+            className="w-full flex flex-col items-center bg-slate-background md:mt-[108px]"
+            id="hero"
+        >
             {/* Hero Component */}
-            <div className="mt-4 sm:mt-6 px-3 sm:px-0 ">
+            <div className="mt-4 sm:mt-0 px-3 sm:px-0 ">
                 <ButtonCard
                     image={EnvHero}
                     title="Specialized Environmental & Geotechnical Drilling Services"
@@ -78,17 +92,14 @@ const EnvDrilling = () => {
                 </div>
                 <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 flex-col sm:flex-row justify-center">
                     <LicenseCard
-                        image={DocIcon}
+                        image={Certificate}
                         title="Water Bore Licenses (Class 1 & 2)"
                     />
                     <LicenseCard
-                        image={DocIcon}
+                        image={Card}
                         title="Building Industry White Cards"
                     />
-                    <LicenseCard
-                        image={DocIcon}
-                        title="First Aid Certification"
-                    />
+                    <LicenseCard image={Box} title="First Aid Certification" />
                 </div>
             </div>
 
@@ -170,12 +181,12 @@ const EnvDrilling = () => {
                 </div>
             </div>
             {/* Blue background component */}
-            <div className="w-full bg-[#EBF7FF] py-6 md:py-[64px]  px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]  ">
+            <div className="w-full bg-[#EBF7FF] py-6 md:py-[64px]  px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]  mb-[64px]">
                 <TextSection
                     title="Why Choose Statewide Geotechnical for Your Environmental Drilling Needs?"
                     description="state-of-the-art equipment, experienced team, and commitment to safety and environmental responsibility make us the trusted choice for environmental and geotechnical drilling services."
                     buttonText="Get in Touch Today for Expert Drilling Solutions"
-                    buttonLink="#"
+                    buttonLink="/contact/#contactForm"
                 />
             </div>
         </div>

@@ -30,6 +30,7 @@ import {
     WhatWeOffer,
     WhoWeAre,
 } from "../../assets/assets";
+import TextBox from "../../components/textBox/TextBox";
 
 const Home = () => {
     const navigate = useNavigate();
@@ -44,9 +45,6 @@ const Home = () => {
         const element = document.getElementById("hero");
         if (element) {
             window.scrollBy({ top: -100, behavior: "smooth" });
-            // setTimeout(() => {
-            //     window.scrollBy({ top: -100, behavior: "smooth" });
-            // }, 300); // Add a small delay to ensure the first scroll is complete
         }
     }, []);
 
@@ -121,6 +119,74 @@ const Home = () => {
         //         "Expert analysis and design of strong, stable foundations for residential, commercial, and industrial structures.",
         //     link: "foundationbuilt",
         // },
+    ];
+
+    // Text Carousel
+    const textCarousel = [
+        {
+            topicText:
+                "Ensuring Every Challenge is Met with Effective Solutions",
+            description: (
+                <>
+                    We have used Statewide Geotechnical for many different and
+                    varying projects, ranging from domestic construction to high
+                    rise towers and industrial facilities. Their team of skilled
+                    engineers and geologists brings a deep understanding of soil
+                    mechanics, foundation engineering, and risk assessment,
+                    ensuring that every challenge is met with a well-thought-out
+                    and effective solution. Their ability to assess complex
+                    ground conditions and provide clear, practical guidance can
+                    make a positive impact on a project's success.
+                </>
+            ),
+            author: " - Mark Janus, MRM Group",
+        },
+        {
+            topicText:
+                "Clear, Well-Considered Geotechnical Advice That Mitigates Risks",
+            description: (
+                <>
+                    I have been working with David Alkemade and the Statewide
+                    Team for over 10 years. Statewide continually provide the
+                    highest quality geotechnical reports and detailed, reliable
+                    recommendations that enable us to maximise the efficiency of
+                    our structural foundation designs. Always professional and a
+                    pleasure to deal with, their expertise in local geotechnical
+                    conditions is second to none.
+                </>
+            ),
+            author: " - Stuart Sellars - Farrard Engineering",
+        },
+        {
+            topicText:
+                "Ensuring Every Challenge is Met with Effective Solutions",
+            description: (
+                <>
+                    (“We’ve had the pleasure of working with Statewide
+                    Geotechnical on multiple projects over the last decade, and
+                    their responsiveness, collaborative approach, and practical
+                    approach have been invaluable. They consistently deliver
+                    clear, well-considered geotechnical advice that respond to
+                    our structural design and mitigate risks early.”),
+                </>
+            ),
+            author: " - Elliot Smith, Matter",
+        },
+        {
+            topicText: "Dependable Expertise for Every Build",
+            description: (
+                <>
+                    ( 2MH Consulting has been working with Statewide
+                    Geotechnical for over 10 years now. We design and project
+                    manage new sports facility builds across Victoria, utilising
+                    Statewide for pavement design advice, and inspections and
+                    approvals of sub-grade constructions. We depend upon the
+                    Statewide teams' experience and knowledge to assist us
+                    through every build.},
+                </>
+            ),
+            author: " - Mick Hassett, 2MH Consulting",
+        },
     ];
     return (
         <div
@@ -210,10 +276,32 @@ const Home = () => {
                 </div>
             </div>
 
+            {/* New Update | Text carousel */}
+            <div className="xl:py-[64px] w-full">
+                <div className="xl:px-[110px]">
+                    <Swiper
+                        slidesPerView={1}
+                        spaceBetween={10}
+                        keyboard={{
+                            enabled: true,
+                        }}
+                        navigation={true}
+                        modules={[Keyboard, Pagination, Navigation]}
+                        className="textSwiper"
+                    >
+                        {textCarousel.map((text, index) => (
+                            <SwiperSlide key={index}>
+                                <TextBox {...text} />
+                            </SwiperSlide>
+                        ))}
+                    </Swiper>
+                </div>
+            </div>
+
             {/* HOME - SECOND SECTION */}
             <div className="w-full">
                 {/* WHO WE ARE */}
-                <div className="mt-[50px] sm:mt-[100px] md:mt-40 xl:mt-[128px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
+                <div className="mt-[50px] sm:mt-[100px] md:mt-40 xl:mt-[64px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
                     <InfoSection
                         title="Who We Are"
                         description="At Statewide Geotechnical, we specialise in delivering expert geotechnical drilling, testing, and consulting services across Melbourne, Victoria, South Australia, and New South Wales. With advanced equipment and a team of highly qualified professionals, we provide precise site assessments, environmental drilling, and geotechnical solutions tailored to your project needs. Our commitment to safety, accuracy, and efficiency makes us the trusted partner for engineers, developers, and government agencies."

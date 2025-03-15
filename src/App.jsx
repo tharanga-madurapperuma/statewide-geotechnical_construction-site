@@ -3,9 +3,9 @@ import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import Home from "./pages/home/Home";
-import RetainingWall from "./pages/RetainingWall";
-import Site from "./pages/Site";
-import FoundationBuilt from "./pages/FoundationBuilt";
+import RetainingWall from "./pages/retaining/RetainingWall";
+import Site from "./pages/siteinvestigate/Site";
+import FoundationBuilt from "./pages/foundation/FoundationBuilt";
 import "./App.css";
 import "./index.css";
 import Drilling from "./pages/drilling/Drilling";
@@ -17,59 +17,53 @@ import LandCapability from "./pages/Land Capability/LandCapability";
 import EnvDrilling from "./pages/envDrilling/EnvDrilling";
 import Inspections from "./pages/inspections/Inspections";
 import AccreditedPage from "./pages/accredited/AccreditedPage";
-import AboutUs from "./pages/AboutUs";
+import AboutUs from "./pages/aboutus/AboutUs";
 import NotFound from "./pages/notFound/NotFound";
 import ContactPage from "./pages/contactUs/ContactPage";
 
 const ScrollToTop = () => {
-    const { pathname } = useLocation();
-  
-    useEffect(() => {
-      // Scroll to the top of the page on route change
-      window.scrollTo(0, 0);
-    }, [pathname]);
-  
-    return null;
-  };
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    // Scroll to the top of the page on route change
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
 
 const App = () => {
-    return (
-        <div className="overflow-x-hidden font-inter">
-            <BrowserRouter >
-                <Navbar />
-                <ScrollToTop />
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/retaining" element={<RetainingWall />} />
-                    <Route path="/drilling" element={<Drilling />} />
-                    <Route path="/soil" element={<Soil />} />
-                    <Route path="/slopes" element={<Slopes />} />
-                    <Route path="/road" element={<Road />} />
-                    <Route path="/land" element={<LandCapability />} />
-                    {/* <Route
+  return (
+    <div className="overflow-x-hidden font-inter">
+      <BrowserRouter>
+        <Navbar />
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/retaining" element={<RetainingWall />} />
+          <Route path="/drilling" element={<Drilling />} />
+          <Route path="/soil" element={<Soil />} />
+          <Route path="/slopes" element={<Slopes />} />
+          <Route path="/road" element={<Road />} />
+          <Route path="/land" element={<LandCapability />} />
+          {/* <Route
                         path="/siteinvetigate"
                         element={<SiteInvetigate />}
                     /> */}
-                    <Route
-                        path="/site"
-                        element={<Site />}
-                    />
-                    <Route
-                        path="/foundationbuilt"
-                        element={<FoundationBuilt />}
-                    />
-                    <Route path="/accredited" element={<AccreditedPage />} />
-                    <Route path="/envdrilling" element={<EnvDrilling />} />
-                    <Route path="/inspections" element={<Inspections />} />
-                    <Route path="/aboutus" element={<AboutUs />} />
-                    <Route path="/*" element={<NotFound />} />
-                    <Route path="/resources" element={<Resources />} />
-                    <Route path="/contact" element={<ContactPage />} />
-                </Routes>
-                <Footer />
-            </BrowserRouter>
-        </div>
-    );
+          <Route path="/site" element={<Site />} />
+          <Route path="/foundationbuilt" element={<FoundationBuilt />} />
+          <Route path="/accredited" element={<AccreditedPage />} />
+          <Route path="/envdrilling" element={<EnvDrilling />} />
+          <Route path="/inspections" element={<Inspections />} />
+          <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/*" element={<NotFound />} />
+          <Route path="/resources" element={<Resources />} />
+          <Route path="/contact" element={<ContactPage />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </div>
+  );
 };
 
 export default App;

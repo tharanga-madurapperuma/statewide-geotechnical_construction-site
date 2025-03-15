@@ -1,10 +1,10 @@
 import React from "react";
-import ButtonCard from "../components/card/ButtonCard";
-import CardIconTextCenter from "../components/card-icon-text-center/CardIconTextCenter";
-import InfoSection from "../components/info-section/InfoSection";
-import LicenseCard from "../components/card-icon-license/CardIconLicense";
-import CardIconTextCenterColored from "../components/card-icon-text-center/CardIconTextCenterColored";
-import TextSection from "../components/text/TextSection";
+import ButtonCard from "../../components/card/ButtonCard";
+import CardIconTextCenter from "../../components/card-icon-text-center/CardIconTextCenter";
+import InfoSection from "../../components/info-section/InfoSection";
+import LicenseCard from "../../components/card-icon-license/CardIconLicense";
+import CardIconTextCenterColored from "../../components/card-icon-text-center/CardIconTextCenterColored";
+import TextSection from "../../components/text/TextSection";
 
 import {
   InvestigationHero,
@@ -31,7 +31,7 @@ import {
   TwoMen,
   FlaskWhite,
   ManWhite,
-} from "../assets/assets";
+} from "../../assets/assets";
 
 const Site = () => {
   return (
@@ -49,7 +49,7 @@ const Site = () => {
 
       <div className="w-full bg-white py-40 md:py-[64px] max-w-[1920px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
         <h1 className="font-inter font-600 text-28 md:text-40 lg:text-48 w-[80%] ">
-        Our Field Services Include:
+          Our Field Services Include:
         </h1>
 
         <div className="w-full grid grid-cols-2 gap-4 mt-4 sm:grid-cols-3 md:grid-cols-4 md:mt-6 lg:mt-8">
@@ -226,19 +226,19 @@ conditions and provide detailed recommendations."
             </div>
           </div>
         </div>
-          </div>
-          
-          {/* Blue text */}
-          <div className="w-full flex flex-col items-center bg-[#EBF7FF] mb-[64px]">
-                <div className="w-full bg-[#EBF7FF] py-6 md:py-[64px]  px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px] max-w-[1920px]">
-                    <TextSection
-                        title="Why Choose Statewide Geotechnical?"
-                        description="Operating across Melbourne and throughout Victoria, we are equipped to handle a variety of challenging project requirements. Whether you're working with tight or difficult access sites, or need low-head clearance machinery, our specialized team and advanced equipment ensure the job is done efficiently and accurately."
-                        buttonText="Get in Touch Today for Expert Geotechnical Services"
-                        buttonLink="/contact/#contactForm"
-                    />
-                </div>
-            </div>
+      </div>
+
+      {/* Blue text */}
+      <div className="w-full flex flex-col items-center bg-[#EBF7FF] mb-[64px]">
+        <div className="w-full bg-[#EBF7FF] py-6 md:py-[64px]  px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px] max-w-[1920px]">
+          <TextSection
+            title="Why Choose Statewide Geotechnical?"
+            description="Operating across Melbourne and throughout Victoria, we are equipped to handle a variety of challenging project requirements. Whether you're working with tight or difficult access sites, or need low-head clearance machinery, our specialized team and advanced equipment ensure the job is done efficiently and accurately."
+            buttonText="Get in Touch Today for Expert Geotechnical Services"
+            buttonLink="/contact/#contactForm"
+          />
+        </div>
+      </div>
     </div>
   );
 };

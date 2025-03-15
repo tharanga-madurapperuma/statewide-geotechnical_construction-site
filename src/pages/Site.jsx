@@ -25,6 +25,7 @@ import {
   Certificate,
   Card,
   Box,
+  Map,
 } from "../assets/assets";
 
 const Site = () => {
@@ -160,6 +161,25 @@ const Site = () => {
           />
           <LicenseCard image={Card} title="Building Industry White Cards" />
           <LicenseCard image={Box} title="First Aid Certification" />
+        </div>
+      </div>
+
+      {/* Map  */}
+      <div className="w-full pt-[50px] md:pt-[64px] pb-[70vw] sm:pb-[55vw] lg:pb-[50vw] 2xl:pb-[45vw] flex flex-col max-w-[1920px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
+        <h1 className="font-inter font-600 text-24 sm:text-28 md:text-32 lg:text-40 xl:text-48">
+          Service Area
+        </h1>
+        <div className="w-full flex mt-8 relative pb-[64px]">
+          <div className=" w-[60%] sm:w-[40%] md:w-[50%] lg:w-[40%] bg-blue-600 p-4 sm:p-6 lg:p-8 rounded-xl absolute right-[5%] top-0 z-20">
+            <p className="font-inter font-500 text-12 sm:text-16 md:text-24 lg:text-24 xl:text-32 text-white ">
+              We proudly serve the Melbourne metropolitan area, as well as
+              regions across Victoria and Southern New South Wales.
+            </p>
+          </div>
+          <img
+            className="w-[80%] absolute top-[70px] left-[5%] sm:w-[80%] md:w-[80%] lg:w-[70%] max-w-[800px] z-10"
+            src={Map}
+          />
         </div>
       </div>
     </div>

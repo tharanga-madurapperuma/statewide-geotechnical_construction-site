@@ -19,7 +19,7 @@ const Navbar = () => {
         { name: "Slope Stability Assessment", url: "/slopes" },
         { name: "Road Pavement Design", url: "/road" },
         { name: "Land Capability Assessment", url: "/land" },
-        { name: "Site Investigations", url: "/siteinvetigate" },
+        { name: "Site Investigations", url: "/site" },
     ];
 
     useEffect(() => {

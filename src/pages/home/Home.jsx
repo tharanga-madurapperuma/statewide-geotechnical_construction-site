@@ -51,11 +51,11 @@ const Home = () => {
 
     const services = [
         {
-            image: GeotechnicalDrillingTesting,
-            title: "Geotechnical Drilling & Testing",
+            image: SiteInvestigations,
+            title: "Site Investigations",
             description:
-                "Precision drilling for soil and rock investigations to support construction and engineering projects.",
-            link: "drilling",
+                "Comprehensive on-site assessments to identify ground conditions, potential risks, and construction feasibility.",
+            link: "siteinvetigate",
         },
         {
             image: EnvironmentalDrilling,
@@ -64,26 +64,12 @@ const Home = () => {
                 "Specialized drilling for groundwater studies, contamination assessments, and environmental compliance.",
             link: "envdrilling",
         },
-        // {
-        //     image: EarthworkInspections,
-        //     title: "Earthwork Inspections",
-        //     description:
-        //         "Comprehensive testing and inspections to ensure soil compaction, stability, and compliance with construction standards.",
-        //     link: "inspections",
-        // },
         {
             image: SoilRockTesting,
             title: "Soil & Rock Testing",
             description:
                 "NATA Accredited Laboratory facilities analysing soil and rock properties for sustainability and safety.",
             link: "soil",
-        },
-        {
-            image: SlopeStabilityAssessment,
-            title: "Slope Stability Assessment",
-            description:
-                "Detailed evaluation of slopes to prevent landslides, erosion, and structural failures in various terrains.",
-            link: "slopes",
         },
         {
             image: RoadPavementDesign,
@@ -100,19 +86,36 @@ const Home = () => {
             link: "land",
         },
         // {
+        //     image: GeotechnicalDrillingTesting,
+        //     title: "Geotechnical Drilling & Testing",
+        //     description:
+        //         "Precision drilling for soil and rock investigations to support construction and engineering projects.",
+        //     link: "drilling",
+        // },
+        // {
+        //     image: EarthworkInspections,
+        //     title: "Earthwork Inspections",
+        //     description:
+        //         "Comprehensive testing and inspections to ensure soil compaction, stability, and compliance with construction standards.",
+        //     link: "inspections",
+        // },
+
+        // {
+        //     image: SlopeStabilityAssessment,
+        //     title: "Slope Stability Assessment",
+        //     description:
+        //         "Detailed evaluation of slopes to prevent landslides, erosion, and structural failures in various terrains.",
+        //     link: "slopes",
+        // },
+
+        // {
         //     image: RetainingWallsExcavation,
         //     title: "Retaining Walls & Excavation",
         //     description:
         //         "Geotechnical assessments for safe excavation and retaining wall design to prevent soil movement and structural damage.",
         //     link: "retaining",
         // },
-        {
-            image: SiteInvestigations,
-            title: "Site Investigations",
-            description:
-                "Comprehensive on-site assessments to identify ground conditions, potential risks, and construction feasibility.",
-            link: "siteinvetigate",
-        },
+
         // {
         //     image: FoundationEngineering,
         //     title: "Foundation Engineering",

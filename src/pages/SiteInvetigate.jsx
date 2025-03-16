@@ -10,10 +10,8 @@ import {
 
 const SiteInvetigate = () => {
     return (
-
         <div className="flex flex-col w-full items-center bg-slate-background md:mt-[108px]">
             <div>
-
                 <ButtonCard
                     image={InvestigationHero}
                     title="Site Investigations"
@@ -43,10 +41,10 @@ const SiteInvetigate = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 grid-rows-3 gap-4 pt-[35px] w-full">
                     {/* Row 1 */}
                     <div className="col-span-1 row-span-1 h-auto">
-                         <img
-                         src={InvestigationTech}
-                         alt="Investigation Techniques"
-                         className="w-full h-full object-cover rounded-3xl"
+                        <img
+                            src={InvestigationTech}
+                            alt="Investigation Techniques"
+                            className="w-full h-full object-cover rounded-3xl"
                         />
                     </div>
 
@@ -179,10 +177,10 @@ const SiteInvetigate = () => {
                     </div>
 
                     <div className="col-span-1 row-span-1 h-auto">
-                         <img
-                         src={InvestigationTech2}
-                         alt="Engineers"
-                         className="w-full h-full object-cover rounded-3xl"
+                        <img
+                            src={InvestigationTech2}
+                            alt="Engineers"
+                            className="w-full h-full object-cover rounded-3xl"
                         />
                     </div>
                 </div>
@@ -207,7 +205,6 @@ const SiteInvetigate = () => {
 
                     {/* Drilling */}
                     <div className="col-span-1 md:col-span-4 md:row-span-3">
-                        
                         <CardIconTopLeft
                             iconUrl="/Excavation_Services.png"
                             iconBackground="bg-white"
@@ -229,7 +226,6 @@ const SiteInvetigate = () => {
 
                     {/* Test Pits */}
                     <div className="col-span-1 md:col-span-4 md:row-span-3">
-                       
                         <CardIconTopLeft
                             iconUrl="/Excavation_Services.png"
                             iconBackground="bg-white"
@@ -251,8 +247,6 @@ const SiteInvetigate = () => {
 
                     {/* In-Situ Testing */}
                     <div className="col-span-1 md:col-span-4 md:row-span-3">
-                       
-
                         <CardIconTopLeft
                             iconUrl="/Excavation_Services.png"
                             iconBackground="bg-white"
@@ -275,8 +269,6 @@ const SiteInvetigate = () => {
 
                     {/* Laboratory Investigations */}
                     <div className="col-span-1 md:col-span-4 md:row-span-3">
-                        
-
                         <CardIconTopLeft
                             iconUrl="/Excavation_Services.png"
                             iconBackground="bg-white"
@@ -298,8 +290,6 @@ const SiteInvetigate = () => {
 
                     {/* Reporting */}
                     <div className="col-span-1 md:col-span-4 md:row-span-3">
-                    
-
                         <CardIconTopLeft
                             iconUrl="/Excavation_Services.png"
                             iconBackground="bg-white"

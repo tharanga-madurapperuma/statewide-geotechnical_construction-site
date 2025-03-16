@@ -296,6 +296,19 @@ import GeotechnicalReportImg from "./backgrounds/geo-technical.png";
 export { GeotechnicalReportImg };
 
 
+import Comprehensive from "./contact-us/Contact Us_Comprehensive Services.svg";
+import Expertise from "./contact-us/Contact Us_Expertise You Can Trust.svg";
+import CustomerCentric from "./contact-us/Contact Us_Customer-Centric Approach.svg";
+
+export { Comprehensive, Expertise, CustomerCentric };
+
+import SlopeStability from "./engineering/Engineering Assessment _Slope Stability Assessment.svg";
+import LandCapability from "./engineering/Engineering Assessment_Land Capability Assessment .svg";
+import RoadPavement from "./engineering/Engineering Assessment_Road Pavement Design.svg";
+import GeotechnicalInvestigation from "./engineering/Engineering Assessment_Geotechnical Investigation Report.svg";
+
+export { SlopeStability, LandCapability, RoadPavement, GeotechnicalInvestigation };
+
 //new SiteInvestigation page
 
 import DCPTesting from "./site/DCPTesting.png";
@@ -306,8 +319,6 @@ import PressureMeterTesting from "./site/PressureMeterTesting.png";
 import SPTTesting from "./site/SPTTesting.png";
 import UndisturbedSampling from "./site/UndisturbedSampling.png";
 
-
-    
 export { 
     DCPTesting,
     GroundwaterMonitoringBores,
@@ -317,3 +328,4 @@ export {
     SPTTesting,
     UndisturbedSampling
 };
+

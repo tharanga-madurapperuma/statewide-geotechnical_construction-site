@@ -94,7 +94,7 @@ const Resources = () => {
                 <div>
                     <PolicyText
                         title="6. Data Protection and Privacy Policy"
-                        description="We prioritize the privacy of our clients and employees. Our Data Protection and Privacy Policy ensures:"
+                        description="We prioritise the privacy of our clients and employees. Our Data Protection and Privacy Policy ensures:"
                         bulletText={[
                             "Compliance with all applicable data protection laws.",
                             "Secure storage and processing of personal information.",

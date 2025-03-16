@@ -223,7 +223,7 @@ conditions and provide detailed recommendations."
         <div className="w-full bg-[#EBF7FF] py-6 md:py-[64px]  px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px] max-w-[1920px]">
           <TextSection
             title="Why Choose Statewide Geotechnical?"
-            description="Operating across Melbourne and throughout Victoria, we are equipped to handle a variety of challenging project requirements. Whether you're working with tight or difficult access sites, or need low-head clearance machinery, our specialized team and advanced equipment ensure the job is done efficiently and accurately."
+            description="Operating across Melbourne and throughout Victoria, we are equipped to handle a variety of challenging project requirements. Whether you're working with tight or difficult access sites, or need low-head clearance machinery, our specialised team and advanced equipment ensure the job is done efficiently and accurately."
             buttonText="Get in Touch Today for Expert Geotechnical Services"
             buttonLink="/contact/#contactForm"
           />

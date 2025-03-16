@@ -31,6 +31,7 @@ const EnvDrilling = () => {
     }
   }, [])
 
+
   return (
     <div
       className="w-full flex flex-col items-center bg-slate-background md:mt-[108px]"
@@ -45,6 +46,7 @@ const EnvDrilling = () => {
           buttonText="Request a Consultation"
         />
       </div>
+
 
       {/* Left pic paragraph component */}
       <div className=" mt-8 sm:mt-40 md:mt-[100px] lg:mt-[128px] mb-8 sm:mb-40 md:mb-[100px] lg:mb-[64px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">

@@ -320,6 +320,13 @@ import PressureMeterTesting from "./site/PressureMeterTesting.png";
 import SPTTesting from "./site/SPTTesting.png";
 import UndisturbedSampling from "./site/UndisturbedSampling.png";
 
+import Lightweight from "./site/Lightweight.png";
+import Exposures from "./site/Exposures.png";
+import Pavement from "./site/Pavement.png";
+import Test from "./site/Test.png";
+import Thermal from "./site/Thermal.png";
+    
+
 export { 
     DCPTesting,
     GroundwaterMonitoringBores,
@@ -327,6 +334,16 @@ export {
     PermeabilityTesting,
     PressureMeterTesting,
     SPTTesting,
-    UndisturbedSampling
+
+    UndisturbedSampling,
+    Lightweight,
+    Exposures,
+    Pavement,
+    Test,
+    Thermal,
+
+
+   
 };
+
 

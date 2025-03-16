@@ -253,3 +253,16 @@ export {
 
 // Env Drilling Page
 export { Map, EnvHero, EnvSecond, DocIcon, Certificate, Card, Box };
+
+//  New About
+import AboutUsProfessionalIndemnity from "./about/About Us_Professional Indemnity -10m.svg";
+import AboutUsPublicLiability from "./about/About Us_Public Liability- 20m.svg";
+import AboutUsVehicleFleet from "./about/About Us_Vehicle Fleet.svg";
+import AboutUsWorkCover from "./about/About Us_WorkCover.svg";
+
+export {
+    AboutUsProfessionalIndemnity,
+    AboutUsPublicLiability,
+    AboutUsVehicleFleet,
+    AboutUsWorkCover,
+};

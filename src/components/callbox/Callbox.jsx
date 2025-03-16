@@ -24,8 +24,7 @@ const CTAComponent = () => {
           Need expert drilling solutions? Contact us today for a consultation or
           request a quote. Our team is ready to assist with your geotechnical
           and environmental drilling needs. Fill out the form below, or reach us
-          directly via phone or email. We proudly serve clients across Victoria
-          and Southern NSW.
+          directly via phone or email. We proudly serve clients across Victoria, Southern Australian and New South Wales.
         </p>
         <Link to="/contact" className="text-blue-600 hover:underline">
         <a href="#" className="text-[#fff] font-semibold pt-7 pb-5 px-6 md:px-1 rounded-full transition duration-300">

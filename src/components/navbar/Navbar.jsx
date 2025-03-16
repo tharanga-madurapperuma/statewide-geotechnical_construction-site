@@ -17,7 +17,7 @@ const Navbar = () => {
     {name: "NATA Accredited Laboratory Testing", url: "/nata-accredited"},
     {name: "Road Pavement Design", url: "/road"},
     {name: "Engineering Assessment", url: "/engineering-services"},
-    {name: "Site Investigations", url: "/siteinvetigate"},
+    {name: "Site Investigations", url: "/site"},
   ]
 
   useEffect(() => {

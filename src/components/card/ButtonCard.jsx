@@ -32,7 +32,7 @@ const ButtonCard = ({ image, title, description, buttonText }) => {
                     <div className="flex justify-center mt-6">
                         <button
                             onClick={() => navigate(buttonLink)}
-                            className="px-4 sm:px-5 py-2 text-sm sm:text-base bg-blue-600 text-white font-normal rounded-lg flex items-center hover:bg-blue-700 transition duration-300"
+                            className="px-4 sm:px-5 py-2 text-sm sm:text-base bg-blue-600 text-white font-normal rounded-lg flex items-center hover:bg-blue-700 transition duration-300 cursor-pointer"
                         >
                             {buttonText}
                             <div className="ml-2">
@@ -57,7 +57,7 @@ const ButtonCard = ({ image, title, description, buttonText }) => {
                     {/* Button with Link */}
                     <button
                         onClick={() => navigate(buttonLink)}
-                        className="mt-8 px-5 py-2 text-base bg-blue-600 text-white font-normal rounded-lg flex items-center hover:bg-blue-700 transition duration-300"
+                        className="mt-8 px-5 py-2 text-base bg-blue-600 text-white font-normal rounded-lg flex items-center hover:bg-blue-700 transition duration-300 cursor-pointer"
                     >
                         {buttonText}
                         <div className="ml-2">

@@ -12,7 +12,7 @@ const AboutUs = () => {
                 <HeroSection
                     title="Trusted Leaders in Geotechnical & Geological Services"
                     description="Over 30,000 successful ground investigation projects completed."
-                    buttonLink="www.google.com"
+                    buttonLink="/contact"
                     buttonText="Get in Touch"
                 />
 
@@ -22,7 +22,7 @@ const AboutUs = () => {
                         description="Statewide Geotechnical (Aust) Pty Ltd, a trusted leader in geotechnical and geological services. With over 30,000 successful ground investigation projects completed, our expert team of Geotechnical Engineers, Engineering Geologists, and Soil and Laboratory Technicians delivers top-tier services across a variety of industries.
 
 We proudly serve a diverse range of clients, including consulting engineers, commercial and residential builders, utility companies, local authorities, and government organizations. Our comprehensive suite of geotechnical services is offered under one roof, ensuring a streamlined, efficient process from start to finish."
-                        buttonLink="Get in Touch"
+                        buttonLink="/contact"
                         buttonText="Contact Us to Learn More About Our Services"
                         imageSrc={AboutHero}
                         reverse=""
@@ -36,7 +36,7 @@ We proudly serve a diverse range of clients, including consulting engineers, com
 
 Our team is dedicated to providing accurate, cost-effective geotechnical solutions tailored to your needs. Whether you're involved in residential, commercial, or industrial projects, we support your design process, ensure compliance with regulations, and help mitigate risks associated with ground conditions."
                         buttonText="Get in Touch with Our Team"
-                        buttonLink="www.google.com"
+                        buttonLink="/contact"
                     />
                 </div>
             </div>

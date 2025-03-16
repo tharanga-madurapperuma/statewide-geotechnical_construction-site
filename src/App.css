@@ -215,6 +215,41 @@
     height: 10px !important;
 }
 
+.textSwiper > .swiper-button-prev {
+    position: absolute;
+    left: 0% !important; /* Adjust as needed */
+    top: 100%;
+    color: rgba(0, 0, 0, 0.8) !important;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 550px) {
+    .textSwiper > .swiper-button-prev {
+        top: 80% !important;
+    }
+
+    .textSwiper > .swiper-button-next {
+        top: 80% !important;
+    }
+}
+
+.textSwiper > .swiper-wrapper {
+    overflow: visible !important;
+    padding: 0px;
+}
+
+.textSwiper > .swiper-button-next {
+    position: absolute;
+    right: 0% !important; /* Adjust as needed */
+    top: 100%;
+    color: rgba(0, 0, 0, 0.8) !important;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
 /* ANIMATIONS */
 
 .line-animation {
@@ -288,17 +323,17 @@
     }
 }
 
-.PhoneInputInput:focus{
+.PhoneInputInput:focus {
     border: 2px solid #d1d5db;
 }
 
-.PhoneInputInput{
-  border-radius: 12px; 
-  width: 100%; 
-  padding: 12px; 
-  background-color: #e5e7eb; 
-  color: #6b7280; 
-  outline: none; 
-  border: 1px solid transparent;
-  transition: box-shadow 0.2s ease-in-out;
+.PhoneInputInput {
+    border-radius: 12px;
+    width: 100%;
+    padding: 12px;
+    background-color: #e5e7eb;
+    color: #6b7280;
+    outline: none;
+    border: 1px solid transparent;
+    transition: box-shadow 0.2s ease-in-out;
 }

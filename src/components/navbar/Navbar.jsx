@@ -82,7 +82,10 @@ const Navbar = () => {
                                 <div className="line-animation bg-blue-600 absolute -bottom-1 left-1/2 transform -translate-x-1/2"></div>
                             ) : null}
                         </li>
-                        <li className=" cursor-pointer hover:text-blue-600 transition duration-300 -pb-3 relative">
+                        <li
+                            className=" cursor-pointer hover:text-blue-600 transition duration-300 -pb-3 relative"
+                            onMouseLeave={() => setShowSubmenu(false)}
+                        >
                             <div
                                 className="services flex flex-col items-center relative"
                                 onClick={() => {

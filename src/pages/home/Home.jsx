@@ -162,12 +162,12 @@ const Home = () => {
                 "Ensuring Every Challenge is Met with Effective Solutions",
             description: (
                 <>
-                    (“We’ve had the pleasure of working with Statewide
+                    We've had the pleasure of working with Statewide
                     Geotechnical on multiple projects over the last decade, and
                     their responsiveness, collaborative approach, and practical
                     approach have been invaluable. They consistently deliver
                     clear, well-considered geotechnical advice that respond to
-                    our structural design and mitigate risks early.”),
+                    our structural design and mitigate risks early.
                 </>
             ),
             author: " - Elliot Smith, Matter",
@@ -176,13 +176,12 @@ const Home = () => {
             topicText: "Dependable Expertise for Every Build",
             description: (
                 <>
-                    ( 2MH Consulting has been working with Statewide
-                    Geotechnical for over 10 years now. We design and project
-                    manage new sports facility builds across Victoria, utilising
-                    Statewide for pavement design advice, and inspections and
-                    approvals of sub-grade constructions. We depend upon the
-                    Statewide teams' experience and knowledge to assist us
-                    through every build.},
+                    2MH Consulting has been working with Statewide Geotechnical
+                    for over 10 years now. We design and project manage new
+                    sports facility builds across Victoria, utilising Statewide
+                    for pavement design advice, and inspections and approvals of
+                    sub-grade constructions. We depend upon the Statewide teams'
+                    experience and knowledge to assist us through every build.
                 </>
             ),
             author: " - Mick Hassett, 2MH Consulting",
@@ -277,8 +276,8 @@ const Home = () => {
             </div>
 
             {/* New Update | Text carousel */}
-            <div className="xl:py-[64px] w-full">
-                <div className="xl:px-[110px]">
+            <div className="pb-[50px] sm:pb-[100px] md:pb-40 xl:pb-[64px] pt-[70px] md:pt-[100px] sm:pt-[100px] xl:pt-[128px] w-full">
+                <div className="px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px] w-full">
                     <Swiper
                         slidesPerView={1}
                         spaceBetween={10}
@@ -301,7 +300,7 @@ const Home = () => {
             {/* HOME - SECOND SECTION */}
             <div className="w-full">
                 {/* WHO WE ARE */}
-                <div className="mt-[50px] sm:mt-[100px] md:mt-40 xl:mt-[64px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
+                <div className="mt-[0px] sm:mt-[0px] md:mt-40 xl:mt-[64px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
                     <InfoSection
                         title="Who We Are"
                         description="At Statewide Geotechnical, we specialise in delivering expert geotechnical drilling, testing, and consulting services across Melbourne, Victoria, South Australia, and New South Wales. With advanced equipment and a team of highly qualified professionals, we provide precise site assessments, environmental drilling, and geotechnical solutions tailored to your project needs. Our commitment to safety, accuracy, and efficiency makes us the trusted partner for engineers, developers, and government agencies."

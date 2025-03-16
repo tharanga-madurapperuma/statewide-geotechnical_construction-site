@@ -11,6 +11,10 @@
     --swiper-navigation-size: 15px !important;
 }
 
+.textSwiper {
+    --swiper-navigation-size: 20px !important;
+}
+
 .font-poppins-62-400 {
     font-family: var(--font-family-poppins);
     font-weight: 400;

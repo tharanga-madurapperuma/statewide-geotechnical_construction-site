@@ -209,7 +209,7 @@ import Compaction from "./soil/Lab-testing-7.jpg";
 import Cbr from "./soil/Lab-testing-8.jpg";
 import Shrink from "./soil/Lab-testing-9.jpg";
 import Direct from "./soil/Lab-testing-10-edit.jpg";
-
+import Testings from "./soil/NATA-Accredited Testing.webp";
 export {
     SoilHero,
     SoilTesting,
@@ -226,6 +226,7 @@ export {
     Cbr,
     Shrink,
     Direct,
+    Testings,
 };
 
 //slopes page

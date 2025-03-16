@@ -37,14 +37,14 @@ const ContactPage = () => {
         hasBookButton={true}
       />
 
-      <div className="lg:block xl:hidden hidden px-8 md:px-[100px]">
+      {/* <div className="lg:block xl:hidden hidden px-8 md:px-[100px]">
         <div className="flex flex-row place-content-between gap-4">
           <ContactCard icon={<FaMapMarkerAlt />} title="Email Us">
             <p>info@statewide.com.au</p>
             <p>support@statewide.com.au</p>
           </ContactCard>{" "}
           <ContactCard icon={<FaMapMarkerAlt />} title="Call us">
-            <p>phone: +61 3 9123 4567</p>
+            <p>phone: +61 3 9879 2999</p>
             <p>Fax: +61 3 9123 4568</p>
           </ContactCard>
           <ContactCard
@@ -55,7 +55,7 @@ const ContactPage = () => {
             <p>Ringwood, VIC 3134</p>
           </ContactCard>
         </div>
-      </div>
+      </div> */}
 
       <div className="lg:block xl:hidden hidden px-8 md:px-[30px] mt-8">
         <div className="flex flex-row place-content-between gap-4">
@@ -64,8 +64,8 @@ const ContactPage = () => {
             <p>support@statewide.com.au</p>
           </ContactCard>{" "}
           <ContactCard icon={<IoCall />} title="Call us">
-            <p>phone: +61 3 9123 4567</p>
-            <p>Fax: +61 3 9123 4568</p>
+            <p>phone: +61 3 9879 2999</p>
+            {/* <p>Fax: +61 3 9123 4568</p> */}
           </ContactCard>
           <ContactCard
             icon={<FaMapMarkerAlt />}
@@ -84,8 +84,8 @@ const ContactPage = () => {
             <p>support@statewide.com.au</p>
           </ContactCard>{" "}
           <ContactCard icon={<IoCall />} title="Call us">
-            <p>phone: +61 3 9123 4567</p>
-            <p>Fax: +61 3 9123 4568</p>
+            <p>phone: +61 3 9879 2999</p>
+            {/* <p>Fax: +61 3 9123 4568</p> */}
           </ContactCard>
         </div>
         <div className="flex justify-center pt-40 mb-48">
@@ -106,8 +106,8 @@ const ContactPage = () => {
             <p>support@statewide.com.au</p>
           </ContactCard>{" "}
           <ContactCard icon={<IoCall />} title="Call us">
-            <p>phone: +61 3 9123 4567</p>
-            <p>Fax: +61 3 9123 4568</p>
+            <p>phone: +61 3 9879 2999</p>
+            {/* <p>Fax: +61 3 9123 4568</p> */}
           </ContactCard>
           <ContactCard
             icon={<FaMapMarkerAlt />}
@@ -157,7 +157,7 @@ const ContactPage = () => {
             <LicenseCard
               image={CustomerCentric}
               title="Customer-Centric Approach"
-              description="Your project is unique, and we’re here to provide personalized solutions that meet your specific requirements."
+              description="Your project is unique, and we’re here to provide personalised solutions that meet your specific requirements."
             />
           </div>
         </div>

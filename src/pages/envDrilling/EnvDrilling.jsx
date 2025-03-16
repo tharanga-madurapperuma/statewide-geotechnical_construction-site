@@ -86,7 +86,7 @@ const EnvDrilling = () => {
             certifications and competencies in key areas, including:
           </p>
         </div>
-        <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[100px] place-items-center">
+        <div className="w-full h-full pt-[64px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[90px] place-items-center">
           <LicenseCard
             image={Certificate}
             title="Water Bore Licenses (Class 1 & 2)"

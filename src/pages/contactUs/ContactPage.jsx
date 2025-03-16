@@ -23,7 +23,7 @@ const ContactPage = () => {
         }
     }, [location]);
     return (
-        <div className="md:mt-[108px]">
+        <div className="md:mt-[108px] mt-[60px] sm:mt-[70px]">
             <HeroSection
                 title={"Contact Us"}
                 description={

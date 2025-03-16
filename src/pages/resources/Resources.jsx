@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const Resources = () => {
     return (
-        <div className="w-full flex flex-col md:mt-[108px]">
+        <div className="w-full flex flex-col md:mt-[108px] mt-[60px] sm:mt-[70px]">
             {/* First Section*/}
             <div className="w-full h-auto">
                 <HeroSection

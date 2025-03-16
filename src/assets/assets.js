@@ -199,8 +199,34 @@ import SoilTesting from "./soil/soil.webp";
 import CardIconSoil from "./soil/CardIconSoil.svg";
 import Tube from "./soil/TubeIconSoil.svg";
 import RockTesting from "./soil/RockTesting.svg";
+import Liquid from "./soil/Lab-testing-1.jpg";
+import Linear from "./soil/Lab-testing-2.jpg";
+import Sieve from "./soil/Lab-testing-3-edit2.jpg";
+import Hydro from "./soil/Lab-testing-4.jpg";
+import Ucssoil from "./soil/Lab-testing-5.jpg";
+import Uutriaxial from "./soil/Lab-testing-6-edit2.jpg";
+import Compaction from "./soil/Lab-testing-7.jpg";
+import Cbr from "./soil/Lab-testing-8.jpg";
+import Shrink from "./soil/Lab-testing-9.jpg";
+import Direct from "./soil/Lab-testing-10-edit.jpg";
 
-export { SoilHero, SoilTesting, CardIconSoil, Tube, RockTesting };
+export {
+    SoilHero,
+    SoilTesting,
+    CardIconSoil,
+    Tube,
+    RockTesting,
+    Liquid,
+    Linear,
+    Sieve,
+    Hydro,
+    Ucssoil,
+    Uutriaxial,
+    Compaction,
+    Cbr,
+    Shrink,
+    Direct,
+};
 
 //slopes page
 import Engineers from "./slopes/engineers.webp";
@@ -255,10 +281,10 @@ export {
 export { Map, EnvHero, EnvSecond, DocIcon, Certificate, Card, Box };
 
 //  New About
-import AboutUsProfessionalIndemnity from "./about/About Us_Professional Indemnity -10m.svg";
-import AboutUsPublicLiability from "./about/About Us_Public Liability- 20m.svg";
-import AboutUsVehicleFleet from "./about/About Us_Vehicle Fleet.svg";
-import AboutUsWorkCover from "./about/About Us_WorkCover.svg";
+import AboutUsProfessionalIndemnity from "./about/AboutUs_ProfessionalIndemnity-10m.svg";
+import AboutUsPublicLiability from "./about/AboutUs_PublicLiability-20m.svg";
+import AboutUsVehicleFleet from "./about/AboutUs_VehicleFleet.svg";
+import AboutUsWorkCover from "./about/AboutUs_WorkCover.svg";
 
 export {
     AboutUsProfessionalIndemnity,
@@ -266,3 +292,5 @@ export {
     AboutUsVehicleFleet,
     AboutUsWorkCover,
 };
+import GeotechnicalReportImg from "./backgrounds/geo-technical.png";
+export { GeotechnicalReportImg };

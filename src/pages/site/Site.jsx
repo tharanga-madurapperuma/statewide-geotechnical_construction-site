@@ -191,7 +191,7 @@ const Site = () => {
               For complete geotechnical investigations, we offer end-to-end
               solutions, including:
             </p>
-            <div className="w-full grid grid-cols-1 gap-4 mt-4 sm:grid-cols-2 md:grid-cols-3 md:mt-6 lg:mt-8">
+            <div className="w-full grid grid-cols-1 gap-[24px] mt-4 sm:grid-cols-2 md:grid-cols-3 md:mt-6 lg:mt-8">
               <CardIconTextCenterColored
                 iconUrl={TwoMen}
                 titleText="Site Investigations"

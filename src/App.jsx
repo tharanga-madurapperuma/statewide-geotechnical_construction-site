@@ -4,7 +4,7 @@ import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import Home from "./pages/home/Home";
 import RetainingWall from "./pages/RetainingWall";
-import SiteInvetigate from "./pages/SiteInvetigate";
+import Site from "./pages/site/Site";
 import FoundationBuilt from "./pages/FoundationBuilt";
 import "./App.css";
 import "./index.css";
@@ -47,9 +47,14 @@ const App = () => {
                     <Route path="/slopes" element={<Slopes />} />
                     <Route path="/road" element={<Road />} />
                     <Route path="/land" element={<LandCapability />} />
-                    <Route
+                    {/* <Route
                         path="/siteinvetigate"
                         element={<SiteInvetigate />}
+                    /> */}
+            
+            <Route
+                        path="/site"
+                        element={<Site />}
                     />
                     <Route
                         path="/foundationbuilt"

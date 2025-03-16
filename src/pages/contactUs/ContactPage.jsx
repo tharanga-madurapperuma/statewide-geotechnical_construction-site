@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import HeroSection from "../../components/hero-section/HeroSection";
 import LicenseCard from "../../components/card-icon-license/CardIconLicense";
-import { DocIcon } from "../../assets/assets";
+import { Comprehensive, CustomerCentric, DocIcon, Expertise } from "../../assets/assets";
 import AppointmentRequestForm from "../../components/form/AppointmentRequestForm";
 import { BsDribbble, BsInstagram } from "react-icons/bs";
 import { RiTwitterLine } from "react-icons/ri";
@@ -139,23 +139,23 @@ const ContactPage = () => {
           <h2 className="lg:text-[48px]  text-2xl py-[2rem] font-600 text-gray-900 ">
             Why Choose Us
           </h2>
-          <div className="w-full h-full lg:px-0  flex space-b place-content-between gap-[40px] lg:gap-[68px] flex-col  md:flex-row">
+          <div className="w-full h-full lg:px-0  flex space-b place-content-between gap-[40px] lg:gap-[50px] flex-col  md:flex-row">
             <LicenseCard
-              image={DocIcon}
+              image={Expertise}
               title="Expertise You Can Trust"
               description={
                 "With years of experience in geotechnical engineering and a dedicated team, we’re equipped to tackle projects of any scale."
               }
             />
             <LicenseCard
-              image={DocIcon}
+              image={Comprehensive}
               title="Comprehensive Services"
               description={
                 "We handle everything from drilling and soil testing to full-scale foundation design and site assessment."
               }
             />
             <LicenseCard
-              image={DocIcon}
+              image={CustomerCentric}
               title="Customer-Centric Approach"
               description={
                 "Your project is unique, and we’re here to provide personalized solutions that meet your specific requirements."

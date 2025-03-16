@@ -30,7 +30,12 @@ import {
   Map,
   TwoMen,
   FlaskWhite,
-  ManWhite,
+    ManWhite,
+    Lightweight,
+    Exposures,
+    Test,
+    Pavement,
+    Thermal
 } from "../../assets/assets";
 
 const Site = () => {
@@ -84,7 +89,7 @@ const Site = () => {
             bodyText="(Falling and constant head)"
           />
           <CardIconTextCenter
-            iconUrl={PressureMeterTesting}
+            iconUrl={Lightweight}
             titleText="Lightweight Deflectometer Testing"
             bodyTextPresent={true}
             bodyText=""
@@ -96,25 +101,25 @@ const Site = () => {
             bodyText="For on-site soil strength assessments" //not showing the text in the card
           />
           <CardIconTextCenter
-            iconUrl={GroundwaterMonitoringBores}
+            iconUrl={Exposures}
             titleText="Footing Exposures"
             bodyTextPresent={true}
             bodyText=""
           />
           <CardIconTextCenter
-            iconUrl={PermeabilityTesting}
+            iconUrl={Thermal}
             titleText="Electrical & Thermal Resistivity Testing"
             bodyTextPresent={true}
             bodyText=""
           />
           <CardIconTextCenter
-            iconUrl={PressureMeterTesting}
-            titleText="Lightweight Deflectometer Testing"
+            iconUrl={Pavement}
+            titleText="Pavement Exploration"
             bodyTextPresent={true}
             bodyText=""
           />
           <CardIconTextCenter
-            iconUrl={DCPTesting}
+            iconUrl={Test}
             titleText="Test Pits"
             bodyTextPresent={true}
             bodyText=""
@@ -229,3 +234,5 @@ conditions and provide detailed recommendations."
 };
 
 export default Site;
+
+// We operate Geoprobe, Comacchio, Hanjin, tight access rigs, designed for small footprint and low headroom applications—ideal for tight access and di(icult-to-reach areas. Our drilling rigs are equipped with industry-standard safety cages and emergency shut-off systems to ensure maximum safety at all times.

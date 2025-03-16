@@ -96,7 +96,7 @@ const Home = () => {
             image: LandCapabilityAssessment,
             title: "Land Capability Assessment",
             description:
-                "Evaluation of soil, drainage, and environmental factors to determine land suitability for development and agriculture.",
+                "Expert geotechnical assessments and innovative engineering solutions for stable, cost-effective construction projects.",
             link: "land",
         },
         // {

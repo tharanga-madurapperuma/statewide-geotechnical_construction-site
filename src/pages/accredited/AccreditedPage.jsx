@@ -4,7 +4,7 @@ import AccreditedFacilitySection from "../../components/hero-section/AccreditedF
 
 const AccreditedPage = () => {
     return (
-        <div className="md:mt-[108px]">
+        <div className="md:mt-[108px] mt-[60px] sm:mt-[70px]">
             <HeroSection
                 title={"Your Trusted NATA-Accredited Testing Facility"}
                 description={

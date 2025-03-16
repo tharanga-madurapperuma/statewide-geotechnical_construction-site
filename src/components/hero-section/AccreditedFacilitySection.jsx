@@ -44,7 +44,7 @@ const AccreditedFacilitySection = () => {
           <img
             src={Testings}
             alt="Facility"
-            className="w-full h-auto lg:h-[360px]  m-auto object-cover  rounded-3xl shadow-lg"
+            className="w-full h-auto lg:h-[360px]  m-auto object-cover  rounded-3xl "
           />
         </div>
       </div>

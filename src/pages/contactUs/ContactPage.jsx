@@ -1,56 +1,61 @@
-import React, { useEffect } from "react";
-import HeroSection from "../../components/hero-section/HeroSection";
-import LicenseCard from "../../components/card-icon-license/CardIconLicense";
-import { Comprehensive, CustomerCentric, DocIcon, Expertise } from "../../assets/assets";
-import AppointmentRequestForm from "../../components/form/AppointmentRequestForm";
-import { BsDribbble, BsInstagram } from "react-icons/bs";
-import { RiTwitterLine } from "react-icons/ri";
-import ContactCard from "../../components/contacts/ContactCard";
-import { FaMapMarkerAlt } from "react-icons/fa";
-import { IoIosMail } from "react-icons/io";
-import { IoCall } from "react-icons/io5";
-import { useLocation } from "react-router-dom";
+import React, {useEffect} from "react"
+import HeroSection from "../../components/hero-section/HeroSection"
+import LicenseCard from "../../components/card-icon-license/CardIconLicense"
+import {
+  Comprehensive,
+  CustomerCentric,
+  DocIcon,
+  Expertise,
+} from "../../assets/assets"
+import AppointmentRequestForm from "../../components/form/AppointmentRequestForm"
+import {BsDribbble, BsInstagram} from "react-icons/bs"
+import {RiTwitterLine} from "react-icons/ri"
+import ContactCard from "../../components/contacts/ContactCard"
+import {FaMapMarkerAlt} from "react-icons/fa"
+import {IoIosMail} from "react-icons/io"
+import {IoCall} from "react-icons/io5"
+import {useLocation} from "react-router-dom"
 
 const ContactPage = () => {
-    const location = useLocation();
+  const location = useLocation()
 
-    useEffect(() => {
-        if (location.hash === "#contactForm") {
-            const element = document.getElementById("contactForm");
-            if (element) {
-                element.scrollIntoView({ behavior: "smooth" });
-            }
+  useEffect(() => {
+    if (location.hash === "#contactForm") {
+      const element = document.getElementById("contactForm")
+      if (element) {
+        element.scrollIntoView({behavior: "smooth"})
+      }
+    }
+  }, [location])
+  return (
+    <div className="md:mt-[108px] mt-[60px] sm:mt-[70px]">
+      <HeroSection
+        title={"Contact Us"}
+        description={
+          "We’re here to help! Whether you're ready to start your next project or just have a question, the team at Statewide Geotechnical (Aust) Pty Ltd is always available to assist. Let’s connect and see how we can help you with your geotechnical, geological, and engineering needs."
         }
-    }, [location]);
-    return (
-        <div className="md:mt-[108px] mt-[60px] sm:mt-[70px]">
-            <HeroSection
-                title={"Contact Us"}
-                description={
-                    "We’re here to help! Whether you're ready to start your next project or just have a question, the team at Statewide Geotechnical (Aust) Pty Ltd is always available to assist. Let’s connect and see how we can help you with your geotechnical, geological, and engineering needs."
-                }
-                hasBookButton={true}
-            />
+        hasBookButton={true}
+      />
 
-            <div className="lg:block xl:hidden hidden px-8 md:px-[100px]">
-                <div className="flex flex-row place-content-between gap-4">
-                    <ContactCard icon={<FaMapMarkerAlt />} title="Email Us">
-                        <p>info@statewide.com.au</p>
-                        <p>support@statewide.com.au</p>
-                    </ContactCard>{" "}
-                    <ContactCard icon={<FaMapMarkerAlt />} title="Call us">
-                        <p>phone: +61 3 9123 4567</p>
-                        <p>Fax: +61 3 9123 4568</p>
-                    </ContactCard>
-                    <ContactCard
-                        icon={<FaMapMarkerAlt />}
-                        title="Statewide Geotechnical (Aust) Pty Ltd"
-                    >
-                        <p>17-20 Summer Lane</p>
-                        <p>Ringwood, VIC 3134</p>
-                    </ContactCard>
-                </div>
-            </div>
+      <div className="lg:block xl:hidden hidden px-8 md:px-[100px]">
+        <div className="flex flex-row place-content-between gap-4">
+          <ContactCard icon={<FaMapMarkerAlt />} title="Email Us">
+            <p>info@statewide.com.au</p>
+            <p>support@statewide.com.au</p>
+          </ContactCard>{" "}
+          <ContactCard icon={<FaMapMarkerAlt />} title="Call us">
+            <p>phone: +61 3 9123 4567</p>
+            <p>Fax: +61 3 9123 4568</p>
+          </ContactCard>
+          <ContactCard
+            icon={<FaMapMarkerAlt />}
+            title="Statewide Geotechnical (Aust) Pty Ltd"
+          >
+            <p>17-20 Summer Lane</p>
+            <p>Ringwood, VIC 3134</p>
+          </ContactCard>
+        </div>
+      </div>
 
       <div className="lg:block xl:hidden hidden px-8 md:px-[30px] mt-8">
         <div className="flex flex-row place-content-between gap-4">
@@ -93,7 +98,6 @@ const ContactPage = () => {
           </ContactCard>
         </div>
       </div>
-      
 
       <div className="sm:hidden  flex justify-center  my-8 ">
         <div className="flex flex-col  gap-8">
@@ -139,27 +143,21 @@ const ContactPage = () => {
           <h2 className="lg:text-[48px]  text-2xl py-[2rem] font-600 text-gray-900 ">
             Why Choose Us
           </h2>
-          <div className="w-full h-full lg:px-0  flex space-b place-content-between gap-[40px] lg:gap-[50px] flex-col  md:flex-row">
+          <div className="w-full h-full grid grid-cols-1 md:grid-cols-3 gap-[40px] lg:gap-[100px]">
             <LicenseCard
               image={Expertise}
               title="Expertise You Can Trust"
-              description={
-                "With years of experience in geotechnical engineering and a dedicated team, we’re equipped to tackle projects of any scale."
-              }
+              description="With years of experience in geotechnical engineering and a dedicated team, we’re equipped to tackle projects of any scale."
             />
             <LicenseCard
               image={Comprehensive}
               title="Comprehensive Services"
-              description={
-                "We handle everything from drilling and soil testing to full-scale foundation design and site assessment."
-              }
+              description="We handle everything from drilling and soil testing to full-scale foundation design and site assessment."
             />
             <LicenseCard
               image={CustomerCentric}
               title="Customer-Centric Approach"
-              description={
-                "Your project is unique, and we’re here to provide personalized solutions that meet your specific requirements."
-              }
+              description="Your project is unique, and we’re here to provide personalized solutions that meet your specific requirements."
             />
           </div>
         </div>

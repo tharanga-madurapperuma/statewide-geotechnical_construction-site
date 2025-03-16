@@ -18,7 +18,7 @@ const CardIconTextCenterColored = ({
             </div>
 
             {/* Title */}
-            <h2 className="font-inter text-lg md:text-xl lg:text-2xl font-semibold text-center mt-4">
+            <h2 className="font-inter text-lg md:text-xl lg:text-2xl font-semibold text-center mt-1">
                 {titleText}
             </h2>
 

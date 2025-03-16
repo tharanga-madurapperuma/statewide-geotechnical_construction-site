@@ -14,7 +14,7 @@ const HeroSection = ({
     return (
         <section className=" my-[5%] md:my-0 px-2 md:px-4 ">
             <div
-                className={` md:h-[720px]   w-full flex items-center bg-cover py-[60px]  px-6 sm:px-[64px] md:px-[74px] lg:px-[94px] xl:px-[94px] bg-center rounded-xl hue-rotate-15 saturate-150`}
+                className={` md:h-[720px]   w-full flex items-center bg-cover py-[60px]  px-6 sm:px-[64px] md:px-[74px] lg:px-[94px] xl:px-[94px] bg-center rounded-xl `}
                 style={{ backgroundImage: `url(${HomeOnly})` }}
             >
                 <div className="">
@@ -44,7 +44,7 @@ const HeroSection = ({
                             <div className="mt-8 md:w-[198px]">
                                 <a
                                     href="#appointment"
-                                    className="bg-[#0064FF] border-2 border-[#0064FF] text-white py-2 px-5 rounded-lg font-medium text-sm md:text-[20px] inline-flex items-center gap-2 shadow-md hover:bg-blue-700 transition duration-300"
+                                    className="bg-[#0064FF]  text-white py-2 px-5 rounded-lg font-medium text-sm md:text-[20px] inline-flex items-center gap-2  hover:bg-blue-700 transition duration-300"
                                 >
                                     Book appt. <GoArrowUpRight />
                                 </a>

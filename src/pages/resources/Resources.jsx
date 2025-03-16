@@ -41,7 +41,7 @@ const Resources = () => {
                         description="The safety of our employees, clients, and the public is our top priority. Our Safety Policy encompasses:"
                         bulletText={[
                             "Compliance with all relevant health and safety regulations.",
-                            "Regular training and safety drills for staI.",
+                            "Regular training and safety drills for staff.",
                             "Implementation of risk management strategies on all job sites.",
                         ]}
                     />
@@ -52,7 +52,7 @@ const Resources = () => {
                 <div>
                     <PolicyText
                         title="3. Environmental Policy"
-                        description="We recognize the importance of sustainable practices in geotechnical engineering. Our Environmental Policy includes:"
+                        description="We recognise the importance of sustainable practices in geotechnical engineering. Our Environmental Policy includes:"
                         bulletText={[
                             "Commitment to reducing our environmental impact.",
                             "Sustainable resource management and waste reduction strategies.",
@@ -94,7 +94,7 @@ const Resources = () => {
                 <div>
                     <PolicyText
                         title="6. Data Protection and Privacy Policy"
-                        description="We prioritize the privacy of our clients and employees. Our Data Protection and Privacy Policy ensures:"
+                        description="We prioritise the privacy of our clients and employees. Our Data Protection and Privacy Policy ensures:"
                         bulletText={[
                             "Compliance with all applicable data protection laws.",
                             "Secure storage and processing of personal information.",
@@ -104,6 +104,19 @@ const Resources = () => {
                     <div className="py-[56px] px-[95px]">
                         <hr className="mt-4 border-[#D1D5DB]" />
                     </div>
+                </div>
+                <div>
+                    <PolicyText
+                        title="7. Insurance and Liability Documentation"
+                        description="To protect our clients and employees, we maintain comprehensive insurance coverage, including:"
+                        bulletText={[
+                            "Professional Indemnity Insurance",
+                            "Public Liability Insurance",
+                            "Fleet and Equipment Insurance",
+                            "WorkCover Insurance",
+                        ]}
+                    />
+                    
                 </div>
 
                 {/* Third Section*/}

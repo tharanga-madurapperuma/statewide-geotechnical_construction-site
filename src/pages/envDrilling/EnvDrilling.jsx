@@ -40,8 +40,8 @@ const EnvDrilling = () => {
             <div className="mt-4 sm:mt-0 px-3 sm:px-0 ">
                 <ButtonCard
                     image={EnvHero}
-                    title="Specialized Environmental & Geotechnical Drilling Services"
-                    description="At Statewide Geotechnical, we o(er a wide range of specialized environmental and geotechnical drilling services. Equipped with advanced drilling rigs, from small, handheld units to heavy truck-mounted rigs, we can handle even the most complex site conditions."
+                    title="Specialised Environmental & Geotechnical Drilling Services"
+                    description="At Statewide Geotechnical, we offer a wide range of specialized environmental and geotechnical drilling services. Equipped with advanced drilling rigs, from small, handheld units to heavy truck-mounted rigs, we can handle even the most complex site conditions."
                     buttonText="Request a Consultation"
                 />
             </div>

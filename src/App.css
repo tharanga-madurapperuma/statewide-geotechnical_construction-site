@@ -192,7 +192,7 @@
     position: relative;
 }
 
-.swiper-wrapper {
+.mySwiper > .swiper-wrapper {
     overflow: visible !important;
     padding-bottom: 50px;
 }

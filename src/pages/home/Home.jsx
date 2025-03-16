@@ -39,6 +39,7 @@ const Home = () => {
     const mainDivRef = useRef(null);
     const [isHovering, setIsHovering] = useState(false);
     const [isAtEdge, setIsAtEdge] = useState(false);
+    const swiperRefText = React.useRef(null);
 
     // Home top
     useEffect(() => {
@@ -285,15 +286,34 @@ const Home = () => {
 
             {/* New Update | Text carousel */}
             <div className="pb-[50px] sm:pb-[100px] md:pb-40 xl:pb-[64px] pt-[70px] md:pt-[100px] sm:pt-[100px] xl:pt-[128px] w-full">
-                <div className="px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px] w-full">
+                <div
+                    className="px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px] w-full"
+                    onMouseEnter={() => {
+                        if (
+                            swiperRefText.current &&
+                            swiperRefText.current.swiper
+                        ) {
+                            swiperRefText.current.swiper.autoplay.stop();
+                        }
+                    }}
+                    onMouseLeave={() => {
+                        if (
+                            swiperRefText.current &&
+                            swiperRefText.current.swiper
+                        ) {
+                            swiperRefText.current.swiper.autoplay.start();
+                        }
+                    }}
+                >
                     <Swiper
+                        ref={swiperRefText}
                         slidesPerView={1}
                         spaceBetween={10}
                         keyboard={{
                             enabled: true,
                         }}
                         autoplay={{
-                            delay: 3000,
+                            delay: 2000,
                             disableOnInteraction: false,
                         }}
                         loopAdditionalSlides={1}

@@ -210,7 +210,23 @@ import Cbr from "./soil/Lab-testing-8.jpg";
 import Shrink from "./soil/Lab-testing-9.jpg";
 import Direct from "./soil/Lab-testing-10-edit.jpg";
 
-export { SoilHero, SoilTesting, CardIconSoil, Tube, RockTesting, Liquid, Linear, Sieve, Hydro, Ucssoil, Uutriaxial, Compaction, Cbr, Shrink, Direct };
+export {
+    SoilHero,
+    SoilTesting,
+    CardIconSoil,
+    Tube,
+    RockTesting,
+    Liquid,
+    Linear,
+    Sieve,
+    Hydro,
+    Ucssoil,
+    Uutriaxial,
+    Compaction,
+    Cbr,
+    Shrink,
+    Direct,
+};
 
 //slopes page
 import Engineers from "./slopes/engineers.webp";
@@ -264,5 +280,17 @@ export {
 // Env Drilling Page
 export { Map, EnvHero, EnvSecond, DocIcon, Certificate, Card, Box };
 
+//  New About
+import AboutUsProfessionalIndemnity from "./about/AboutUs_ProfessionalIndemnity-10m.svg";
+import AboutUsPublicLiability from "./about/AboutUs_PublicLiability-20m.svg";
+import AboutUsVehicleFleet from "./about/AboutUs_VehicleFleet.svg";
+import AboutUsWorkCover from "./about/AboutUs_WorkCover.svg";
+
+export {
+    AboutUsProfessionalIndemnity,
+    AboutUsPublicLiability,
+    AboutUsVehicleFleet,
+    AboutUsWorkCover,
+};
 import GeotechnicalReportImg from "./backgrounds/geo-technical.png";
 export { GeotechnicalReportImg };

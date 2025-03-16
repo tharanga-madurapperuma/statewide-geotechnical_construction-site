@@ -209,8 +209,25 @@ import Compaction from "./soil/Lab-testing-7.jpg";
 import Cbr from "./soil/Lab-testing-8.jpg";
 import Shrink from "./soil/Lab-testing-9.jpg";
 import Direct from "./soil/Lab-testing-10-edit.jpg";
-
-export { SoilHero, SoilTesting, CardIconSoil, Tube, RockTesting, Liquid, Linear, Sieve, Hydro, Ucssoil, Uutriaxial, Compaction, Cbr, Shrink, Direct };
+import Testings from "./soil/NATA-Accredited Testing.webp";
+export {
+    SoilHero,
+    SoilTesting,
+    CardIconSoil,
+    Tube,
+    RockTesting,
+    Liquid,
+    Linear,
+    Sieve,
+    Hydro,
+    Ucssoil,
+    Uutriaxial,
+    Compaction,
+    Cbr,
+    Shrink,
+    Direct,
+    Testings,
+};
 
 //slopes page
 import Engineers from "./slopes/engineers.webp";
@@ -264,5 +281,69 @@ export {
 // Env Drilling Page
 export { Map, EnvHero, EnvSecond, DocIcon, Certificate, Card, Box };
 
+//  New About
+import AboutUsProfessionalIndemnity from "./about/AboutUs_ProfessionalIndemnity-10m.svg";
+import AboutUsPublicLiability from "./about/AboutUs_PublicLiability-20m.svg";
+import AboutUsVehicleFleet from "./about/AboutUs_VehicleFleet.svg";
+import AboutUsWorkCover from "./about/AboutUs_WorkCover.svg";
+
+export {
+    AboutUsProfessionalIndemnity,
+    AboutUsPublicLiability,
+    AboutUsVehicleFleet,
+    AboutUsWorkCover,
+};
 import GeotechnicalReportImg from "./backgrounds/geo-technical.png";
 export { GeotechnicalReportImg };
+
+
+import Comprehensive from "./contact-us/Contact Us_Comprehensive Services.svg";
+import Expertise from "./contact-us/Contact Us_Expertise You Can Trust.svg";
+import CustomerCentric from "./contact-us/Contact Us_Customer-Centric Approach.svg";
+
+export { Comprehensive, Expertise, CustomerCentric };
+
+import SlopeStability from "./engineering/Engineering Assessment _Slope Stability Assessment.svg";
+import LandCapability from "./engineering/Engineering Assessment_Land Capability Assessment .svg";
+import RoadPavement from "./engineering/Engineering Assessment_Road Pavement Design.svg";
+import GeotechnicalInvestigation from "./engineering/Engineering Assessment_Geotechnical Investigation Report.svg";
+
+export { SlopeStability, LandCapability, RoadPavement, GeotechnicalInvestigation };
+
+//new SiteInvestigation page
+
+import DCPTesting from "./site/DCPTesting.png";
+import DiamondCoring from "./site/DiamondCoring.png";
+import GroundwaterMonitoringBores from "./site/GroundwaterMonitoringBores.png";
+import PermeabilityTesting from "./site/PermeabilityTesting.png";
+import PressureMeterTesting from "./site/PressureMeterTesting.png";
+import SPTTesting from "./site/SPTTesting.png";
+import UndisturbedSampling from "./site/UndisturbedSampling.png";
+
+import Lightweight from "./site/Lightweight.png";
+import Exposures from "./site/Exposures.png";
+import Pavement from "./site/Pavement.png";
+import Test from "./site/Test.png";
+import Thermal from "./site/Thermal.png";
+    
+
+export { 
+    DCPTesting,
+    GroundwaterMonitoringBores,
+    DiamondCoring,
+    PermeabilityTesting,
+    PressureMeterTesting,
+    SPTTesting,
+
+    UndisturbedSampling,
+    Lightweight,
+    Exposures,
+    Pavement,
+    Test,
+    Thermal,
+
+
+   
+};
+
+

@@ -3,92 +3,118 @@ import HeroSection from "../components/hero-section/HeroSection";
 import TextSection from "../components/text/TextSection";
 import InfoSection from "../components/info-section/InfoSection";
 import CardIconTextCenter from "../components/card-icon-text-center/CardIconTextCenter";
-import { AboutHero } from "../assets/assets";
+import {
+    AboutHero,
+    AboutUsProfessionalIndemnity,
+    AboutUsPublicLiability,
+    AboutUsVehicleFleet,
+    AboutUsWorkCover,
+} from "../assets/assets";
 
 const AboutUs = () => {
     return (
-        <div className="flex flex-col w-full items-center justify-center md:mt-[108px]">
-            <div className="w-full h-auto">
-                <HeroSection
-                    title="Trusted Leaders in Geotechnical & Geological Services"
-                    description="Over 30,000 successful ground investigation projects completed."
-                    buttonLink="/contact"
-                    buttonText="Get in Touch"
-                />
-
-                <div className="mb-8 px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] sm:mb-40 md:mb-58 w-full md:py-6 mt-[64px]">
-                    <InfoSection
-                        title="About Us"
-                        description="Statewide Geotechnical (Aust) Pty Ltd, a trusted leader in geotechnical and geological services. With over 30,000 successful ground investigation projects completed, our expert team of Geotechnical Engineers, Engineering Geologists, and Soil and Laboratory Technicians delivers top-tier services across a variety of industries.
-
-We proudly serve a diverse range of clients, including consulting engineers, commercial and residential builders, utility companies, local authorities, and government organizations. Our comprehensive suite of geotechnical services is offered under one roof, ensuring a streamlined, efficient process from start to finish."
-                        buttonLink="/contact"
-                        buttonText="Contact Us to Learn More About Our Services"
-                        imageSrc={AboutHero}
-                        reverse=""
-                    />
+        <div className="md:mt-[108px] mt-[60px] sm:mt-[70px]">
+            <HeroSection
+                title={"About Statewide Geotechnical"}
+                description={
+                    "Delivering precise geotechnical solutions since the 1980s, Statewide Geotechnical combines over 100 years of expertise with cutting-edge technology to support Victoria and Australia’s infrastructure, energy, and environmental projects—safely, sustainably, and affordably."
+                }
+                buttonLink={"#"}
+                buttonText="Get in Touch"
+            />
+            <div className="max-w-[1920px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px] ">
+                <div className="pb-[50px] sm:pb-[100px] md:pb-40 xl:pb-[64px] pt-[70px] md:pt-[100px] sm:pt-[100px] xl:pt-[128px] w-full">
+                    <h2 className="text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-[56px]">
+                        About Us
+                    </h2>
+                    <p className="text-gray-600 font-inter font-400 text-12 sm:text-14 md:text-16 xl:text-18">
+                        Statewide Geotechnical Pty Ltd is a Melbourne-based
+                        company founded in 1980s by David Alkemade as Statewide
+                        Geotechnical Services. In 1995, Statewide Geotechnical
+                        Services was transformed into Statewide Geotechnical
+                        (Aust) Pty Ltd and our soils laboratory was formed in
+                        our Ringwood Premises as Statewide Laboratories Pty Ltd.
+                        In 2025.
+                        <br />
+                        <br /> Our approach is simple: keep it affordable, keep
+                        it precise, and always deliver excellent results. <br />
+                        <br />
+                        With a team of experienced professionals and a
+                        commitment to ongoing training and upgrading of our
+                        equipment, we provide comprehensive geotechnical
+                        services to clients in mining, geotechnical, and
+                        environmental industries across Victoria and Australia.
+                        <br />
+                        <br /> Our team has over 100 years of combined
+                        experience offering innovative geotechnical consulting,
+                        testing, and design for infrastructure, energy,
+                        environmental, water, and resource management projects.
+                        We deliver tailored consulting and construction services
+                        for both public and private organizations, including
+                        construction companies, civil engineering firms, and
+                        solar developers.
+                        <br />
+                        <br /> We pride ourselves on our fleet of
+                        industry-recognized rigs from top manufacturers like
+                        Comacchio, Geoprobe, Mobile, and EVH. We also use
+                        custom-built, tight-access rigs for more challenging
+                        sites.
+                        <br />
+                        <br />
+                        Safety and sustainability are at the heart of everything
+                        we do. For every project, we develop site-specific
+                        Safety Management Plans to ensure we meet the highest
+                        standards in safety and environmental responsibility.
+                    </p>
                 </div>
 
-                <div className="mb-8 px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] sm:mb-40 md:mb-58 w-full bg-[#EBF7FF] md:py-6 mt-[64px]">
-                    <TextSection
-                        title="Why Choose Us?"
-                        description="At Statewide Geotechnical, we set ourselves apart with our unique ability to provide all drilling, laboratory testing, and reporting in-house. This integrated approach ensures faster turnaround times, consistent quality, and unmatched reliability throughout every phase of your project. By controlling every aspect of the process, we maintain high standards and offer exceptional value—all while keeping costs lower than larger competitors.
-
-Our team is dedicated to providing accurate, cost-effective geotechnical solutions tailored to your needs. Whether you're involved in residential, commercial, or industrial projects, we support your design process, ensure compliance with regulations, and help mitigate risks associated with ground conditions."
-                        buttonText="Get in Touch with Our Team"
-                        buttonLink="/contact"
-                    />
-                </div>
-            </div>
-
-            <div className="max-w-[1408px] mx-auto px-8 mt-[32px]  mb-[32px]">
-                <h2 className="text-24 sm:text-36 md:text-48 font-600 text-gray-900 font-inter  mb-[56px]">
-                    What We Offer
-                </h2>
-
-                <div className="grid grid-cols-12 grid-rows-1 gap-6">
+                <p className="font-inter font-500 text-16 sm:text-[20px] md:text-24 lg:text-28 xl:text-32 text-gray-900 mb-[56px]">
+                    Statewide Drilling maintain comprehensive insurance cover
+                    including:
+                </p>
+                <div className="grid grid-cols-12 grid-rows-1 gap-6 pb-[50px] sm:pb-[100px] md:pb-40 xl:pb-[64px]">
                     <div className="col-span-12 sm:col-span-6 md:col-span-3">
                         <CardIconTextCenter
-                            iconUrl="/helmet.png"
-                            titleText="Comprehensive Services"
-                            bodyTextPresent="Drilling, soil sampling, laboratory testing, and reporting-all performed in-house."
-                            bodyText="Drilling, soil sampling, laboratory testing, and reporting-all performed in-house."
+                            iconUrl={AboutUsPublicLiability}
+                            titleText="Public Liability $20m"
+                            bodyTextPresent={false}
+                            bodyText=""
                         />
                     </div>
                     <div className="col-span-12 sm:col-span-6 md:col-span-3 col-start-1 sm:col-start-7 md:col-start-4">
                         <CardIconTextCenter
-                            iconUrl="/helmet.png"
-                            titleText="Fast, Efficient Process"
-                            bodyTextPresent="Streamlined workflows reduce timelines and enhance project delivery."
-                            bodyText="Streamlined workflows reduce timelines and enhance project delivery."
+                            iconUrl={AboutUsProfessionalIndemnity}
+                            titleText="Professional Indemnity $10m"
+                            bodyTextPresent={false}
+                            bodyText=""
                         />
                     </div>
                     <div className="col-span-12 sm:col-span-6 md:col-span-3 col-start-1 sm:col-start-7 md:col-start-7">
                         <CardIconTextCenter
-                            iconUrl="/helmet.png"
-                            titleText="Expert Team"
-                            bodyTextPresent="Skilled engineers and technicians dedicated to providing high-quality results."
-                            bodyText="Skilled engineers and technicians dedicated to providing high-quality results."
+                            iconUrl={AboutUsVehicleFleet}
+                            titleText="Vehicle Fleet"
+                            bodyTextPresent={false}
+                            bodyText=""
                         />
                     </div>
                     <div className="col-span-12 sm:col-span-6 md:col-span-3 col-start-1 sm:col-start-7 md:col-start-10">
                         <CardIconTextCenter
-                            iconUrl="/helmet.png"
-                            titleText="Cost-Effective Solutions"
-                            bodyTextPresent="We pass savings on to you by minimizing overheads, offering affordable services without compromising quality."
-                            bodyText="We pass savings on to you by minimizing overheads, offering affordable services without compromising quality."
+                            iconUrl={AboutUsWorkCover}
+                            titleText="Work Cover"
+                            bodyTextPresent={false}
+                            bodyText=""
                         />
                     </div>
                 </div>
 
                 {/* Footer */}
-                <div className="text-gray-600 mt-[56px] mb-[96px] ">
+                {/* <div className="text-gray-600 mt-[56px] mb-[96px] ">
                     <p>
                         Choose Statewide Geotechnical (Aust) Pty Ltd for your
                         next project, and experience the benefits of seamless,
                         reliable, and cost-effective geotechnical services.
                     </p>
-                </div>
+                </div> */}
             </div>
         </div>
     );

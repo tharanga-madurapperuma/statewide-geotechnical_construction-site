@@ -37,7 +37,7 @@ const Soil = () => {
                         <p className="text-base mb-[30px] sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0">
                         Our test methods are comply with current Australian standards and international standards such as American Society of Testing & Materials (ASTM). Our testing include:
                         </p>
-                        <div className="text-[25px] md:text-[32px] -mb-[60px]">
+                        <div className="font-medium text-[25px] md:text-[34px] -mb-[60px]">
                             <h3>
                             Soil Classification Testing
                             </h3>
@@ -99,7 +99,7 @@ const Soil = () => {
 
                         <div className="mt-[75px]">
 
-                            <div className="text-[25px] md:text-[32px] -mb-[60px]">
+                            <div className="font-medium text-[25px] md:text-[32px] -mb-[60px]">
                                 <h3>
                                 Soil Strength / Compaction Testing
                                 </h3>
@@ -196,13 +196,13 @@ const Soil = () => {
                             Rock Testing Services
                         </h2>
                         <p className="text-base mb-[56px] sm:text-lg text-gray-700 leading-relaxed text-center md:text-left max-w-7xl mx-auto md:mx-0">
-                        Our rock testing services analyze key properties of rock material, providing data for safe excavation, tunneling, and stability in construction. Reliable testing supports the selection of suitable materials for both structural and geotechnical applications.
+                        Our rock testing services analyse key properties of rock material, providing data for safe excavation, tunnelling, and stability in construction. Reliable testing supports the selection of suitable materials for both structural and geotechnical applications.
                         </p>
                         <div className="w-full h-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-3 md:gap-4 flex-col sm:flex-row mt-8">
                             <div className="col-span-1 row-span-1 sm:w-full ">
                                 <CardIconTopLeft
                                     iconUrl={RockTesting}
-                                    iconBackground="bg-white-100"
+                                    iconBackground="bg-white"
                                     background="bg-Primary-100"
                                     stroke={true}
                                     titleText="Moisture Content & Porosity (AS 4133.1.1.1, AS 4133.2.1.1)"
@@ -217,7 +217,7 @@ const Soil = () => {
                             <div className="col-span-1 row-span-1">
                                 <CardIconTopLeft
                                     iconUrl={RockTesting}
-                                    iconBackground="bg-white-100"
+                                    iconBackground="bg-white"
                                     background="bg-Primary-100"
                                     stroke={true}
                                     titleText="Point Load Index & Uniaxial Compressive Strength (AS 4133.4.1, AS 4133.4.2.1)"

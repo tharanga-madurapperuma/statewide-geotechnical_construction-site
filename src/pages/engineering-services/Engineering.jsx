@@ -8,15 +8,7 @@ import { DrillingSecond } from "../../assets/assets"
 const Engineering = () => {
   return (
     <div className="md:mt-[108px]">
-      {/* <HeroSection
-        title={"Engineering Assessment Services"}
-        description={
-          "Our highly experienced engineering team is committed to delivering the most reliable & cost-efficient solution for geotechnical challenges.  "
-        }
-        buttonText={"Get in Touch "}
-        buttonLink={"/"}
-        hasBookButton={false}
-          /> */}
+     
           <ButtonCard 
             title="Engineering Assessment Services"
             description="Our highly experienced engineering team is committed to delivering the most reliable & cost-efficient solution for geotechnical challenges."

@@ -39,7 +39,7 @@ const GeotechnicalReport = () => {
           <img
             src={GeotechnicalReportImg}
             alt="Geotechnical Illustration"
-            className="w-full "
+            className=" h-[450px] w-full object-cover"
           />
         </div>
       </div>

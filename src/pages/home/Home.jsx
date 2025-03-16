@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import Callbox from "../../components/callbox/Callbox";
 import Card from "../../components/card/Card";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Keyboard, Navigation, Pagination } from "swiper/modules";
+import { Autoplay, Keyboard, Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -39,6 +39,7 @@ const Home = () => {
     const mainDivRef = useRef(null);
     const [isHovering, setIsHovering] = useState(false);
     const [isAtEdge, setIsAtEdge] = useState(false);
+    const swiperRefText = React.useRef(null);
 
     // Home top
     useEffect(() => {
@@ -50,11 +51,11 @@ const Home = () => {
 
     const services = [
         {
-            image: GeotechnicalDrillingTesting,
-            title: "Geotechnical Drilling & Testing",
+            image: SiteInvestigations,
+            title: "Site Investigations",
             description:
-                "Precision drilling for soil and rock investigations to support construction and engineering projects.",
-            link: "drilling",
+                "Comprehensive on-site assessments to identify ground conditions, potential risks, and construction feasibility.",
+            link: "siteinvetigate",
         },
         {
             image: EnvironmentalDrilling,
@@ -63,26 +64,12 @@ const Home = () => {
                 "Specialized drilling for groundwater studies, contamination assessments, and environmental compliance.",
             link: "envdrilling",
         },
-        // {
-        //     image: EarthworkInspections,
-        //     title: "Earthwork Inspections",
-        //     description:
-        //         "Comprehensive testing and inspections to ensure soil compaction, stability, and compliance with construction standards.",
-        //     link: "inspections",
-        // },
         {
             image: SoilRockTesting,
             title: "Soil & Rock Testing",
             description:
                 "NATA Accredited Laboratory facilities analysing soil and rock properties for sustainability and safety.",
             link: "soil",
-        },
-        {
-            image: SlopeStabilityAssessment,
-            title: "Slope Stability Assessment",
-            description:
-                "Detailed evaluation of slopes to prevent landslides, erosion, and structural failures in various terrains.",
-            link: "slopes",
         },
         {
             image: RoadPavementDesign,
@@ -93,11 +80,34 @@ const Home = () => {
         },
         {
             image: LandCapabilityAssessment,
-            title: "Land Capability Assessment",
+            title: "Engineering Assessment",
             description:
-                "Evaluation of soil, drainage, and environmental factors to determine land suitability for development and agriculture.",
-            link: "land",
+                "Expert geotechnical assessments and innovative engineering solutions for stable, cost-effective construction projects.",
+            link: "engineering-services",
         },
+        // {
+        //     image: GeotechnicalDrillingTesting,
+        //     title: "Geotechnical Drilling & Testing",
+        //     description:
+        //         "Precision drilling for soil and rock investigations to support construction and engineering projects.",
+        //     link: "drilling",
+        // },
+        // {
+        //     image: EarthworkInspections,
+        //     title: "Earthwork Inspections",
+        //     description:
+        //         "Comprehensive testing and inspections to ensure soil compaction, stability, and compliance with construction standards.",
+        //     link: "inspections",
+        // },
+
+        // {
+        //     image: SlopeStabilityAssessment,
+        //     title: "Slope Stability Assessment",
+        //     description:
+        //         "Detailed evaluation of slopes to prevent landslides, erosion, and structural failures in various terrains.",
+        //     link: "slopes",
+        // },
+
         // {
         //     image: RetainingWallsExcavation,
         //     title: "Retaining Walls & Excavation",
@@ -105,13 +115,7 @@ const Home = () => {
         //         "Geotechnical assessments for safe excavation and retaining wall design to prevent soil movement and structural damage.",
         //     link: "retaining",
         // },
-        {
-            image: SiteInvestigations,
-            title: "Site Investigations",
-            description:
-                "Comprehensive on-site assessments to identify ground conditions, potential risks, and construction feasibility.",
-            link: "siteinvetigate",
-        },
+
         // {
         //     image: FoundationEngineering,
         //     title: "Foundation Engineering",
@@ -139,11 +143,11 @@ const Home = () => {
                     make a positive impact on a project's success.
                 </>
             ),
-            author: " - Mark Janus, MRM Group",
+            author: " - Stuart Sellars - Farrard Engineering",
         },
         {
             topicText:
-                "Clear, Well-Considered Geotechnical Advice That Mitigates Risks",
+                "Expertise in Local Geotechnical Conditions is Second to None",
             description: (
                 <>
                     I have been working with David Alkemade and the Statewide
@@ -155,11 +159,11 @@ const Home = () => {
                     conditions is second to none.
                 </>
             ),
-            author: " - Stuart Sellars - Farrard Engineering",
+            author: " - Mark Janus, MRM Group",
         },
         {
             topicText:
-                "Ensuring Every Challenge is Met with Effective Solutions",
+                "Clear, Well-Considered Geotechnical Advice That Mitigates Risks",
             description: (
                 <>
                     We've had the pleasure of working with Statewide
@@ -187,6 +191,14 @@ const Home = () => {
             author: " - Mick Hassett, 2MH Consulting",
         },
     ];
+
+    // Carousel constraints
+    const progressCircle = useRef(null);
+    const progressContent = useRef(null);
+    const onAutoplayTimeLeft = (s, time, progress) => {
+        progressCircle.current.style.setProperty("--progress", 1 - progress);
+        progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
+    };
     return (
         <div
             className="flex flex-col w-full bg-slate-background md:mt-[108px] mt-[45px] sm:mt-[70px]"
@@ -277,15 +289,41 @@ const Home = () => {
 
             {/* New Update | Text carousel */}
             <div className="pb-[50px] sm:pb-[100px] md:pb-40 xl:pb-[64px] pt-[70px] md:pt-[100px] sm:pt-[100px] xl:pt-[128px] w-full">
-                <div className="px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px] w-full">
+                <div
+                    className="px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px] w-full"
+                    onMouseEnter={() => {
+                        if (
+                            swiperRefText.current &&
+                            swiperRefText.current.swiper
+                        ) {
+                            swiperRefText.current.swiper.autoplay.stop();
+                        }
+                    }}
+                    onMouseLeave={() => {
+                        if (
+                            swiperRefText.current &&
+                            swiperRefText.current.swiper
+                        ) {
+                            swiperRefText.current.swiper.autoplay.start();
+                        }
+                    }}
+                >
                     <Swiper
+                        ref={swiperRefText}
                         slidesPerView={1}
                         spaceBetween={10}
                         keyboard={{
                             enabled: true,
                         }}
+                        autoplay={{
+                            delay: 2000,
+                            disableOnInteraction: false,
+                        }}
+                        loopAdditionalSlides={1}
+                        speed={2500}
+                        loop={true}
                         navigation={true}
-                        modules={[Keyboard, Pagination, Navigation]}
+                        modules={[Autoplay, Keyboard, Pagination, Navigation]}
                         className="textSwiper"
                     >
                         {textCarousel.map((text, index) => (

@@ -7,20 +7,27 @@ const CardIconTextCenterColored = ({
     bodyText,
 }) => {
     return (
-        <div className="w-full h-full ">
-            <div className="w-full h-full flex flex-col items-center rounded-2xl bg-blue-600 text-white hover:bg-blue-700 transition duration-700 p-8 sm:px-4 xl:px-8 lg:py-8">
-                <div className="mt-1 md:mt-2 lg:mt-6">
-                    <img className="text-white" src={iconUrl} />
-                </div>
-                <h2 className="font-inter text-14 font-500 text-center md:text-18 lg:text-24">
-                    {titleText}
-                </h2>
-                {bodyTextPresent && (
-                    <p className="font-inter text-12 font-400 mt-1 sm:text-12 text-center md:text-14 lg:text-16 lg:mb-6">
-                        {bodyText}
-                    </p>
-                )}
+        <div className="w-full h-full flex flex-col items-center bg-blue-600 text-white rounded-2xl p-6 hover:bg-blue-700 transition duration-500">
+            {/* Icon */}
+            <div className="flex items-center justify-center w-[140px] h-[140px]">
+                <img
+                    src={iconUrl}
+                    alt="Icon"
+                   
+                />
             </div>
+
+            {/* Title */}
+            <h2 className="font-inter text-lg md:text-xl lg:text-2xl font-semibold text-center mt-1">
+                {titleText}
+            </h2>
+
+            {/* Body/Description */}
+            {bodyTextPresent && (
+                <p className="font-inter text-sm md:text-base text-center mt-2 text-gray-100">
+                    {bodyText}
+                </p>
+            )}
         </div>
     );
 };

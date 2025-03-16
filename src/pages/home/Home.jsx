@@ -80,7 +80,7 @@ const Home = () => {
         },
         {
             image: LandCapabilityAssessment,
-            title: "Land Capability Assessment",
+            title: "Engineering Assessment",
             description:
                 "Expert geotechnical assessments and innovative engineering solutions for stable, cost-effective construction projects.",
             link: "land",

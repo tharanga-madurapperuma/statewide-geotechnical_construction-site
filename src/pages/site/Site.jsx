@@ -126,22 +126,7 @@ const Site = () => {
       <div className=" mt-8 sm:mt-40 md:mt-[100px] lg:mt-[128px] mb-8 sm:mb-40 md:mb-[100px] lg:mb-[64px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
         <InfoSection
           title="Expert Drilling Equipment for Challenging Sites"
-          description={
-            <>
-              We operate{" "}
-              <span className="text-gray-700 font-500">
-                Geoprobe, Comacchio,
-              </span>{" "}
-              and <span className="text-gray-700 font-500">Custom rigs,</span>{" "}
-              designed for small footprint and low headroom applications—ideal
-              for tight access and di(icult-to-reach) areas. Our drilling rigs
-              are equipped with{" "}
-              <span className="text-gray-700 font-500">
-                industry-standard safety cages and emergency shut-off systems
-              </span>{" "}
-              to ensure maximum safety at all times.
-            </>
-          }
+          description="We operate Geoprobe, Comacchio, Hanjin, tight access rigs, designed for small footprint and low headroom applications—ideal for tight access and di(icult-to-reach areas. Our drilling rigs are equipped with industry-standard safety cages and emergency shut-off systems to ensure maximum safety at all times."
           buttonText=""
           buttonLink=""
           imageSrc={EnvSecond}

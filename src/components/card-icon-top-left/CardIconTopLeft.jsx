@@ -39,7 +39,7 @@ const CardIconTopLeft = ({
             >
                 <div className="w-full flex justify-start items-center">
                     <img
-                        className={`${iconBackground} px-2 py-4 rounded-xl w-[50px] sm:w-[55px] md:w-[62px] lg:w-[70px]`}
+                        className={`${iconBackground} px-4 py-4 rounded-xl w-[60px] sm:w-[55px] md:w-[62px] lg:w-[70px]`}
                         src={iconUrl}
                     />
                 </div>

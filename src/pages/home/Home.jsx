@@ -83,7 +83,7 @@ const Home = () => {
             title: "Engineering Assessment",
             description:
                 "Expert geotechnical assessments and innovative engineering solutions for stable, cost-effective construction projects.",
-            link: "land",
+            link: "engineering-services",
         },
         // {
         //     image: GeotechnicalDrillingTesting,

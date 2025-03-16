@@ -18,7 +18,7 @@ const HeroSection = ({
                 style={{ backgroundImage: `url(${HomeOnly})` }}
             >
                 <div className="">
-                    <h2 className="text-4xl md:text-[62px] max-w-[702px] lg:mb-24 lg:leading-[76px] font-bold text-gray-900">
+                    <h2 className="text-4xl md:text-[62px] max-w-[702px] lg:mb-24 lg:leading-[76px] font-bold text-[#062465]">
                         {title}
                     </h2>
 

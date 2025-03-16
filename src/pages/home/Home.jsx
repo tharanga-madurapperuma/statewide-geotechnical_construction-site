@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import Callbox from "../../components/callbox/Callbox";
 import Card from "../../components/card/Card";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Keyboard, Navigation, Pagination } from "swiper/modules";
+import { Autoplay, Keyboard, Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -139,11 +139,11 @@ const Home = () => {
                     make a positive impact on a project's success.
                 </>
             ),
-            author: " - Mark Janus, MRM Group",
+            author: " - Stuart Sellars - Farrard Engineering",
         },
         {
             topicText:
-                "Clear, Well-Considered Geotechnical Advice That Mitigates Risks",
+                "Expertise in Local Geotechnical Conditions is Second to None",
             description: (
                 <>
                     I have been working with David Alkemade and the Statewide
@@ -155,11 +155,11 @@ const Home = () => {
                     conditions is second to none.
                 </>
             ),
-            author: " - Stuart Sellars - Farrard Engineering",
+            author: " - Mark Janus, MRM Group",
         },
         {
             topicText:
-                "Ensuring Every Challenge is Met with Effective Solutions",
+                "Clear, Well-Considered Geotechnical Advice That Mitigates Risks",
             description: (
                 <>
                     We've had the pleasure of working with Statewide
@@ -187,6 +187,14 @@ const Home = () => {
             author: " - Mick Hassett, 2MH Consulting",
         },
     ];
+
+    // Carousel constraints
+    const progressCircle = useRef(null);
+    const progressContent = useRef(null);
+    const onAutoplayTimeLeft = (s, time, progress) => {
+        progressCircle.current.style.setProperty("--progress", 1 - progress);
+        progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
+    };
     return (
         <div
             className="flex flex-col w-full bg-slate-background md:mt-[108px] mt-[45px] sm:mt-[70px]"
@@ -284,8 +292,15 @@ const Home = () => {
                         keyboard={{
                             enabled: true,
                         }}
+                        autoplay={{
+                            delay: 3000,
+                            disableOnInteraction: false,
+                        }}
+                        loopAdditionalSlides={1}
+                        speed={2500}
+                        loop={true}
                         navigation={true}
-                        modules={[Keyboard, Pagination, Navigation]}
+                        modules={[Autoplay, Keyboard, Pagination, Navigation]}
                         className="textSwiper"
                     >
                         {textCarousel.map((text, index) => (

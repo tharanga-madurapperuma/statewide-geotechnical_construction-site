@@ -93,9 +93,7 @@ const ContactPage = () => {
           </ContactCard>
         </div>
       </div>
-      <div className="w-full flex flex-col items-center" id="contactForm">
-         <AppointmentRequestForm />
-      </div>
+      
 
       <div className="sm:hidden  flex justify-center  my-8 ">
         <div className="flex flex-col  gap-8">

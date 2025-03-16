@@ -13,7 +13,7 @@ const Navbar = () => {
     const location = useLocation();
 
     const submenuItems = [
-        { name: "Site Investigations", url: "/siteinvetigate" },
+        { name: "Site Investigations", url: "/site" },
         { name: "Environmental Drilling", url: "/envdrilling" },
         { name: "NATA Accredited Laboratory Testing", url: "/nata-accredited" },
         { name: "Road Pavement Design", url: "/road" },

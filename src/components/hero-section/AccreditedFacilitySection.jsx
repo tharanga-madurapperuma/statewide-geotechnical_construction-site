@@ -1,5 +1,5 @@
 import {GoArrowUpRight} from "react-icons/go"
-import {GroupTalk} from "../../assets/assets"
+import { Testings} from "../../assets/assets"
 import {Link} from "react-router-dom"
 
 const AccreditedFacilitySection = () => {
@@ -42,7 +42,7 @@ const AccreditedFacilitySection = () => {
         {/* Right Image */}
         <div className="lg:w-[30%] xl:w-[50%] lg:block  hidden">
           <img
-            src={GroupTalk}
+            src={Testings}
             alt="Facility"
             className="w-full h-auto lg:h-[360px]  m-auto object-cover  rounded-3xl shadow-lg"
           />

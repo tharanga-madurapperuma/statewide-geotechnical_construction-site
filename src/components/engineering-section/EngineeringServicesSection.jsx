@@ -1,22 +1,22 @@
 import {FaBuilding, FaMountain, FaLandmark, FaRoad} from "react-icons/fa"
 import CardIconTextCenter from "../card-icon-text-center/CardIconTextCenter"
-import {Gas, WallDrill, Weight, WellAttaches} from "../../assets/assets"
+import {Gas, GeotechnicalInvestigation, LandCapability, RoadPavement, SlopeStability, WallDrill, Weight, WellAttaches} from "../../assets/assets"
 
 const services = [
   {
-    icon: WallDrill,
+    icon:   GeotechnicalInvestigation,
     title: "Geotechnical Investigation Report",
   },
   {
-    icon: WellAttaches,
+    icon: SlopeStability,
     title: "Slope Stability Assessment",
   },
   {
-    icon: Gas,
+    icon: LandCapability,
     title: "Land Capability Assessment",
   },
   {
-    icon: Weight,
+    icon: RoadPavement,
     title: "Road Pavement Design",
   },
 ]

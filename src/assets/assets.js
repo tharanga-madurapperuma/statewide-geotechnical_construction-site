@@ -294,3 +294,26 @@ export {
 };
 import GeotechnicalReportImg from "./backgrounds/geo-technical.png";
 export { GeotechnicalReportImg };
+
+
+//new SiteInvestigation page
+
+import DCPTesting from "./site/DCPTesting.png";
+import DiamondCoring from "./site/DiamondCoring.png";
+import GroundwaterMonitoringBores from "./site/GroundwaterMonitoringBores.png";
+import PermeabilityTesting from "./site/PermeabilityTesting.png";
+import PressureMeterTesting from "./site/PressureMeterTesting.png";
+import SPTTesting from "./site/SPTTesting.png";
+import UndisturbedSampling from "./site/UndisturbedSampling.png";
+
+
+    
+export { 
+    DCPTesting,
+    GroundwaterMonitoringBores,
+    DiamondCoring,
+    PermeabilityTesting,
+    PressureMeterTesting,
+    SPTTesting,
+    UndisturbedSampling
+};

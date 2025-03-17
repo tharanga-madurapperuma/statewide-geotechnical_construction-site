@@ -122,20 +122,7 @@ const Navbar = () => {
                                 </ul>
                             )}
                         </li>
-                        <li
-                            className="cursor-pointer hover:text-blue-600 transition duration-300 flex flex-col items-center relative"
-                            onClick={() => {
-                                setMenuOpen(false);
-                                setShowSubmenu(false);
-                                setActiveMenu("lab-testing");
-                                navigate("/lab-testings");
-                            }}
-                        >
-                            Lab Testing
-                            {activeMenu === "lab-testing" ? (
-                                <div className="line-animation bg-blue-600 absolute -bottom-1 left-1/2 transform -translate-x-1/2"></div>
-                            ) : null}
-                        </li>
+                        
                         <li
                             className="cursor-pointer hover:text-blue-600 transition duration-300 flex flex-col items-center relative"
                             onClick={() => {
@@ -263,22 +250,7 @@ const Navbar = () => {
                                 </ul>
                             </div>
                         )}
-                        <li
-                            className="cursor-pointer hover:text-gray-600 transition duration-300"
-                            onClick={() => {
-                                navigate("/lab-testings");
-                                setActiveMenu("lab-testing");
-                                setMenuOpen(false);
-                            }}
-                            style={{
-                                color:
-                                    activeMenu === "lab-testing"
-                                        ? "#0064FF"
-                                        : "",
-                            }}
-                        >
-                            Lab Testing
-                        </li>
+                        
                         <li
                             className="cursor-pointer hover:text-gray-600 transition duration-300"
                             onClick={() => {

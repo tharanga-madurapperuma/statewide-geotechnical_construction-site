@@ -61,7 +61,7 @@ const Home = () => {
             image: EnvironmentalDrilling,
             title: "Environmental Drilling",
             description:
-                "Specialized drilling for groundwater studies, contamination assessments, and environmental compliance.",
+                "Specialised drilling for groundwater studies, contamination assessments, and environmental compliance.",
             link: "envdrilling",
         },
         {
@@ -69,7 +69,7 @@ const Home = () => {
             title: "Soil & Rock Testing",
             description:
                 "NATA Accredited Laboratory facilities analysing soil and rock properties for sustainability and safety.",
-            link: "soil",
+            link: "nata-accredited",
         },
         {
             image: RoadPavementDesign,
@@ -430,7 +430,7 @@ const Home = () => {
                                                 <div className="font-inter font-400 text-gray-600 text-12 md:text-14 lg:text-18 pl-2">
                                                     Successful
                                                     <br />
-                                                    Objects
+                                                    Projects
                                                 </div>
                                             </div>
                                             <div className="flex items-center justify-left w-full md:ml-3 mt-2 md:mt-0">

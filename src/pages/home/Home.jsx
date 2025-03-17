@@ -61,7 +61,7 @@ const Home = () => {
             image: EnvironmentalDrilling,
             title: "Environmental Drilling",
             description:
-                "Specialized drilling for groundwater studies, contamination assessments, and environmental compliance.",
+                "Specialised drilling for groundwater studies, contamination assessments, and environmental compliance.",
             link: "envdrilling",
         },
         {
@@ -69,7 +69,7 @@ const Home = () => {
             title: "Soil & Rock Testing",
             description:
                 "NATA Accredited Laboratory facilities analysing soil and rock properties for sustainability and safety.",
-            link: "soil",
+            link: "nata-accredited",
         },
         {
             image: RoadPavementDesign,

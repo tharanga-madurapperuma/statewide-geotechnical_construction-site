@@ -7,8 +7,8 @@ import {IoCall, IoMail} from "react-icons/io5"
 const ContactSection = () => {
   const contactComponents = [
     <ContactCard icon={<IoMail />} title="Email Us">
-      <p>info@statewide.com.au</p>
-      <p>support@statewide.com.au</p>
+      <p>info@statewidegeotechnical.com.au</p>
+      <p>support@statewidegeotechnical.com.au </p>
     </ContactCard>,
     <ContactCard icon={<IoCall />} title="Call us">
       <p>phone: +61 3 9879 2999</p>

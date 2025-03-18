@@ -17,7 +17,7 @@ const AboutUs = () => {
             <HeroSection
                 title={"About Statewide Geotechnical"}
                 description={
-                    "Delivering precise geotechnical solutions since the 1980s, Statewide Geotechnical combines over 100 years of expertise with cutting-edge technology to support Victoria and Australia’s infrastructure, energy, and environmental projects—safely, sustainably, and affordably."
+                    "Providing precise geotechnical solutions, Statewide Geotechnical blends extensive expertise with advanced technology to support Victoria and Australia’s infrastructure, energy, and environmental projects-safely, sustainably, and affordably."
                 }
                 buttonLink={"#"}
                 buttonText="Get in Touch"
@@ -45,14 +45,7 @@ const AboutUs = () => {
                         services to clients in mining, geotechnical, and
                         environmental industries across Victoria and Australia.
                         <br />
-                        <br /> Our team has over 100 years of combined
-                        experience offering innovative geotechnical consulting,
-                        testing, and design for infrastructure, energy,
-                        environmental, water, and resource management projects.
-                        We deliver tailored consulting and construction services
-                        for both public and private organizations, including
-                        construction companies, civil engineering firms, and
-                        solar developers.
+                        <br /> Our team brings extensive expertise to the table, offering innovative geotechnical consulting, testing, and design for infrastructure, energy, environmental, water, and resource management projects. We deliver tailored consulting and construction services for both public and private organizations, including construction companies, civil engineering firms, and solar developers.
                         <br />
                         <br /> We pride ourselves on our fleet of
                         industry-recognized rigs from top manufacturers like

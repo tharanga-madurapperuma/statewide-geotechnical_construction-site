@@ -116,7 +116,6 @@ const Resources = () => {
                             "WorkCover Insurance",
                         ]}
                     />
-                    
                 </div>
 
                 {/* Third Section*/}
@@ -201,8 +200,7 @@ const Resources = () => {
                         </p>
 
                         <div className="mt-6 text-left text-gray-500 text-sm sm:px-0">
-                            © 2024 Statewide Geotechnical Pty Ltd. All rights
-                            reserved.
+                            © 2024 Statewide Geotechnical. All rights reserved.
                         </div>
                     </div>
                 </div>

@@ -240,6 +240,8 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
+
+                            {/* 2 boxes for below xl screens */}
                             <div className="w-full xl:hidden">
                                 <div className="w-full h-[150px] md:w-[80%] xl:w-[65%] sm:h-[170px] md:h-[200px] xl:h-[220px] mt-15 md:mt-[100px] lg:mt-[150px] xl:mt-[142px] mb-2 xl:mb-[] lg:mb-0 sm:flex sm:relative bottom-0">
                                     <div className="bg-white w-full sm:w-2/3 h-full rounded-3xl">
@@ -281,6 +283,8 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
+
+                            {/* Hero section white bg cards for above xl screens */}
                             <div className="w-full hidden mt-[64px] xl:flex">
                                 <div className="w-1/2 flex">
                                     <div className="bg-white w-3/5 h-full rounded-3xl">
@@ -379,6 +383,7 @@ const Home = () => {
                 </div>
             </div>
 
+            {/* Text Carousel for below xl screens */}
             <div className="pb-[50px] xl:hidden sm:pb-[100px] md:pb-40 xl:pb-[64px] pt-[70px] md:pt-[100px] sm:pt-[100px] xl:pt-[128px] w-full">
                 <div
                     className="px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px] w-full"

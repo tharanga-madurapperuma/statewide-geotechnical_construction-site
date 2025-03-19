@@ -7,6 +7,10 @@ import {
     LocationIcon,
     PhoneIcon,
     MailIcon,
+    logoFooter1,
+    logoFooter2,
+    logoFooter3,
+    logoFooter4,
 } from "../../assets/assets";
 import { Link } from "react-router-dom";
 import { ImFacebook } from "react-icons/im";
@@ -14,9 +18,40 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <div className="bg-slate-100 w-full h-auto flex justify-center items-center font-inter text-gray-900">
-            <div className="w-full px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] max-w-[1920px] mt-48 flex flex-col md:mt-72 lg:mt-[100px]">
-                {/* <div className="w-full flex flex-col md:flex-row justify-between items-start">
+        <div className="bg-slate-100 w-full h-auto flex flex-col justify-center items-center font-inter text-gray-900">
+            <div className="w-full bg-white px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] max-w-[1920px] flex justify-between items-center sm:h-[140px] md:h-[150px] lg:h-[180px] PX-4">
+                <div className="font-inter font-600 lg:text-[36px] xl:text-[40px]">
+                    Our
+                    <br />
+                    Affiliations
+                </div>
+                <div className="h-full flex items-center justify-between">
+                    <img
+                        className="md:w-[70px] w-[40px] sm:w-[80px] "
+                        src={logoFooter1}
+                    />
+                </div>
+                <div className="h-full flex items-center justify-between">
+                    <img
+                        className="md:w-[180px] w-[70px] sm:w-[80px] "
+                        src={logoFooter2}
+                    />
+                </div>
+                <div className="h-full flex items-center justify-between">
+                    <img
+                        className="md:w-[180px] w-[70px] sm:w-[80px] "
+                        src={logoFooter3}
+                    />
+                </div>
+                <div className="h-full flex items-center justify-between">
+                    <img
+                        className="md:w-[70px] w-[40px] sm:w-[80px] "
+                        src={logoFooter4}
+                    />
+                </div>
+            </div>
+            <div className="w-full px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] max-w-[1920px] mt-48 flex flex-col md:mt-[70px] lg:mt-[100px] xl:mt-[128px]">
+                <div className="w-full flex flex-col md:flex-row justify-between items-start">
                     <div className="w-full md:w-2/4">
                         <Link to={"/"}>
                             <div className="w-full">
@@ -112,8 +147,9 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                </div> */}
-                <div className="w-full grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-8">
+                </div>
+
+                {/* <div className="w-full grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-8">
                     <div className="w-full col-span-1 sm:col-span-3 md:col-span-1">
                         <Link to={"/"}>
                             <div className="w-full">
@@ -212,7 +248,7 @@ const Footer = () => {
                                         <p className="font-inter font-400 text-12 md:text-12 lg:text-14 xl:text-16">
                                             phone: +61 3 9879 2999 <br />
                                             {/* Fax: +61 3 9123 4568 */}
-                                        </p>
+                {/* </p>
                                     </div>
                                 </div>
                             </div>
@@ -237,7 +273,7 @@ const Footer = () => {
                     <p className="w-[70%] font-inter font-400 text-12 md:text-14 lg:text-16 pt-40 md:pt-0 pb-20 md:pb-0 md:mb-72 lg:mb-[100px]">
                         Statewide Geotechnical 2025&copy;, All rights reserved.
                     </p>
-                </div>
+                </div> */}
             </div>
         </div>
     );

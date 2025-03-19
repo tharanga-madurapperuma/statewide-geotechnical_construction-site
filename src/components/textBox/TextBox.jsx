@@ -2,8 +2,8 @@ import React from "react";
 
 const TextBox = ({ topicText, description, author }) => {
     return (
-        <div className="flex flex-col items-center text-center">
-            <h1 className="text-[#1F2937] font-inter xl:text-28 md:text-24 sm:text-[20px] text-18 font-700">
+        <div className="flex flex-col items-center h- text-center justify-center w-full">
+            <h1 className="text-[#1F2937] font-inter xl:text-28 md:text-24 sm:text-[20px] text-18 font-700 w-[85%]">
                 {topicText}
             </h1>
             <div className="mt-24">

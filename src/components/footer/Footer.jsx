@@ -9,6 +9,8 @@ import {
     MailIcon,
 } from "../../assets/assets";
 import { Link } from "react-router-dom";
+import { ImFacebook } from "react-icons/im";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -128,9 +130,13 @@ const Footer = () => {
                             </p>
                         </div>
                         <div className="flex mb-40 mt-8">
-                            <img className="mr-2" src={InstaLogo} />
-                            <img className="mr-2" src={DribbleLogo} />
-                            <img className="mr-2" src={TwitterLogo} />
+                            <div className="mr-2 w-6 h-6 sm:w-[36px] sm:h-[36px] text-14 sm:text-[20px]  text-white bg-blue-600 flex justify-center items-center rounded-full">
+                                <ImFacebook />
+                            </div>
+
+                            <div className="w-6 h-6 sm:w-[36px] sm:h-[36px] text-14 sm:text-[20px]  text-white bg-blue-600 flex justify-center items-center rounded-full">
+                                <FaLinkedinIn />
+                            </div>
                         </div>
                     </div>
                     <div className="w-full col-span-1 ">

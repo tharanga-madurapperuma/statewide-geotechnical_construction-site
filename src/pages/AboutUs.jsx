@@ -17,7 +17,7 @@ const AboutUs = () => {
       <HeroSection
         title={"About Statewide Geotechnical"}
         description={
-          "Providing precise geotechnical solutions, Statewide Geotechnical blends extensive expertise with advanced technology to support Victoria and Australia’s infrastructure, energy, and environmental projects-safely, sustainably, and affordably."
+          "With over 100 years of combined expertise, Statewide Geotechnical has been delivering precise geotechnical solutions since the 1980s. We leverage advanced technology to support infrastructure, energy, and environmental projects across Victoria and Australia, ensuring safety, sustainability, and cost-effectiveness in every aspect of our work."
         }
         buttonLink={"#"}
         buttonText="Get in Touch"

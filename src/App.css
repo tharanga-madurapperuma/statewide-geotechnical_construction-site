@@ -238,6 +238,8 @@
 .textSwiper > .swiper-wrapper {
     overflow: visible !important;
     padding: 0px;
+    display: flex;
+    align-items: center;
 }
 
 .textSwiper > .swiper-button-next {

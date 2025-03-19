@@ -11,10 +11,11 @@ import AppointmentRequestForm from "../../components/form/AppointmentRequestForm
 import { BsDribbble, BsInstagram } from "react-icons/bs";
 import { RiTwitterLine } from "react-icons/ri";
 import ContactCard from "../../components/contacts/ContactCard";
-import { FaMapMarkerAlt } from "react-icons/fa";
+import { FaLinkedinIn, FaMapMarkerAlt } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { IoCall } from "react-icons/io5";
 import { useLocation } from "react-router-dom";
+import { ImFacebook } from "react-icons/im";
 
 const ContactPage = () => {
     const location = useLocation();
@@ -174,13 +175,10 @@ const ContactPage = () => {
                     </p>
                     <div className="flex items-start flex-row gap-4">
                         <div className=" bg-[#003ED7] text-white rounded-full md:text-4xl p-3">
-                            <BsInstagram />
+                            <ImFacebook />
                         </div>
                         <div className=" bg-[#003ED7] text-white rounded-full md:text-4xl p-3">
-                            <BsDribbble />
-                        </div>
-                        <div className=" bg-[#003ED7] text-white rounded-full md:text-4xl p-3">
-                            <RiTwitterLine />
+                            <FaLinkedinIn />
                         </div>
                     </div>
                 </div>

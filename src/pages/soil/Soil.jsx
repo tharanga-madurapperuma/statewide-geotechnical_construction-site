@@ -2,6 +2,7 @@ import React from "react";
 import CardIconTopLeft from "../../components/card-icon-top-left/CardIconTopLeft";
 import ButtonCard from "../../components/card/ButtonCard";
 import TextSection from "../../components/text/TextSection";
+import AccreditedFacilitySection from "../../components/hero-section/AccreditedFacilitySection";
 import {
     Arrowup,
     WorkerHat,
@@ -335,6 +336,10 @@ const Soil = () => {
                         </div>
                     </div>
                 </div>
+                
+            </div>
+            <div lassName="w-full">
+                <AccreditedFacilitySection />
             </div>
 
         </div>

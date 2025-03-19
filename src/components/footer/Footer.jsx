@@ -222,8 +222,8 @@ const Footer = () => {
 
                                 <div className="w-full">
                                     <p className="w-full font-inter font-400 text-10 md:text-10 lg:text-14 xl:text-16 text-wrap">
-                                        info@statewide.com.au <br />
-                                        support@statewide.com.au
+                                        info@statewidegeotechnical.com.au <br />
+                                        support@statewidegeotechnical.com.au 
                                     </p>
                                 </div>
                             </div>

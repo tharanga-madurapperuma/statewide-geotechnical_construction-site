@@ -15,7 +15,7 @@ const CardIconTextCenter = ({
                         className="w-[50px] sm:w-[55px] md:w-[62px] lg:w-[70px]"
                     />
                 </div>
-                <h2 className="font-inter text-14 font-500 text-center md:text-18 lg:text-24 mt-5">
+                <h2 className="font-inter text-[14px] font-normal text-center md:text-[18px] lg:text-[18px] mt-5">
                     {titleText}
                 </h2>
                 {bodyTextPresent && (

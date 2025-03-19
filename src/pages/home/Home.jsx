@@ -10,9 +10,7 @@ import InfoSection from "../../components/info-section/InfoSection";
 import { useNavigate } from "react-router-dom";
 import {
     Check,
-    EarthworkInspections,
     EnvironmentalDrilling,
-    FoundationEngineering,
     GeotechnicalDrillingTesting,
     HomeOnly,
     Icon1,
@@ -21,11 +19,9 @@ import {
     Icon4,
     LandCapabilityAssessment,
     ProfilePics,
-    RetainingWallsExcavation,
     rightArrow,
     RoadPavementDesign,
     SiteInvestigations,
-    SlopeStabilityAssessment,
     SoilRockTesting,
     WhatWeOffer,
     WhoWeAre,
@@ -55,13 +51,13 @@ const Home = () => {
             title: "Site Investigations",
             description:
                 "Comprehensive on-site assessments to identify ground conditions, potential risks, and construction feasibility.",
-            link: "siteinvetigate",
+            link: "site",
         },
         {
             image: EnvironmentalDrilling,
             title: "Environmental Drilling",
             description:
-                "Specialized drilling for groundwater studies, contamination assessments, and environmental compliance.",
+                "Specialised drilling for groundwater studies, contamination assessments, and environmental compliance.",
             link: "envdrilling",
         },
         {
@@ -69,7 +65,7 @@ const Home = () => {
             title: "Soil & Rock Testing",
             description:
                 "NATA Accredited Laboratory facilities analysing soil and rock properties for sustainability and safety.",
-            link: "soil",
+            link: "nata-accredited",
         },
         {
             image: RoadPavementDesign,
@@ -348,37 +344,6 @@ const Home = () => {
                         reverse={false}
                     />
                 </div>
-                {/* <div className="w-full h-[412px] flex">
-                    <div className="h-full w-1/2">
-                        <img
-                            className="object-cover h-full rounded-xl"
-                            src={HomeSecondWhoWe}
-                        />
-                    </div>
-                    <div className="w-1/2 ml-12">
-                        <div className="flex flex-col items-start">
-                            <h1 className="text-gray-900">Who We Are</h1>
-                            <p className="mt-6 text-gray-600">
-                                At Statewide Geotechnical, we specialize in
-                                delivering expert geotechnical drilling,
-                                testing, and consulting services across
-                                Melbourne, Victoria, and Southern New South
-                                Wales. With advanced equipment and a team of
-                                highly qualified professionals, we provide
-                                precise site assessments, environmental
-                                drilling, and geotechnical solutions tailored to
-                                your project needs. Our commitment to safety,
-                                accuracy, and efficiency makes us the trusted
-                                partner for engineers, developers, and
-                                government agencies.
-                            </p>
-                            <div className="w-[272px] h-[52px] bg-transparent text-blue-600 outline-2 outline-solid outline-blue-600  rounded-xl home__first-section_explore-btn mt-5 flex items-center justify-center">
-                                <p className="mr-2">Learn More About Us</p>
-                                <img src={rightArrow} />
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
 
                 {/* WHAT WE OFFER */}
                 <div className="w-full flex flex-col items-center">
@@ -430,7 +395,7 @@ const Home = () => {
                                                 <div className="font-inter font-400 text-gray-600 text-12 md:text-14 lg:text-18 pl-2">
                                                     Successful
                                                     <br />
-                                                    Objects
+                                                    Projects
                                                 </div>
                                             </div>
                                             <div className="flex items-center justify-left w-full md:ml-3 mt-2 md:mt-0">
@@ -607,72 +572,6 @@ const Home = () => {
                     </div>
                 </div>
 
-                {/* PROJECTS */}
-
-                {/* <div>
-                    <div className="font-inter text-gray-900 p-6 sm:px-8 md:px-48 lg:px-72 xl:px-80 w-full h-auto mt-26">
-                        <div className="flex justify-between items-center mb-6">
-                            <h1 className="font-inter font-600 text-28 sm:text-32 md:text-40 lg:text-56 xl:text-62">
-                                Our Projects
-                            </h1>
-                            <p className="text-blue-700 hover:text-blue-900 transition duration-500 cursor-pointer font-inter font-600 text-16 sm:text-18 md:text-24 text-right">
-                                SEE ALL SERVICES
-                            </p>
-                        </div>
-
-                        <div className="grid h-[900px] grid-cols-2 grid-rows-4 sm:grid-cols-5 sm:grid-rows-2 gap-3 sm:gap-3 md:gap-4 sm:h-[350px] md:h-[500px] lg:h-[600px] xl:h-[700px]">
-                            <div className="col-span-2 sm:col-span-3 bg-blue-100 p-6 rounded-lg flex flex-col">
-                                <h2 className="text-18 sm:text-18 md:text-24 lg:text-32 xl:text-40 font-bold mt-[5px]">
-                                    Explore Our Proven Geotechnical Engineering
-                                    Projects Portfolio
-                                </h2>
-                                <p className="text-12 sm:text-14 md:text-16 lg:text-18 xl:text-24 text-gray-700 mb-2">
-                                    Highlighting our commitment to excellence in
-                                    geotechnical engineering and the lasting
-                                    impact we've made on infrastructure and
-                                    communities. Experience the difference we've
-                                    built.
-                                </p>
-                            </div>
-
-                            <div className="row-start-2 col-start-1 sm:row-start-1 sm:col-start-4 rounded-lg overflow-hidden">
-                                <img
-                                    src="/our-projects/Frame132.png"
-                                    alt="Construction workers reviewing plans"
-                                    className="w-full h-full object-cover"
-                                />
-                            </div>
-                            <div className="row-start-2 col-start-2 sm:row-start-1 sm:col-start-5 rounded-lg overflow-hidden">
-                                <img
-                                    src="/our-projects/Frame133.png"
-                                    alt="Worker with safety helmet"
-                                    className="w-full h-full object-cover"
-                                />
-                            </div>
-                            <div className="row-start-3 col-start-1 sm:row-start-2 rounded-lg overflow-hidden">
-                                <img
-                                    src="/our-projects/Frame134.png"
-                                    alt="Worker in trench"
-                                    className="w-full h-full object-cover"
-                                />
-                            </div>
-                            <div className="row-start-3 col-start-2 sm:row-start-2 rounded-lg overflow-hidden">
-                                <img
-                                    src="/our-projects/Frame135.png"
-                                    alt="Worker reviewing plans"
-                                    className="w-full h-full object-cover"
-                                />
-                            </div>
-                            <div className="row-start-4 h-auto col-start-1 col-span-2 sm:col-span-3 sm:row-start-2 sm:col-start-3 relative ">
-                                <img
-                                    src="/our-projects/Frame136.png"
-                                    alt="Construction site"
-                                    className="w-full h-auto sm:h-full object-cover rounded-lg"
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
                 {/* START JOURNEY */}
                 <div className="w-full flex flex-col items-center">
                     <div className="px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px] max-w-[1920px]">

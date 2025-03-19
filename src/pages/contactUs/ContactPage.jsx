@@ -60,8 +60,8 @@ const ContactPage = () => {
       <div className="lg:block xl:hidden hidden px-8 md:px-[30px] mt-8">
         <div className="flex flex-row place-content-between gap-4">
           <ContactCard icon={<IoIosMail />} title="Email Us">
-            <p>info@statewide.com.au</p>
-            <p>support@statewide.com.au</p>
+            <p>info@statewidegeotechnical.com.au</p>
+            <p>support@statewidegeotechnical.com.au </p>
           </ContactCard>{" "}
           <ContactCard icon={<IoCall />} title="Call us">
             <p>phone: +61 3 9879 2999</p>
@@ -80,8 +80,8 @@ const ContactPage = () => {
       <div className="sm:block lg:hidden hidden px-8 sm:px-[80px] mt-8">
         <div className="flex flex-row place-content-between gap-4">
           <ContactCard icon={<IoIosMail />} title="Email Us">
-            <p>info@statewide.com.au</p>
-            <p>support@statewide.com.au</p>
+            <p>info@statewidegeotechnical.com.au</p>
+            <p>support@statewidegeotechnical.com.au </p>
           </ContactCard>{" "}
           <ContactCard icon={<IoCall />} title="Call us">
             <p>phone: +61 3 9879 2999</p>
@@ -102,8 +102,8 @@ const ContactPage = () => {
       <div className="sm:hidden  flex justify-center  my-8 ">
         <div className="flex flex-col  gap-8">
           <ContactCard icon={<IoIosMail />} title="Email Us">
-            <p>info@statewide.com.au</p>
-            <p>support@statewide.com.au</p>
+            <p>info@statewidegeotechnical.com.au</p>
+            <p>support@statewidegeotechnical.com.au </p>
           </ContactCard>{" "}
           <ContactCard icon={<IoCall />} title="Call us">
             <p>phone: +61 3 9879 2999</p>

@@ -240,7 +240,48 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="w-full flex mt-[64px] ">
+                            <div className="w-full xl:hidden">
+                                <div className="w-full h-[150px] md:w-[80%] xl:w-[65%] sm:h-[170px] md:h-[200px] xl:h-[220px] mt-15 md:mt-[100px] lg:mt-[150px] xl:mt-[142px] mb-2 xl:mb-[] lg:mb-0 sm:flex sm:relative bottom-0">
+                                    <div className="bg-white w-full sm:w-2/3 h-full rounded-3xl">
+                                        <div className="flex h-full cursor-pointer items-center">
+                                            <div className="h-full w-2/5 flex items-center justify-center">
+                                                <img
+                                                    className="object-cover h-[80%] w-[80%] rounded-2xl"
+                                                    src={
+                                                        GeotechnicalDrillingTesting
+                                                    }
+                                                />
+                                            </div>
+                                            <div className="h-full w-3/5 pr-4 flex flex-col justify-center font-inter font-600 text-14 md:text-18 lg:text-[20px] xl:text-24">
+                                                <h3 className="text-gray-950">
+                                                    Laying Strong Foundations
+                                                    for Tomorrow's Structures
+                                                </h3>
+                                                <p className="text-gray-700 mt-4 font-inter font-400 text-[11px] md:text-14 lg:text-14">
+                                                    Our expert geotechnical team
+                                                    provides precise drilling,
+                                                    testing, and reporting to
+                                                    ensure stability, safety,
+                                                    and efficiency for every
+                                                    project.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="bg-white hidden sm:block w-1/3 h-full rounded-3xl ml-5">
+                                        <div className="flex items-center justify-center flex-col h-full w-full">
+                                            <img src={ProfilePics} />
+                                            <h1 className="font-inter font-600 text-32 lg:text-40">
+                                                1K+
+                                            </h1>
+                                            <span className="font-inter font-400 text-24 ">
+                                                Clients
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="w-full hidden mt-[64px] xl:flex">
                                 <div className="w-1/2 flex">
                                     <div className="bg-white w-3/5 h-full rounded-3xl">
                                         <div className="flex flex-col p-[24px] h-full cursor-pointer items-center">
@@ -335,6 +376,53 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div className="pb-[50px] xl:hidden sm:pb-[100px] md:pb-40 xl:pb-[64px] pt-[70px] md:pt-[100px] sm:pt-[100px] xl:pt-[128px] w-full">
+                <div
+                    className="px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px] w-full"
+                    onMouseEnter={() => {
+                        if (
+                            swiperRefText.current &&
+                            swiperRefText.current.swiper
+                        ) {
+                            swiperRefText.current.swiper.autoplay.stop();
+                        }
+                    }}
+                    onMouseLeave={() => {
+                        if (
+                            swiperRefText.current &&
+                            swiperRefText.current.swiper
+                        ) {
+                            swiperRefText.current.swiper.autoplay.start();
+                        }
+                    }}
+                >
+                    <Swiper
+                        ref={swiperRefText}
+                        slidesPerView={1}
+                        spaceBetween={10}
+                        keyboard={{
+                            enabled: true,
+                        }}
+                        autoplay={{
+                            delay: 2000,
+                            disableOnInteraction: false,
+                        }}
+                        loopAdditionalSlides={1}
+                        speed={2500}
+                        loop={true}
+                        navigation={true}
+                        modules={[Autoplay, Keyboard, Pagination, Navigation]}
+                        className="textSwiper"
+                    >
+                        {textCarousel.map((text, index) => (
+                            <SwiperSlide key={index}>
+                                <TextBox {...text} />
+                            </SwiperSlide>
+                        ))}
+                    </Swiper>
                 </div>
             </div>
 

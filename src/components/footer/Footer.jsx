@@ -121,10 +121,10 @@ const Footer = () => {
 
                         <div>
                             <p className="md:w-full font-inter font-400 mt-8 mb-4 text-12 md:text-12 lg:text-14 xl:text-16">
-                                Statewide Geotechnical (Aust) Pty Ltd delivers
-                                reliable geotechnical solutions with in-house
-                                drilling, testing, and reporting, ensuring
-                                efficiency and quality across every project.
+                                Statewide Geotechnical (Aust) delivers reliable
+                                geotechnical solutions with in-house drilling,
+                                testing, and reporting, ensuring efficiency and
+                                quality across every project.
                             </p>
                         </div>
                         <div className="flex mb-40 mt-8">
@@ -158,20 +158,17 @@ const Footer = () => {
                                 Our Affiliations
                             </span>
                             <div className="font-inter font-400 mt-8 text-12 md:text-12 lg:text-14 xl:text-16">
-                                
-                                    <p className="mb-2">Engineers Australia</p>
-                                
-                                    <p className="mb-2">
-                                        Australian Geomechanics Society
-                                    </p>
-                                
-                               
-                                    <p className="mb-2">
-                                        Australian Drilling Industry Association
-                                    </p>
-                               
-                                    <p className="mb-2">NATA</p>
-                                
+                                <p className="mb-2">Engineers Australia</p>
+
+                                <p className="mb-2">
+                                    Australian Geomechanics Society
+                                </p>
+
+                                <p className="mb-2">
+                                    Australian Drilling Industry Association
+                                </p>
+
+                                <p className="mb-2">NATA</p>
                             </div>
                         </div>
                     </div>
@@ -223,7 +220,7 @@ const Footer = () => {
                                 <div className="w-full">
                                     <p className="w-full font-inter font-400 text-10 md:text-10 lg:text-14 xl:text-16 text-wrap">
                                         info@statewidegeotechnical.com.au <br />
-                                        support@statewidegeotechnical.com.au 
+                                        support@statewidegeotechnical.com.au
                                     </p>
                                 </div>
                             </div>

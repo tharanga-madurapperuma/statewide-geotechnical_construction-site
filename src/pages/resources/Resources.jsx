@@ -4,6 +4,13 @@ import CardDocumentation from "../../components/card-documentation/CardDocumenta
 import { DownloadIcon } from "../../assets/assets";
 import HeroSection from "../../components/hero-section/HeroSection";
 import ContactPage from "../contactUs/ContactPage";
+import Drill from "/Documents/Drill Rig Induction.pdf";
+import Drug from "/Documents/Drug and Alcohol Policy.pdf";
+import Environmental from "/Documents/Environmental Policy.pdf";
+import Health from "/Documents/Health and Safety Policy.pdf";
+import Human from "/Documents/Human Rights Policy.pdf";
+import Personal from "/Documents/Personal Protective Clothing and Equipment Policy.pdf";
+import Seat from "/Documents/Seat Belt Policy.pdf";
 import { Link } from "react-router-dom";
 
 const Resources = () => {
@@ -134,50 +141,57 @@ const Resources = () => {
                             <div className="col-span-1 row-span-1 sm:w-full">
                                 <CardDocumentation
                                     image={DownloadIcon}
-                                    title="Quality Assurance Policy Document"
+                                    title="Personal Protective Clothing and Equipment Policy"
                                     number={1}
+                                    link={Personal}
                                 />
                             </div>
                             <div className="col-span-1 row-span-1 sm:w-full">
                                 <CardDocumentation
                                     image={DownloadIcon}
-                                    title="Safety Policy Document"
+                                    title="Seat Belt Policy"
                                     number={2}
+                                    link={Seat}
                                 />
                             </div>
                             <div className="col-span-1 row-span-1 sm:w-full">
                                 <CardDocumentation
                                     image={DownloadIcon}
-                                    title="Environmental Policy Document"
+                                    title="Human Rights Policy"
                                     number={3}
+                                    link={Human}
                                 />
                             </div>
                             <div className="col-span-1 row-span-1 sm:w-full">
                                 <CardDocumentation
                                     image={DownloadIcon}
-                                    title="Confidentiality Policy Document"
+                                    title="Health and Safety Policy"
                                     number={4}
+                                    link={Health}
                                 />
                             </div>
                             <div className="col-span-1 row-span-1 sm:w-full">
                                 <CardDocumentation
                                     image={DownloadIcon}
-                                    title="Complaints and Feedback Policy Document"
+                                    title="Drill Rig Induction"
                                     number={5}
+                                    link={Drill}
                                 />
                             </div>
                             <div className="col-span-1 row-span-1 sm:w-full">
                                 <CardDocumentation
                                     image={DownloadIcon}
-                                    title="Data Protection and Privacy Policy Document"
+                                    title="Drug and Alcohol Policy"
                                     number={6}
+                                    link={Drug}
                                 />
                             </div>
                             <div className="col-span-1 row-span-1 sm:w-full">
                                 <CardDocumentation
                                     image={DownloadIcon}
-                                    title="Insurance Coverage Document"
+                                    title="Environmental Policy"
                                     number={7}
+                                    link={Environmental}
                                 />
                             </div>
                         </div>

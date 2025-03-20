@@ -10,28 +10,29 @@ const CTAComponent = () => {
         aria-hidden="true"
       ></div>
 
-      {/* Left section */}
-      <div className="flex py-2 text-left my-6 px-[36px] md:pl-[55px]">
-        <h1 className="text-[32px] sm:text-[36px] md:text-[45px] lg:text-[58px] leading-[36px] sm:leading-[46px] md:leading-[68px] font-bold">
-          Start your journey <br />
-          with us now
-        </h1>
-      </div>
+            {/* Left section */}
+            <div className="flex flex-col md:w-[400px] lg:w-[500px] xl:w-[600px] py-1 text-center md:text-left my-6 px-[30px] lg:mr-[10px]">
+              <h1 className="text-[32px] sm:text-[36px] md:text-[45px] lg:text-[58px] leading-[36px] sm:leading-[46px] md:leading-[68px] font-bold">
+                Start your journey with us now
+              </h1>
+            </div>
+          
 
-      {/* Right section */}
-      <div className="mt-3 py-5 flex-1 text-center md:text-left px-[36px] md:pr-40">
-        <p className="text-sm sm:text-base md:text-lg leading-6 sm:leading-7 mb-4 md:mb-3">
-          Need expert drilling solutions? Contact us today for a consultation or
-          request a quote. Our team is ready to assist with your geotechnical
-          and environmental drilling needs. Fill out the form below, or reach us
-          directly via phone or email. We proudly serve clients across Victoria, South Australia and New South Wales.
-        </p>
-        <Link to="/contact" className="text-blue-600 hover:underline">
-        <a href="#" className="text-[#fff] font-semibold pt-7 pb-5 px-6 md:px-1 rounded-full transition duration-300">
-          Request a Quote Now →
-        </a>
-        </Link>
-      </div>
+            {/* Right section */}
+            <div className="mt-3 py-2 md:py-5 flex-1 text-center md:text-left px-[16px]">
+              <p className="text-sm sm:text-base md:text-lg leading-6 sm:leading-7 mb-4 md:mb-3">
+                Need expert drilling solutions? Contact us today for a consultation or
+                request a quote. Our team is ready to assist with your geotechnical
+                and environmental drilling needs. Fill out the form below, or reach us
+                directly via phone or email. We proudly serve clients across Victoria, South Australia and New South Wales.
+              </p>
+              <Link to="/contact" className="text-blue-600 hover:underline">
+              <a href="#" className="text-[#fff] font-semibold pt-7 pb-5 px-6 md:px-1 rounded-full transition duration-300">
+                Request a Quote Now →
+              </a>
+              </Link>
+            </div>
+          
     </div>
   );
 };

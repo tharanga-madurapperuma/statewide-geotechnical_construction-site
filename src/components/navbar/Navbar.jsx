@@ -123,7 +123,7 @@ const Navbar = () => {
                             )}
                         </li>
                         
-                        {/* <li
+                        <li
                             className="cursor-pointer hover:text-blue-600 transition duration-300 flex flex-col items-center relative"
                             onClick={() => {
                                 setMenuOpen(false);
@@ -136,7 +136,7 @@ const Navbar = () => {
                             {activeMenu === "resources" ? (
                                 <div className="line-animation bg-blue-600 absolute -bottom-1 left-1/2 transform -translate-x-1/2"></div>
                             ) : null}
-                        </li> */}
+                        </li> 
                         <li
                             className="cursor-pointer hover:text-blue-600 transition duration-300 flex flex-col items-center relative"
                             onClick={() => {
@@ -251,7 +251,7 @@ const Navbar = () => {
                             </div>
                         )}
                         
-                        {/* <li
+                        <li
                             className="cursor-pointer hover:text-gray-600 transition duration-300"
                             onClick={() => {
                                 navigate("/resources");
@@ -264,7 +264,7 @@ const Navbar = () => {
                             }}
                         >
                             Resources
-                        </li> */}
+                        </li> 
                         <li
                             className="cursor-pointer hover:text-gray-600 transition duration-300"
                             onClick={() => {

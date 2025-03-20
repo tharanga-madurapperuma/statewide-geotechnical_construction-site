@@ -296,7 +296,6 @@ export {
 import GeotechnicalReportImg from "./backgrounds/geo-technical.png";
 export { GeotechnicalReportImg };
 
-
 import Comprehensive from "./contact-us/Contact Us_Comprehensive Services.svg";
 import Expertise from "./contact-us/Contact Us_Expertise You Can Trust.svg";
 import CustomerCentric from "./contact-us/Contact Us_Customer-Centric Approach.svg";
@@ -308,7 +307,12 @@ import LandCapability from "./engineering/Engineering Assessment_Land Capability
 import RoadPavement from "./engineering/Engineering Assessment_Road Pavement Design.svg";
 import GeotechnicalInvestigation from "./engineering/Engineering Assessment_Geotechnical Investigation Report.svg";
 
-export { SlopeStability, LandCapability, RoadPavement, GeotechnicalInvestigation };
+export {
+    SlopeStability,
+    LandCapability,
+    RoadPavement,
+    GeotechnicalInvestigation,
+};
 
 //new SiteInvestigation page
 
@@ -325,25 +329,26 @@ import Exposures from "./site/Exposures.png";
 import Pavement from "./site/Pavement.png";
 import Test from "./site/Test.png";
 import Thermal from "./site/Thermal.png";
-    
 
-export { 
+export {
     DCPTesting,
     GroundwaterMonitoringBores,
     DiamondCoring,
     PermeabilityTesting,
     PressureMeterTesting,
     SPTTesting,
-
     UndisturbedSampling,
     Lightweight,
     Exposures,
     Pavement,
     Test,
     Thermal,
-
-
-   
 };
 
+// Logo Footer
+import logoFooter1 from "./footer/1_logo.svg";
+import logoFooter2 from "./footer/2_logo.svg";
+import logoFooter3 from "./footer/3_logo.svg";
+import logoFooter4 from "./footer/4_logo.png";
 
+export { logoFooter1, logoFooter2, logoFooter3, logoFooter4 };

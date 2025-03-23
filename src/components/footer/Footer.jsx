@@ -19,7 +19,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 const Footer = () => {
     return (
         <div className="bg-slate-100 w-full h-auto flex flex-col justify-center items-center font-inter text-gray-900">
-            <div className="w-full bg-white px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] max-w-[1920px] flex justify-between items-center sm:h-[140px] md:h-[150px] lg:h-[180px] PX-4">
+            <div className="w-full bg-white py-4 sm:py-0 px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] max-w-[1920px] flex justify-between items-center sm:h-[140px] md:h-[150px] lg:h-[180px] PX-4">
                 <div className="font-inter font-600 lg:text-[36px] xl:text-[40px]">
                     Our
                     <br />
@@ -123,7 +123,6 @@ const Footer = () => {
                                         <div className="">
                                             <p className="font-inter font-400 text-12 sm:text-14 lg:text-16">
                                                 phone: +61 3 9123 4567 <br />
-                                                Fax: +61 3 9123 4568
                                             </p>
                                         </div>
                                     </div>
@@ -138,8 +137,9 @@ const Footer = () => {
                                     <div className="">
                                         <div className="">
                                             <p className="font-inter font-400 text-12 sm:text-14 lg:text-16">
-                                                info@statewide.com.au <br />
-                                                support@statewide.com.au
+                                                info@statewidegeotechnical.com.au{" "}
+                                                <br />
+                                                support@statewidegeotechnical.com.au
                                             </p>
                                         </div>
                                     </div>

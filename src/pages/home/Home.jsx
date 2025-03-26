@@ -245,7 +245,7 @@ const Home = () => {
                             <div className="w-full xl:hidden">
                                 <div className="w-full h-[150px] md:w-[80%] xl:w-[65%] sm:h-[170px] md:h-[200px] xl:h-[220px] mt-15 md:mt-[100px] lg:mt-[150px] xl:mt-[142px] mb-2 xl:mb-[] lg:mb-0 sm:flex sm:relative bottom-0">
                                     <div className="bg-white w-full sm:w-2/3 h-full rounded-3xl">
-                                        <div className="flex h-full cursor-pointer items-center">
+                                        <div className="flex h-full items-center">
                                             <div className="h-full w-2/5 flex items-center justify-center">
                                                 <img
                                                     className="object-cover h-[80%] w-[80%] rounded-2xl"

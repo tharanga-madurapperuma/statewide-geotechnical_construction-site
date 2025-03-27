@@ -5,6 +5,7 @@ import TwitterLogo from "./icons/twitter.svg";
 import LocationIcon from "./icons/location.svg";
 import PhoneIcon from "./icons/phone.svg";
 import MailIcon from "./icons/mail.svg";
+import Worker from "./icons/worker.svg";
 
 // Home
 import rightArrow from "./icons/right-arrow.png";
@@ -19,7 +20,7 @@ import HomeSecondWhatWe2 from "./home/home_second-second-2.png";
 
 import geotechnical from "./home/geotechnical.webp";
 import environmental from "./home/environmental.webp";
-import soilTesting from "./home/earthwork_inspections.webp";
+import soilTesting from "./hero-images/soil_rock_testing_hero.webp";
 import boreInstallation from "./home/soil_rock_testing.webp";
 
 import Icon1 from "./home/choose-us/icon.svg";
@@ -39,9 +40,9 @@ import EarthworkInspections from "./home/new/earthwork_inspections.webp";
 import SoilRockTesting from "./home/new/soil_rock_testing.png";
 import HeroSection2 from "./home/new/hero_section_2.webp";
 import EnvironmentalDrilling from "./home/new/environmental_drilling.png";
-import GeotechnicalDrillingTesting from "./home/new/geotechnical_drilling_testing.png";
-import WhoWeAre from "./home/new/who_we_are.png";
-import WhatWeOffer from "./home/new/what_we_offer.png";
+import GeotechnicalDrillingTesting from "./drilling/construction.jpg";
+import WhoWeAre from "./drilling/checking.jpg";
+import WhatWeOffer from "./drilling/drilling.jpg";
 
 import Check from "./home/check.svg";
 
@@ -89,8 +90,8 @@ import TestingIcon from "./inspections/testing.svg";
 
 // Env Drilling page
 import Map from "./envDrilling/map.svg";
-import EnvHero from "./envDrilling/hero.webp";
-import EnvSecond from "./envDrilling/envSecond1.png";
+import EnvHero from "./hero-images/environmental_drilling_hero.webp";
+import EnvSecond from "./drilling/truck.jpg";
 import DocIcon from "./envDrilling/docIcon.svg";
 
 import Certificate from "./envDrilling/certificate.svg";
@@ -98,7 +99,7 @@ import Card from "./envDrilling/card.svg";
 import Box from "./envDrilling/box.svg";
 
 import Hero from "./drilling/hero.webp";
-import DrillingSecond from "./drilling/second.webp";
+import DrillingSecond from "./hero-images/geotechnical_drilling_testing_hero.webp";
 
 // Retaining Wall page
 import RetainingWallHero from "./retaining/retaining_walls_excavation_hero.webp";
@@ -108,7 +109,7 @@ import RetainingWallServices from "./retaining/retaining_walls_excavation_excava
 export { RetainingWallHero, RetainingWallSolutions, RetainingWallServices };
 
 // Investigations
-import InvestigationHero from "./investigations/site_investigations_hero.webp";
+import InvestigationHero from "./hero-images/site_investigations_hero.webp";
 import InvestigationTech from "./investigations/site_investigations_investigation_techniques.webp";
 import InvestigationTech2 from "./investigations/site_investigations_investigation_techniques_2.webp";
 import InvestigationServices from "./investigations/site_investigations_investigation_services.webp";
@@ -165,6 +166,7 @@ export {
     Check,
     DrillBit,
     HomeOnly,
+    Worker
 };
 
 // New Home Images
@@ -237,7 +239,7 @@ import SlopeHero from "./slopes/slope.webp";
 export { Engineers, GroupTalk, Clock, SlopeHero };
 
 //Road page
-import RoadHero from "./road/road1.webp";
+import RoadHero from "./hero-images/road_pavement_design_hero.webp";
 import Road1 from "./road/road2.webp";
 import Road2 from "./road/road3.webp";
 import RoadIcon from "./road/road.svg";

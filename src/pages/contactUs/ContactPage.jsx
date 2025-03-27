@@ -174,12 +174,17 @@ const ContactPage = () => {
                         news. Follow us on our social media channels:
                     </p>
                     <div className="flex items-start flex-row gap-4">
+                        <a href="https://www.facebook.com/people/Statewide-Geotechnical/61572981785158/">
                         <div className=" bg-[#003ED7] text-white rounded-full md:text-4xl p-3">
                             <ImFacebook />
                         </div>
-                        <div className=" bg-[#003ED7] text-white rounded-full md:text-4xl p-3">
+                        </a>
+                        <a href="https://www.linkedin.com/company/statewide-geotechnical">
+                           <div className=" bg-[#003ED7] text-white rounded-full md:text-4xl p-3">
                             <FaLinkedinIn />
-                        </div>
+                        </div> 
+                        </a>
+                        
                     </div>
                 </div>
 

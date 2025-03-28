@@ -1,160 +1,168 @@
-import React from "react"
+import React from "react";
 import {
-  DribbleLogo,
-  InstaLogo,
-  Logo,
-  TwitterLogo,
-  LocationIcon,
-  PhoneIcon,
-  MailIcon,
-  logoFooter1,
-  logoFooter2,
-  logoFooter3,
-  logoFooter4,
-} from "../../assets/assets"
-import {Link} from "react-router-dom"
-import {ImFacebook} from "react-icons/im"
-import {FaLinkedinIn} from "react-icons/fa"
+    DribbleLogo,
+    InstaLogo,
+    Logo,
+    TwitterLogo,
+    LocationIcon,
+    PhoneIcon,
+    MailIcon,
+    logoFooter1,
+    logoFooter2,
+    logoFooter3,
+    logoFooter4,
+} from "../../assets/assets";
+import { Link } from "react-router-dom";
+import { ImFacebook } from "react-icons/im";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
-  return (
-    <div className="bg-slate-100 w-full h-auto flex flex-col justify-center items-center font-inter text-gray-900">
-      <div className="w-full bg-white py-4 sm:py-0 px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] max-w-[1920px] flex justify-between items-center sm:h-[140px] md:h-[150px] lg:h-[180px] PX-4">
-        <div className="font-inter font-600 lg:text-[36px] xl:text-[40px]">
-          Our
-          <br />
-          Affiliations
-        </div>
-        <div className="h-full flex items-center justify-between">
-          <img
-            className="md:w-[70px] w-[40px] sm:w-[80px] "
-            src={logoFooter1}
-          />
-        </div>
-        <div className="h-full flex items-center justify-between">
-          <img
-            className="md:w-[180px] w-[70px] sm:w-[80px] "
-            src={logoFooter2}
-          />
-        </div>
-        <div className="h-full flex items-center justify-between">
-          <img
-            className="md:w-[180px] w-[70px] sm:w-[80px] "
-            src={logoFooter3}
-          />
-        </div>
-        <div className="h-full flex items-center justify-between">
-          <img
-            className="md:w-[70px] w-[40px] sm:w-[80px] "
-            src={logoFooter4}
-          />
-        </div>
-      </div>
-      <div className="w-full px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] max-w-[1920px] mt-48 flex flex-col md:mt-[70px] lg:mt-[100px] xl:mt-[128px]">
-        <div className="w-full flex flex-col md:flex-row justify-between items-start">
-          <div className="w-full md:w-2/4">
-            <Link to={"/"}>
-              <div className="w-full">
-                <img src={Logo} />
-              </div>
-            </Link>
-
-            <div>
-              <p className="md:w-[70%] font-inter font-400 text-14 mt-8 mb-4 md:text-16">
-                Statewide Geotechnical (Aust) Pty Ltd delivers reliable
-                geotechnical solutions with in-house drilling, testing, and
-                reporting, ensuring efficiency and quality across every project.
-              </p>
-            </div>
-            <div className="flex mb-40 mt-8">
-              <a href="https://www.facebook.com/people/Statewide-Geotechnical/61572981785158/">
-                <div className=" bg-[#003ED7] text-white rounded-full md:text-sm p-2 mr-2">
-                  <ImFacebook size={22} />
+    return (
+        <div className="bg-slate-100 w-full h-auto flex flex-col justify-center items-center font-inter text-gray-900">
+            <div className="w-full bg-white py-4 sm:py-0 px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] max-w-[1920px] flex justify-between items-center sm:h-[140px] md:h-[150px] lg:h-[180px] PX-4">
+                <div className="font-inter font-600 lg:text-[36px] xl:text-[40px]">
+                    Our
+                    <br />
+                    Affiliations
                 </div>
-              </a>
-              <a href="https://www.linkedin.com/company/statewide-geotechnical">
-                <div className=" bg-[#003ED7] text-white rounded-full md:text-sm p-2 mr-2">
-                  <FaLinkedinIn size={22} />
+                <div className="h-full flex items-center justify-between">
+                    <img
+                        className="md:w-[70px] w-[40px] sm:w-[80px] "
+                        src={logoFooter1}
+                    />
                 </div>
-              </a>
+                <div className="h-full flex items-center justify-between">
+                    <img
+                        className="md:w-[180px] w-[70px] sm:w-[80px] "
+                        src={logoFooter2}
+                    />
+                </div>
+                <div className="h-full flex items-center justify-between">
+                    <img
+                        className="md:w-[180px] w-[70px] sm:w-[80px] "
+                        src={logoFooter3}
+                    />
+                </div>
+                <div className="h-full flex items-center justify-between">
+                    <img
+                        className="md:w-[70px] w-[40px] sm:w-[80px] "
+                        src={logoFooter4}
+                    />
+                </div>
             </div>
-          </div>
-          <div className="w-full flex md:w-2/4">
-            <div className="w-1/3 sm:w-1/2 md:w-1/2 md:pl-20">
-              <span className="font-poppins font-600 text-16 lg:text-18">
-                Quick Links
-              </span>
-              <div className="font-inter font-400 text-14 mt-8 lg:text-16">
-                <Link to={"/aboutus"}>
-                  <p className="mb-2">About us</p>
-                </Link>
-                <Link to={"/contact"}>
-                  <p className="mb-2">Contact Us</p>
-                </Link>
-                <Link to={"/resources"}>
-                  <p className="mb-2">Resources</p>
-                </Link>
-              </div>
-            </div>
-            <div className=" w-2/3 sm:w-1/2 md:w-2/2 px-6 md:pl-40 lg:flex lg:flex-col items-end">
-              <div>
-                <span className="font-poppins w-full font-600 text-16 lg:text-18">
-                  Get In Touch
-                </span>
-                <div className="flex items-center space-x-3 mt-8 w-full">
-                  <img
-                    className="w-6 h-6 sm:w-8 sm:h-8"
-                    src={LocationIcon}
-                    alt="Location Icon"
-                  />
+            <div className="w-full px-8 sm:px-[70px] md:px-[80px] lg:px-[100px] xl:px-[110px] max-w-[1920px] mt-48 flex flex-col md:mt-[70px] lg:mt-[100px] xl:mt-[128px]">
+                <div className="w-full flex flex-col md:flex-row justify-between items-start">
+                    <div className="w-full md:w-2/4">
+                        <Link to={"/"}>
+                            <div className="w-full">
+                                <img src={Logo} />
+                            </div>
+                        </Link>
 
-                  <div>
-                    <div className="">
-                      <p className=" font-inter font-400 text-12 sm:text-14 lg:text-16">
-                        17-20 Summer Lane <br />
-                        Ringwood, VIC 3134
-                      </p>
+                        <div>
+                            <p className="md:w-[70%] font-inter font-400 text-14 mt-8 mb-4 md:text-16">
+                                Statewide Geotechnical (Aust) Pty Ltd delivers
+                                reliable geotechnical solutions with in-house
+                                drilling, testing, and reporting, ensuring
+                                efficiency and quality across every project.
+                            </p>
+                        </div>
+                        <div className="flex mb-40 mt-8">
+                            <a
+                                target="_blank"
+                                href="https://www.facebook.com/people/Statewide-Geotechnical/61572981785158/"
+                            >
+                                <div className=" bg-[#003ED7] text-white rounded-full md:text-sm p-2 mr-2">
+                                    <ImFacebook size={22} />
+                                </div>
+                            </a>
+                            <a
+                                target="_blank"
+                                href="https://www.linkedin.com/company/statewide-geotechnical"
+                            >
+                                <div className=" bg-[#003ED7] text-white rounded-full md:text-sm p-2 mr-2">
+                                    <FaLinkedinIn size={22} />
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                  </div>
-                </div>
+                    <div className="w-full flex md:w-2/4">
+                        <div className="w-1/3 sm:w-1/2 md:w-1/2 md:pl-20">
+                            <span className="font-poppins font-600 text-16 lg:text-18">
+                                Quick Links
+                            </span>
+                            <div className="font-inter font-400 text-14 mt-8 lg:text-16">
+                                <Link to={"/aboutus"}>
+                                    <p className="mb-2">About us</p>
+                                </Link>
+                                <Link to={"/contact"}>
+                                    <p className="mb-2">Contact Us</p>
+                                </Link>
+                                <Link to={"/resources"}>
+                                    <p className="mb-2">Resources</p>
+                                </Link>
+                            </div>
+                        </div>
+                        <div className=" w-2/3 sm:w-1/2 md:w-2/2 px-6 md:pl-40 lg:flex lg:flex-col items-end">
+                            <div>
+                                <span className="font-poppins w-full font-600 text-16 lg:text-18">
+                                    Get In Touch
+                                </span>
+                                <div className="flex items-center space-x-3 mt-8 w-full">
+                                    <img
+                                        className="w-6 h-6 sm:w-8 sm:h-8"
+                                        src={LocationIcon}
+                                        alt="Location Icon"
+                                    />
 
-                <div className="flex items-center space-x-3 mt-6 w-full">
-                  <img
-                    className="w-6 h-6 sm:w-8 sm:h-8"
-                    src={PhoneIcon}
-                    alt="Phone Icon"
-                  />
+                                    <div>
+                                        <div className="">
+                                            <p className=" font-inter font-400 text-12 sm:text-14 lg:text-16">
+                                                17-20 Summer Lane <br />
+                                                Ringwood, VIC 3134
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
 
-                  <div className="">
-                    <div className="">
-                      <p className="font-inter font-400 text-12 sm:text-14 lg:text-16">
-                        phone: +61 3 9123 4567 <br />
-                      </p>
+                                <div className="flex items-center space-x-3 mt-6 w-full">
+                                    <img
+                                        className="w-6 h-6 sm:w-8 sm:h-8"
+                                        src={PhoneIcon}
+                                        alt="Phone Icon"
+                                    />
+
+                                    <div className="">
+                                        <div className="">
+                                            <p className="font-inter font-400 text-12 sm:text-14 lg:text-16">
+                                                phone: +61 3 9123 4567 <br />
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="flex items-center space-x-3 mt-6 w-full">
+                                    <img
+                                        className="w-6 h-6 sm:w-8 sm:h-8"
+                                        src={MailIcon}
+                                        alt="Mail Icon"
+                                    />
+
+                                    <div className="">
+                                        <div className="">
+                                            <p className="font-inter font-400 text-12 sm:text-14 lg:text-16">
+                                                info@statewidegeotechnical.com.au{" "}
+                                                <br />
+                                                support@statewidegeotechnical.com.au
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                <div className="flex items-center space-x-3 mt-6 w-full">
-                  <img
-                    className="w-6 h-6 sm:w-8 sm:h-8"
-                    src={MailIcon}
-                    alt="Mail Icon"
-                  />
 
-                  <div className="">
-                    <div className="">
-                      <p className="font-inter font-400 text-12 sm:text-14 lg:text-16">
-                        info@statewidegeotechnical.com.au <br />
-                        support@statewidegeotechnical.com.au
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* <div className="w-full grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-8">
+                {/* <div className="w-full grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-8">
                     <div className="w-full col-span-1 sm:col-span-3 md:col-span-1">
                         <Link to={"/"}>
                             <div className="w-full">
@@ -253,7 +261,7 @@ const Footer = () => {
                                         <p className="font-inter font-400 text-12 md:text-12 lg:text-14 xl:text-16">
                                             phone: +61 3 9879 2999 <br />
                                             {/* Fax: +61 3 9123 4568 */}
-        {/* </p>
+                {/* </p>
                                     </div>
                                 </div>
                             </div>
@@ -279,9 +287,9 @@ const Footer = () => {
                         Statewide Geotechnical 2025&copy;, All rights reserved.
                     </p>
                 </div> */}
-      </div>
-    </div>
-  )
-}
+            </div>
+        </div>
+    );
+};
 
-export default Footer
+export default Footer;

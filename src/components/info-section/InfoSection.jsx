@@ -10,7 +10,7 @@ const InfoSection = ({
 }) => {
     return (
         <section
-            className={`flex flex-col md:flex-row items-center justify-between  gap-[56px] py-12 max-w-7xl mx-auto ${
+            className={`flex flex-col md:flex-row items-center justify-between  gap-[56px] py-12 max-w-[1920px] mx-auto ${
                 reverse ? "md:flex-row-reverse" : "md:flex-row"
             }`}
         >
@@ -19,7 +19,7 @@ const InfoSection = ({
                 <img
                     src={imageSrc}
                     alt={title}
-                    className=" md:h-[412px] w-[576px] sm:w-full rounded-3xl object-cover"
+                    className=" md:h-[412px] w-[576px] sm:w-full rounded-3xl object-cover object-center"
                 />
             </div>
 

@@ -135,7 +135,7 @@ const Footer = () => {
                                     <div className="">
                                         <div className="">
                                             <p className="font-inter font-400 text-12 sm:text-14 lg:text-16">
-                                                phone: +61 3 9123 4567 <br />
+                                                phone:  +61 3 9879 2999<br />
                                             </p>
                                         </div>
                                     </div>

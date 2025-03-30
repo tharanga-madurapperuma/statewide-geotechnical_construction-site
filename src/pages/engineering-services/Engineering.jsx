@@ -51,7 +51,7 @@ const Engineering = () => {
         image={DrillingSecond}
       />
 
-      <div className="w-full bg-white py-40 md:py-[64px] max-w-[1920px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
+      <div className="w-full bg-white py-40 md:py-[69px] mt-[20px] lg:mt-[38px] md:mt-[25px] max-w-[1920px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
         <p>
           Results of the geotechnical investigation will be presented in a
           comprehensive report which describes the field investigation & testing

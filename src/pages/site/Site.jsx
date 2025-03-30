@@ -52,7 +52,7 @@ const Site = () => {
         />
       </div>
 
-      <div className="w-full bg-white py-40 md:py-[64px] max-w-[1920px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
+      <div className="w-full bg-white py-40 md:pt-[64px] max-w-[1920px] px-[32px] sm:px-[70px] md:px-80 lg:mt-[42px] lg:-mb-[50px] mt-[40px] lg:px-[100px] xl:px-[110px]">
         <h1 className="font-inter font-600 text-28 md:text-40 lg:text-48 w-[80%] ">
           Our Field Services Include:
         </h1>

@@ -434,7 +434,7 @@ const Home = () => {
             {/* HOME - SECOND SECTION */}
             <div className="w-full">
                 {/* WHO WE ARE */}
-                <div className="mt-[0px] sm:mt-[0px] md:mt-40 xl:mt-[64px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
+                <div className="mt-[0px] sm:mt-[0px] md:mt-40 lg:mt-[25px] xl:mt-[85px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
                     <InfoSection
                         title="Who We Are"
                         description="At Statewide Geotechnical, we specialise in delivering expert geotechnical drilling, testing, and consulting services across Melbourne, Victoria, South Australia, and New South Wales. With advanced equipment and a team of highly qualified professionals, we provide precise site assessments, environmental drilling, and geotechnical solutions tailored to your project needs. Our commitment to safety, accuracy, and efficiency makes us the trusted partner for engineers, developers, and government agencies."

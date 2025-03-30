@@ -19,7 +19,7 @@ const InfoSection = ({
                 <img
                     src={imageSrc}
                     alt={title}
-                    className=" md:h-[412px] w-[576px] sm:w-full rounded-3xl object-cover object-center"
+                    className="  w-[576px] sm:w-full rounded-3xl object-cover object-center"
                 />
             </div>
 

@@ -186,6 +186,26 @@ const Home = () => {
             ),
             author: " - Mick Hassett, 2MH Consulting",
         },
+        {
+            topicText:
+                "Excellence in Geotechnical Solutions for Power and Water Projects",
+            description: (
+                <>
+                    Over the past six years, Statewide has collaborated with Beca
+                     to successfully deliver multiple power and water projects, 
+                     providing geotechnical services throughout. Statewide consistently demonstrates responsiveness, 
+                     proactive problem-solving, and competitive service offerings. 
+                     Their professionalism and expertise in the geotechnical 
+                     field have been evident across the various projects we've undertaken together. 
+                     They possess a strong understanding of site conditions and constraints, 
+                     delivering fit-for-purpose solutions tailored to each project. 
+                     Their proactive communication and timely submissions have been instrumental in 
+                     supporting Beca's commitment to delivery excellence.
+
+                </>
+            ),
+            author: " - Aurelie Borowski, Senior Associate - Geotechnical Engineering, Beca",
+        },
     ];
 
     // Carousel constraints

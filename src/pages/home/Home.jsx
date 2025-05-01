@@ -186,6 +186,26 @@ const Home = () => {
             ),
             author: " - Mick Hassett, 2MH Consulting",
         },
+        {
+            topicText:
+                "Excellence in Geotechnical Solutions for Power and Water Projects",
+            description: (
+                <>
+                    Over the past six years, Statewide has collaborated with Beca
+                     to successfully deliver multiple power and water projects, 
+                     providing geotechnical services throughout. Statewide consistently demonstrates responsiveness, 
+                     proactive problem-solving, and competitive service offerings. 
+                     Their professionalism and expertise in the geotechnical 
+                     field have been evident across the various projects we've undertaken together. 
+                     They possess a strong understanding of site conditions and constraints, 
+                     delivering fit-for-purpose solutions tailored to each project. 
+                     Their proactive communication and timely submissions have been instrumental in 
+                     supporting Beca's commitment to delivery excellence.
+
+                </>
+            ),
+            author: " - Aurelie Borowski, Senior Associate - Geotechnical Engineering, Beca",
+        },
     ];
 
     // Carousel constraints
@@ -434,7 +454,7 @@ const Home = () => {
             {/* HOME - SECOND SECTION */}
             <div className="w-full">
                 {/* WHO WE ARE */}
-                <div className="mt-[0px] sm:mt-[0px] md:mt-40 xl:mt-[64px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
+                <div className="mt-[0px] sm:mt-[0px] md:mt-40 lg:mt-[25px] xl:mt-[85px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
                     <InfoSection
                         title="Who We Are"
                         description="At Statewide Geotechnical, we specialise in delivering expert geotechnical drilling, testing, and consulting services across Melbourne, Victoria, South Australia, and New South Wales. With advanced equipment and a team of highly qualified professionals, we provide precise site assessments, environmental drilling, and geotechnical solutions tailored to your project needs. Our commitment to safety, accuracy, and efficiency makes us the trusted partner for engineers, developers, and government agencies."

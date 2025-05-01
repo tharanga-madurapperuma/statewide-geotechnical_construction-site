@@ -282,11 +282,12 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+                */}
                 <div className="py-10">
-                    <p className="w-[70%] font-inter font-400 text-12 md:text-14 lg:text-16 pt-40 md:pt-0 pb-20 md:pb-0 md:mb-72 lg:mb-[100px]">
+                    <p className="w-[70%] font-inter font-400 text-12 md:text-14 lg:text-16 pt-40 md:pt-0 md:pb-0 md:mb-50 lg:mt-[14px] mb:-[20px] lg:mb-[55px]">
                         Statewide Geotechnical 2025&copy;, All rights reserved.
                     </p>
-                </div> */}
+                </div> 
             </div>
         </div>
     );

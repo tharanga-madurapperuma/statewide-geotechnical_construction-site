@@ -365,3 +365,11 @@ import WhoWeAreV2 from "./images/03_Statewide Geotechnical-095_Who_We_Are.webp";
 import WhatWeOfferV2 from "./images/04_Statewide Geotechnical-108 What We Offer 2.webp";
 
 export { HomeHeroV2, WhoWeAreV2, CardImgV2, WhatWeOfferV2 };
+
+// Resources
+import ResourcesHero from "./resources/ResourcesHero.webp";
+export { ResourcesHero };
+
+// COntact Us
+import ContactUsHero from "./contact-us/ContactHero.webp";
+export { ContactUsHero };

@@ -1,7 +1,7 @@
 import React from "react";
 import PolicyText from "../../components/text/PolicyText";
 import CardDocumentation from "../../components/card-documentation/CardDocumentation";
-import { DownloadIcon } from "../../assets/assets";
+import { DownloadIcon, ResourcesHero } from "../../assets/assets";
 import HeroSection from "../../components/hero-section/HeroSection";
 import ContactPage from "../contactUs/ContactPage";
 import Drill from "/Documents/Drill Rig Induction.pdf";
@@ -23,6 +23,7 @@ const Resources = () => {
                     description="We are committed to maintaining the highest standards of quality, safety, and compliance in all our operations. Our policies and documentation are designed to guide our practices and ensure the integrity of our services. Below are key policies that govern our operations."
                     buttonLink={"#"}
                     buttonText="Get in Touch"
+                    heroImage={ResourcesHero}
                 />
             </div>
             {/* second Section*/}

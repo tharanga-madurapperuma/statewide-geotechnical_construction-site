@@ -31,15 +31,15 @@ import DrillBit from "./home/drillBit.svg";
 
 //  New Home files
 import FoundationEngineering from "./home/new/foundation_engineering.webp";
-import SiteInvestigations from "./home/new/site_investigations.png";
+import SiteInvestigations from "./home/new/site_investigations.webp";
 import RetainingWallsExcavation from "./home/new/retaining_walls_excavation.webp";
 import LandCapabilityAssessment from "./home/new/land_capability_assessment.webp";
-import RoadPavementDesign from "./home/new/road_pavement_design.png";
+import RoadPavementDesign from "./home/new/road_pavement_design.webp";
 import SlopeStabilityAssessment from "./home/new/slope_stability_assessment.webp";
 import EarthworkInspections from "./home/new/earthwork_inspections.webp";
-import SoilRockTesting from "./home/new/soil_rock_testing.png";
+import SoilRockTesting from "./home/new/soil_rock_testing.webp";
 import HeroSection2 from "./home/new/hero_section_2.webp";
-import EnvironmentalDrilling from "./home/new/environmental_drilling.png";
+import EnvironmentalDrilling from "./home/new/environmental_drilling.webp";
 import GeotechnicalDrillingTesting from "./drilling/construction.jpg";
 import WhoWeAre from "./drilling/checking.jpg";
 import WhatWeOffer from "./drilling/drilling.jpg";
@@ -234,7 +234,7 @@ export {
 //slopes page
 import Engineers from "./slopes/engineers.webp";
 import GroupTalk from "./slopes/group-talk.svg";
-import Clock from "./slopes/clock.svg";
+import Clock from "./slopes/form.webp";
 import SlopeHero from "./slopes/slope.webp";
 export { Engineers, GroupTalk, Clock, SlopeHero };
 

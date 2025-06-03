@@ -90,8 +90,8 @@ import TestingIcon from "./inspections/testing.svg";
 
 // Env Drilling page
 import Map from "./envDrilling/map.svg";
-import EnvHero from "./hero-images/environmental_drilling_hero.webp";
-import EnvSecond from "./drilling/truck.jpg";
+import EnvHero from "./envDrilling/hero.webp";
+import EnvSecond from "./envDrilling/EnvSecond.webp";
 import DocIcon from "./envDrilling/docIcon.svg";
 
 import Certificate from "./envDrilling/certificate.svg";
@@ -166,7 +166,7 @@ export {
     Check,
     DrillBit,
     HomeOnly,
-    Worker
+    Worker,
 };
 
 // New Home Images
@@ -354,17 +354,14 @@ import logoFooter3 from "./footer/3_logo.svg";
 import logoFooter4 from "./footer/4_logo.png";
 
 export { logoFooter1, logoFooter2, logoFooter3, logoFooter4 };
-    
+
 //Updated images
 
-//01. Home Page Images 
-    
-import HomeHeroV2 from "./images/01_Hero_Image.webp"
-import CardImgV2 from "./images/02_Statewide Geotechnical-051 Laying Strong Foundations.webp"
-import WhoWeAreV2 from "./images/03_Statewide Geotechnical-095_Who_We_Are.webp"
-import WhatWeOfferV2 from "./images/04_Statewide Geotechnical-108 What We Offer 2.webp"
+//01. Home Page Images
 
+import HomeHeroV2 from "./images/01_Hero_Image.webp";
+import CardImgV2 from "./images/02_Statewide Geotechnical-051 Laying Strong Foundations.webp";
+import WhoWeAreV2 from "./images/03_Statewide Geotechnical-095_Who_We_Are.webp";
+import WhatWeOfferV2 from "./images/04_Statewide Geotechnical-108 What We Offer 2.webp";
 
-
-export{HomeHeroV2,WhoWeAreV2,CardImgV2,WhatWeOfferV2}
-
+export { HomeHeroV2, WhoWeAreV2, CardImgV2, WhatWeOfferV2 };

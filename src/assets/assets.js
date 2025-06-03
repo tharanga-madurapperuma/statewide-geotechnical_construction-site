@@ -212,7 +212,10 @@ import Cbr from "./soil/Lab-testing-8.jpg";
 import Shrink from "./soil/Lab-testing-9.jpg";
 import Direct from "./soil/Lab-testing-10-edit.jpg";
 import Testings from "./soil/NATA-Accredited Testing.webp";
+import heroSoil from "./soil/NATA Accredited Laboratory Testing Services Hero.webp"
+
 export {
+    heroSoil,
     SoilHero,
     SoilTesting,
     CardIconSoil,

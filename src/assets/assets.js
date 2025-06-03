@@ -311,8 +311,10 @@ import SlopeStability from "./engineering/Engineering Assessment _Slope Stabilit
 import LandCapability from "./engineering/Engineering Assessment_Land Capability Assessment .svg";
 import RoadPavement from "./engineering/Engineering Assessment_Road Pavement Design.svg";
 import GeotechnicalInvestigation from "./engineering/Engineering Assessment_Geotechnical Investigation Report.svg";
+import heroeng from "./engineering/Engineering Assessment Hero.webp"
 
 export {
+    heroeng,
     SlopeStability,
     LandCapability,
     RoadPavement,

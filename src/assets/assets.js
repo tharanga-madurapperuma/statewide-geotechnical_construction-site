@@ -250,8 +250,9 @@ import RoadHero from "./hero-images/road_pavement_design_hero.webp";
 import Road1 from "./road/road2.webp";
 import Road2 from "./road/road3.webp";
 import RoadIcon from "./road/road.svg";
+import roadpaw from "./road/Road Pavement Design Hero.webp"
 
-export { RoadHero, Road1, Road2, RoadIcon };
+export { RoadHero, Road1, Road2, RoadIcon,roadpaw };
 
 //Land Capability page
 import Mapping from "./land/mapping.webp";

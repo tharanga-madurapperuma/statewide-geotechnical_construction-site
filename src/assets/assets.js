@@ -113,8 +113,10 @@ import InvestigationHero from "./hero-images/site_investigations_hero.webp";
 import InvestigationTech from "./investigations/site_investigations_investigation_techniques.webp";
 import InvestigationTech2 from "./investigations/site_investigations_investigation_techniques_2.webp";
 import InvestigationServices from "./investigations/site_investigations_investigation_services.webp";
+import heroinvesti from "./investigations/Site Investigations Hero.webp"
 
 export {
+    heroinvesti,
     InvestigationHero,
     InvestigationTech,
     InvestigationTech2,

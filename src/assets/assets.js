@@ -372,4 +372,5 @@ export { ResourcesHero };
 
 // COntact Us
 import ContactUsHero from "./contact-us/ContactHero.webp";
-export { ContactUsHero };
+import ClockV2 from "./contact-us/Appointment Request Form.webp";
+export { ContactUsHero ,ClockV2};

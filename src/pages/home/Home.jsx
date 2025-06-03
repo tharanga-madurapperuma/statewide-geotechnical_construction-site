@@ -9,10 +9,11 @@ import "swiper/css/navigation";
 import InfoSection from "../../components/info-section/InfoSection";
 import { useNavigate } from "react-router-dom";
 import {
+    CardImgV2,
     Check,
     EnvironmentalDrilling,
     GeotechnicalDrillingTesting,
-    HomeOnly,
+    HomeHeroV2,
     Icon1,
     Icon2,
     Icon3,
@@ -24,7 +25,9 @@ import {
     SiteInvestigations,
     SoilRockTesting,
     WhatWeOffer,
+    WhatWeOfferV2,
     WhoWeAre,
+    WhoWeAreV2,
 } from "../../assets/assets";
 import TextBox from "../../components/textBox/TextBox";
 
@@ -229,7 +232,7 @@ const Home = () => {
                         <div
                             className="w-full h-auto rounded-2xl p-6 xl:pl-[94px] xl:pt-[96px] xl:pb-[96px] sm:p-[54px] md:p-[64px] lg:p-[84px] xl:p-[94px] flex flex-col justify-between sm:relative"
                             style={{
-                                background: `url(${HomeOnly})`,
+                                background: `url(${HomeHeroV2})`,
                                 backgroundRepeat: "no-repeat",
                                 backgroundSize: "cover",
                             }}
@@ -313,7 +316,7 @@ const Home = () => {
                                                 <img
                                                     className="object-cover rounded-2xl"
                                                     src={
-                                                        GeotechnicalDrillingTesting
+                                                        CardImgV2
                                                     }
                                                 />
                                             </div>
@@ -460,7 +463,7 @@ const Home = () => {
                         description="At Statewide Geotechnical, we specialise in delivering expert geotechnical drilling, testing, and consulting services across Melbourne, Victoria, South Australia, and New South Wales. With advanced equipment and a team of highly qualified professionals, we provide precise site assessments, environmental drilling, and geotechnical solutions tailored to your project needs. Our commitment to safety, accuracy, and efficiency makes us the trusted partner for engineers, developers, and government agencies."
                         buttonText="Learn More About Us"
                         buttonLink="/aboutus"
-                        imageSrc={WhoWeAre}
+                        imageSrc={WhoWeAreV2}
                         reverse={false}
                     />
                 </div>
@@ -481,7 +484,7 @@ const Home = () => {
                                 <div className="h-full lg:w-full ">
                                     <img
                                         className="object-cover h-full w-full rounded-3xl"
-                                        src={WhatWeOffer}
+                                        src={WhatWeOfferV2}
                                     />
                                 </div>
                                 <div className="h-full w-full bg-blue-200 rounded-3xl mt-2 sm:mt-0">

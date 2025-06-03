@@ -473,7 +473,7 @@ const Home = () => {
                     <div className="overflow-x-hidden w-full px-[32px] md:px-80 sm:px-[70px] lg:px-[100px] xl:px-[110px] xl:mt-[128px]  max-w-[1920px]">
                         <div className="w-full h-auto mt-[20vw] sm:mt-62 xl:mt-0 flex flex-col items-center">
                             <div className="w-full flex justify-between items-center sm:px-0 xl:px-0">
-                                <h1 className="font-inter font-600 text-28 sm:text-32 md:text-40 lg:text-56 xl:text-62">
+                                <h1 className="font-inter font-600 text-28 sm:text-32 md:text-40 lg:text-56 xl:text-62 mb-[16px]">
                                     What We Offer
                                 </h1>
                                 {/* <p className="text-blue-700 hover:text-blue-900 transition duration-500 cursor-pointer font-inter font-600 text-16 sm:text-18 md:text-24 text-right">

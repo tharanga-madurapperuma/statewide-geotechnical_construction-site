@@ -1,6 +1,6 @@
 import React, {useState} from "react"
 import emailjs from "@emailjs/browser"
-import {Clock} from "../../assets/assets"
+import {Clock, ClockV2} from "../../assets/assets"
 import Swal from "sweetalert2"
 import "react-phone-number-input/style.css"
 import PhoneInputWithCountrySelect from "react-phone-number-input"
@@ -218,9 +218,9 @@ const AppointmentRequestForm = () => {
         </div>
         <div className="md:w-1/2 hidden h-[700px] lg:flex lg:justify-center lg:align-middle md:pl-4">
           <img
-            src={Clock}
+            src={ClockV2}
             alt="Calendar and Clock"
-            className="w-[70%] h-auto"
+            className="w-[80%] h-auto rounded-2xl"
           />
         </div>
       </div>

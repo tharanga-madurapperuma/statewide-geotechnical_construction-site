@@ -4,7 +4,12 @@ import EngineeringServicesSection from "../../components/engineering-section/Eng
 import GeotechnicalReport from "../../components/engineering-section/GeotechnicalReport"
 import CardIconTextCenter from "../../components/card-icon-text-center/CardIconTextCenter"
 import ButtonCard from "../../components/card/ButtonCard"
-import {DrillingSecond, DiamondCoring, Worker} from "../../assets/assets"
+import {
+  DrillingSecond,
+  DiamondCoring,
+  Worker,
+  heroeng,
+} from "../../assets/assets";
 
 const Engineering = () => {
   const cardData = [
@@ -48,7 +53,7 @@ const Engineering = () => {
         title="Engineering Assessment Services"
         description="Our highly experienced engineering team is committed to delivering the most reliable & cost-efficient solution for geotechnical challenges."
         buttonText="Get in Touch"
-        image={DrillingSecond}
+        image={heroeng}
       />
 
       <div className="w-full bg-white py-40 md:py-[69px] mt-[20px] lg:mt-[38px] md:mt-[25px] max-w-[1920px] px-[32px] sm:px-[70px] md:px-80 lg:px-[100px] xl:px-[110px]">
@@ -70,7 +75,7 @@ const Engineering = () => {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Engineering

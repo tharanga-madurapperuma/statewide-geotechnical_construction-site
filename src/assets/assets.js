@@ -113,8 +113,12 @@ import InvestigationHero from "./hero-images/site_investigations_hero.webp";
 import InvestigationTech from "./investigations/site_investigations_investigation_techniques.webp";
 import InvestigationTech2 from "./investigations/site_investigations_investigation_techniques_2.webp";
 import InvestigationServices from "./investigations/site_investigations_investigation_services.webp";
+import heroinvesti from "./investigations/Site Investigations Hero.webp"
+import expertdrill from "./investigations/Site Investigations Expert Drilling Equipment.webp"
 
 export {
+    expertdrill,
+    heroinvesti,
     InvestigationHero,
     InvestigationTech,
     InvestigationTech2,
@@ -212,7 +216,10 @@ import Cbr from "./soil/Lab-testing-8.jpg";
 import Shrink from "./soil/Lab-testing-9.jpg";
 import Direct from "./soil/Lab-testing-10-edit.jpg";
 import Testings from "./soil/NATA-Accredited Testing.webp";
+import heroSoil from "./soil/NATA Accredited Laboratory Testing Services Hero.webp"
+
 export {
+    heroSoil,
     SoilHero,
     SoilTesting,
     CardIconSoil,
@@ -243,8 +250,9 @@ import RoadHero from "./hero-images/road_pavement_design_hero.webp";
 import Road1 from "./road/road2.webp";
 import Road2 from "./road/road3.webp";
 import RoadIcon from "./road/road.svg";
+import roadpaw from "./road/Road Pavement Design Hero.webp"
 
-export { RoadHero, Road1, Road2, RoadIcon };
+export { RoadHero, Road1, Road2, RoadIcon,roadpaw };
 
 //Land Capability page
 import Mapping from "./land/mapping.webp";
@@ -308,8 +316,10 @@ import SlopeStability from "./engineering/Engineering Assessment _Slope Stabilit
 import LandCapability from "./engineering/Engineering Assessment_Land Capability Assessment .svg";
 import RoadPavement from "./engineering/Engineering Assessment_Road Pavement Design.svg";
 import GeotechnicalInvestigation from "./engineering/Engineering Assessment_Geotechnical Investigation Report.svg";
+import heroeng from "./engineering/Engineering Assessment Hero.webp"
 
 export {
+    heroeng,
     SlopeStability,
     LandCapability,
     RoadPavement,

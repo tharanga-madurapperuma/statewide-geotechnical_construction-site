@@ -37,6 +37,7 @@ import {
   Pavement,
   Thermal,
   heroinvesti,
+  expertdrill
 } from "../../assets/assets";
 
 const Site = () => {
@@ -135,7 +136,7 @@ const Site = () => {
           description="We operate Geoprobe, Comacchio, Hanjin, tight access rigs, designed for small footprint and low headroom applications—ideal for tight access and di(icult-to-reach areas. Our drilling rigs are equipped with industry-standard safety cages and emergency shut-off systems to ensure maximum safety at all times."
           buttonText=""
           buttonLink=""
-          imageSrc={EnvSecond}
+          imageSrc={expertdrill}
           reverse={false}
         />
       </div>

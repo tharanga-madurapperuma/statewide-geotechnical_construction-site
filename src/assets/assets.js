@@ -114,8 +114,10 @@ import InvestigationTech from "./investigations/site_investigations_investigatio
 import InvestigationTech2 from "./investigations/site_investigations_investigation_techniques_2.webp";
 import InvestigationServices from "./investigations/site_investigations_investigation_services.webp";
 import heroinvesti from "./investigations/Site Investigations Hero.webp"
+import expertdrill from "./investigations/Site Investigations Expert Drilling Equipment.webp"
 
 export {
+    expertdrill,
     heroinvesti,
     InvestigationHero,
     InvestigationTech,

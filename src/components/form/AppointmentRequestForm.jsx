@@ -92,7 +92,7 @@ const AppointmentRequestForm = () => {
       className="container px-8 sm:px-[70px] md:px-[80px] bg-gray-100 lg:px-[100px] xl:px-[110px] py-[32px] sm:py-[64px] mb-[3rem] max-w-[1920px]"
     >
       <div className="md:flex justify-between gap-40">
-        <div className="lg:w-3/4 w-full md:pr-4">
+        <div className="lg:w-7/10 w-full md:pr-4">
           <h3 className="lg:text-[40px] text-2xl text-gray-900 mb-4">
             Appointment Request Form
           </h3>
@@ -216,7 +216,7 @@ const AppointmentRequestForm = () => {
             </button>
           </form>
         </div>
-        <div className="md:w-1/2 hidden h-[700px] lg:flex lg:justify-center lg:align-middle pl-20">
+        <div className="lg:h-[700px] lg:flex lg:justify-center lg:align-middle pl-0">
           <img
             src={ClockV2}
             alt="Calendar and Clock"

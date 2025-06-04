@@ -31,15 +31,15 @@ import DrillBit from "./home/drillBit.svg";
 
 //  New Home files
 import FoundationEngineering from "./home/new/foundation_engineering.webp";
-import SiteInvestigations from "./home/new/site_investigations.png";
+import SiteInvestigations from "./home/new/site_investigations.webp";
 import RetainingWallsExcavation from "./home/new/retaining_walls_excavation.webp";
 import LandCapabilityAssessment from "./home/new/land_capability_assessment.webp";
-import RoadPavementDesign from "./home/new/road_pavement_design.png";
+import RoadPavementDesign from "./home/new/road_pavement_design.webp";
 import SlopeStabilityAssessment from "./home/new/slope_stability_assessment.webp";
 import EarthworkInspections from "./home/new/earthwork_inspections.webp";
-import SoilRockTesting from "./home/new/soil_rock_testing.png";
+import SoilRockTesting from "./home/new/soil_rock_testing.webp";
 import HeroSection2 from "./home/new/hero_section_2.webp";
-import EnvironmentalDrilling from "./home/new/environmental_drilling.png";
+import EnvironmentalDrilling from "./home/new/environmental_drilling.webp";
 import GeotechnicalDrillingTesting from "./drilling/construction.jpg";
 import WhoWeAre from "./drilling/checking.jpg";
 import WhatWeOffer from "./drilling/drilling.jpg";
@@ -90,8 +90,8 @@ import TestingIcon from "./inspections/testing.svg";
 
 // Env Drilling page
 import Map from "./envDrilling/map.svg";
-import EnvHero from "./hero-images/environmental_drilling_hero.webp";
-import EnvSecond from "./drilling/truck.jpg";
+import EnvHero from "./envDrilling/hero.webp";
+import EnvSecond from "./envDrilling/EnvSecond.webp";
 import DocIcon from "./envDrilling/docIcon.svg";
 
 import Certificate from "./envDrilling/certificate.svg";
@@ -113,8 +113,12 @@ import InvestigationHero from "./hero-images/site_investigations_hero.webp";
 import InvestigationTech from "./investigations/site_investigations_investigation_techniques.webp";
 import InvestigationTech2 from "./investigations/site_investigations_investigation_techniques_2.webp";
 import InvestigationServices from "./investigations/site_investigations_investigation_services.webp";
+import heroinvesti from "./investigations/Site Investigations Hero.webp"
+import expertdrill from "./investigations/Site Investigations Expert Drilling Equipment.webp"
 
 export {
+    expertdrill,
+    heroinvesti,
     InvestigationHero,
     InvestigationTech,
     InvestigationTech2,
@@ -166,7 +170,7 @@ export {
     Check,
     DrillBit,
     HomeOnly,
-    Worker
+    Worker,
 };
 
 // New Home Images
@@ -212,7 +216,10 @@ import Cbr from "./soil/Lab-testing-8.jpg";
 import Shrink from "./soil/Lab-testing-9.jpg";
 import Direct from "./soil/Lab-testing-10-edit.jpg";
 import Testings from "./soil/NATA-Accredited Testing.webp";
+import heroSoil from "./soil/NATA Accredited Laboratory Testing Services Hero.webp"
+
 export {
+    heroSoil,
     SoilHero,
     SoilTesting,
     CardIconSoil,
@@ -234,7 +241,7 @@ export {
 //slopes page
 import Engineers from "./slopes/engineers.webp";
 import GroupTalk from "./slopes/group-talk.svg";
-import Clock from "./slopes/clock.svg";
+import Clock from "./slopes/form.webp";
 import SlopeHero from "./slopes/slope.webp";
 export { Engineers, GroupTalk, Clock, SlopeHero };
 
@@ -243,8 +250,9 @@ import RoadHero from "./hero-images/road_pavement_design_hero.webp";
 import Road1 from "./road/road2.webp";
 import Road2 from "./road/road3.webp";
 import RoadIcon from "./road/road.svg";
+import roadpaw from "./road/Road Pavement Design Hero.webp"
 
-export { RoadHero, Road1, Road2, RoadIcon };
+export { RoadHero, Road1, Road2, RoadIcon,roadpaw };
 
 //Land Capability page
 import Mapping from "./land/mapping.webp";
@@ -308,8 +316,10 @@ import SlopeStability from "./engineering/Engineering Assessment _Slope Stabilit
 import LandCapability from "./engineering/Engineering Assessment_Land Capability Assessment .svg";
 import RoadPavement from "./engineering/Engineering Assessment_Road Pavement Design.svg";
 import GeotechnicalInvestigation from "./engineering/Engineering Assessment_Geotechnical Investigation Report.svg";
+import heroeng from "./engineering/Engineering Assessment Hero.webp"
 
 export {
+    heroeng,
     SlopeStability,
     LandCapability,
     RoadPavement,
@@ -354,3 +364,23 @@ import logoFooter3 from "./footer/3_logo.svg";
 import logoFooter4 from "./footer/4_logo.png";
 
 export { logoFooter1, logoFooter2, logoFooter3, logoFooter4 };
+
+//Updated images
+
+//01. Home Page Images
+
+import HomeHeroV2 from "./images/01_Hero_Image.webp";
+import CardImgV2 from "./images/02_Statewide Geotechnical-051 Laying Strong Foundations.webp";
+import WhoWeAreV2 from "./images/03_Statewide Geotechnical-095_Who_We_Are.webp";
+import WhatWeOfferV2 from "./images/04_Statewide Geotechnical-108 What We Offer 2.webp";
+
+export { HomeHeroV2, WhoWeAreV2, CardImgV2, WhatWeOfferV2 };
+
+// Resources
+import ResourcesHero from "./resources/ResourcesHero.webp";
+export { ResourcesHero };
+
+// COntact Us
+import ContactUsHero from "./contact-us/ContactHero.webp";
+import ClockV2 from "./contact-us/Appointment Request Form.webp";
+export { ContactUsHero ,ClockV2};

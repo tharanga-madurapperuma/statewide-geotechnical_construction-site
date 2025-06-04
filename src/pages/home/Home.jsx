@@ -9,10 +9,11 @@ import "swiper/css/navigation";
 import InfoSection from "../../components/info-section/InfoSection";
 import { useNavigate } from "react-router-dom";
 import {
+    CardImgV2,
     Check,
     EnvironmentalDrilling,
     GeotechnicalDrillingTesting,
-    HomeOnly,
+    HomeHeroV2,
     Icon1,
     Icon2,
     Icon3,
@@ -24,7 +25,9 @@ import {
     SiteInvestigations,
     SoilRockTesting,
     WhatWeOffer,
+    WhatWeOfferV2,
     WhoWeAre,
+    WhoWeAreV2,
 } from "../../assets/assets";
 import TextBox from "../../components/textBox/TextBox";
 
@@ -191,17 +194,19 @@ const Home = () => {
                 "Excellence in Geotechnical Solutions for Power and Water Projects",
             description: (
                 <>
-                    Over the past six years, Statewide has collaborated with Beca
-                     to successfully deliver multiple power and water projects, 
-                     providing geotechnical services throughout. Statewide consistently demonstrates responsiveness, 
-                     proactive problem-solving, and competitive service offerings. 
-                     Their professionalism and expertise in the geotechnical 
-                     field have been evident across the various projects we've undertaken together. 
-                     They possess a strong understanding of site conditions and constraints, 
-                     delivering fit-for-purpose solutions tailored to each project. 
-                     Their proactive communication and timely submissions have been instrumental in 
-                     supporting Beca's commitment to delivery excellence.
-
+                    Over the past six years, Statewide has collaborated with
+                    Beca to successfully deliver multiple power and water
+                    projects, providing geotechnical services throughout.
+                    Statewide consistently demonstrates responsiveness,
+                    proactive problem-solving, and competitive service
+                    offerings. Their professionalism and expertise in the
+                    geotechnical field have been evident across the various
+                    projects we've undertaken together. They possess a strong
+                    understanding of site conditions and constraints, delivering
+                    fit-for-purpose solutions tailored to each project. Their
+                    proactive communication and timely submissions have been
+                    instrumental in supporting Beca's commitment to delivery
+                    excellence.
                 </>
             ),
             author: " - Aurelie Borowski, Senior Associate - Geotechnical Engineering, Beca",
@@ -229,7 +234,7 @@ const Home = () => {
                         <div
                             className="w-full h-auto rounded-2xl p-6 xl:pl-[94px] xl:pt-[96px] xl:pb-[96px] sm:p-[54px] md:p-[64px] lg:p-[84px] xl:p-[94px] flex flex-col justify-between sm:relative"
                             style={{
-                                background: `url(${HomeOnly})`,
+                                background: `url(${HomeHeroV2})`,
                                 backgroundRepeat: "no-repeat",
                                 backgroundSize: "cover",
                             }}
@@ -312,9 +317,7 @@ const Home = () => {
                                             <div className="h-full  flex items-center justify-center">
                                                 <img
                                                     className="object-cover rounded-2xl"
-                                                    src={
-                                                        GeotechnicalDrillingTesting
-                                                    }
+                                                    src={CardImgV2}
                                                 />
                                             </div>
                                             <div className="h-full flex flex-col mt-[20px] justify-center font-inter font-600 text-14 md:text-18 lg:text-[20px] xl:text-24">
@@ -460,7 +463,7 @@ const Home = () => {
                         description="At Statewide Geotechnical, we specialise in delivering expert geotechnical drilling, testing, and consulting services across Melbourne, Victoria, South Australia, and New South Wales. With advanced equipment and a team of highly qualified professionals, we provide precise site assessments, environmental drilling, and geotechnical solutions tailored to your project needs. Our commitment to safety, accuracy, and efficiency makes us the trusted partner for engineers, developers, and government agencies."
                         buttonText="Learn More About Us"
                         buttonLink="/aboutus"
-                        imageSrc={WhoWeAre}
+                        imageSrc={WhoWeAreV2}
                         reverse={false}
                     />
                 </div>
@@ -470,7 +473,7 @@ const Home = () => {
                     <div className="overflow-x-hidden w-full px-[32px] md:px-80 sm:px-[70px] lg:px-[100px] xl:px-[110px] xl:mt-[128px]  max-w-[1920px]">
                         <div className="w-full h-auto mt-[20vw] sm:mt-62 xl:mt-0 flex flex-col items-center">
                             <div className="w-full flex justify-between items-center sm:px-0 xl:px-0">
-                                <h1 className="font-inter font-600 text-28 sm:text-32 md:text-40 lg:text-56 xl:text-62">
+                                <h1 className="font-inter font-600 text-28 sm:text-32 md:text-40 lg:text-56 xl:text-62 mb-2 sm:mb-4">
                                     What We Offer
                                 </h1>
                                 {/* <p className="text-blue-700 hover:text-blue-900 transition duration-500 cursor-pointer font-inter font-600 text-16 sm:text-18 md:text-24 text-right">
@@ -481,7 +484,7 @@ const Home = () => {
                                 <div className="h-full lg:w-full ">
                                     <img
                                         className="object-cover h-full w-full rounded-3xl"
-                                        src={WhatWeOffer}
+                                        src={WhatWeOfferV2}
                                     />
                                 </div>
                                 <div className="h-full w-full bg-blue-200 rounded-3xl mt-2 sm:mt-0">

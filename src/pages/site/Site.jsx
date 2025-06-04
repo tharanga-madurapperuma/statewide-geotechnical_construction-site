@@ -30,12 +30,14 @@ import {
   Map,
   TwoMen,
   FlaskWhite,
-    ManWhite,
-    Lightweight,
-    Exposures,
-    Test,
-    Pavement,
-    Thermal
+  ManWhite,
+  Lightweight,
+  Exposures,
+  Test,
+  Pavement,
+  Thermal,
+  heroinvesti,
+  expertdrill
 } from "../../assets/assets";
 
 const Site = () => {
@@ -43,7 +45,7 @@ const Site = () => {
     <div className="flex flex-col w-full items-center bg-slate-background md:mt-[108px]">
       <div>
         <ButtonCard
-          image={InvestigationHero}
+          image={heroinvesti}
           title="Site Investigations"
           description="We boast a multi-disciplinary team of geologists, engineers, drillers, and field technicians, and an impressive fleet of state-of-the-art drill rigs. Together with our accreditations and in-house experience, we have the resources and capabilities to take on a variety of ground investigation projects, from simple residential investigations to major development projects."
           buttonText="Get in Touch"
@@ -134,7 +136,7 @@ const Site = () => {
           description="We operate Geoprobe, Comacchio, Hanjin, tight access rigs, designed for small footprint and low headroom applications—ideal for tight access and di(icult-to-reach areas. Our drilling rigs are equipped with industry-standard safety cages and emergency shut-off systems to ensure maximum safety at all times."
           buttonText=""
           buttonLink=""
-          imageSrc={EnvSecond}
+          imageSrc={expertdrill}
           reverse={false}
         />
       </div>

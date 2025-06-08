@@ -31,7 +31,7 @@ const EnvDrilling = () => {
                 <ButtonCard
                     image={EnvHero}
                     title="Specialized Environmental & Geotechnical Drilling Services"
-                    description="At Statewide Geotechnical, we o(er a wide range of specialized environmental and geotechnical drilling services. Equipped with advanced drilling rigs, from small, handheld units to heavy truck-mounted rigs, we can handle even the most complex site conditions."
+                    description="At Statewide Geotechnical, we offer a wide range of specialized environmental and geotechnical drilling services. Equipped with advanced drilling rigs, from small, handheld units to heavy truck-mounted rigs, we can handle even the most complex site conditions."
                     buttonText="Request a Consultation"
                 />
             </div>
@@ -52,7 +52,7 @@ const EnvDrilling = () => {
                             </span>{" "}
                             designed for small footprint and low headroom
                             applications—ideal for tight access and
-                            di(icult-to-reach) areas. Our drilling rigs are
+                            dificult-to-reach areas. Our drilling rigs are
                             equipped with{" "}
                             <span className="text-gray-700 font-500">
                                 industry-standard safety cages and emergency

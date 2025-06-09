@@ -7,11 +7,10 @@ import PhoneInputWithCountrySelect from "react-phone-number-input"
 
 const AppointmentRequestForm = () => {
   const [formData, setFormData] = useState({
-    full_name: "",
+    first_name: "",
+    last_name: "",
     email: "",
     phone: "",
-    date: "",
-    time: "",
     project_details: "",
     questions: "",
   })
@@ -42,11 +41,10 @@ const AppointmentRequestForm = () => {
             console.log("Email sent successfully!", response)
             setIsSent(true)
             setFormData({
-              full_name: "",
+              first_name: "",
+              last_name: "",
               email: "",
               phone: "",
-              date: "",
-              time: "",
               project_details: "",
               questions: "",
             })
@@ -57,7 +55,7 @@ const AppointmentRequestForm = () => {
           }
         )
     } else {
-        setError("please enter a valid phone number")
+      setError("please enter a valid phone number")
     }
   }
 
@@ -92,27 +90,39 @@ const AppointmentRequestForm = () => {
       className="container px-8 sm:px-[70px] md:px-[80px] bg-gray-100 lg:px-[100px] xl:px-[110px] py-[32px] sm:py-[64px] mb-[3rem] max-w-[1920px]"
     >
       <div className="md:flex justify-between gap-40">
-        <div className="lg:w-3/4 w-full md:pr-4">
-          <h3 className="lg:text-[40px] text-2xl text-gray-900 mb-4">
-            Appointment Request Form
-          </h3>
+        <div className="lg:w-7/10 w-full md:pr-4">
+          
 
           <form onSubmit={handleSubmit}>
-            <div className="mb-4 lg:mb-24">
-              <label className="block text-[16px] text-gray-700 font-semibold mb-2">
-                Full Name
-              </label>
-              <input
-                type="text"
-                name="full_name"
-                value={formData.full_name}
-                onChange={handleChange}
-                required
-                placeholder="Enter your Full Name"
-                className="rounded-xl w-full p-3 bg-gray-200  placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-300"
-              />
-            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:mb-24">
+              <div className="mb-4">
+                <label className="block text-[16px] text-gray-700 font-semibold mb-2">
+                  First Name
+                </label>
+                <input
+                  type="text"
+                  name="first_name"
+                  value={formData.first_name}
+                  onChange={handleChange}
+                  required
+                  placeholder="Enter your First Name"
+                  className="rounded-xl w-full p-3 bg-gray-200  placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-300"
+                />
+              </div>
+              <div className="mb-4">
+                <label className="block text-gray-700 font-semibold mb-2">
+                  Last Name
+                </label>
+                <input
+                  type="text"
+                  name="last_name"
+                  value={formData.last_name}
+                  onChange={handleChange}
+                  required
+                  placeholder="Enter your Last Name"
+                  className="rounded-xl w-full p-3 bg-gray-200 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-300"
+                />
+              </div>
               <div className="mb-4">
                 <label className="block text-gray-700 font-semibold mb-2">
                   Email
@@ -139,44 +149,6 @@ const AppointmentRequestForm = () => {
                   placeholder="Enter your phone number"
                   value={formData.phone}
                   onChange={handlePhoneChange}
-                />
-                {/* <input
-                                    type="number"
-                                    name="phone"
-                                    value={formData.phone}
-                                    onChange={handleChange}
-                                    required
-                                    placeholder="Enter your Phone Number"
-                                    className="rounded-xl w-full p-3 bg-gray-200 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-300"
-                                /> */}
-              </div>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:mb-24">
-              <div className="mb-4">
-                <label className="block text-gray-700 font-semibold mb-2">
-                  Preferred Appointment Date
-                </label>
-                <input
-                  type="date"
-                  name="date"
-                  value={formData.date}
-                  onChange={handleChange}
-                  required
-                  className="rounded-xl w-full p-3 bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-300"
-                />
-              </div>
-              <div className="mb-4">
-                <label className="block text-gray-700 font-semibold mb-2">
-                  Preferred Appointment Time
-                </label>
-                <input
-                  type="time"
-                  name="time"
-                  value={formData.time}
-                  onChange={handleChange}
-                  required
-                  className="rounded-xl w-full p-3 bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-300"
                 />
               </div>
             </div>
@@ -216,7 +188,7 @@ const AppointmentRequestForm = () => {
             </button>
           </form>
         </div>
-        <div className="md:w-1/2 hidden h-[700px] lg:flex lg:justify-center lg:align-middle pl-20">
+        <div className="lg:h-[600px] hidden lg:flex lg:justify-center lg:align-middle pl-0">
           <img
             src={ClockV2}
             alt="Calendar and Clock"

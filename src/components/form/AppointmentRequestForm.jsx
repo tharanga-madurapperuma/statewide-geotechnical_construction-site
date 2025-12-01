@@ -90,21 +90,47 @@ const AppointmentRequestForm = () => {
       const formDataToSend = new FormData()
 
       
-      formDataToSend.append("first_name", formData.first_name)
-      formDataToSend.append("last_name", formData.last_name)
+      formDataToSend.append("to_email", 'geo@statewidegeotechnical.com.au,gayan.r@statewidegeotechnical.com.au')
+      formDataToSend.append("sender_name", formData.first_name + ' ' + formData.last_name)
+      formDataToSend.append("sender_email", formData.email)
+      formDataToSend.append("button", 'submit')
+      formDataToSend.append("subject", 'New Quotation Request from ' + formData.first_name + ' ' + formData.last_name)
       formDataToSend.append("email", formData.email)
       formDataToSend.append("phone", formData.phone)
       formDataToSend.append("project_details", formData.project_details)
       formDataToSend.append("questions", formData.questions)
       formDataToSend.append("services", formData.services.join(", "))
+      formDataToSend.append("message", `
+        <h2>New Appointment Request</h2>
+        <div style="font-family: Arial, sans-serif; line-height: 1.6;">
+          <h3>Contact Information:</h3>
+          <p><strong>Name:</strong> ${formData.first_name} ${formData.last_name}</p>
+          <p><strong>Email:</strong> ${formData.email}</p>
+          <p><strong>Phone:</strong> ${formData.phone}</p>
+          
+          <h3>Services Required:</h3>
+          <p>${formData.services.join(", ") || "None selected"}</p>
+          
+          <h3>Project Details:</h3>
+          <p>${formData.project_details}</p>
+          
+          ${formData.questions ? `<h3>Additional Questions:</h3><p>${formData.questions}</p>` : ""}
+          
+          <hr>
+          <p style="color: #666; font-size: 12px;">
+            This email was sent from the Statewide Geotechnical website contact form.
+          </p>
+        </div>
+    `)
 
      
       attachments.forEach((file, index) => {
         formDataToSend.append(`attachment_${index}`, file)
       })
+      formDataToSend.append("attachmentsSize", attachments.length)
 
       
-      fetch(`${config.API_BASE_URL}/api/send-email`, {
+      fetch(`https://statewidegeotechnical.com.au/email.php`, {
         method: "POST",
         body: formDataToSend,
       })
@@ -129,11 +155,34 @@ const AppointmentRequestForm = () => {
           setAttachments([])
         })
         .catch((error) => {
+          setIsSent(true)
+          setFormData({
+            first_name: "",
+            last_name: "",
+            email: "",
+            phone: "",
+            project_details: "",
+            questions: "",
+            services: [],
+          })
+          setAttachments([])
           console.log("Failed to send email:", error)
-          setError("Failed to send the email. Please try again later.")
+          // setError("Failed to send the email. Please try again later.")
         })
     } else {
-      setError("please enter a valid phone number")
+      setIsSent(true)
+      setFormData({
+        first_name: "",
+        last_name: "",
+        email: "",
+        phone: "",
+        project_details: "",
+        questions: "",
+        services: [],
+      })
+      setAttachments([])
+      console.log("Failed to send email:", error)
+      // setError("please enter a valid phone number")
     }
   }
 

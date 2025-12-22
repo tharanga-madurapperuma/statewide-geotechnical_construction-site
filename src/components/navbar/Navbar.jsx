@@ -13,11 +13,11 @@ const Navbar = () => {
     const location = useLocation();
 
     const submenuItems = [
-        { name: "Site Investigations", url: "/site" },
-        { name: "Environmental Drilling", url: "/envdrilling" },
-        { name: "NATA Accredited Laboratory Testing", url: "/nata-accredited" },
-        { name: "Road Pavement Design", url: "/road" },
-        { name: "Engineering Assessment", url: "/engineering-services" },
+        { name: "Site Investigations", url: "/services/site" },
+        { name: "Environmental Drilling", url: "/services/envdrilling" },
+        { name: "NATA Accredited Laboratory Testing", url: "/services/nata-accredited" },
+        { name: "Road Pavement Design", url: "/services/road" },
+        { name: "Engineering Assessment", url: "/services/engineering-services" },
     ];
 
     useEffect(() => {

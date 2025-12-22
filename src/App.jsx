@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+import {BrowserRouter, HashRouter, Route, Routes, useLocation} from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import Home from "./pages/home/Home";
@@ -36,41 +36,35 @@ const ScrollToTop = () => {
 const App = () => {
     return (
         <div className="overflow-x-hidden font-inter">
-            <BrowserRouter >
+            <HashRouter >
                 <Navbar />
                 <ScrollToTop />
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/retaining" element={<RetainingWall />} />
                     <Route path="/drilling" element={<Drilling />} />
-                    <Route path="/nata-accredited" element={<Soil />} />
+                    <Route path="/services/nata-accredited" element={<Soil />} />
                     <Route path="/slopes" element={<Slopes />} />
-                    <Route path="/road" element={<Road />} />
+                    <Route path="/services/road" element={<Road />} />
                     <Route path="/land" element={<LandCapability />} />
                     {/* <Route
                         path="/siteinvetigate"
                         element={<SiteInvetigate />}
                     /> */}
-            
-            <Route
-                        path="/site"
-                        element={<Site />}
-                    />
-                    <Route
-                        path="/foundationbuilt"
-                        element={<FoundationBuilt />}
-                    />
+                    <Route path="/site" element={<Site />}/>
+                    <Route path="/services/site" element={<Site />}/>
+                    <Route path="/foundationbuilt" element={<FoundationBuilt />}/>
                     <Route path="/lab-testings" element={<AccreditedPage />} />
-                    <Route path="/envdrilling" element={<EnvDrilling />} />
+                    <Route path="/services/envdrilling" element={<EnvDrilling />} />
                     <Route path="/inspections" element={<Inspections />} />
                     <Route path="/aboutus" element={<AboutUs />} />
                     <Route path="/*" element={<NotFound />} />
                     <Route path="/resources" element={<Resources />} />
                     <Route path="/contact" element={<ContactPage />} />
-                    <Route path="/engineering-services" element={<Engineering />} />
+                    <Route path="/services/engineering-services" element={<Engineering />} />
                 </Routes>
                 <Footer />
-            </BrowserRouter>
+            </HashRouter>
         </div>
     );
 };

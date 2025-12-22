@@ -73,7 +73,7 @@ const AboutUs = () => {
                 </div>
 
                 <p className="font-inter font-500 text-16 sm:text-[20px] md:text-24 lg:text-28 xl:text-32 text-gray-900 mb-[56px]">
-                    Statewide Drilling maintain comprehensive insurance cover
+                    Statewide Geotechnical maintain comprehensive insurance cover
                     including:
                 </p>
                 <div className="grid grid-cols-12 grid-rows-1 gap-6 pb-[50px] sm:pb-[100px] md:pb-40 xl:pb-[64px]">

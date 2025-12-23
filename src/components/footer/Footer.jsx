@@ -150,9 +150,7 @@ const Footer = () => {
                                     <div className="">
                                         <div className="">
                                             <p className="font-inter font-400 text-12 sm:text-14 lg:text-16">
-                                                info@statewidegeotechnical.com.au{" "}
-                                                <br />
-                                                support@statewidegeotechnical.com.au
+                                                geo@statewidegeotechnical.com.au{" "}
                                             </p>
                                         </div>
                                     </div>

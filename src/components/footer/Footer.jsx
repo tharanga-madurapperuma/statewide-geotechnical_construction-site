@@ -118,8 +118,8 @@ const Footer = () => {
                                     <div>
                                         <div className="">
                                             <p className=" font-inter font-400 text-12 sm:text-14 lg:text-16">
-                                                17-20 Summer Lane <br />
-                                                Ringwood, VIC 3134
+                                                19 Wadhurst Drive <br/>
+                                                Boronia, VIC 3155
                                             </p>
                                         </div>
                                     </div>

@@ -23,8 +23,8 @@ const ContactSection = () => {
                 icon={<FaMapMarkerAlt />}
                 title="Statewide Geotechnical (Aust)"
             >
-                <p>17-20 Summer Lane</p>
-                <p>Ringwood, VIC 3134</p>
+                <p>19 Wadhurst Drive</p>
+                <p>Boronia, VIC 3155</p>
             </ContactCard>
 
             <ContactMerged components={contactComponents} />

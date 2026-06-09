@@ -58,10 +58,10 @@ const AccreditedFacilitySection = () => {
                         Address:
                     </p>
                     <p className="text-base md:text-lg text-textLight">
-                        17-20 Summer Lane
+                        19 Wadhurst Drive
                     </p>
                     <p className="text-base md:text-lg text-textLight">
-                        Ringwood, VIC 3134
+                        Boronia VIC 3155
                     </p>
                 </div>
 
